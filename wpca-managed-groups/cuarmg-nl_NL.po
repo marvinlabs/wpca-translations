@@ -1,0 +1,1116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Customer Area Extended Permissions\n"
+"POT-Creation-Date: 2014-07-15 10:59+0100\n"
+"PO-Revision-Date: 2014-07-15 10:59+0100\n"
+"Last-Translator: Peter Massar <Hello@marpet.nu>\n"
+"Language-Team: MarvinLabs\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/managed-groups-addon.class.php:22
+#: ../includes/managed-groups-addon.class.php:82
+#: ../includes/managed-groups-addon.class.php:548
+#: ../includes/managed-groups-admin-interface.class.php:61
+#: ../includes/managed-groups-admin-interface.class.php:62
+#: ../includes/managed-groups-admin-interface.class.php:382
+#: ../includes/managed-groups-admin-interface.class.php:394
+#: ../includes/templates/managed-groups_profile_edit.template.php:3
+#: ../includes/templates/managed-groups_profile_list.template.php:3
+msgid "Managed Groups"
+msgstr "Beheerde groepen"
+
+#: ../includes/managed-groups-addon.class.php:91
+msgid "All groups"
+msgstr "Alle groepen"
+
+#: ../includes/managed-groups-addon.class.php:100
+msgid "New group"
+msgstr "Nieuwe groep"
+
+#: ../includes/managed-groups-addon.class.php:227
+msgid "Managed Group"
+msgstr "Beheerde groep"
+
+#: ../includes/managed-groups-addon.class.php:551
+msgid "Back-office"
+msgstr "Back-office"
+
+#: ../includes/managed-groups-addon.class.php:553
+msgid "Create/Edit managed groups"
+msgstr "Maak/wijzig beheerde groepen"
+
+#: ../includes/managed-groups-addon.class.php:554
+msgid "Delete managed groups"
+msgstr "Verwijder beheerde groepen"
+
+#: ../includes/managed-groups-addon.class.php:555
+msgid "Access managed groups"
+msgstr "Ga de beheerde groepen binnen"
+
+#: ../includes/managed-groups-addon.class.php:556
+msgid "View the groups from a user profile"
+msgstr "Bekijk de groepen van een gebruikersaccount"
+
+#: ../includes/managed-groups-addon.class.php:557
+msgid "Edit the groups from a user profile"
+msgstr "Wijzig de groepen van een gebruikersaccount"
+
+#: ../includes/managed-groups-addon.class.php:571
+#: ../includes/managed-groups-addon.class.php:582
+msgctxt "cuar_managed_group"
+msgid "Managed Groups"
+msgstr "Beheerde groepen"
+
+#: ../includes/managed-groups-addon.class.php:572
+msgctxt "cuar_managed_group"
+msgid "Managed Group"
+msgstr "Beheerde groep"
+
+#: ../includes/managed-groups-addon.class.php:573
+msgctxt "cuar_managed_group"
+msgid "Add New"
+msgstr "Toevoegen nieuwe beheerde groep"
+
+#: ../includes/managed-groups-addon.class.php:574
+msgctxt "cuar_managed_group"
+msgid "Add New Managed Group"
+msgstr "Toevoegen nieuwe beheerde groep"
+
+#: ../includes/managed-groups-addon.class.php:575
+msgctxt "cuar_managed_group"
+msgid "Edit Managed Group"
+msgstr "Wijzig beheerde groep"
+
+#: ../includes/managed-groups-addon.class.php:576
+msgctxt "cuar_managed_group"
+msgid "New Managed Group"
+msgstr "Nieuwe beheerde groep"
+
+#: ../includes/managed-groups-addon.class.php:577
+msgctxt "cuar_managed_group"
+msgid "View Managed Group"
+msgstr "Bekijk beheerde groep"
+
+#: ../includes/managed-groups-addon.class.php:578
+msgctxt "cuar_managed_group"
+msgid "Search Managed Groups"
+msgstr "Zoek beheerde groepen"
+
+#: ../includes/managed-groups-addon.class.php:579
+msgctxt "cuar_managed_group"
+msgid "No user groups found"
+msgstr "Geen beheerde groepen gevonden"
+
+#: ../includes/managed-groups-addon.class.php:580
+msgctxt "cuar_managed_group"
+msgid "No user groups found in Trash"
+msgstr "Geen beheerde groepen gevonden in prullenmand"
+
+#: ../includes/managed-groups-addon.class.php:581
+msgctxt "cuar_managed_group"
+msgid "Parent Managed Group:"
+msgstr "Bovenliggende beheerde groep"
+
+#: ../includes/managed-groups-admin-interface.class.php:68
+#: ../includes/managed-groups-admin-interface.class.php:69
+msgid "New Managed Group"
+msgstr "Nieuwe beheerde groep"
+
+#: ../includes/managed-groups-admin-interface.class.php:211
+#: ../includes/managed-groups-admin-interface.class.php:249
+msgid "Managers"
+msgstr "Beheerders"
+
+#: ../includes/managed-groups-admin-interface.class.php:212
+#: ../includes/managed-groups-admin-interface.class.php:257
+msgid "Members"
+msgstr "Gebruikers"
+
+#: ../includes/managed-groups-admin-interface.class.php:276
+msgid "Select the group managers"
+msgstr "Selecteer de groepsbeheerders"
+
+#: ../includes/managed-groups-admin-interface.class.php:279
+msgid "Select group managers (hint: you can also type to search a user)"
+msgstr ""
+"Selecteer een groep beheerder (hint: u kunt beginnen met typen om een "
+"beheerder te zoeken)"
+
+#: ../includes/managed-groups-admin-interface.class.php:311
+msgid "Select the group members"
+msgstr "Selecteer de groepsleden"
+
+#: ../includes/managed-groups-admin-interface.class.php:314
+msgid "Select group members (hint: you can also type to search a user)"
+msgstr ""
+"Selecteer groepsleden (hint: u kunt beginnen met typen om een groepslid te "
+"zoeken)"
+
+#: ../includes/managed-groups-admin-interface.class.php:359
+#, php-format
+msgid "This group now has %d member(s) and %d manager(s)"
+msgstr "Deze groep heeft nu %d gebruikers en %d beheerders"
+
+#: ../includes/managed-groups-admin-interface.class.php:401
+msgid "Managers' Role"
+msgstr "Beheerders rol"
+
+#: ../includes/managed-groups-admin-interface.class.php:409
+msgid ""
+"The list of managers when creating or editing a managed group will be "
+"restricted to this role (or will not be restricted if you select \"any role"
+"\"). If your managers all belong to the same role, this makes selecting them "
+"easier."
+msgstr ""
+"Bij het maken of wijzigen van een beheerde groep, zal de lijst met "
+"beheerders worden beperkt tot deze rol (of zal niet worden beperkt indien u "
+"\"iedere rol\" selecteert. Indien uw beheerders allemaal dezelfde rol "
+"hebben, dan maakt dit het selecteren makkelijker."
+
+#: ../includes/managed-groups-admin-interface.class.php:416
+msgid "Members' Role"
+msgstr "Gebruikers rol"
+
+#: ../includes/managed-groups-admin-interface.class.php:424
+msgid ""
+"The list of members when creating or editing a managed group will be "
+"restricted to this role (or will not be restricted if you select \"any role"
+"\"). If your members all belong to the same role, this makes selecting them "
+"easier."
+msgstr ""
+"Bij het maken of wijzigen van een beheerde groep, zal de lijst met "
+"gebruikers worden beperkt tot deze rol (of zal niet worden beperkt indien u "
+"\"iedere rol\" selecteert. Indien uw gebruikers allemaal dezelfde rol "
+"hebben, dan maakt dit het selecteren makkelijker."
+
+#: ../includes/templates/managed-groups_profile_edit.template.php:8
+msgid "Edit groups managed"
+msgstr "Wijzig beheerde groepen"
+
+#: ../includes/templates/managed-groups_profile_edit.template.php:11
+#: ../includes/templates/managed-groups_profile_edit.template.php:43
+msgid "You have not yet created any managed groups."
+msgstr "U heeft nog geen enkele beheerde groep gemaakt"
+
+#: ../includes/templates/managed-groups_profile_edit.template.php:14
+#: ../includes/templates/managed-groups_profile_edit.template.php:46
+msgid "Choose groups"
+msgstr "Selecteer groepen"
+
+#: ../includes/templates/managed-groups_profile_edit.template.php:40
+msgid "Edit groups subscribed"
+msgstr "Wijzig geabonneerde groepen"
+
+#: ../includes/templates/managed-groups_profile_list.template.php:9
+msgid "You manage: "
+msgstr "U beheerd:"
+
+#: ../includes/templates/managed-groups_profile_list.template.php:10
+msgid "This user manages: "
+msgstr "Deze gebruiker beheerd:"
+
+#: ../includes/templates/managed-groups_profile_list.template.php:16
+msgid "You do not manage any group"
+msgstr "U beheerd geen enkele groep"
+
+#: ../includes/templates/managed-groups_profile_list.template.php:17
+msgid "This user does not manage any group"
+msgstr "Deze gebruiker beheerd geen enkele groep"
+
+#: ../includes/templates/managed-groups_profile_list.template.php:33
+msgid "You are a member of: "
+msgstr "U bent een groepslid van:"
+
+#: ../includes/templates/managed-groups_profile_list.template.php:34
+msgid "This user is a member of: "
+msgstr "Deze gebruiker is een lid van:"
+
+#: ../includes/templates/managed-groups_profile_list.template.php:41
+msgid "You do not belong to any group"
+msgstr "U behoort tot geen enkele groep"
+
+#: ../includes/templates/managed-groups_profile_list.template.php:42
+msgid "This user does not belong to any group"
+msgstr "Deze gebruiker behoort tot geen enkele groep"
+
+#~ msgid "Managed Groups (back-office)"
+#~ msgstr "Beheerde groepen (beheerders gedeelte)"
+
+#~ msgid "Currently, the group is managed by the following users: "
+#~ msgstr "Momenteel wordt de groep beheerd door de volgende gebruikers:"
+
+#~ msgid "Currently, the group includes the following users: "
+#~ msgstr "Op dit moment zitten de volgende gebruikers in de groep:"
+
+#~ msgid "This group currently has no members."
+#~ msgstr "Deze groep heeft momenteel geen gebruikers."
+
+#~ msgid "Automatic Updates"
+#~ msgstr "Automatische updates"
+
+#~ msgid "License key"
+#~ msgstr "Licentiesleutel"
+
+#~ msgid "Group Administration"
+#~ msgstr "Groepsadministratie"
+
+#~ msgid ""
+#~ "Do not activate your license on your development site. Only on the final "
+#~ "site where you are running the plugin."
+#~ msgstr ""
+#~ "Activeer uw licentiecode NIET binnen uw ontwikkelomgeving, maar alleen op "
+#~ "de actuele definitieve plek waar u uw website gaat plaatsen. "
+
+#~ msgid "Extended Permissions"
+#~ msgstr "Permissions Etendues"
+
+#~ msgid "Role"
+#~ msgstr "Role"
+
+#~ msgid "User Selection"
+#~ msgstr "Sélection d'utilisateurs"
+
+#~ msgctxt "cuar_user_group"
+#~ msgid "User Group"
+#~ msgstr "Groupe d'Utilisateurs"
+
+#~ msgid "User Selections"
+#~ msgstr "Sélections d'utilisateurs"
+
+#, fuzzy
+#~ msgid "Projects"
+#~ msgstr "Tous les projets"
+
+#, fuzzy
+#~ msgid "Project"
+#~ msgstr "Type de projet : "
+
+#, fuzzy
+#~ msgid "New Project"
+#~ msgstr "Tous les projets"
+
+#, fuzzy
+#~ msgid "No projects found"
+#~ msgstr "Tous les projets"
+
+#, fuzzy
+#~ msgid "No projects found in Trash"
+#~ msgstr "Aucun fichier client trouvé dans la corbeille"
+
+#~ msgid "Login & Register Forms"
+#~ msgstr "Formulaires Utilisateurs"
+
+#~ msgid "You can now login with your new password"
+#~ msgstr ""
+#~ "Vous pouvez maintenant vous connecter avec votre nouveau mot de passe"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: You must write the code displayed in the image "
+#~ "above."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : vous devez recopier le code affichée dans "
+#~ "l'image."
+
+#~ msgid "<strong>ERROR</strong>: The code you entered is not correct."
+#~ msgstr "<strong>ERREUR</strong> : Le code saisi n'est pas correct."
+
+#~ msgid "An email has been sent with the instructions to reset your password."
+#~ msgstr ""
+#~ "Un courriel a été envoyé avec les instructions pour réinitialiser votre "
+#~ "mot de passe."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: You must enter a valid username and a valid email "
+#~ "address."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : vous devez saisir un nom d'utilisateur et une "
+#~ "adresse mél valides"
+
+#~ msgid ""
+#~ "An email has been sent with the instructions to activate your account."
+#~ msgstr ""
+#~ "Un courriel a été envoyé avec des instructions pour activer votre compte."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+#~ "browser.You must <a href='http://www.google.com/cookies.html'>enable "
+#~ "cookies</a> to login here."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : les cookies sont bloqués ou ne sont pas "
+#~ "supportés par votre navigateur. Vous devez les activer pour vous "
+#~ "connecter ici."
+
+#~ msgid "<strong>ERROR</strong>: User registration is disabled on this site."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : les inscriptions sont désactivées sur ce site."
+
+#~ msgid "Register"
+#~ msgstr "S'enregistrer"
+
+#~ msgid "Please fill the form below to create your account."
+#~ msgstr "Veuillez remplir le formulaire ci-dessous pour créer votre compte."
+
+#~ msgid "Reset your password"
+#~ msgstr "Réinitialiser votre mot de passe"
+
+#~ msgid "Forgot your password"
+#~ msgstr "Oubli du mot de passe"
+
+#~ msgid ""
+#~ "Write down below the email address corresponding to your account and we "
+#~ "will send instructions to recover your password."
+#~ msgstr ""
+#~ "Inscrivez ci-dessous l'adresse mél correspondant à votre compte et nous "
+#~ "enverrons la marche à suivre pour réinitialiser votre mot de passe."
+
+#~ msgid "Login"
+#~ msgstr "Connexion"
+
+#~ msgid ""
+#~ "You must login to access your own customer area. If you do not have an "
+#~ "account yet, please register or contact us so that we can create it."
+#~ msgstr ""
+#~ "Vous devez être connecté pour accéder à votre zone client. Si vous n'avez "
+#~ "pas encore de compte utilisateur, merci de vous enregistrer ou de nous "
+#~ "contacter pour que nous puissions le créer."
+
+#~ msgid "Customer Area"
+#~ msgstr "Espace Client"
+
+#~ msgid "Login Form"
+#~ msgstr "Formulaire de connexion"
+
+#~ msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Saississez un nom d'utilisateur ou une adresse "
+#~ "mél."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: There is no user registered with that email "
+#~ "address."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Il n'y a pas de compte utilisateur "
+#~ "correspondant à cette adresse mél."
+
+#~ msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Nom d'utilisateur ou adresse mél invalide."
+
+#~ msgid "Password reset is not allowed for this user"
+#~ msgstr "La réinitialisation du mot de passe n'est pas autorisée"
+
+#~ msgid ""
+#~ "Someone requested that the password be reset for the following account:"
+#~ msgstr ""
+#~ "Quelqu'un a demandé une réinitialisation du mot de passe pour le compte "
+#~ "suivant :"
+
+#~ msgid "Username: %s"
+#~ msgstr "Identifiant : %s"
+
+#~ msgid ""
+#~ "If this was a mistake, just ignore this email and nothing will happen."
+#~ msgstr ""
+#~ "Si c'est une erreur, veuillez ignorer ce courriel et rien ne se passera."
+
+#~ msgid "To reset your password, visit the following address:"
+#~ msgstr "Pour réinitialiser votre mot de passe, rendez-vous sur cette page :"
+
+#~ msgid "[%s] Password Reset"
+#~ msgstr "[%s] Réinitialisation du mot de passe"
+
+#~ msgid "The e-mail could not be sent."
+#~ msgstr "Le courriel n'a pas pu être envoyé."
+
+#~ msgid "Possible reason: your host may have disabled the mail() function..."
+#~ msgstr "Possible reason: your host may have disabled the mail() function..."
+
+#~ msgid "Invalid key"
+#~ msgstr "Clé invalide"
+
+#~ msgid "<strong>ERROR</strong>: Please enter a username."
+#~ msgstr "<strong>ERREUR</strong> : veuillez saisir un identifiant."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: This username is invalid because it uses illegal "
+#~ "characters. Please enter a valid username."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Cet identifiant est invalide car il comprend "
+#~ "des caractères invalides. Veuillez corriger."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: This username is already registered. Please "
+#~ "choose another one."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Cet identifiant existe déjà. Veuillez en "
+#~ "choisir un autre."
+
+#~ msgid "<strong>ERROR</strong>: Please type your e-mail address."
+#~ msgstr "<strong>ERREUR</strong> : Veuillez saisir votre adresse mél."
+
+#~ msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+#~ msgstr "<strong>ERREUR</strong> : L'adresse mél est invalide."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: This email is already registered, please choose "
+#~ "another one."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Cette adresse mél correspond déjà à un compte "
+#~ "utilisateur, veuillez en choisir une autre."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the "
+#~ "<a href=\"mailto:%s\">webmaster</a> !"
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> :  Impossible de créer votre compte, contactez le "
+#~ "<a href=\"mailto:%s\">webmaster</a> !"
+
+#~ msgid "New user registration on your site %s:"
+#~ msgstr "Nouvel utilisateur sur votre site %s :"
+
+#~ msgid "E-mail: %s"
+#~ msgstr "Email : %s"
+
+#~ msgid "[%s] New User Registration"
+#~ msgstr "[%s] Nouvelle inscription"
+
+#~ msgid "Password: %s"
+#~ msgstr "Mot de passe : %s"
+
+#~ msgid "[%s] Your username and password"
+#~ msgstr "[%s] Vos identifiant et mot de passe"
+
+#~ msgid "Username"
+#~ msgstr "Identifiant"
+
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+
+#~ msgid "Remember me"
+#~ msgstr "Se souvenir de moi"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "Oubli du mot de passe ?"
+
+#~ msgid "Create your account"
+#~ msgstr "Créer votre compte"
+
+#~ msgid "Username or Email"
+#~ msgstr "Identifiant ou adresse mél"
+
+#~ msgid "Spam Check"
+#~ msgstr "Vérification contre le spam"
+
+#~ msgid "Copy the code shown above in the input field."
+#~ msgstr "Copiez le code ci-dessus dans le champ de saisie."
+
+#~ msgid "Get New Password"
+#~ msgstr "Obtenir un nouveau mot de passe"
+
+#~ msgid "Email Address"
+#~ msgstr "Adresse mél"
+
+#~ msgid "A password will be e-mailed to you."
+#~ msgstr "Un mot de passe vous sera envoyé."
+
+#~ msgid "New Password"
+#~ msgstr "Nouveau mot de passe"
+
+#~ msgid "Type your new password again."
+#~ msgstr "Saisissez votre mot de passe de nouveau."
+
+#~ msgid "Change Password"
+#~ msgstr "Changer de mot de passe"
+
+#~ msgid "General"
+#~ msgstr "Réglages généraux"
+
+#~ msgid "Email format"
+#~ msgstr "Format du mel"
+
+#~ msgid "Plain text"
+#~ msgstr "Texte"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid ""
+#~ "The format in which login_form get sent. HTML might not always be "
+#~ "properly formatted."
+#~ msgstr ""
+#~ "Le format dans lequel les notifications sont envoyées. HTML peut ne pas "
+#~ "être correctement mis en forme."
+
+#~ msgid "The notification can not be sent if the file is not published"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le fichier n'est pas publié"
+
+#~ msgid "The notification can not be sent if the file does not have an owner"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le fichier n'a pas de "
+#~ "propriétaire"
+
+#~ msgid "The notification can not be sent if the file has not been uploaded"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si aucun fichier n'a été "
+#~ "téléversé"
+
+#~ msgid "A notification has been sent to %s"
+#~ msgstr "Une notification a été envoyée à %s"
+
+#~ msgid "Notifications"
+#~ msgstr "Notifications"
+
+#~ msgid "Let the owner know he can access this file"
+#~ msgstr "Informer le propriétaire qu'il peut accéder à ce fichier"
+
+#~ msgid ""
+#~ "The notification will only be sent if you publish the file, if you have "
+#~ "actually uploaded a file and if you have set an owner. Else nothing will "
+#~ "be sent."
+#~ msgstr ""
+#~ "La notification ne sera envoyée que si vous publiez le fichier, si vous "
+#~ "avez téléversé un fichier et si vous lui avez assigné un propriétaire. "
+#~ "Sinon rien ne sera envoyé."
+
+#~ msgid "From"
+#~ msgstr "De"
+
+#~ msgid "The emails will be shown as sent by this name."
+#~ msgstr "Les courriels seront vus comme envoyés de ce nom."
+
+#~ msgid "The emails will be shown as sent from this address."
+#~ msgstr "Les courriels seront vus comme envoyés de cette adresse."
+
+#~ msgid "New Private File"
+#~ msgstr "Nouveau Fichier Privé"
+
+#~ msgid "Mode"
+#~ msgstr "Mode"
+
+#~ msgid "Disabled"
+#~ msgstr "Désactivé"
+
+#~ msgid "Enabled"
+#~ msgstr "Activé"
+
+#~ msgid "Subjet"
+#~ msgstr "Sujet"
+
+#~ msgid "Body"
+#~ msgstr "Contenu"
+
+#~ msgid "Private File Download"
+#~ msgstr "Téléchargement d'un Fichier Privé"
+
+#~ msgid "Only the first time"
+#~ msgstr "Seulement la première fois"
+
+#~ msgid "Always"
+#~ msgstr "Toujours"
+
+#~ msgid ""
+#~ "You can choose whether you want to enable this notification. If you do, "
+#~ "you can opt to receive the notifications only the first time the user "
+#~ "downloads the file or every time he does it."
+#~ msgstr ""
+#~ "Vous pouvez choisir d'activer cette notification ou non. Si oui, vous "
+#~ "pouvez choisir de la recevoir seulement la première fois que le fichier "
+#~ "est téléchargé ou à chaque fois."
+
+#~ msgid "A new file for you is available on %site_name%"
+#~ msgstr "Un fichier est disponible sur votre espace client de %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello %file_owner%,</p><p>A new file (%file_title%) has been made "
+#~ "available for you in our customer area. You can download it by following "
+#~ "the link: %file_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url"
+#~ "%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %file_owner%,</p><p>Un nouveau fichier (%file_title%) a été "
+#~ "déposé dans votre espace client. Vous pouvez le télécharger en suivant le "
+#~ "lien : %file_url%</p><p>Cordialement,</p><p>%from_name%<br/>%site_url%</p>"
+
+#~ msgid "New file download on %site_name%"
+#~ msgstr "Nouveau téléchargement sur %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello,</p><p>A file (%file_title%) has been downloaded by "
+#~ "%download_user%.</p><p>Best regards,</p><p>The customer area plugin<br/>"
+#~ "%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour,</p><p>Un fichier (%file_title%) a été téléchargé par "
+#~ "%download_user%.</p><p>Cordialement,</p><p>Votre plugin zone client<br/>"
+#~ "%site_url%</p>"
+
+#~ msgid ""
+#~ "Define here the email that will get sent to a user when a new private "
+#~ "file is uploaded for him."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé à un utilisateur quand un nouveau "
+#~ "fichier est déposé pour lui."
+
+#~ msgid "Show after post"
+#~ msgstr "Après l'article"
+
+#~ msgid ""
+#~ "Show the view and download links below the post content for a customer "
+#~ "file."
+#~ msgstr ""
+#~ "Afficher les liens pour voir ou télécharger un fichier sous le contenu "
+#~ "d'un article représentant un fichier client."
+
+#~ msgid "Include CSS"
+#~ msgstr "Inclure le CSS"
+
+#~ msgid "Include the default stylesheet."
+#~ msgstr "Inclure la feuille de style par défaut"
+
+#~ msgid "If not, you should style the plugin yourself in your theme."
+#~ msgstr ""
+#~ "Si non, vous devrez mettre en forme le plugin par vous-même dans votre "
+#~ "thème."
+
+#~ msgid " is not a valid value"
+#~ msgstr "n'est pas une valeur valide"
+
+#~ msgid "must be an integer"
+#~ msgstr "doit être un entier"
+
+#~ msgid "must be greater than %s"
+#~ msgstr "doit être plus grand que %s"
+
+#~ msgid "must be lower than %s"
+#~ msgstr "doit être plus petit que %s"
+
+#~ msgid "Hello"
+#~ msgstr "Bonjour"
+
+#~ msgid "You must login to access your own customer area."
+#~ msgstr "Vous devez être connecté pour accéder à votre espace client"
+
+#~ msgid "Hello %s,"
+#~ msgstr "Bonjour %s,"
+
+#~ msgid "download-file"
+#~ msgstr "télécharger-fichier"
+
+#~ msgid "view-file"
+#~ msgstr "voir-fichier"
+
+#~ msgid "You are not authorized to view this file"
+#~ msgstr "Vous n'êtes pas autorisé à voir ce fichier"
+
+#~ msgid "You are not authorized to access this file"
+#~ msgstr "Vous n'êtes pas autorisé à accéder à ce fichier"
+
+#~ msgid "Customer Files"
+#~ msgstr "Fichiers clients"
+
+#~ msgid "Customer File"
+#~ msgstr "Fichier client"
+
+#~ msgid "Edit Customer File"
+#~ msgstr "Editer un fichier client"
+
+#~ msgid "New Customer File"
+#~ msgstr "Nouveau fichier client"
+
+#~ msgid "View Customer File"
+#~ msgstr "Voir le fichier client"
+
+#~ msgid "File Categories"
+#~ msgstr "Catégories de fichier"
+
+#~ msgid "File Category"
+#~ msgstr "Catégorie de fichier"
+
+#~ msgid "Search File Categories"
+#~ msgstr "Chercher des catégories de fichier"
+
+#~ msgid "Popular File Categories"
+#~ msgstr "Catégories de fichier populaires"
+
+#~ msgid "All File Categories"
+#~ msgstr "Toutes les catégories de fichier"
+
+#~ msgid "Parent File Category"
+#~ msgstr "Catégorie de fichier parente"
+
+#~ msgid "Parent File Category:"
+#~ msgstr "Catégorie de fichier parente :"
+
+#~ msgid "Edit File Category"
+#~ msgstr "Modifier la catégorie de fichier"
+
+#~ msgid "Update File Category"
+#~ msgstr "Mettre à jour la catégorie de fichier"
+
+#~ msgid "Add New File Category"
+#~ msgstr "Ajouter une catégorie de fichier"
+
+#~ msgid "New File Category"
+#~ msgstr "Nouvelle catégorie de fichier"
+
+#~ msgid "Separate file categories with commas"
+#~ msgstr "Séparez les catégories de fichier avec des virgules"
+
+#~ msgid "Add or remove file categories"
+#~ msgstr "Ajouter ou enlever des catégories de fichier"
+
+#~ msgid "Choose from the most used file categories"
+#~ msgstr "Choisir parmi les catégories de fichier les plus courantes"
+
+#~ msgid "private-file-category"
+#~ msgstr "catégorie-fichier-privé"
+
+#~ msgid "private-file"
+#~ msgstr "fichier-privé"
+
+#~ msgid "unknown"
+#~ msgstr "inconnu"
+
+#~ msgid "Owner"
+#~ msgstr "Propriétaire"
+
+#~ msgid "Nobody"
+#~ msgstr "Personne"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "Current file:"
+#~ msgstr "Fichier actuel :"
+
+#~ msgid "Upload a file"
+#~ msgstr "Téléverser un fichier"
+
+#~ msgid "This file type is not allowed. You can only upload: %s"
+#~ msgstr ""
+#~ "Ce type de fichier n'est pas autorisé. Vous pouvez seulement téléverser : "
+#~ "%s"
+
+#~ msgid "An unknown error happened while uploading your file."
+#~ msgstr ""
+#~ "Une erreur inconnue est survenue lors du téléversement de votre fichier."
+
+#~ msgid "An error happened while uploading your file: %s"
+#~ msgstr "Une erreur est survenue lors du téléversement de votre fichier : %s"
+
+#~ msgid "Associated file"
+#~ msgstr "Fichier associé"
+
+#~ msgid "View"
+#~ msgstr "Voir"
+
+#~ msgid "Download"
+#~ msgstr "Télécharger"
+
+#~ msgid "Your files"
+#~ msgstr "Vos fichiers"
+
+#~ msgid "Added on %s"
+#~ msgstr "Ajouté le %s"
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "Category"
+#~ msgstr "Catégorie"
+
+#~ msgid "Houston&hellip; we have a problem!"
+#~ msgstr "Houston&hellip; on a un problème !"
+
+#~ msgid ""
+#~ "We have not found what you are looking for. You could simply close this "
+#~ "window out of rage, but you might also want to have a look at the rest of "
+#~ "the website. I am sure you won' be disappointed again. Promise."
+#~ msgstr ""
+#~ "Nous n'avons pas trouvé ce que vous cherchiez. Pour sûr, vous devez être "
+#~ "en pétard, mais vous devriez parcourir le reste du site, vous ne serez "
+#~ "pas déçu de nouveau, promis."
+
+#~ msgid "Browse our blog"
+#~ msgstr "Parcourir le blog"
+
+#~ msgid "By Date"
+#~ msgstr "Par date"
+
+#~ msgid "By Tag"
+#~ msgstr "Par étiquette"
+
+#~ msgid "Filter our work"
+#~ msgstr "Filtrer les projets"
+
+#~ msgid "By date"
+#~ msgstr "Par date"
+
+#~ msgid "By type"
+#~ msgstr "Par type"
+
+#~ msgid "Browse our archives"
+#~ msgstr "Parcourez nos archives"
+
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Archives du jour : %s"
+
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Archives du mois : %s"
+
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Archives de l'année : %s"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Archives"
+#~ msgstr "Archives"
+
+#~ msgid "Category Archives: %s"
+#~ msgstr "Archives de la catégorie : %s"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "&laquo; Older Comments"
+#~ msgstr "Commentaires plus anciens &laquo;"
+
+#~ msgid "Newer Comments &raquo;"
+#~ msgstr "Commentaires plus récents &raquo;"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Les commentaires ne sont plus possibles."
+
+#~ msgid "Leave a comment"
+#~ msgstr "Laisser un commentaire"
+
+#~ msgid "Learn more about &laquo; %s &raquo;"
+#~ msgstr "En savoir plus sur &laquo; %s &raquo;"
+
+#~ msgid "Filed under: "
+#~ msgstr "Classé dans : "
+
+#~ msgid "<li>&raquo; Tagged: "
+#~ msgstr "<li>&raquo; Etiqueté : "
+
+#~ msgid "Permalink to %s"
+#~ msgstr "Lien permanent vers %s"
+
+#~ msgid "Read more"
+#~ msgstr "En savoir plus"
+
+#~ msgid "Edit this post"
+#~ msgstr "Editer ce post"
+
+#~ msgid "Get in touch"
+#~ msgstr "Contactez-nous"
+
+#~ msgid "+33 6 50 21 23 94"
+#~ msgstr "06 50 21 23 94"
+
+#~ msgid "hello@marvinlabs.com"
+#~ msgstr "bonjour@marvinlabs.com"
+
+#~ msgid "+1 us on Google+"
+#~ msgstr "+1 sur Google+"
+
+#~ msgid "Like us on Facebook"
+#~ msgstr "Aimez-nous sur Facebook"
+
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Suivez-nous sur Twitter"
+
+#~ msgid "Use our code from GitHub"
+#~ msgstr "Utilisez notre code publié sur GitHub"
+
+#~ msgid "We help fellow developers on StackOverflow"
+#~ msgstr "Nous aidons nos collègues développeurs sur StackOverflow"
+
+#~ msgid "Get our free WordPress plugins & themes"
+#~ msgstr "Téléchargez nos plugins et thèmes gratuits pour WordPress"
+
+#~ msgid "Main navigation menu"
+#~ msgstr "Menu de navigation principal"
+
+#~ msgid "Work"
+#~ msgstr "Projet"
+
+#~ msgid "work"
+#~ msgstr "projet"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Types"
+#~ msgstr "Types"
+
+#~ msgid "work-type"
+#~ msgstr "type-de-projet"
+
+#~ msgid "Skill"
+#~ msgstr "Compétence"
+
+#~ msgid "Skills"
+#~ msgstr "Compétences"
+
+#~ msgid "work-skill"
+#~ msgstr "competence"
+
+#~ msgid "Technology"
+#~ msgstr "Technologie"
+
+#~ msgid "Technologies"
+#~ msgstr "Technologies"
+
+#~ msgid "work-technology"
+#~ msgstr "technologie"
+
+#~ msgid "work-category"
+#~ msgstr "catégorie-projet"
+
+#~ msgid "Single blog post"
+#~ msgstr "Post de blog unique"
+
+#~ msgid "Blog archive page"
+#~ msgstr "Archive du blog"
+
+#~ msgid "Footer, #getintouch"
+#~ msgstr "Footer, #getintouch"
+
+#~ msgid "Footer, #bottom"
+#~ msgstr "Footer, #bottom"
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"
+
+#~ msgid "About this project"
+#~ msgstr "A propos de ce projet"
+
+#~ msgid "Project launched in %s"
+#~ msgstr "Projet lancé en %s"
+
+#~ msgid "View the live website"
+#~ msgstr "Visiter le site en ligne"
+
+#~ msgid "Get the app on Google Play"
+#~ msgstr "Télécharger l'application sur GooglePlay"
+
+#~ msgid "Get the app on Apple's AppStore"
+#~ msgstr "Télécharger l'application sur l'AppStore d'Apple"
+
+#~ msgid "Get the WordPress plugin"
+#~ msgstr "Téléchargez le plugin WordPress"
+
+#~ msgid "Skills: "
+#~ msgstr "Compétences : "
+
+#~ msgid "Technologies: "
+#~ msgstr "Technologies : "
+
+#~ msgid "You like this project and think we can do a good job with yours?"
+#~ msgstr ""
+#~ "Vous aimez ce projet et pensez que nous pourrions faire du bon travail "
+#~ "pour le votre ?"
+
+#~ msgid "Request a quote"
+#~ msgstr "Demandez un devis"
+
+#~ msgid "About this post"
+#~ msgstr "A propos de cet article"
+
+#~ msgid "Posted on: "
+#~ msgstr "Posté le :"
+
+#~ msgid "Tag Archives: %s"
+#~ msgstr "Archives d'étiquette : %s"
+
+#~ msgid "Our projects of type: %s"
+#~ msgstr "Nos projets de type : %s"
+
+#~ msgid "%1$s on %2$s"
+#~ msgstr "%1$s sur %2$s"
+
+#~ msgid "Posts navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+#~ msgstr "<span class=\"meta-nav\">&laquo;</span> Articles plus anciens"
+
+#~ msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+#~ msgstr "Articles plus récents <span class=\"meta-nav\">&raquo;</span>"
+
+#~ msgid "show details"
+#~ msgstr "afficher les détails"
+
+#~ msgid "See all of our work"
+#~ msgstr "Voir tous nos projets"
+
+#~ msgid ""
+#~ "All content on this website is the property of &laquo;Constant le "
+#~ "jardinier&raquo; and may not be used without permission"
+#~ msgstr ""
+#~ "Tout le contenu sur ce site est la propriété exclusive de &laquo;Constant "
+#~ "le jardinier&raquo; et ne peut être utilisé sans permission"
+
+#~ msgid "&copy; Constant le jardinier"
+#~ msgstr "&copy; Constant le jardinier"
+
+#~ msgid ""
+#~ "Designed and carried out by MarvinLabs, digital creation studio in Basque "
+#~ "country, France (Biarritz, Anglet, Bayonne)"
+#~ msgstr ""
+#~ "Imaginé et réalisé par MarvinLabs, studio de création numérique au pays "
+#~ "basque (Biarritz, Anglet, Bayonne)"
+
+#~ msgid "A website planted with care by MarvinLabs"
+#~ msgstr "Un site délicatement planté par MarvinLabs"
+
+#~ msgid "and"
+#~ msgstr "et"
+
+#~ msgid "Paintings by Marilou Laure"
+#~ msgstr "Peintures par Marilou Laure"
+
+#~ msgid "illustrated with taste by Marilou Laure"
+#~ msgstr "illustré avec goût par Marilou Laure"
+
+#~ msgid "Left footer navigation"
+#~ msgstr "Navigation bas gauche"
+
+#~ msgid "Right footer navigation"
+#~ msgstr "Navigation bas droite"
+
+#~ msgid "Services"
+#~ msgstr "Services"
+
+#~ msgid "Service"
+#~ msgstr "Service"
+
+#~ msgid "Footer Widgets 1 (Left)"
+#~ msgstr "Footer Widgets 1 (Left)"
+
+#~ msgid "Footer Widgets 2 (Middle)"
+#~ msgstr "Footer Widgets 2 (Middle)"
+
+#~ msgid "Footer Widgets 3 (Right)"
+#~ msgstr "Footer Widgets 3 (Right)"
+
+#~ msgid "Nothing here"
+#~ msgstr "Rien ici"
+
+#~ msgid "You should not even be on this page!"
+#~ msgstr "Vous ne devriez même pas vous retrouver sur cette page !"

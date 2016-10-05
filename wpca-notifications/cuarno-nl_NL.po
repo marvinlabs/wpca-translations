@@ -1,0 +1,1004 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Customer Area Notifications\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2015-03-04 09:37:03+00:00\n"
+"PO-Revision-Date: 2015-04-12 15:29+0100\n"
+"Last-Translator: Lennart van Beek <lennart@loveyoudesign.com>\n"
+"Language-Team: MarvinLabs\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: src/php/notifications-addon.class.php:22
+#: src/php/notifications-admin-interface.class.php:40
+#: src/php/notifications-admin-interface.class.php:73
+#: src/php/notifications-admin-interface.class.php:137
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: src/php/notifications-addon.class.php:90
+msgid "A new post is available for you on %site_name%"
+msgstr "Een nieuwe post is beschikbaar voor u op %site_name%"
+
+#: src/php/notifications-addon.class.php:100
+msgid "A new post has been published on %site_name%"
+msgstr "Een nieuwe post is gepubliceerd op %site_name%"
+
+#: src/php/notifications-addon.class.php:110
+msgid "A new post is held for moderation on %site_name%"
+msgstr "Een nieuw bericht tegengehouden voor controle op %site_name%"
+
+#: src/php/notifications-addon.class.php:120
+msgid "New file downloaded on %site_name%"
+msgstr "Een nieuw bestand is gedownload van %site_name%"
+
+#: src/php/notifications-addon.class.php:129
+msgid "New conversation started on %site_name%"
+msgstr "Nieuw gesprek is begon op %site_name%"
+
+#: src/php/notifications-addon.class.php:139
+msgid "New reply to a conversation on %site_name%"
+msgstr "Nieuw antwoord op een gesprek op %site_name%"
+
+#: src/php/notifications-addon.class.php:302
+#: src/php/notifications-addon.class.php:386
+#: src/php/notifications-addon.class.php:432
+msgid "The notification can not be sent if the post is not published"
+msgstr ""
+"De kennisgeving kan niet worden verzonden als de post niet wordt gepubliceerd"
+
+#: src/php/notifications-addon.class.php:342
+#: src/php/notifications-addon.class.php:421
+#: src/php/notifications-addon.class.php:479
+msgid "A notification has been sent to %d recipient(s)"
+msgstr "Een kennisgeving is gestuurd %d ontvanger(s)"
+
+#: src/php/notifications-addon.class.php:346
+#: src/php/notifications-addon.class.php:425
+#: src/php/notifications-addon.class.php:483
+msgid "This post does not yet have any owners. Nothing has been sent."
+msgstr "Dit bericht heeft nog geen eigenaars. Niets is verzonden."
+
+#: src/php/notifications-admin-interface.class.php:60
+msgid "Let the owner know he can access this private content"
+msgstr "Laat de eigenaar weten dat hij kan toegang tot deze privé-inhoud"
+
+#: src/php/notifications-admin-interface.class.php:63
+msgid ""
+"The notification will only be sent if you publish the post, and if you have "
+"set an owner. Else nothing will be sent."
+msgstr ""
+"De kennisgeving wordt alleen verstuurd als je de post te publiceren, en als "
+"je een eigenaar hebt ingesteld. Anders niets zal worden gezonden."
+
+#: src/php/notifications-admin-interface.class.php:85
+msgid "General"
+msgstr "Algemeen"
+
+#: src/php/notifications-admin-interface.class.php:92
+msgid "Email format"
+msgstr "Email formaat"
+
+#: src/php/notifications-admin-interface.class.php:99
+msgid "Plain text"
+msgstr "Tekst"
+
+#: src/php/notifications-admin-interface.class.php:100
+msgid "HTML"
+msgstr "HTML"
+
+#: src/php/notifications-admin-interface.class.php:109
+msgid "From"
+msgstr "Van"
+
+#: src/php/notifications-admin-interface.class.php:117
+msgid "The emails will be shown as sent by this name."
+msgstr "De e-mails worden weergegeven als verzonden door deze naam."
+
+#: src/php/notifications-admin-interface.class.php:131
+msgid "The emails will be shown as sent from this address."
+msgstr "De e-mails worden weergegeven als verzonden vanaf dit adres."
+
+#: src/php/notifications-admin-interface.class.php:167
+msgid " is not a valid value for "
+msgstr " is geen geldige waarde voor "
+
+#: src/php/notifications-admin-interface.class.php:174
+msgid "You must set a subject for %s"
+msgstr "U moet een onderwerp voor te stellen %s"
+
+#: src/php/notifications-admin-interface.class.php:181
+msgid "You must set a body for %s"
+msgstr "U moet een tekst in te voeren %s"
+
+#: src/php/notifications-admin-interface.class.php:195
+msgid "Content Published"
+msgstr "Content Gepubliceerd"
+
+#: src/php/notifications-admin-interface.class.php:196
+msgid ""
+"Define here the email that will get sent to a user when new private content "
+"is published for him."
+msgstr ""
+"Definieer hier de e-mail die zal krijgen naar een gebruiker wanneer nieuwe "
+"particuliere inhoud wordt gepubliceerd voor hem."
+
+#: src/php/notifications-admin-interface.class.php:198
+#: src/php/notifications-admin-interface.class.php:207
+#: src/php/notifications-admin-interface.class.php:219
+#: src/php/notifications-admin-interface.class.php:241
+#: src/php/notifications-admin-interface.class.php:249
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: src/php/notifications-admin-interface.class.php:199
+#: src/php/notifications-admin-interface.class.php:208
+#: src/php/notifications-admin-interface.class.php:220
+#: src/php/notifications-admin-interface.class.php:231
+#: src/php/notifications-admin-interface.class.php:242
+#: src/php/notifications-admin-interface.class.php:250
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: src/php/notifications-admin-interface.class.php:204
+msgid "Content Published (Admin)"
+msgstr "Content Gepubliceerd (Admin)"
+
+#: src/php/notifications-admin-interface.class.php:205
+msgid ""
+"Define here the email that will get sent to the administrators when new "
+"private content is published by someone."
+msgstr ""
+"Definieer hier de e-mail die zal krijgen naar de beheerders als nieuwe "
+"particuliere inhoud wordt uitgegeven door iemand."
+
+#: src/php/notifications-admin-interface.class.php:215
+msgid "Content Moderated"
+msgstr "Content Moderated"
+
+#: src/php/notifications-admin-interface.class.php:226
+msgid "File Downloaded"
+msgstr "Bestand Gedownload"
+
+#: src/php/notifications-admin-interface.class.php:227
+msgid ""
+"Define here the email that will get sent to the file author when a file is "
+"downloaded."
+msgstr ""
+"Define here the email that will get sent to the file author when a file is "
+"downloaded."
+
+#: src/php/notifications-admin-interface.class.php:229
+msgid "Always"
+msgstr "Altijd"
+
+#: src/php/notifications-admin-interface.class.php:230
+msgid "Only the first time"
+msgstr "Alleen de eerste keer"
+
+#: src/php/notifications-admin-interface.class.php:238
+msgid "New Conversation"
+msgstr "Nieuw Gesprek"
+
+#: src/php/notifications-admin-interface.class.php:239
+msgid ""
+"Define here the email that will get sent to the recipients of a conversation "
+"when it gets created."
+msgstr ""
+"Definieer hier de e-mail die zal krijgen naar de ontvangers van een gesprek "
+"wanneer het wordt gemaakt."
+
+#: src/php/notifications-admin-interface.class.php:246
+msgid "New Reply"
+msgstr "Nieuw Antwoord"
+
+#: src/php/notifications-admin-interface.class.php:247
+msgid ""
+"Define here the email that will get sent to the participants of a "
+"conversation when a new reply is posted."
+msgstr ""
+"Definieer hier de e-mail die zal krijgen naar de deelnemers aan een gesprek "
+"wanneer er een nieuwe reactie wordt geplaatst."
+
+#: src/php/notifications-admin-interface.class.php:260
+msgid ""
+"You can customize every notification that will be sent to users by the "
+"Customer Area."
+msgstr ""
+"Je kunt elke kennisgeving die door de gebruikers wordt verzonden aanpassen "
+"in de Customer Area."
+
+#: src/php/notifications-admin-interface.class.php:286
+msgid "All notifications"
+msgstr "Alle meldingen"
+
+#: src/php/notifications-admin-interface.class.php:288
+msgid "Replaced by the name of your website"
+msgstr "Wordt vervangen door de naam van uw website"
+
+#: src/php/notifications-admin-interface.class.php:289
+msgid "Replaced by the address of your website"
+msgstr "Wordt vervangen door het adres van uw website"
+
+#: src/php/notifications-admin-interface.class.php:290
+msgid "Replaced by the name of the sender"
+msgstr "Wordt vervangen door de naam van de verzender"
+
+#: src/php/notifications-admin-interface.class.php:291
+msgid "Replaced by the name of the recipient"
+msgstr "Wordt vervangen door de naam van de ontvanger(s)"
+
+#: src/php/notifications-admin-interface.class.php:295
+msgid "Private file download notification"
+msgstr "Privé bestand gedownload (melding)"
+
+#: src/php/notifications-admin-interface.class.php:297
+msgid "title of the file"
+msgstr "Titel van het bestand"
+
+#: src/php/notifications-admin-interface.class.php:298
+#: src/php/notifications-admin-interface.class.php:307
+msgid "link to show the post"
+msgstr "link om het bericht te zien"
+
+#: src/php/notifications-admin-interface.class.php:299
+msgid "name of the file"
+msgstr "Naam van het bestand"
+
+#: src/php/notifications-admin-interface.class.php:300
+msgid "name of the user who downloaded the file"
+msgstr "de naam van de gebruiker die het bestand heeft gedownload"
+
+#: src/php/notifications-admin-interface.class.php:304
+msgid "All new private posts notification"
+msgstr "Alle nieuwe privé bericht meldingen"
+
+#: src/php/notifications-admin-interface.class.php:306
+#: src/php/notifications-admin-interface.class.php:315
+msgid "title of the post"
+msgstr "Titel van het bericht"
+
+#: src/php/notifications-admin-interface.class.php:308
+#: src/php/notifications-admin-interface.class.php:317
+msgid "Name of the author of the post"
+msgstr "De naam van de auteur van het bericht"
+
+#: src/php/notifications-admin-interface.class.php:309
+#: src/php/notifications-admin-interface.class.php:318
+msgid "Name of the owner of the post"
+msgstr "De naam van de eigenaar van het bericht"
+
+#: src/php/notifications-admin-interface.class.php:313
+msgid "New private post moderated notification"
+msgstr "Nieuwe privé bericht gemodereerd (melding)"
+
+#: src/php/notifications-admin-interface.class.php:316
+msgid "link to review the post"
+msgstr "link naar het bericht om te bekijken"
+
+#: src/php/notifications-admin-interface.class.php:322
+msgid "New conversation started notification"
+msgstr "Nieuw gesprek gestart (melding)"
+
+#: src/php/notifications-admin-interface.class.php:324
+#: src/php/notifications-admin-interface.class.php:332
+msgid "title of the conversation"
+msgstr "Titel van het gesprek"
+
+#: src/php/notifications-admin-interface.class.php:325
+#: src/php/notifications-admin-interface.class.php:333
+msgid "link to show the conversation"
+msgstr "link om het gesprek te bekijken"
+
+#: src/php/notifications-admin-interface.class.php:326
+msgid "Name of the author of the conversation"
+msgstr "Naam van de auteur van het gesprek"
+
+#: src/php/notifications-admin-interface.class.php:330
+msgid "New reply to a conversation notification"
+msgstr "Nieuw antwoord in een gesprek (melding)"
+
+#: src/php/notifications-admin-interface.class.php:334
+msgid "Name of the author of the new reply"
+msgstr "De naam van de auteur van het nieuwe antwoord"
+
+#: src/php/notifications-admin-interface.class.php:353
+msgid "Place holders"
+msgstr "Place holders"
+
+#: src/php/templates/notifications-tabs.template.php:27
+msgid "Mode"
+msgstr "Mode"
+
+#: src/php/templates/notifications-tabs.template.php:45
+msgid "Subject"
+msgstr "Ondewerp"
+
+#: src/php/templates/notifications-tabs.template.php:55
+msgid "Body"
+msgstr "Inhoud"
+
+#. Description of the plugin/theme
+msgid "Adds email notifications to the Customer Area plugin"
+msgstr "Voegt e-mailberichten op de Customer Area plugin"
+
+#~ msgid ""
+#~ "<p>Hello %to_name%,</p><p>A new post (%post_title%) has been made "
+#~ "available for you in our customer area. You can read it by following that "
+#~ "link: %post_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %to_name%,</p><p>Un nouveau contenu (%post_title%) a été "
+#~ "déposé dans votre espace client. Vous pouvez le télécharger en suivant le "
+#~ "lien : %post_url%</p><p>Cordialement,</p><p>%from_name%<br/>%site_url%</p>"
+
+#~ msgid ""
+#~ "<p>Hello %to_name%,</p><p>A new post (%post_title%) has been published in "
+#~ "the customer area by %author_name% for %owner_name%. You can read it by "
+#~ "following that link: %post_url%</p><p>Best regards,</p><p>The customer "
+#~ "area plugin<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %to_name%,</p><p>Un nouveau contenu (%post_title%) a été "
+#~ "publié dans l'espace client par %author_name% pour %owner_name%. Vous "
+#~ "pouvez le consulter en suivant le lien : %post_url%</p><p>Cordialement,</"
+#~ "p><p>Votre plugin Espace Client<br/>%site_url%</p>"
+
+#~ msgid ""
+#~ "<p>Hello,</p><p>A new post (%post_title%) has been created by %author_name"
+#~ "% for %owner_name% and is waiting to be published. You can review it on "
+#~ "that page: %review_url%</p><p>Best regards,</p><p>The customer area "
+#~ "plugin<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour,</p><p>Un nouveau contenu (%post_title%) a été créé par "
+#~ "%author_name% pour %owner_name% et est en attente de modération. Vous "
+#~ "pouvez le relire sur cette page : %review_url%.</p><p>Cordialement,</"
+#~ "p><p>Votre plugin Espace Client<br/>%site_url%</p>"
+
+#~ msgid ""
+#~ "<p>Hello %to_name%,</p><p>A file (%post_title%) has been downloaded by "
+#~ "%downloader_name%.</p><p>Best regards,</p><p>The customer area plugin<br/>"
+#~ "%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %to_name%,</p><p>Un fichier (%post_title%) a été téléchargé "
+#~ "par %downloader_name%.</p><p>Cordialement,</p><p>Votre plugin Espace "
+#~ "Client<br/>%site_url%</p>"
+
+#~ msgid ""
+#~ "<p>Hello %to_name%,</p><p>A conversation (%post_title%) has been started "
+#~ "by %author_name%. You can read it by following that link: %post_url%</"
+#~ "p><p>Best regards,</p><p>%from_name%<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %to_name%,</p><p>Une conversation (%post_title%) a été ouverte "
+#~ "dans votre espace client. Vous pouvez la consulter en suivant le lien : "
+#~ "%post_url%</p><p>Cordialement,</p><p>%from_name%<br/>%site_url%</p>"
+
+#~ msgid ""
+#~ "<p>Hello %to_name%,</p><p>A new reply has been posted in the conversation "
+#~ "(%post_title%) by %author_name%. You can read it by following that link: "
+#~ "%post_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %to_name%,</p><p>Une nouvelle réponse à la conversation "
+#~ "(%post_title%) a été publiée par %author_name%. Vous pouvez la consulter "
+#~ "en suivant le lien : %post_url%</p><p>Cordialement,</p><p>%from_name%<br/>"
+#~ "%site_url%</p>"
+
+#~ msgid ""
+#~ "The format in which notifications get sent. HTML might not always be "
+#~ "properly formatted."
+#~ msgstr ""
+#~ "Le format dans lequel les notifications sont envoyées. HTML peut ne pas "
+#~ "être correctement mis en forme."
+
+#~ msgid ""
+#~ "Define here the email that will get sent to you when a new private post "
+#~ "is created from the frontend but is not yet published (waiting for review "
+#~ "before being published)."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé quand un nouveau contenu est créé dans "
+#~ "l'espace client mais pas encore publié (en attente de modération)."
+
+#~ msgid ""
+#~ "Do not activate your license on your development site. Only on the final "
+#~ "site where you are running the plugin."
+#~ msgstr ""
+#~ "N'activez pas votre licence sur votre site de développement. Seulement "
+#~ "sur le site final où le plugin sera installé."
+
+#~ msgid ""
+#~ "You can replace some variables in your notifications in order to "
+#~ "personnalize the email sent to the users. Here are the place holders you "
+#~ "can use:"
+#~ msgstr ""
+#~ "Vous pouvez remplacer des variables dans vos notifications de manière à "
+#~ "personnaliser les courriels envoyés aux utilisateurs. Voici les variables "
+#~ "que vous pouvez utiliser :"
+
+#~ msgid "Automatic Updates"
+#~ msgstr "Mise à jour automatisée"
+
+#~ msgid "License key"
+#~ msgstr "Clé de licence"
+
+#~ msgid "Private File Download"
+#~ msgstr "Téléchargement d'un Fichier Privé"
+
+#~ msgid ""
+#~ "You can choose whether you want to enable this notification. If you do, "
+#~ "you can opt to receive the notifications only the first time the user "
+#~ "downloads the file or every time he does it."
+#~ msgstr ""
+#~ "Vous pouvez choisir d'activer cette notification ou non. Si oui, vous "
+#~ "pouvez choisir de la recevoir seulement la première fois que le fichier "
+#~ "est téléchargé ou à chaque fois."
+
+#~ msgid "New Private Post"
+#~ msgstr "Nouveau Contenu Privé"
+
+#~ msgid "New Private Post Held for Moderation"
+#~ msgstr "Nouveau Contenu Privé en Attente de Modération"
+
+#~ msgid "The notification can not be sent if the file is not published"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le fichier n'est pas publié"
+
+#~ msgid "The notification can not be sent if the file does not have an owner"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le fichier n'a pas de "
+#~ "propriétaire"
+
+#~ msgid "The notification can not be sent if the file has not been uploaded"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si aucun fichier n'a été "
+#~ "téléversé"
+
+#~ msgid "The notification can not be sent if the page does not have an owner"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si la page n'a pas de "
+#~ "propriétaire"
+
+#~ msgid "Let the owner know he can access this file"
+#~ msgstr "Informer le propriétaire qu'il peut accéder à ce fichier"
+
+#~ msgid ""
+#~ "The notification will only be sent if you publish the file, if you have "
+#~ "actually uploaded a file and if you have set an owner. Else nothing will "
+#~ "be sent."
+#~ msgstr ""
+#~ "La notification ne sera envoyée que si vous publiez le fichier, si vous "
+#~ "avez téléversé un fichier et si vous lui avez assigné un propriétaire. "
+#~ "Sinon rien ne sera envoyé."
+
+#~ msgid "New Private File"
+#~ msgstr "Nouveau Fichier Privé"
+
+#~ msgid "A new file for you is available on %site_name%"
+#~ msgstr "Un fichier est disponible sur votre espace client de %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello %page_owner%,</p><p>A new page (%page_title%) has been published "
+#~ "for you in our customer area. You can view it by following the link: "
+#~ "%page_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %page_owner%,</p><p>Une nouvelle page (%page_title%) a été "
+#~ "déposée dans votre espace client. Vous pouvez la visualiser en suivant le "
+#~ "lien : %page_url%</p><p>Cordialement,</p><p>%from_name%<br/>%site_url%</p>"
+
+#~ msgid ""
+#~ "Define here the email that will get sent to a user when a new private "
+#~ "file is uploaded for him."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé à un utilisateur quand un nouveau "
+#~ "fichier est déposé pour lui."
+
+#~ msgid "2. New private file notification"
+#~ msgstr "2. Notification de nouveau fichier"
+
+#~ msgid "link to download the file"
+#~ msgstr "Lien pour télécharger le fichier"
+
+#~ msgid "name of the file owner"
+#~ msgstr "Nom du propriétaire du fichier"
+
+#~ msgid "Show after post"
+#~ msgstr "Après l'article"
+
+#~ msgid ""
+#~ "Show the view and download links below the post content for a customer "
+#~ "file."
+#~ msgstr ""
+#~ "Afficher les liens pour voir ou télécharger un fichier sous le contenu "
+#~ "d'un article représentant un fichier client."
+
+#~ msgid "Customer Area"
+#~ msgstr "Espace Client"
+
+#~ msgid "Include CSS"
+#~ msgstr "Inclure le CSS"
+
+#~ msgid "Include the default stylesheet."
+#~ msgstr "Inclure la feuille de style par défaut"
+
+#~ msgid "If not, you should style the plugin yourself in your theme."
+#~ msgstr ""
+#~ "Si non, vous devrez mettre en forme le plugin par vous-même dans votre "
+#~ "thème."
+
+#~ msgid "must be an integer"
+#~ msgstr "doit être un entier"
+
+#~ msgid "must be greater than %s"
+#~ msgstr "doit être plus grand que %s"
+
+#~ msgid "must be lower than %s"
+#~ msgstr "doit être plus petit que %s"
+
+#~ msgid "Hello"
+#~ msgstr "Bonjour"
+
+#~ msgid "You must login to access your own customer area."
+#~ msgstr "Vous devez être connecté pour accéder à votre espace client"
+
+#~ msgid ""
+#~ "If you do not have an account yet, please register or contact us so that "
+#~ "we can create it."
+#~ msgstr ""
+#~ "Si vous n'avez pas encore de compte utilisateur, merci de vous "
+#~ "enregistrer ou de nous contacter pour que nous puissions le créer."
+
+#~ msgid "Login"
+#~ msgstr "Connexion"
+
+#~ msgid "Register"
+#~ msgstr "S'enregistrer"
+
+#~ msgid "Hello %s,"
+#~ msgstr "Bonjour %s,"
+
+#~ msgid "view-file"
+#~ msgstr "voir-fichier"
+
+#~ msgid "You are not authorized to view this file"
+#~ msgstr "Vous n'êtes pas autorisé à voir ce fichier"
+
+#~ msgid "You are not authorized to access this file"
+#~ msgstr "Vous n'êtes pas autorisé à accéder à ce fichier"
+
+#~ msgid "Customer Files"
+#~ msgstr "Fichiers clients"
+
+#~ msgid "Customer File"
+#~ msgstr "Fichier client"
+
+#~ msgid "Add New"
+#~ msgstr "Ajouter un nouveau"
+
+#~ msgid "Add New Customer File"
+#~ msgstr "Ajouter un fichier client"
+
+#~ msgid "Edit Customer File"
+#~ msgstr "Editer un fichier client"
+
+#~ msgid "New Customer File"
+#~ msgstr "Nouveau fichier client"
+
+#~ msgid "View Customer File"
+#~ msgstr "Voir le fichier client"
+
+#~ msgid "Search Customer Files"
+#~ msgstr "Chercher des fichiers privés : %s"
+
+#~ msgid "No customer files found"
+#~ msgstr "Aucun fichier client trouvé"
+
+#~ msgid "No customer files found in Trash"
+#~ msgstr "Aucun fichier client trouvé dans la corbeille"
+
+#~ msgid "Parent Customer File:"
+#~ msgstr "Fichier client parent :"
+
+#~ msgid "File Categories"
+#~ msgstr "Catégories de fichier"
+
+#~ msgid "File Category"
+#~ msgstr "Catégorie de fichier"
+
+#~ msgid "Search File Categories"
+#~ msgstr "Chercher des catégories de fichier"
+
+#~ msgid "Popular File Categories"
+#~ msgstr "Catégories de fichier populaires"
+
+#~ msgid "All File Categories"
+#~ msgstr "Toutes les catégories de fichier"
+
+#~ msgid "Parent File Category"
+#~ msgstr "Catégorie de fichier parente"
+
+#~ msgid "Parent File Category:"
+#~ msgstr "Catégorie de fichier parente :"
+
+#~ msgid "Edit File Category"
+#~ msgstr "Modifier la catégorie de fichier"
+
+#~ msgid "Update File Category"
+#~ msgstr "Mettre à jour la catégorie de fichier"
+
+#~ msgid "Add New File Category"
+#~ msgstr "Ajouter une catégorie de fichier"
+
+#~ msgid "New File Category"
+#~ msgstr "Nouvelle catégorie de fichier"
+
+#~ msgid "Separate file categories with commas"
+#~ msgstr "Séparez les catégories de fichier avec des virgules"
+
+#~ msgid "Add or remove file categories"
+#~ msgstr "Ajouter ou enlever des catégories de fichier"
+
+#~ msgid "Choose from the most used file categories"
+#~ msgstr "Choisir parmi les catégories de fichier les plus courantes"
+
+#~ msgid "private-file-category"
+#~ msgstr "catégorie-fichier-privé"
+
+#~ msgid "private-file"
+#~ msgstr "fichier-privé"
+
+#~ msgid "unknown"
+#~ msgstr "inconnu"
+
+#~ msgid "Owner"
+#~ msgstr "Propriétaire"
+
+#~ msgid "Nobody"
+#~ msgstr "Personne"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "Current file:"
+#~ msgstr "Fichier actuel :"
+
+#~ msgid "Upload a file"
+#~ msgstr "Téléverser un fichier"
+
+#~ msgid "This file type is not allowed. You can only upload: %s"
+#~ msgstr ""
+#~ "Ce type de fichier n'est pas autorisé. Vous pouvez seulement téléverser : "
+#~ "%s"
+
+#~ msgid "An unknown error happened while uploading your file."
+#~ msgstr ""
+#~ "Une erreur inconnue est survenue lors du téléversement de votre fichier."
+
+#~ msgid "An error happened while uploading your file: %s"
+#~ msgstr "Une erreur est survenue lors du téléversement de votre fichier : %s"
+
+#~ msgid "Associated file"
+#~ msgstr "Fichier associé"
+
+#~ msgid "View"
+#~ msgstr "Voir"
+
+#~ msgid "Download"
+#~ msgstr "Télécharger"
+
+#~ msgid "You currently have no files."
+#~ msgstr "Vous n'avez aucun fichier actuellement."
+
+#~ msgid "Your files"
+#~ msgstr "Vos fichiers"
+
+#~ msgid "Added on %s"
+#~ msgstr "Ajouté le %s"
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "Category"
+#~ msgstr "Catégorie"
+
+#~ msgid "Houston&hellip; we have a problem!"
+#~ msgstr "Houston&hellip; on a un problème !"
+
+#~ msgid ""
+#~ "We have not found what you are looking for. You could simply close this "
+#~ "window out of rage, but you might also want to have a look at the rest of "
+#~ "the website. I am sure you won' be disappointed again. Promise."
+#~ msgstr ""
+#~ "Nous n'avons pas trouvé ce que vous cherchiez. Pour sûr, vous devez être "
+#~ "en pétard, mais vous devriez parcourir le reste du site, vous ne serez "
+#~ "pas déçu de nouveau, promis."
+
+#~ msgid "See our work"
+#~ msgstr "Voir nos projets"
+
+#~ msgid "Browse our blog"
+#~ msgstr "Parcourir le blog"
+
+#~ msgid "By Date"
+#~ msgstr "Par date"
+
+#~ msgid "By Tag"
+#~ msgstr "Par étiquette"
+
+#~ msgid "Filter our work"
+#~ msgstr "Filtrer les projets"
+
+#~ msgid "All projects"
+#~ msgstr "Tous les projets"
+
+#~ msgid "By date"
+#~ msgstr "Par date"
+
+#~ msgid "By type"
+#~ msgstr "Par type"
+
+#~ msgid "Browse our archives"
+#~ msgstr "Parcourez nos archives"
+
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Archives du jour : %s"
+
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Archives du mois : %s"
+
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Archives de l'année : %s"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Archives"
+#~ msgstr "Archives"
+
+#~ msgid "Category Archives: %s"
+#~ msgstr "Archives de la catégorie : %s"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "&laquo; Older Comments"
+#~ msgstr "Commentaires plus anciens &laquo;"
+
+#~ msgid "Newer Comments &raquo;"
+#~ msgstr "Commentaires plus récents &raquo;"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Les commentaires ne sont plus possibles."
+
+#~ msgid "Leave a comment"
+#~ msgstr "Laisser un commentaire"
+
+#~ msgid "Learn more about &laquo; %s &raquo;"
+#~ msgstr "En savoir plus sur &laquo; %s &raquo;"
+
+#~ msgid "Filed under: "
+#~ msgstr "Classé dans : "
+
+#~ msgid "<li>&raquo; Tagged: "
+#~ msgstr "<li>&raquo; Etiqueté : "
+
+#~ msgid "Permalink to %s"
+#~ msgstr "Lien permanent vers %s"
+
+#~ msgid "Read more"
+#~ msgstr "En savoir plus"
+
+#~ msgid "Edit this post"
+#~ msgstr "Editer ce post"
+
+#~ msgid "Get in touch"
+#~ msgstr "Contactez-nous"
+
+#~ msgid "+33 6 50 21 23 94"
+#~ msgstr "06 50 21 23 94"
+
+#~ msgid "hello@marvinlabs.com"
+#~ msgstr "bonjour@marvinlabs.com"
+
+#~ msgid "+1 us on Google+"
+#~ msgstr "+1 sur Google+"
+
+#~ msgid "Like us on Facebook"
+#~ msgstr "Aimez-nous sur Facebook"
+
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Suivez-nous sur Twitter"
+
+#~ msgid "Use our code from GitHub"
+#~ msgstr "Utilisez notre code publié sur GitHub"
+
+#~ msgid "We help fellow developers on StackOverflow"
+#~ msgstr "Nous aidons nos collègues développeurs sur StackOverflow"
+
+#~ msgid "Get our free WordPress plugins & themes"
+#~ msgstr "Téléchargez nos plugins et thèmes gratuits pour WordPress"
+
+#~ msgid "Main navigation menu"
+#~ msgstr "Menu de navigation principal"
+
+#~ msgid "Work"
+#~ msgstr "Projet"
+
+#~ msgid "work"
+#~ msgstr "projet"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Types"
+#~ msgstr "Types"
+
+#~ msgid "work-type"
+#~ msgstr "type-de-projet"
+
+#~ msgid "Skill"
+#~ msgstr "Compétence"
+
+#~ msgid "Skills"
+#~ msgstr "Compétences"
+
+#~ msgid "work-skill"
+#~ msgstr "competence"
+
+#~ msgid "Technology"
+#~ msgstr "Technologie"
+
+#~ msgid "Technologies"
+#~ msgstr "Technologies"
+
+#~ msgid "work-technology"
+#~ msgstr "technologie"
+
+#~ msgid "work-category"
+#~ msgstr "catégorie-projet"
+
+#~ msgid "Single blog post"
+#~ msgstr "Post de blog unique"
+
+#~ msgid "Blog archive page"
+#~ msgstr "Archive du blog"
+
+#~ msgid "Footer, #getintouch"
+#~ msgstr "Footer, #getintouch"
+
+#~ msgid "Footer, #bottom"
+#~ msgstr "Footer, #bottom"
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"
+
+#~ msgid "About this project"
+#~ msgstr "A propos de ce projet"
+
+#~ msgid "Project launched in %s"
+#~ msgstr "Projet lancé en %s"
+
+#~ msgid "View the live website"
+#~ msgstr "Visiter le site en ligne"
+
+#~ msgid "Get the app on Google Play"
+#~ msgstr "Télécharger l'application sur GooglePlay"
+
+#~ msgid "Get the app on Apple's AppStore"
+#~ msgstr "Télécharger l'application sur l'AppStore d'Apple"
+
+#~ msgid "Get the WordPress plugin"
+#~ msgstr "Téléchargez le plugin WordPress"
+
+#~ msgid "Project type: "
+#~ msgstr "Type de projet : "
+
+#~ msgid "Skills: "
+#~ msgstr "Compétences : "
+
+#~ msgid "Technologies: "
+#~ msgstr "Technologies : "
+
+#~ msgid "You like this project and think we can do a good job with yours?"
+#~ msgstr ""
+#~ "Vous aimez ce projet et pensez que nous pourrions faire du bon travail "
+#~ "pour le votre ?"
+
+#~ msgid "Request a quote"
+#~ msgstr "Demandez un devis"
+
+#~ msgid "About this post"
+#~ msgstr "A propos de cet article"
+
+#~ msgid "Posted on: "
+#~ msgstr "Posté le :"
+
+#~ msgid "Tag Archives: %s"
+#~ msgstr "Archives d'étiquette : %s"
+
+#~ msgid "Our projects of type: %s"
+#~ msgstr "Nos projets de type : %s"
+
+#~ msgid "%1$s on %2$s"
+#~ msgstr "%1$s sur %2$s"
+
+#~ msgid "Posts navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+#~ msgstr "<span class=\"meta-nav\">&laquo;</span> Articles plus anciens"
+
+#~ msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+#~ msgstr "Articles plus récents <span class=\"meta-nav\">&raquo;</span>"
+
+#~ msgid "show details"
+#~ msgstr "afficher les détails"
+
+#~ msgid "See all of our work"
+#~ msgstr "Voir tous nos projets"
+
+#~ msgid ""
+#~ "All content on this website is the property of &laquo;Constant le "
+#~ "jardinier&raquo; and may not be used without permission"
+#~ msgstr ""
+#~ "Tout le contenu sur ce site est la propriété exclusive de &laquo;Constant "
+#~ "le jardinier&raquo; et ne peut être utilisé sans permission"
+
+#~ msgid "&copy; Constant le jardinier"
+#~ msgstr "&copy; Constant le jardinier"
+
+#~ msgid ""
+#~ "Designed and carried out by MarvinLabs, digital creation studio in Basque "
+#~ "country, France (Biarritz, Anglet, Bayonne)"
+#~ msgstr ""
+#~ "Imaginé et réalisé par MarvinLabs, studio de création numérique au pays "
+#~ "basque (Biarritz, Anglet, Bayonne)"
+
+#~ msgid "A website planted with care by MarvinLabs"
+#~ msgstr "Un site délicatement planté par MarvinLabs"
+
+#~ msgid "and"
+#~ msgstr "et"
+
+#~ msgid "Paintings by Marilou Laure"
+#~ msgstr "Peintures par Marilou Laure"
+
+#~ msgid "illustrated with taste by Marilou Laure"
+#~ msgstr "illustré avec goût par Marilou Laure"
+
+#~ msgid "Left footer navigation"
+#~ msgstr "Navigation bas gauche"
+
+#~ msgid "Right footer navigation"
+#~ msgstr "Navigation bas droite"
+
+#~ msgid "Services"
+#~ msgstr "Services"
+
+#~ msgid "Service"
+#~ msgstr "Service"
+
+#~ msgid "Footer Widgets 1 (Left)"
+#~ msgstr "Footer Widgets 1 (Left)"
+
+#~ msgid "Footer Widgets 2 (Middle)"
+#~ msgstr "Footer Widgets 2 (Middle)"
+
+#~ msgid "Footer Widgets 3 (Right)"
+#~ msgstr "Footer Widgets 3 (Right)"
+
+#~ msgid "Nothing here"
+#~ msgstr "Rien ici"
+
+#~ msgid "You should not even be on this page!"
+#~ msgstr "Vous ne devriez même pas vous retrouver sur cette page !"

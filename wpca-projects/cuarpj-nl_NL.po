@@ -1,0 +1,1432 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Customer Area Projects\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2015-03-10 14:51:19+00:00\n"
+"PO-Revision-Date: 2015-04-12 00:47+0100\n"
+"Last-Translator: Lennart van Beek <lennart@loveyoudesign.com>\n"
+"Language-Team: Lennart\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:34
+msgid "Projects - Owned"
+msgstr "Projecten - In bezit"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:38
+msgid "My projects"
+msgstr "Mijn projecten"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:42
+msgid "Page to list the projects a customer owns."
+msgstr "Pagina naar een lijst van de projecten van een klant verschuldigd is."
+
+#: src/php/customer-projects/customer-projects-addon.class.php:68
+#: src/php/customer-projects/widget-project-statuses.class.php:34
+msgid "Statuses"
+msgstr "Status"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:79
+msgid "Projects with status: %1$s"
+msgstr "Projecten met de volgende status : %1$s"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:82
+msgid "Projects: %1$s"
+msgstr "Projecten: %1$s"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:87
+msgid "Current Projects"
+msgstr "Lopende Projecten"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:91
+msgid "Recent Projects"
+msgstr "Recente Projecten"
+
+#: src/php/customer-projects/templates/customer-projects-content-empty-taxonomy_archive.template.php:11
+msgid "There are no projects with that status."
+msgstr "Er zijn geen projecten met deze status."
+
+#: src/php/customer-projects/templates/customer-projects-content-empty-taxonomy_archive.template.php:15
+msgid "There are no projects corresponding to this term."
+msgstr "Er zijn geen projecten die overeenkomen met deze term"
+
+#: src/php/customer-projects/templates/customer-projects-content-empty.template.php:8
+msgid "You currently have no projects."
+msgstr "U heeft momenteel geen projecten."
+
+#: src/php/customer-projects/templates/customer-projects-content-item-dashboard.template.php:18
+#: src/php/customer-projects/templates/customer-projects-content-item.template.php:19
+#: src/php/customer-projects/templates/customer-projects-content-item.template.php:32
+msgid "Added on %s"
+msgstr "toegevoegd op %s"
+
+#: src/php/customer-projects/templates/customer-projects-content-item-dashboard.template.php:23
+#: src/php/customer-projects/templates/customer-projects-content-item.template.php:25
+msgid "%1$s %% complete"
+msgstr "%1$s %% Compleet"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:35
+msgid "Manager"
+msgid_plural "Managers"
+msgstr[0] "Manager"
+msgstr[1] "Managers"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:48
+msgid "Participant"
+msgid_plural "Participants"
+msgstr[0] "Deelnemer"
+msgstr[1] "Deelnemers"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:66
+msgid "Kick-off"
+msgstr "Begin"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:71
+msgid "Deadline"
+msgstr "Deadline"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:76
+msgid "Launch"
+msgstr "Lancering"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:86
+msgid "%1$s % complete"
+msgstr "%1$s % Compleet"
+
+#: src/php/customer-projects/widget-project-statuses.class.php:22
+msgid "WPCA - Project Statuses"
+msgstr "WPCA - Project Status"
+
+#: src/php/customer-projects/widget-project-statuses.class.php:24
+msgid "Shows the project statuses of the Customer Area"
+msgstr "Toont de status van het project van de klanten"
+
+#: src/php/customer-projects-home/customer-projects-home-addon.class.php:30
+msgid "Projects - Home"
+msgstr "Projecten - Home"
+
+#: src/php/customer-projects-home/customer-projects-home-addon.class.php:34
+#: src/php/projects/projects-addon.class.php:22
+#: src/php/projects/projects-addon.class.php:72
+#: src/php/projects/projects-addon.class.php:671
+#: src/php/projects/projects-admin-interface.class.php:64
+#: src/php/projects/projects-admin-interface.class.php:65
+#: src/php/projects/projects-admin-interface.class.php:621
+msgid "Projects"
+msgstr "Projecten"
+
+#: src/php/customer-projects-home/customer-projects-home-addon.class.php:38
+msgid "Root page for the customer projects."
+msgstr "Root pagina voor de klant projecten."
+
+#: src/php/projects/projects-addon.class.php:79
+msgid "All projects"
+msgstr "Alle projecten"
+
+#: src/php/projects/projects-addon.class.php:88
+#: src/php/projects/projects-admin-interface.class.php:71
+#: src/php/projects/projects-admin-interface.class.php:72
+msgid "New project"
+msgstr "Nieuw Project"
+
+#: src/php/projects/projects-addon.class.php:97
+#: src/php/projects/projects-addon.class.php:679
+msgid "Manage statuses"
+msgstr "Beheer statussen"
+
+#: src/php/projects/projects-addon.class.php:286
+msgid "Project"
+msgstr "Project"
+
+#: src/php/projects/projects-addon.class.php:674
+msgid "Back-office"
+msgstr "Back-office"
+
+#: src/php/projects/projects-addon.class.php:676
+msgid "Create/Edit projects"
+msgstr "Maak/Bewerk projecten"
+
+#: src/php/projects/projects-addon.class.php:677
+msgid "Delete projects"
+msgstr "Verwijder projecten"
+
+#: src/php/projects/projects-addon.class.php:678
+msgid "Access projects"
+msgstr "Toegang projecten"
+
+#: src/php/projects/projects-addon.class.php:680
+msgid "Edit statuses"
+msgstr "Statussen bewerk"
+
+#: src/php/projects/projects-addon.class.php:681
+msgid "Delete statuses"
+msgstr "Statussen verwijderen"
+
+#: src/php/projects/projects-addon.class.php:682
+msgid "Assign statuses"
+msgstr "Statussen toewijzen"
+
+#: src/php/projects/projects-addon.class.php:686
+msgid "Front-office"
+msgstr "Front-office"
+
+#: src/php/projects/projects-addon.class.php:688
+msgid "View Projects"
+msgstr "Bekijk projecten"
+
+#: src/php/projects/projects-addon.class.php:789
+msgid "Draft"
+msgstr "Concept"
+
+#: src/php/projects/projects-addon.class.php:790
+msgid "Open"
+msgstr "Open"
+
+#: src/php/projects/projects-addon.class.php:791
+msgid "Suspended"
+msgstr "In afwachting"
+
+#: src/php/projects/projects-addon.class.php:792
+msgid "Closed"
+msgstr "Gesloten"
+
+#: src/php/projects/projects-admin-interface.class.php:78
+#: src/php/projects/projects-admin-interface.class.php:79
+msgid "Project Statuses"
+msgstr "Project statussen"
+
+#: src/php/projects/projects-admin-interface.class.php:158
+#: src/php/projects/projects-admin-interface.class.php:344
+msgid "Status"
+msgstr "Status"
+
+#: src/php/projects/projects-admin-interface.class.php:159
+#: src/php/projects/projects-admin-interface.class.php:481
+msgid "Started"
+msgstr "Gestart"
+
+#: src/php/projects/projects-admin-interface.class.php:160
+#: src/php/projects/projects-admin-interface.class.php:487
+msgid "Due"
+msgstr "Vervallen"
+
+#: src/php/projects/projects-admin-interface.class.php:161
+#: src/php/projects/projects-admin-interface.class.php:493
+msgid "Completed"
+msgstr "Voltooid"
+
+#: src/php/projects/projects-admin-interface.class.php:162
+#: src/php/projects/projects-admin-interface.class.php:288
+#: src/php/projects/projects-admin-interface.class.php:309
+#: src/php/projects/projects-admin-interface.class.php:351
+msgid "Progress"
+msgstr "Vooruitgang"
+
+#: src/php/projects/projects-admin-interface.class.php:163
+msgid "People"
+msgstr "Mensen"
+
+#: src/php/projects/projects-admin-interface.class.php:186
+#: src/php/projects/projects-admin-interface.class.php:198
+msgid "Managers"
+msgstr "Managers"
+
+#: src/php/projects/projects-admin-interface.class.php:217
+#: src/php/projects/projects-admin-interface.class.php:220
+#: src/php/projects/projects-admin-interface.class.php:223
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: src/php/projects/projects-admin-interface.class.php:238
+msgid "All statuses"
+msgstr "Alle statussen"
+
+#: src/php/projects/projects-admin-interface.class.php:358
+msgid "Schedule"
+msgstr "Planning"
+
+#: src/php/projects/projects-admin-interface.class.php:366
+msgid "Team"
+msgstr "Team"
+
+#: src/php/projects/projects-admin-interface.class.php:388
+msgid "Select the project managers"
+msgstr "Selecteer de projectmanagers"
+
+#: src/php/projects/projects-admin-interface.class.php:392
+msgid "Select project managers (hint: you can also type to search a user)"
+msgstr ""
+"Selecteer projectmanagers (hint: je kunt ook naar een gebruiker zoeken)"
+
+#: src/php/projects/projects-admin-interface.class.php:403
+msgid "Select the project participants"
+msgstr "Selecteer de deelnemers aan het project"
+
+#: src/php/projects/projects-admin-interface.class.php:407
+msgid "Select project participants (hint: you can also type to search a user)"
+msgstr ""
+"Selecteer deelnemers aan het project (hint: je kunt ook om een gebruiker te "
+"zoeken)"
+
+#: src/php/projects/projects-admin-interface.class.php:633
+msgid "Project statuses"
+msgstr "Project statussen"
+
+#: src/php/projects/projects-admin-interface.class.php:640
+msgid "Default status"
+msgstr "Standaard status"
+
+#: src/php/projects/projects-admin-interface.class.php:653
+msgid "Hide statuses"
+msgstr "Verborgen statussen"
+
+#: src/php/projects/projects-admin-interface.class.php:669
+msgid "Administration"
+msgstr "Administratie"
+
+#: src/php/projects/projects-admin-interface.class.php:676
+msgid "Managers' Role"
+msgstr "Managers Rol"
+
+#: src/php/projects/projects-admin-interface.class.php:691
+msgid "Participants' Role"
+msgstr "Deelnemers Rol"
+
+#. Description of the plugin/theme
+msgid "Adds the concept of project to group private content"
+msgstr "Voegt het concept van het project aan de groep private inhoud"
+
+#: src/php/projects/projects-addon.class.php:331
+#: src/php/projects/projects-addon.class.php:703
+msgctxt "cuar_project"
+msgid "Project"
+msgstr "Project"
+
+#: src/php/projects/projects-addon.class.php:332
+#: src/php/projects/projects-addon.class.php:702
+#: src/php/projects/projects-addon.class.php:713
+msgctxt "cuar_project"
+msgid "Projects"
+msgstr "Projecten"
+
+#: src/php/projects/projects-addon.class.php:704
+msgctxt "cuar_project"
+msgid "Add New"
+msgstr "Nieuw Project"
+
+#: src/php/projects/projects-addon.class.php:705
+msgctxt "cuar_project"
+msgid "Add New Project"
+msgstr "Voeg Nieuw Project Toe"
+
+#: src/php/projects/projects-addon.class.php:706
+msgctxt "cuar_project"
+msgid "Edit Project"
+msgstr "Bewerk Project"
+
+#: src/php/projects/projects-addon.class.php:707
+msgctxt "cuar_project"
+msgid "New Project"
+msgstr "Nieuw Project"
+
+#: src/php/projects/projects-addon.class.php:708
+msgctxt "cuar_project"
+msgid "View Project"
+msgstr "Bekijk Project"
+
+#: src/php/projects/projects-addon.class.php:709
+msgctxt "cuar_project"
+msgid "Search Projects"
+msgstr "Zoek Project"
+
+#: src/php/projects/projects-addon.class.php:710
+msgctxt "cuar_project"
+msgid "No projects found"
+msgstr "Geen project gevonden"
+
+#: src/php/projects/projects-addon.class.php:711
+msgctxt "cuar_project"
+msgid "No projects found in Trash"
+msgstr "Geen Projecten in de prullenbak"
+
+#: src/php/projects/projects-addon.class.php:712
+msgctxt "cuar_project"
+msgid "Parent project:"
+msgstr "Hoofd project:"
+
+#: src/php/projects/projects-addon.class.php:746
+#: src/php/projects/projects-addon.class.php:760
+msgctxt "cuar_project_status"
+msgid "Project Statuses"
+msgstr "Project Statussen"
+
+#: src/php/projects/projects-addon.class.php:747
+msgctxt "cuar_project_status"
+msgid "Project Status"
+msgstr "Project Status"
+
+#: src/php/projects/projects-addon.class.php:748
+msgctxt "cuar_project_status"
+msgid "Search Project Statuses"
+msgstr "Zoek Project Statussen"
+
+#: src/php/projects/projects-addon.class.php:749
+msgctxt "cuar_project_status"
+msgid "Popular Project Statuses"
+msgstr "Populaire Project Statussen"
+
+#: src/php/projects/projects-addon.class.php:750
+msgctxt "cuar_project_status"
+msgid "All Project Statuses"
+msgstr "Alle Project Statussen"
+
+#: src/php/projects/projects-addon.class.php:751
+msgctxt "cuar_project_status"
+msgid "Parent Project Status"
+msgstr "Hoofd Project Status"
+
+#: src/php/projects/projects-addon.class.php:752
+msgctxt "cuar_project_status"
+msgid "Parent Project Status:"
+msgstr "Hoofd Project Status:"
+
+#: src/php/projects/projects-addon.class.php:753
+msgctxt "cuar_project_status"
+msgid "Edit Project Status"
+msgstr "Bewerk Project Status"
+
+#: src/php/projects/projects-addon.class.php:754
+msgctxt "cuar_project_status"
+msgid "Update Project Status"
+msgstr "Update Project Status"
+
+#: src/php/projects/projects-addon.class.php:755
+msgctxt "cuar_project_status"
+msgid "Add New Project Status"
+msgstr "Nieuw Project Toevoegen Status"
+
+#: src/php/projects/projects-addon.class.php:756
+msgctxt "cuar_project_status"
+msgid "New Project Status"
+msgstr "Nieuw Project Status"
+
+#: src/php/projects/projects-addon.class.php:757
+msgctxt "cuar_project_status"
+msgid "Separate project statuses with commas"
+msgstr "Scheid project statussen door komma's"
+
+#: src/php/projects/projects-addon.class.php:758
+msgctxt "cuar_project_status"
+msgid "Add or remove project statuses"
+msgstr "Project statussen toevoegen of verwijderen"
+
+#: src/php/projects/projects-addon.class.php:759
+msgctxt "cuar_project_status"
+msgid "Choose from the most used project statuses"
+msgstr "Kies uit de meest gebruikte project statussen"
+
+#~ msgid "Customer Area - Project Statuses"
+#~ msgstr "Espace client - Statuts de projet"
+
+#~ msgid ""
+#~ "You can hide projects with the given status from the select fields by "
+#~ "default. For example, when you want to assign private content to a "
+#~ "project, it can be handy to hide all closed projects to shorten the list."
+#~ msgstr ""
+#~ "Vous pouvez masquer les projets ayant le statut suivant dans les champs "
+#~ "de sélection projet. Par exemple, quand vous voulez assigner du contenu "
+#~ "privé à un projet, il peut être pratique de ne pas montrer les projets "
+#~ "terminés pour raccourcir la liste."
+
+#~ msgid ""
+#~ "The list of managers when creating or editing a project will be "
+#~ "restricted to this role (or will not be restricted if you select \"any "
+#~ "role\"). If your managers all belong to the same role, this makes "
+#~ "selecting them easier."
+#~ msgstr ""
+#~ "La liste des responsables sera limitée à ce role lors de la création ou "
+#~ "de l'édition d'un projet (ou ne sera pas limitée si vous sélectionnez "
+#~ "\"aucun rôle\"). Si vos responsables appartiennent tous au même rôle, "
+#~ "cela facilite leur sélection."
+
+#~ msgid ""
+#~ "The list of participants when creating or editing a project will be "
+#~ "restricted to this role (or will not be restricted if you select \"any "
+#~ "role\"). If your participants all belong to the same role, this makes "
+#~ "selecting them easier."
+#~ msgstr ""
+#~ "La liste des participants sera limitée à ce role lors de la création ou "
+#~ "de l'édition d'un projet (ou ne sera pas limitée si vous sélectionnez "
+#~ "\"aucun rôle\"). Si vos participants appartiennent tous au même rôle, "
+#~ "cela facilite leur sélection."
+
+#~ msgid "Participants"
+#~ msgstr "Participants"
+
+#~ msgid "This project now has %d participant(s) and %d manager(s)"
+#~ msgstr "Ce compte maintenant %d membre(s) et %d responsable(s)"
+
+#~ msgid "Managed Group"
+#~ msgstr "Groupe Administré"
+
+#~ msgid "Delete managed groups"
+#~ msgstr "Supprimer des groupes administrés"
+
+#~ msgid "Access managed groups"
+#~ msgstr "Voir les groupes administrés"
+
+#~ msgid "View the groups from a user profile"
+#~ msgstr "Voir les groupes dans le profil utilisateur"
+
+#~ msgid "Edit the groups from a user profile"
+#~ msgstr "Changer les groupes dans le profil utilisateur"
+
+#~ msgctxt "cuar_managed_group"
+#~ msgid "Managed Groups"
+#~ msgstr "Groupes Administrés"
+
+#~ msgctxt "cuar_managed_group"
+#~ msgid "Managed Group"
+#~ msgstr "Groupe Administré"
+
+#~ msgctxt "cuar_managed_group"
+#~ msgid "Add New Managed Group"
+#~ msgstr "Ajouter un groupe administré"
+
+#~ msgctxt "cuar_managed_group"
+#~ msgid "Edit Managed Group"
+#~ msgstr "Modifier le groupe administré"
+
+#~ msgctxt "cuar_managed_group"
+#~ msgid "New Managed Group"
+#~ msgstr "Nouveau groupe administré"
+
+#~ msgctxt "cuar_managed_group"
+#~ msgid "View Managed Group"
+#~ msgstr "Voir le groupe administré"
+
+#~ msgctxt "cuar_managed_group"
+#~ msgid "Search Managed Groups"
+#~ msgstr "Chercher un groupe administré : %s"
+
+#~ msgctxt "cuar_managed_group"
+#~ msgid "No user groups found"
+#~ msgstr "Aucun groupe administré trouvé"
+
+#~ msgctxt "cuar_managed_group"
+#~ msgid "No user groups found in Trash"
+#~ msgstr "Aucun groupe administré trouvé dans la corbeille"
+
+#~ msgctxt "cuar_managed_group"
+#~ msgid "Parent Managed Group:"
+#~ msgstr "Groupe administré parent :"
+
+#~ msgid "New Managed Group"
+#~ msgstr "Nouveau groupe administré"
+
+#~ msgid "Members"
+#~ msgstr "Membres"
+
+#~ msgid "Select the group members"
+#~ msgstr "Sélectionner les membres du groupe"
+
+#~ msgid "Select group members (hint: you can also type to search a user)"
+#~ msgstr ""
+#~ "Sélectionnez le(s) membre(s) du groupe (astuce : vous pouvez aussi taper "
+#~ "pour chercher un utilisateur)"
+
+#~ msgid "Members' Role"
+#~ msgstr "Role des Membres"
+
+#~ msgid ""
+#~ "The list of members when creating or editing a managed group will be "
+#~ "restricted to this role (or will not be restricted if you select \"any "
+#~ "role\"). If your members all belong to the same role, this makes "
+#~ "selecting them easier."
+#~ msgstr ""
+#~ "La liste des membres sera limitée à ce role lors de la création ou de "
+#~ "l'édition d'un groupe administré (ou ne sera pas limitée si vous "
+#~ "sélectionnez \"aucun rôle\"). Si vos membres appartiennent tous au même "
+#~ "rôle, cela facilite leur sélection."
+
+#~ msgid "Edit groups managed"
+#~ msgstr "Modifier des groupes administrés"
+
+#~ msgid "You have not yet created any managed groups."
+#~ msgstr "Vous n'avez pas encore créé de groupe administré."
+
+#~ msgid "Choose groups"
+#~ msgstr "Choisir des groupes"
+
+#~ msgid "Edit groups subscribed"
+#~ msgstr "Modifier les groupes"
+
+#~ msgid "You manage: "
+#~ msgstr "Vous êtes responsable de  :"
+
+#~ msgid "This user manages: "
+#~ msgstr "Cet utilisateur est responsable de :"
+
+#~ msgid "You do not manage any group"
+#~ msgstr "Vous n'êtes responsable d'aucun groupe"
+
+#~ msgid "This user does not manage any group"
+#~ msgstr "Cet utilisateur n'est responsable d'aucun groupe"
+
+#~ msgid "You are a member of: "
+#~ msgstr "Vous êtes membre de :"
+
+#~ msgid "This user is a member of: "
+#~ msgstr "Cet utilisateur est membre de :"
+
+#~ msgid "You do not belong to any group"
+#~ msgstr "Vous n'êtes membre d'aucun groupe"
+
+#~ msgid "This user does not belong to any group"
+#~ msgstr "Cet utilisateur n'est membre d'aucun groupe"
+
+#~ msgid "Currently, the group is managed by the following users: "
+#~ msgstr ""
+#~ "Actuellement, le groupe est administré par les utilisateurs suivants :"
+
+#~ msgid "Currently, the group includes the following users: "
+#~ msgstr "Actuellement, le groupe inclue les membres suivants :"
+
+#~ msgid "Automatic Updates"
+#~ msgstr "Mise à jour automatisée"
+
+#~ msgid "License key"
+#~ msgstr "Clé de licence"
+
+#~ msgid ""
+#~ "Do not activate your license on your development site. Only on the final "
+#~ "site where you are running the plugin."
+#~ msgstr ""
+#~ "N'activez pas votre licence sur votre site de développement. Seulement "
+#~ "sur le site final où le plugin sera installé."
+
+#~ msgid "Extended Permissions"
+#~ msgstr "Permissions Etendues"
+
+#~ msgid "Role"
+#~ msgstr "Role"
+
+#~ msgid "User Selection"
+#~ msgstr "Sélection d'utilisateurs"
+
+#~ msgctxt "cuar_user_group"
+#~ msgid "User Group"
+#~ msgstr "Groupe d'Utilisateurs"
+
+#~ msgctxt "cuar_user_group"
+#~ msgid "New User Group"
+#~ msgstr "Nouveau groupe d'utilisateurs"
+
+#~ msgid "User Selections"
+#~ msgstr "Sélections d'utilisateurs"
+
+#~ msgid "Login & Register Forms"
+#~ msgstr "Formulaires Utilisateurs"
+
+#~ msgid "You can now login with your new password"
+#~ msgstr ""
+#~ "Vous pouvez maintenant vous connecter avec votre nouveau mot de passe"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: You must write the code displayed in the image "
+#~ "above."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : vous devez recopier le code affichée dans "
+#~ "l'image."
+
+#~ msgid "<strong>ERROR</strong>: The code you entered is not correct."
+#~ msgstr "<strong>ERREUR</strong> : Le code saisi n'est pas correct."
+
+#~ msgid "An email has been sent with the instructions to reset your password."
+#~ msgstr ""
+#~ "Un courriel a été envoyé avec les instructions pour réinitialiser votre "
+#~ "mot de passe."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: You must enter a valid username and a valid email "
+#~ "address."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : vous devez saisir un nom d'utilisateur et une "
+#~ "adresse mél valides"
+
+#~ msgid ""
+#~ "An email has been sent with the instructions to activate your account."
+#~ msgstr ""
+#~ "Un courriel a été envoyé avec des instructions pour activer votre compte."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+#~ "browser.You must <a href='http://www.google.com/cookies.html'>enable "
+#~ "cookies</a> to login here."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : les cookies sont bloqués ou ne sont pas "
+#~ "supportés par votre navigateur. Vous devez les activer pour vous "
+#~ "connecter ici."
+
+#~ msgid "<strong>ERROR</strong>: User registration is disabled on this site."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : les inscriptions sont désactivées sur ce site."
+
+#~ msgid "Register"
+#~ msgstr "S'enregistrer"
+
+#~ msgid "Please fill the form below to create your account."
+#~ msgstr "Veuillez remplir le formulaire ci-dessous pour créer votre compte."
+
+#~ msgid "Reset your password"
+#~ msgstr "Réinitialiser votre mot de passe"
+
+#~ msgid "Forgot your password"
+#~ msgstr "Oubli du mot de passe"
+
+#~ msgid ""
+#~ "Write down below the email address corresponding to your account and we "
+#~ "will send instructions to recover your password."
+#~ msgstr ""
+#~ "Inscrivez ci-dessous l'adresse mél correspondant à votre compte et nous "
+#~ "enverrons la marche à suivre pour réinitialiser votre mot de passe."
+
+#~ msgid "Login"
+#~ msgstr "Connexion"
+
+#~ msgid ""
+#~ "You must login to access your own customer area. If you do not have an "
+#~ "account yet, please register or contact us so that we can create it."
+#~ msgstr ""
+#~ "Vous devez être connecté pour accéder à votre zone client. Si vous n'avez "
+#~ "pas encore de compte utilisateur, merci de vous enregistrer ou de nous "
+#~ "contacter pour que nous puissions le créer."
+
+#~ msgid "Customer Area"
+#~ msgstr "Espace Client"
+
+#~ msgid "Login Form"
+#~ msgstr "Formulaire de connexion"
+
+#~ msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Saississez un nom d'utilisateur ou une adresse "
+#~ "mél."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: There is no user registered with that email "
+#~ "address."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Il n'y a pas de compte utilisateur "
+#~ "correspondant à cette adresse mél."
+
+#~ msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Nom d'utilisateur ou adresse mél invalide."
+
+#~ msgid "Password reset is not allowed for this user"
+#~ msgstr "La réinitialisation du mot de passe n'est pas autorisée"
+
+#~ msgid ""
+#~ "Someone requested that the password be reset for the following account:"
+#~ msgstr ""
+#~ "Quelqu'un a demandé une réinitialisation du mot de passe pour le compte "
+#~ "suivant :"
+
+#~ msgid "Username: %s"
+#~ msgstr "Identifiant : %s"
+
+#~ msgid ""
+#~ "If this was a mistake, just ignore this email and nothing will happen."
+#~ msgstr ""
+#~ "Si c'est une erreur, veuillez ignorer ce courriel et rien ne se passera."
+
+#~ msgid "To reset your password, visit the following address:"
+#~ msgstr "Pour réinitialiser votre mot de passe, rendez-vous sur cette page :"
+
+#~ msgid "[%s] Password Reset"
+#~ msgstr "[%s] Réinitialisation du mot de passe"
+
+#~ msgid "The e-mail could not be sent."
+#~ msgstr "Le courriel n'a pas pu être envoyé."
+
+#~ msgid "Possible reason: your host may have disabled the mail() function..."
+#~ msgstr "Possible reason: your host may have disabled the mail() function..."
+
+#~ msgid "Invalid key"
+#~ msgstr "Clé invalide"
+
+#~ msgid "<strong>ERROR</strong>: Please enter a username."
+#~ msgstr "<strong>ERREUR</strong> : veuillez saisir un identifiant."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: This username is invalid because it uses illegal "
+#~ "characters. Please enter a valid username."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Cet identifiant est invalide car il comprend "
+#~ "des caractères invalides. Veuillez corriger."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: This username is already registered. Please "
+#~ "choose another one."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Cet identifiant existe déjà. Veuillez en "
+#~ "choisir un autre."
+
+#~ msgid "<strong>ERROR</strong>: Please type your e-mail address."
+#~ msgstr "<strong>ERREUR</strong> : Veuillez saisir votre adresse mél."
+
+#~ msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+#~ msgstr "<strong>ERREUR</strong> : L'adresse mél est invalide."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: This email is already registered, please choose "
+#~ "another one."
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> : Cette adresse mél correspond déjà à un compte "
+#~ "utilisateur, veuillez en choisir une autre."
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the "
+#~ "<a href=\"mailto:%s\">webmaster</a> !"
+#~ msgstr ""
+#~ "<strong>ERREUR</strong> :  Impossible de créer votre compte, contactez le "
+#~ "<a href=\"mailto:%s\">webmaster</a> !"
+
+#~ msgid "New user registration on your site %s:"
+#~ msgstr "Nouvel utilisateur sur votre site %s :"
+
+#~ msgid "E-mail: %s"
+#~ msgstr "Email : %s"
+
+#~ msgid "[%s] New User Registration"
+#~ msgstr "[%s] Nouvelle inscription"
+
+#~ msgid "Password: %s"
+#~ msgstr "Mot de passe : %s"
+
+#~ msgid "[%s] Your username and password"
+#~ msgstr "[%s] Vos identifiant et mot de passe"
+
+#~ msgid "Username"
+#~ msgstr "Identifiant"
+
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+
+#~ msgid "Remember me"
+#~ msgstr "Se souvenir de moi"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "Oubli du mot de passe ?"
+
+#~ msgid "Create your account"
+#~ msgstr "Créer votre compte"
+
+#~ msgid "Username or Email"
+#~ msgstr "Identifiant ou adresse mél"
+
+#~ msgid "Spam Check"
+#~ msgstr "Vérification contre le spam"
+
+#~ msgid "Copy the code shown above in the input field."
+#~ msgstr "Copiez le code ci-dessus dans le champ de saisie."
+
+#~ msgid "Get New Password"
+#~ msgstr "Obtenir un nouveau mot de passe"
+
+#~ msgid "Email Address"
+#~ msgstr "Adresse mél"
+
+#~ msgid "A password will be e-mailed to you."
+#~ msgstr "Un mot de passe vous sera envoyé."
+
+#~ msgid "New Password"
+#~ msgstr "Nouveau mot de passe"
+
+#~ msgid "Type your new password again."
+#~ msgstr "Saisissez votre mot de passe de nouveau."
+
+#~ msgid "Change Password"
+#~ msgstr "Changer de mot de passe"
+
+#~ msgid "General"
+#~ msgstr "Réglages généraux"
+
+#~ msgid "Email format"
+#~ msgstr "Format du mel"
+
+#~ msgid "Plain text"
+#~ msgstr "Texte"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid ""
+#~ "The format in which login_form get sent. HTML might not always be "
+#~ "properly formatted."
+#~ msgstr ""
+#~ "Le format dans lequel les notifications sont envoyées. HTML peut ne pas "
+#~ "être correctement mis en forme."
+
+#~ msgid "The notification can not be sent if the file is not published"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le fichier n'est pas publié"
+
+#~ msgid "The notification can not be sent if the file does not have an owner"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le fichier n'a pas de "
+#~ "propriétaire"
+
+#~ msgid "The notification can not be sent if the file has not been uploaded"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si aucun fichier n'a été "
+#~ "téléversé"
+
+#~ msgid "A notification has been sent to %s"
+#~ msgstr "Une notification a été envoyée à %s"
+
+#~ msgid "Notifications"
+#~ msgstr "Notifications"
+
+#~ msgid "Let the owner know he can access this file"
+#~ msgstr "Informer le propriétaire qu'il peut accéder à ce fichier"
+
+#~ msgid ""
+#~ "The notification will only be sent if you publish the file, if you have "
+#~ "actually uploaded a file and if you have set an owner. Else nothing will "
+#~ "be sent."
+#~ msgstr ""
+#~ "La notification ne sera envoyée que si vous publiez le fichier, si vous "
+#~ "avez téléversé un fichier et si vous lui avez assigné un propriétaire. "
+#~ "Sinon rien ne sera envoyé."
+
+#~ msgid "From"
+#~ msgstr "De"
+
+#~ msgid "The emails will be shown as sent by this name."
+#~ msgstr "Les courriels seront vus comme envoyés de ce nom."
+
+#~ msgid "The emails will be shown as sent from this address."
+#~ msgstr "Les courriels seront vus comme envoyés de cette adresse."
+
+#~ msgid "New Private File"
+#~ msgstr "Nouveau Fichier Privé"
+
+#~ msgid "Mode"
+#~ msgstr "Mode"
+
+#~ msgid "Disabled"
+#~ msgstr "Désactivé"
+
+#~ msgid "Enabled"
+#~ msgstr "Activé"
+
+#~ msgid "Subjet"
+#~ msgstr "Sujet"
+
+#~ msgid "Body"
+#~ msgstr "Contenu"
+
+#~ msgid "Private File Download"
+#~ msgstr "Téléchargement d'un Fichier Privé"
+
+#~ msgid "Only the first time"
+#~ msgstr "Seulement la première fois"
+
+#~ msgid "Always"
+#~ msgstr "Toujours"
+
+#~ msgid ""
+#~ "You can choose whether you want to enable this notification. If you do, "
+#~ "you can opt to receive the notifications only the first time the user "
+#~ "downloads the file or every time he does it."
+#~ msgstr ""
+#~ "Vous pouvez choisir d'activer cette notification ou non. Si oui, vous "
+#~ "pouvez choisir de la recevoir seulement la première fois que le fichier "
+#~ "est téléchargé ou à chaque fois."
+
+#~ msgid "A new file for you is available on %site_name%"
+#~ msgstr "Un fichier est disponible sur votre espace client de %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello %file_owner%,</p><p>A new file (%file_title%) has been made "
+#~ "available for you in our customer area. You can download it by following "
+#~ "the link: %file_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url"
+#~ "%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %file_owner%,</p><p>Un nouveau fichier (%file_title%) a été "
+#~ "déposé dans votre espace client. Vous pouvez le télécharger en suivant le "
+#~ "lien : %file_url%</p><p>Cordialement,</p><p>%from_name%<br/>%site_url%</p>"
+
+#~ msgid "New file download on %site_name%"
+#~ msgstr "Nouveau téléchargement sur %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello,</p><p>A file (%file_title%) has been downloaded by "
+#~ "%download_user%.</p><p>Best regards,</p><p>The customer area plugin<br/>"
+#~ "%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour,</p><p>Un fichier (%file_title%) a été téléchargé par "
+#~ "%download_user%.</p><p>Cordialement,</p><p>Votre plugin zone client<br/>"
+#~ "%site_url%</p>"
+
+#~ msgid ""
+#~ "Define here the email that will get sent to a user when a new private "
+#~ "file is uploaded for him."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé à un utilisateur quand un nouveau "
+#~ "fichier est déposé pour lui."
+
+#~ msgid "Show after post"
+#~ msgstr "Après l'article"
+
+#~ msgid ""
+#~ "Show the view and download links below the post content for a customer "
+#~ "file."
+#~ msgstr ""
+#~ "Afficher les liens pour voir ou télécharger un fichier sous le contenu "
+#~ "d'un article représentant un fichier client."
+
+#~ msgid "Include CSS"
+#~ msgstr "Inclure le CSS"
+
+#~ msgid "Include the default stylesheet."
+#~ msgstr "Inclure la feuille de style par défaut"
+
+#~ msgid "If not, you should style the plugin yourself in your theme."
+#~ msgstr ""
+#~ "Si non, vous devrez mettre en forme le plugin par vous-même dans votre "
+#~ "thème."
+
+#~ msgid " is not a valid value"
+#~ msgstr "n'est pas une valeur valide"
+
+#~ msgid "must be an integer"
+#~ msgstr "doit être un entier"
+
+#~ msgid "must be greater than %s"
+#~ msgstr "doit être plus grand que %s"
+
+#~ msgid "must be lower than %s"
+#~ msgstr "doit être plus petit que %s"
+
+#~ msgid "Hello"
+#~ msgstr "Bonjour"
+
+#~ msgid "You must login to access your own customer area."
+#~ msgstr "Vous devez être connecté pour accéder à votre espace client"
+
+#~ msgid "Hello %s,"
+#~ msgstr "Bonjour %s,"
+
+#~ msgid "download-file"
+#~ msgstr "télécharger-fichier"
+
+#~ msgid "view-file"
+#~ msgstr "voir-fichier"
+
+#~ msgid "You are not authorized to view this file"
+#~ msgstr "Vous n'êtes pas autorisé à voir ce fichier"
+
+#~ msgid "You are not authorized to access this file"
+#~ msgstr "Vous n'êtes pas autorisé à accéder à ce fichier"
+
+#~ msgid "Customer Files"
+#~ msgstr "Fichiers clients"
+
+#~ msgid "Customer File"
+#~ msgstr "Fichier client"
+
+#~ msgid "Edit Customer File"
+#~ msgstr "Editer un fichier client"
+
+#~ msgid "New Customer File"
+#~ msgstr "Nouveau fichier client"
+
+#~ msgid "View Customer File"
+#~ msgstr "Voir le fichier client"
+
+#~ msgid "File Categories"
+#~ msgstr "Catégories de fichier"
+
+#~ msgid "File Category"
+#~ msgstr "Catégorie de fichier"
+
+#~ msgid "Search File Categories"
+#~ msgstr "Chercher des catégories de fichier"
+
+#~ msgid "Popular File Categories"
+#~ msgstr "Catégories de fichier populaires"
+
+#~ msgid "All File Categories"
+#~ msgstr "Toutes les catégories de fichier"
+
+#~ msgid "Parent File Category"
+#~ msgstr "Catégorie de fichier parente"
+
+#~ msgid "Parent File Category:"
+#~ msgstr "Catégorie de fichier parente :"
+
+#~ msgid "Edit File Category"
+#~ msgstr "Modifier la catégorie de fichier"
+
+#~ msgid "Update File Category"
+#~ msgstr "Mettre à jour la catégorie de fichier"
+
+#~ msgid "Add New File Category"
+#~ msgstr "Ajouter une catégorie de fichier"
+
+#~ msgid "New File Category"
+#~ msgstr "Nouvelle catégorie de fichier"
+
+#~ msgid "private-file-category"
+#~ msgstr "catégorie-fichier-privé"
+
+#~ msgid "private-file"
+#~ msgstr "fichier-privé"
+
+#~ msgid "unknown"
+#~ msgstr "inconnu"
+
+#~ msgid "Owner"
+#~ msgstr "Propriétaire"
+
+#~ msgid "Nobody"
+#~ msgstr "Personne"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "Current file:"
+#~ msgstr "Fichier actuel :"
+
+#~ msgid "Upload a file"
+#~ msgstr "Téléverser un fichier"
+
+#~ msgid "This file type is not allowed. You can only upload: %s"
+#~ msgstr ""
+#~ "Ce type de fichier n'est pas autorisé. Vous pouvez seulement téléverser : "
+#~ "%s"
+
+#~ msgid "An unknown error happened while uploading your file."
+#~ msgstr ""
+#~ "Une erreur inconnue est survenue lors du téléversement de votre fichier."
+
+#~ msgid "An error happened while uploading your file: %s"
+#~ msgstr "Une erreur est survenue lors du téléversement de votre fichier : %s"
+
+#~ msgid "Associated file"
+#~ msgstr "Fichier associé"
+
+#~ msgid "View"
+#~ msgstr "Voir"
+
+#~ msgid "Download"
+#~ msgstr "Télécharger"
+
+#~ msgid "Your files"
+#~ msgstr "Vos fichiers"
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "Category"
+#~ msgstr "Catégorie"
+
+#~ msgid "Houston&hellip; we have a problem!"
+#~ msgstr "Houston&hellip; on a un problème !"
+
+#~ msgid ""
+#~ "We have not found what you are looking for. You could simply close this "
+#~ "window out of rage, but you might also want to have a look at the rest of "
+#~ "the website. I am sure you won' be disappointed again. Promise."
+#~ msgstr ""
+#~ "Nous n'avons pas trouvé ce que vous cherchiez. Pour sûr, vous devez être "
+#~ "en pétard, mais vous devriez parcourir le reste du site, vous ne serez "
+#~ "pas déçu de nouveau, promis."
+
+#~ msgid "Browse our blog"
+#~ msgstr "Parcourir le blog"
+
+#~ msgid "By Date"
+#~ msgstr "Par date"
+
+#~ msgid "By Tag"
+#~ msgstr "Par étiquette"
+
+#~ msgid "Filter our work"
+#~ msgstr "Filtrer les projets"
+
+#~ msgid "By date"
+#~ msgstr "Par date"
+
+#~ msgid "By type"
+#~ msgstr "Par type"
+
+#~ msgid "Browse our archives"
+#~ msgstr "Parcourez nos archives"
+
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Archives du jour : %s"
+
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Archives du mois : %s"
+
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Archives de l'année : %s"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Archives"
+#~ msgstr "Archives"
+
+#~ msgid "Category Archives: %s"
+#~ msgstr "Archives de la catégorie : %s"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "&laquo; Older Comments"
+#~ msgstr "Commentaires plus anciens &laquo;"
+
+#~ msgid "Newer Comments &raquo;"
+#~ msgstr "Commentaires plus récents &raquo;"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Les commentaires ne sont plus possibles."
+
+#~ msgid "Leave a comment"
+#~ msgstr "Laisser un commentaire"
+
+#~ msgid "Learn more about &laquo; %s &raquo;"
+#~ msgstr "En savoir plus sur &laquo; %s &raquo;"
+
+#~ msgid "Filed under: "
+#~ msgstr "Classé dans : "
+
+#~ msgid "<li>&raquo; Tagged: "
+#~ msgstr "<li>&raquo; Etiqueté : "
+
+#~ msgid "Permalink to %s"
+#~ msgstr "Lien permanent vers %s"
+
+#~ msgid "Read more"
+#~ msgstr "En savoir plus"
+
+#~ msgid "Edit this post"
+#~ msgstr "Editer ce post"
+
+#~ msgid "Get in touch"
+#~ msgstr "Contactez-nous"
+
+#~ msgid "+33 6 50 21 23 94"
+#~ msgstr "06 50 21 23 94"
+
+#~ msgid "hello@marvinlabs.com"
+#~ msgstr "bonjour@marvinlabs.com"
+
+#~ msgid "+1 us on Google+"
+#~ msgstr "+1 sur Google+"
+
+#~ msgid "Like us on Facebook"
+#~ msgstr "Aimez-nous sur Facebook"
+
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Suivez-nous sur Twitter"
+
+#~ msgid "Use our code from GitHub"
+#~ msgstr "Utilisez notre code publié sur GitHub"
+
+#~ msgid "We help fellow developers on StackOverflow"
+#~ msgstr "Nous aidons nos collègues développeurs sur StackOverflow"
+
+#~ msgid "Get our free WordPress plugins & themes"
+#~ msgstr "Téléchargez nos plugins et thèmes gratuits pour WordPress"
+
+#~ msgid "Main navigation menu"
+#~ msgstr "Menu de navigation principal"
+
+#~ msgid "Work"
+#~ msgstr "Projet"
+
+#~ msgid "work"
+#~ msgstr "projet"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Types"
+#~ msgstr "Types"
+
+#~ msgid "work-type"
+#~ msgstr "type-de-projet"
+
+#~ msgid "Skill"
+#~ msgstr "Compétence"
+
+#~ msgid "Skills"
+#~ msgstr "Compétences"
+
+#~ msgid "work-skill"
+#~ msgstr "competence"
+
+#~ msgid "Technology"
+#~ msgstr "Technologie"
+
+#~ msgid "Technologies"
+#~ msgstr "Technologies"
+
+#~ msgid "work-technology"
+#~ msgstr "technologie"
+
+#~ msgid "work-category"
+#~ msgstr "catégorie-projet"
+
+#~ msgid "Single blog post"
+#~ msgstr "Post de blog unique"
+
+#~ msgid "Blog archive page"
+#~ msgstr "Archive du blog"
+
+#~ msgid "Footer, #getintouch"
+#~ msgstr "Footer, #getintouch"
+
+#~ msgid "Footer, #bottom"
+#~ msgstr "Footer, #bottom"
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"
+
+#~ msgid "About this project"
+#~ msgstr "A propos de ce projet"
+
+#~ msgid "Project launched in %s"
+#~ msgstr "Projet lancé en %s"
+
+#~ msgid "View the live website"
+#~ msgstr "Visiter le site en ligne"
+
+#~ msgid "Get the app on Google Play"
+#~ msgstr "Télécharger l'application sur GooglePlay"
+
+#~ msgid "Get the app on Apple's AppStore"
+#~ msgstr "Télécharger l'application sur l'AppStore d'Apple"
+
+#~ msgid "Get the WordPress plugin"
+#~ msgstr "Téléchargez le plugin WordPress"
+
+#~ msgid "Skills: "
+#~ msgstr "Compétences : "
+
+#~ msgid "Technologies: "
+#~ msgstr "Technologies : "
+
+#~ msgid "You like this project and think we can do a good job with yours?"
+#~ msgstr ""
+#~ "Vous aimez ce projet et pensez que nous pourrions faire du bon travail "
+#~ "pour le votre ?"
+
+#~ msgid "Request a quote"
+#~ msgstr "Demandez un devis"
+
+#~ msgid "About this post"
+#~ msgstr "A propos de cet article"
+
+#~ msgid "Posted on: "
+#~ msgstr "Posté le :"
+
+#~ msgid "Tag Archives: %s"
+#~ msgstr "Archives d'étiquette : %s"
+
+#~ msgid "Our projects of type: %s"
+#~ msgstr "Nos projets de type : %s"
+
+#~ msgid "%1$s on %2$s"
+#~ msgstr "%1$s sur %2$s"
+
+#~ msgid "Posts navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+#~ msgstr "<span class=\"meta-nav\">&laquo;</span> Articles plus anciens"
+
+#~ msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+#~ msgstr "Articles plus récents <span class=\"meta-nav\">&raquo;</span>"
+
+#~ msgid "show details"
+#~ msgstr "afficher les détails"
+
+#~ msgid "See all of our work"
+#~ msgstr "Voir tous nos projets"
+
+#~ msgid ""
+#~ "All content on this website is the property of &laquo;Constant le "
+#~ "jardinier&raquo; and may not be used without permission"
+#~ msgstr ""
+#~ "Tout le contenu sur ce site est la propriété exclusive de &laquo;Constant "
+#~ "le jardinier&raquo; et ne peut être utilisé sans permission"
+
+#~ msgid "&copy; Constant le jardinier"
+#~ msgstr "&copy; Constant le jardinier"
+
+#~ msgid ""
+#~ "Designed and carried out by MarvinLabs, digital creation studio in Basque "
+#~ "country, France (Biarritz, Anglet, Bayonne)"
+#~ msgstr ""
+#~ "Imaginé et réalisé par MarvinLabs, studio de création numérique au pays "
+#~ "basque (Biarritz, Anglet, Bayonne)"
+
+#~ msgid "A website planted with care by MarvinLabs"
+#~ msgstr "Un site délicatement planté par MarvinLabs"
+
+#~ msgid "and"
+#~ msgstr "et"
+
+#~ msgid "Paintings by Marilou Laure"
+#~ msgstr "Peintures par Marilou Laure"
+
+#~ msgid "illustrated with taste by Marilou Laure"
+#~ msgstr "illustré avec goût par Marilou Laure"
+
+#~ msgid "Left footer navigation"
+#~ msgstr "Navigation bas gauche"
+
+#~ msgid "Right footer navigation"
+#~ msgstr "Navigation bas droite"
+
+#~ msgid "Services"
+#~ msgstr "Services"
+
+#~ msgid "Service"
+#~ msgstr "Service"
+
+#~ msgid "Footer Widgets 1 (Left)"
+#~ msgstr "Footer Widgets 1 (Left)"
+
+#~ msgid "Footer Widgets 2 (Middle)"
+#~ msgstr "Footer Widgets 2 (Middle)"
+
+#~ msgid "Footer Widgets 3 (Right)"
+#~ msgstr "Footer Widgets 3 (Right)"
+
+#~ msgid "Nothing here"
+#~ msgstr "Rien ici"
+
+#~ msgid "You should not even be on this page!"
+#~ msgstr "Vous ne devriez même pas vous retrouver sur cette page !"

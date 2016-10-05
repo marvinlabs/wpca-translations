@@ -1,0 +1,1453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Customer Area Notifications\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2015-03-04 09:37:05+00:00\n"
+"PO-Revision-Date: 2015-04-12 00:44+0100\n"
+"Last-Translator: Lennart van Beek <lennart@loveyoudesign.com>\n"
+"Language-Team: MarvinLabs\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: src/php/customer-manage-tasks/customer-manage-tasks-addon.class.php:33
+msgid "Task lists - Manage tasks"
+msgstr "Takenlijsten - Taken Beheren"
+
+#: src/php/customer-manage-tasks/customer-manage-tasks-addon.class.php:37
+msgid "Manage tasks of a list"
+msgstr "Beheer taken van een lijst"
+
+#: src/php/customer-manage-tasks/customer-manage-tasks-addon.class.php:41
+msgid "Page to create, remove and edit tasks of a lists."
+msgstr ""
+"Pagina aan te maken, te verwijderen en taken van een lijst te bewerken."
+
+#: src/php/customer-manage-tasks/customer-manage-tasks-addon.class.php:216
+#: src/php/customer-manage-tasks/customer-manage-tasks-addon.class.php:217
+msgid "Manage tasks"
+msgstr "Beheer taken"
+
+#: src/php/customer-manage-tasks/customer-manage-tasks-addon.class.php:237
+msgid "Manage tasks of list"
+msgstr "Beheer taken van de lijst"
+
+#: src/php/customer-manage-tasks/customer-manage-tasks-addon.class.php:246
+msgid ""
+"Slug that is used in the URL to manage the tasks of an existing task list"
+msgstr ""
+"Slug die wordt gebruikt in de URL om de taken van een bestaande takenlijst "
+"beheren"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-content.template.php:4
+msgid "Go back to the task list"
+msgstr "Ga terug naar de takenlijst"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-content.template.php:4
+msgid "Go back to task list"
+msgstr "Ga terug naar de takenlijst"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-edit-task-item-add.template.php:12
+#: src/php/tasks/templates/partial-admin-form-new-task.template.php:17
+msgid "Add a task"
+msgstr "Een taak toevoegen"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-edit-task-item-add.template.php:23
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-edit-task-item.template.php:60
+msgid "Due date (yyyy/mm/dd)"
+msgstr "Vervaldag (jjjj / mm / dd)"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-edit-task-item-add.template.php:27
+#: src/php/tasks/templates/partial-form-new-task.template.php:32
+msgid "Add task"
+msgstr "Taak Toevoegen"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-edit-task-item-add.template.php:27
+#: src/php/tasks/templates/partial-form-new-task.template.php:32
+msgid "Add"
+msgstr "Toevoegen"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-edit-task-item.template.php:40
+#: src/php/tasks/templates/partial-admin-list-task-item.template.php:33
+msgid "Edit"
+msgstr "Bewerken"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-edit-task-item.template.php:41
+#: src/php/tasks/templates/partial-admin-list-task-item.template.php:34
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-edit-task-item.template.php:55
+#: src/php/tasks/templates/partial-admin-list-task-item.template.php:54
+msgid "Order"
+msgstr "Order"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-edit-task-item.template.php:65
+msgid "Update task"
+msgstr "Taak - update"
+
+#: src/php/customer-manage-tasks/templates/customer-manage-tasks-edit-task-item.template.php:65
+msgid "Save"
+msgstr "Bewaren"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:29
+msgid "Task lists - New"
+msgstr "Takenlijsten - Nieuw"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:33
+msgid "Create task list"
+msgstr "Takenlijst maken"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:37
+msgid "Page to create new task lists."
+msgstr "Pagina naar nieuwe taak lijsten maken."
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:63
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:64
+msgid "The title cannot be empty"
+msgstr "De Titel mag niet leeg zijn."
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:64
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:65
+msgid "The description cannot be empty"
+msgstr "De omschrijving mag niet leeg zijn"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:65
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:66
+msgid "You must select at least one owner"
+msgstr "U moet op ze minst één eigenaar opgeven"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:81
+msgid "The task list has been created."
+msgstr "De takenlijst is gemaakt."
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:8
+msgid "Title"
+msgstr "Titel"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:9
+msgid "Content"
+msgstr "De inhoud"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:10
+msgid "Owner"
+msgstr "Eigenaar"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:11
+msgid "Create"
+msgstr "Creëren"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:34
+msgid "Task lists - Owned"
+msgstr "Takenlijsten - Eigenaar"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:38
+msgid "My task lists"
+msgstr "Mijn takenlijsten"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:42
+msgid "Page to list the task lists a customer owns."
+msgstr "Pagina naar een lijst van de takenlijsten een klant verschuldigd is."
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:70
+msgid "Task lists you published"
+msgstr "Takenlijsten u gepubliceerd"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:74
+msgid "Task lists published by %1$s"
+msgstr "Takenlijsten gepubliceerd door %1$s"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:78
+msgid "Task lists under %1$s"
+msgstr "Takenlijsten onder %1$s"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:84
+msgid "Task lists published in %2$s %1$s"
+msgstr "Takenlijsten gepubliceerd in %2$s %1$s"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:86
+msgid "Task lists published in %1$s"
+msgstr "Takenlijsten gepubliceerd in %1$s"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:93
+#: src/php/tasks/tasks-admin-interface.class.php:94
+#: src/php/tasks/tasks-admin-interface.class.php:95
+msgid "Task Lists"
+msgstr "Takenlijsten"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:97
+msgid "Recent Task Lists"
+msgstr "Recente Takenlijsten"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-empty-category_archive.template.php:8
+msgid "There are no task lists corresponding to this category."
+msgstr "Er zijn geen takenlijsten die overeenkomen met deze categorie."
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-empty.template.php:8
+msgid "You currently have no task lists."
+msgstr "U heeft momenteel geen takenlijsten."
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item-dashboard.template.php:19
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item.template.php:20
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item.template.php:31
+msgid "Added on %s"
+msgstr "Toegevoegd op %s"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item-dashboard.template.php:24
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item.template.php:25
+#: src/php/customer-tasklists/templates/customer-tasklists-single-post-footer.template.php:44
+msgid "%1$s % complete"
+msgstr "%1$s % Compleet"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-single-post-footer.template.php:25
+msgid "Author"
+msgstr "Auteur"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-single-post-footer.template.php:30
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:10
+msgid "Recipient"
+msgstr "Recipiënt"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-single-post-footer.template.php:35
+msgid "Date"
+msgstr "Datum"
+
+#: src/php/customer-tasks-home/customer-tasks-home-addon.class.php:30
+msgid "Tasks - Home"
+msgstr "Taken - Home"
+
+#: src/php/customer-tasks-home/customer-tasks-home-addon.class.php:34
+#: src/php/tasks/tasks-addon.class.php:21
+#: src/php/tasks/tasks-addon.class.php:77
+#: src/php/tasks/tasks-addon.class.php:546
+#: src/php/tasks/tasks-admin-interface.class.php:214
+#: src/php/tasks/tasks-admin-interface.class.php:454
+msgid "Tasks"
+msgstr "Taken"
+
+#: src/php/customer-tasks-home/customer-tasks-home-addon.class.php:38
+msgid "Root page for the customer tasks."
+msgstr "Root pagina voor de klant taken."
+
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:29
+msgid "Task lists - Update"
+msgstr "Takenlijst - Update"
+
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:33
+msgid "Update task list"
+msgstr "Bijwerken takenlijst"
+
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:37
+msgid "Page to update task lists."
+msgstr "Pagina om takenlijsten bij te werken."
+
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:79
+msgid "The task list has been updated."
+msgstr "De taaklijst is bijgewerkt."
+
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:8
+msgid "Topic"
+msgstr "Onderwerp"
+
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:9
+msgid "Message"
+msgstr "Bericht"
+
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:11
+msgid "Update"
+msgstr "Update"
+
+#: src/php/tasks/tasks-addon.class.php:86
+msgid "All lists"
+msgstr "Alle lijsten"
+
+#: src/php/tasks/tasks-addon.class.php:95
+msgid "New list"
+msgstr "Nieuwe lijst"
+
+#: src/php/tasks/tasks-addon.class.php:171
+#: src/php/tasks/tasks-addon.class.php:208
+#: src/php/tasks/tasks-addon.class.php:255
+msgid "The list does not exist"
+msgstr "De lijst bestaat niet"
+
+#: src/php/tasks/tasks-addon.class.php:260
+msgid "You must specify a task to update"
+msgstr "U moet een taak specifiëren om deze bij te werken"
+
+#: src/php/tasks/tasks-addon.class.php:549
+msgid "Back-office"
+msgstr "Back-office"
+
+#: src/php/tasks/tasks-addon.class.php:551
+msgid "List all lists"
+msgstr "Lijst van alle lijsten"
+
+#: src/php/tasks/tasks-addon.class.php:552
+msgid "Access lists"
+msgstr "Toegang lijsten"
+
+#: src/php/tasks/tasks-addon.class.php:553
+msgid "Create/Edit lists"
+msgstr "Maak/Bewerk Lijsten"
+
+#: src/php/tasks/tasks-addon.class.php:554
+msgid "Delete lists"
+msgstr "Verwijder lijsten"
+
+#: src/php/tasks/tasks-addon.class.php:558
+msgid "Front-office"
+msgstr "Front-office"
+
+#: src/php/tasks/tasks-addon.class.php:560
+msgid "View task lists"
+msgstr "Bekijk takenlijsten"
+
+#: src/php/tasks/tasks-addon.class.php:561
+msgid "View any task list"
+msgstr "Bekijk elke takenlijst"
+
+#: src/php/tasks/tasks-addon.class.php:562
+msgid "Manage tasks of any lists"
+msgstr "Beheer taken van elke lijst"
+
+#: src/php/tasks/tasks-addon.class.php:563
+msgid "Manage tasks of own lists"
+msgstr "Beheer taken van eigen lijsten"
+
+#: src/php/tasks/tasks-addon.class.php:564
+msgid "Manage tasks of assigned lists"
+msgstr "Beheer taken van toegewezen lijsten"
+
+#: src/php/tasks/tasks-addon.class.php:565
+msgid "Check any task"
+msgstr "Controleer elke taak"
+
+#: src/php/tasks/tasks-addon.class.php:566
+msgid "Check tasks in own lists"
+msgstr "Controleer taken in eigen lijsten"
+
+#: src/php/tasks/tasks-addon.class.php:567
+msgid "Check tasks in assigned lists"
+msgstr "Controleer taken toegewezen lijsten"
+
+#: src/php/tasks/tasks-addon.class.php:625
+#: src/php/tasks/templates/partial-admin-list-tasks-scripts.template.php:37
+msgid "Are you sure that you want to delete this task? "
+msgstr "Weet u het zeker dat u deze taak wilt verwijderen?"
+
+#: src/php/tasks/tasks-addon.class.php:643
+#: src/php/tasks/tasks-addon.class.php:664
+#: src/php/tasks/tasks-addon.class.php:703
+#: src/php/tasks/tasks-addon.class.php:736
+#: src/php/tasks/tasks-addon.class.php:756
+msgid "Attempt to bypass security checks!"
+msgstr "Poging om veiligheidscontroles omzeilen!"
+
+#: src/php/tasks/tasks-addon.class.php:648
+#: src/php/tasks/tasks-addon.class.php:716
+#: src/php/tasks/tasks-addon.class.php:745
+msgid "Task id is not specified"
+msgstr "Taak-id is niet gespecificeerd"
+
+#: src/php/tasks/tasks-addon.class.php:673
+#: src/php/tasks/tasks-addon.class.php:713
+#: src/php/tasks/tasks-addon.class.php:742
+#: src/php/tasks/tasks-addon.class.php:761
+msgid "List id is not specified"
+msgstr "Lijst id is niet gespecificeerd"
+
+#: src/php/tasks/tasks-addon.class.php:676
+#: src/php/tasks/tasks-addon.class.php:719
+#: src/php/tasks/tasks-admin-interface.class.php:372
+msgid "You must provide a description"
+msgstr "U moet een omschrijving invullen"
+
+#: src/php/tasks/tasks-admin-interface.class.php:101
+#: src/php/tasks/tasks-admin-interface.class.php:102
+msgid "New Task List"
+msgstr "Nieuwe Takenlijst"
+
+#: src/php/tasks/tasks-admin-interface.class.php:144
+msgid "Progress"
+msgstr "Vooruitgang"
+
+#: src/php/tasks/tasks-admin-interface.class.php:166
+msgid "%3$s%% - %1$s task(s) completed out of %2$s"
+msgstr "%3$s%% - %1$s van de  %2$s taken zijn voltooid"
+
+#: src/php/tasks/tasks-admin-interface.class.php:229
+msgid "Tasks can be added once you have saved this task list."
+msgstr ""
+"Taken kunnen worden toegevoegd zodra je deze takenlijst hebt opgeslagen."
+
+#: src/php/tasks/tasks-admin-interface.class.php:328
+msgid "You are not allowed to update tasks"
+msgstr "Het is niet toegestaan om taken bij te werken"
+
+#: src/php/tasks/tasks-admin-interface.class.php:362
+msgid "You are not allowed to create tasks"
+msgstr "Het is niet toegestaan om taken maken"
+
+#: src/php/tasks/templates/partial-admin-form-new-task.template.php:30
+#: src/php/tasks/templates/partial-admin-list-task-item.template.php:59
+#: src/php/tasks/templates/partial-form-new-task.template.php:22
+msgid "Due date"
+msgstr "Vervaldag"
+
+#: src/php/tasks/templates/partial-admin-form-new-task.template.php:36
+msgid "+ Add task"
+msgstr "+ Taak toevoegen"
+
+#: src/php/tasks/templates/partial-admin-list-task-empty.template.php:4
+#: src/php/tasks/templates/partial-admin-list-tasks-scripts.template.php:43
+#: src/php/tasks/templates/partial-list-task-empty.template.php:4
+msgid "This list currently has no tasks"
+msgstr "Deze lijst heeft momenteel geen taken"
+
+#: src/php/tasks/templates/partial-admin-list-task-item.template.php:32
+msgid "Mark as completed"
+msgstr "Markeren als voltooid"
+
+#: src/php/tasks/templates/partial-admin-list-task-item.template.php:49
+msgid "Completed"
+msgstr "Voltooid"
+
+#: src/php/tasks/templates/partial-admin-list-tasks-scripts.template.php:20
+msgid "Clear"
+msgstr "Wissen"
+
+#. Description of the plugin/theme
+msgid "Add private task lists to your Customer Area"
+msgstr "Voeg privé takenlijsten aan uw WP Customer Area"
+
+#: src/php/tasks/tasks-addon.class.php:432
+#: src/php/tasks/tasks-addon.class.php:455
+msgctxt "cuar_tasklist"
+msgid "Task List"
+msgstr "Takenlijst"
+
+#: src/php/tasks/tasks-addon.class.php:433
+#: src/php/tasks/tasks-addon.class.php:454
+#: src/php/tasks/tasks-addon.class.php:465
+msgctxt "cuar_tasklist"
+msgid "Task Lists"
+msgstr "Takenlijsten"
+
+#: src/php/tasks/tasks-addon.class.php:456
+msgctxt "cuar_tasklist"
+msgid "Add New"
+msgstr "Nieuw Takenlijst"
+
+#: src/php/tasks/tasks-addon.class.php:457
+msgctxt "cuar_tasklist"
+msgid "Add New Task List"
+msgstr "Nieuwe Takenlijst"
+
+#: src/php/tasks/tasks-addon.class.php:458
+msgctxt "cuar_tasklist"
+msgid "Edit Task List"
+msgstr "Bewerk Takenlijst"
+
+#: src/php/tasks/tasks-addon.class.php:459
+msgctxt "cuar_tasklist"
+msgid "New Task List"
+msgstr "Nieuw Takenlijst"
+
+#: src/php/tasks/tasks-addon.class.php:460
+msgctxt "cuar_tasklist"
+msgid "View Task List"
+msgstr "Bekijk Takenlijst"
+
+#: src/php/tasks/tasks-addon.class.php:461
+msgctxt "cuar_tasklist"
+msgid "Search Task Lists"
+msgstr "Zoek Takenlijst"
+
+#: src/php/tasks/tasks-addon.class.php:462
+msgctxt "cuar_tasklist"
+msgid "No task lists found"
+msgstr "Geen takenlijst gevonden"
+
+#: src/php/tasks/tasks-addon.class.php:463
+msgctxt "cuar_tasklist"
+msgid "No task lists found in Trash"
+msgstr "Geen takenlijst gevonden in de prullenbak"
+
+#: src/php/tasks/tasks-addon.class.php:464
+msgctxt "cuar_tasklist"
+msgid "Parent Task List:"
+msgstr "Hoofdtakenlijst:"
+
+#: src/php/tasks/tasks-addon.class.php:498
+#: src/php/tasks/tasks-addon.class.php:509
+msgctxt "cuar_task"
+msgid "Tasks"
+msgstr "Taken"
+
+#: src/php/tasks/tasks-addon.class.php:499
+msgctxt "cuar_task"
+msgid "Task"
+msgstr "Taak"
+
+#: src/php/tasks/tasks-addon.class.php:500
+msgctxt "cuar_task"
+msgid "Add New"
+msgstr "Nieuw"
+
+#: src/php/tasks/tasks-addon.class.php:501
+msgctxt "cuar_task"
+msgid "Add New Task"
+msgstr "Nieuwe Taak"
+
+#: src/php/tasks/tasks-addon.class.php:502
+msgctxt "cuar_task"
+msgid "Edit Task"
+msgstr "Taak Bewerken"
+
+#: src/php/tasks/tasks-addon.class.php:503
+msgctxt "cuar_task"
+msgid "New Task"
+msgstr "Nieuwe Taak"
+
+#: src/php/tasks/tasks-addon.class.php:504
+msgctxt "cuar_task"
+msgid "View Task"
+msgstr "Taak Bekijken"
+
+#: src/php/tasks/tasks-addon.class.php:505
+msgctxt "cuar_task"
+msgid "Search Tasks"
+msgstr "Taak Zoeken"
+
+#: src/php/tasks/tasks-addon.class.php:506
+msgctxt "cuar_task"
+msgid "No tasks found"
+msgstr "Geen taken gevonden"
+
+#: src/php/tasks/tasks-addon.class.php:507
+msgctxt "cuar_task"
+msgid "No tasks found in Trash"
+msgstr "Geen taken gevonden in de prullenbak"
+
+#: src/php/tasks/tasks-addon.class.php:508
+msgctxt "cuar_task"
+msgid "Parent Task:"
+msgstr "Hoofdtaak:"
+
+#~ msgid "Advanced Custom Fields Integration"
+#~ msgstr "Intégration \"Advanced Custom Fields\""
+
+#~ msgid ""
+#~ "The ACF Integration add-on requires the <a href=\"%s\">Advanced Custom "
+#~ "Fields</a> plugin by Elliot Condon. This plugin is either missing or not "
+#~ "activated."
+#~ msgstr ""
+#~ "L'extension ACF Integration a besoin du plugin <a href=\"%s\">Advanced "
+#~ "Custom Fields</a> par Elliot Condon. Ce plugin n'est pas installé ou "
+#~ "n'est pas activé."
+
+#~ msgid ""
+#~ "You have installed Advanced Custom Fields %1$s. This version is known to "
+#~ "cause problems with the ACF Integration add-on. We recommend the "
+#~ "following ACF version: <a href=\"%3$s\">%2$s</a>."
+#~ msgstr ""
+#~ "Vous avez installé Advanced Custom Fields %1$s. Cette version n'est pas "
+#~ "compatible avec l'extension ACF Integration. Nous recommandons d'utiliser "
+#~ "la version d'ACF : <a href=\"%3$s\">%2$s</a>."
+
+#~ msgid ""
+#~ "You have installed Advanced Custom Fields %1$s. This version has not yet "
+#~ "been tested with the ACF Integration add-on. We recommend the following "
+#~ "ACF version: <a href=\"%3$s\">%2$s</a>."
+#~ msgstr ""
+#~ "Vous avez installé Advanced Custom Fields %1$s. Cette version n'a pas été "
+#~ "testée avec l'extension ACF Integration. Nous recommandons d'utiliser la "
+#~ "version d'ACF : <a href=\"%3$s\">%2$s</a>."
+
+#~ msgid "Link"
+#~ msgstr "Lien"
+
+#~ msgid "Yes"
+#~ msgstr "Oui"
+
+#~ msgid "No"
+#~ msgstr "Non"
+
+#~ msgid "Switch Users"
+#~ msgstr "Echange Utilisateur"
+
+#~ msgid "Switch Users Timeout"
+#~ msgstr "Délai d'expiration"
+
+#~ msgid "(seconds)"
+#~ msgstr "(secondes)"
+
+#~ msgid ""
+#~ "If a user who can use a fake identity is inactive for more than that "
+#~ "time, the fake identity will be cancelled and he will see his own "
+#~ "customer area again. You can use any negative value if you want the fake "
+#~ "identity to never expire automatically."
+#~ msgstr ""
+#~ "Si un utilisateur qui peut utiliser une autre identité est inactif pour "
+#~ "plus longtemps que cette durée, l'identité alternative sera annulée et il "
+#~ "vera de nouveau son propre espace client. Vous pouvez utiliser une valeur "
+#~ "négative pour désactiver complètement l'expiration."
+
+#~ msgid "View someone else's Customer Area (Switch users)"
+#~ msgstr "Voir l'espace client d'un autre (Echange utilisateur)"
+
+#~ msgid "Switch identity"
+#~ msgstr "Changer d'identité"
+
+#~ msgid "Yourself"
+#~ msgstr "Vous-même"
+
+#~ msgid "Trying to cheat?! Not nice, go brack and try again."
+#~ msgstr ""
+#~ "On essaye de tricher ?! C'est moche, revenez en arrière et essayez de "
+#~ "nouveau."
+
+#~ msgid "Hello %s,"
+#~ msgstr "Bonjour %s,"
+
+#~ msgid "View the Customer Area as if you were"
+#~ msgstr "Voir l'espace client comme si vous étiez"
+
+#~ msgid "Automatic Updates"
+#~ msgstr "Mise à jour automatisée"
+
+#~ msgid "License key"
+#~ msgstr "Clé de licence"
+
+#~ msgid "General"
+#~ msgstr "Réglages généraux"
+
+#~ msgid "Timeout"
+#~ msgstr "Expiration"
+
+#~ msgid ""
+#~ "Do not activate your license on your development site. Only on the final "
+#~ "site where you are running the plugin."
+#~ msgstr ""
+#~ "N'activez pas votre licence sur votre site de développement. Seulement "
+#~ "sur le site final où le plugin sera installé."
+
+#~ msgid "Notifications"
+#~ msgstr "Notifications"
+
+#~ msgid "The notification can not be sent if the post is not published"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le contenu n'est pas publié"
+
+#~ msgid "A notification has been sent to %d recipient(s)"
+#~ msgstr "Une notification a été envoyée à %d destinataire(s)"
+
+#~ msgid "This post does not yet have any owners. Nothing has been sent."
+#~ msgstr ""
+#~ "Ce contenu n'a pas encore de propriétaire. Aucune notification n'a été "
+#~ "envoyée."
+
+#~ msgid "Let the owner know he can access this private content"
+#~ msgstr "Informer le propriétaire qu'il peut accéder à ce contenu"
+
+#~ msgid ""
+#~ "The notification will only be sent if you publish the post, and if you "
+#~ "have set an owner. Else nothing will be sent."
+#~ msgstr ""
+#~ "La notification ne sera envoyée que si vous publiez le contenu, et si "
+#~ "vous lui avez assigné un propriétaire. Sinon rien ne sera envoyé."
+
+#~ msgid "Email format"
+#~ msgstr "Format du mel"
+
+#~ msgid "Plain text"
+#~ msgstr "Texte"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid ""
+#~ "The format in which notifications get sent. HTML might not always be "
+#~ "properly formatted."
+#~ msgstr ""
+#~ "Le format dans lequel les notifications sont envoyées. HTML peut ne pas "
+#~ "être correctement mis en forme."
+
+#~ msgid "From"
+#~ msgstr "De"
+
+#~ msgid "The emails will be shown as sent by this name."
+#~ msgstr "Les courriels seront vus comme envoyés de ce nom."
+
+#~ msgid "The emails will be shown as sent from this address."
+#~ msgstr "Les courriels seront vus comme envoyés de cette adresse."
+
+#~ msgid "Private File Download"
+#~ msgstr "Téléchargement d'un Fichier Privé"
+
+#~ msgid " is not a valid value for "
+#~ msgstr " n'est pas une valeur valide pour "
+
+#~ msgid "You must set a body for %s"
+#~ msgstr "Vous devez saisir un texte pour %s"
+
+#~ msgid "A new post is available for you on %site_name%"
+#~ msgstr ""
+#~ "Du nouveau contenu est disponible sur votre espace client de %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello %to_name%,</p><p>A new post (%post_title%) has been made "
+#~ "available for you in our customer area. You can read it by following that "
+#~ "link: %post_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %to_name%,</p><p>Un nouveau contenu (%post_title%) a été "
+#~ "déposé dans votre espace client. Vous pouvez le télécharger en suivant le "
+#~ "lien : %post_url%</p><p>Cordialement,</p><p>%from_name%<br/>%site_url%</p>"
+
+#~ msgid "A new post is held for moderation on %site_name%"
+#~ msgstr "Du contenu est en attente de modération sur %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello,</p><p>A new post (%post_title%) has been created by %author_name"
+#~ "% for %owner_name% and is waiting to be published. You can review it on "
+#~ "that page: %review_url%</p><p>Best regards,</p><p>The customer area "
+#~ "plugin<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour,</p><p>Un nouveau contenu (%post_title%) a été créé par "
+#~ "%author_name% pour %owner_name% et est en attente de modération. Vous "
+#~ "pouvez le relire sur cette page : %review_url%.</p><p>Cordialement,</"
+#~ "p><p>Votre plugin Espace Client<br/>%site_url%</p>"
+
+#~ msgid "New file downloaded on %site_name%"
+#~ msgstr "Nouveau téléchargement sur %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello %to_name%,</p><p>A file (%post_title%) has been downloaded by "
+#~ "%downloader_name%.</p><p>Best regards,</p><p>The customer area plugin<br/>"
+#~ "%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %to_name%,</p><p>Un fichier (%post_title%) a été téléchargé "
+#~ "par %downloader_name%.</p><p>Cordialement,</p><p>Votre plugin Espace "
+#~ "Client<br/>%site_url%</p>"
+
+#~ msgid "New conversation started on %site_name%"
+#~ msgstr "Nouvelle conversation sur %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello %to_name%,</p><p>A conversation (%post_title%) has been started "
+#~ "by %author_name%. You can read it by following that link: %post_url%</"
+#~ "p><p>Best regards,</p><p>%from_name%<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %to_name%,</p><p>Une conversation (%post_title%) a été ouverte "
+#~ "dans votre espace client. Vous pouvez la consulter en suivant le lien : "
+#~ "%post_url%</p><p>Cordialement,</p><p>%from_name%<br/>%site_url%</p>"
+
+#~ msgid "New reply to a conversation on %site_name%"
+#~ msgstr "Nouvelle réponse à une conversation sur %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello %to_name%,</p><p>A new reply has been posted in the conversation "
+#~ "(%post_title%) by %author_name%. You can read it by following that link: "
+#~ "%post_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %to_name%,</p><p>Une nouvelle réponse à la conversation "
+#~ "(%post_title%) a été publiée par %author_name%. Vous pouvez la consulter "
+#~ "en suivant le lien : %post_url%</p><p>Cordialement,</p><p>%from_name%<br/>"
+#~ "%site_url%</p>"
+
+#~ msgid "Content Published"
+#~ msgstr "Contenu Publié"
+
+#~ msgid ""
+#~ "Define here the email that will get sent to a user when new private "
+#~ "content is published for him."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé à un utilisateur quand un nouveau "
+#~ "contenu est publié pour lui."
+
+#~ msgid "Enabled"
+#~ msgstr "Activé"
+
+#~ msgid "Disabled"
+#~ msgstr "Désactivé"
+
+#~ msgid "Content Moderated"
+#~ msgstr "Contenu en Modération"
+
+#~ msgid ""
+#~ "Define here the email that will get sent to you when a new private post "
+#~ "is created from the frontend but is not yet published (waiting for review "
+#~ "before being published)."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé quand un nouveau contenu est créé dans "
+#~ "l'espace client mais pas encore publié (en attente de modération)."
+
+#~ msgid "File Downloaded"
+#~ msgstr "Téléchargement d'un Fichier Privé"
+
+#~ msgid ""
+#~ "Define here the email that will get sent to the file author when a file "
+#~ "is downloaded."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé à l'auteur du fichier quand il est "
+#~ "téléchargé."
+
+#~ msgid "Always"
+#~ msgstr "Toujours"
+
+#~ msgid "Only the first time"
+#~ msgstr "Seulement la première fois"
+
+#~ msgid "New Conversation"
+#~ msgstr "Nouvelle Conversation"
+
+#~ msgid ""
+#~ "Define here the email that will get sent to the recipients of a "
+#~ "conversation when it gets created."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé aux destinataires d'une conversation "
+#~ "quand elle est créée."
+
+#~ msgid "New Reply"
+#~ msgstr "Nouvelle Réponse"
+
+#~ msgid ""
+#~ "Define here the email that will get sent to the participants of a "
+#~ "conversation when a new reply is posted."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé aux participants d'une conversation "
+#~ "quand une nouvelle réponse est envoyée."
+
+#~ msgid ""
+#~ "You can customize every notification that will be sent to users by the "
+#~ "Customer Area."
+#~ msgstr ""
+#~ "Vous pouvez personnaliser chaque notification qui sera envoyée aux "
+#~ "utilisateurs par Customer Area."
+
+#~ msgid "All notifications"
+#~ msgstr "Toutes les notifications"
+
+#~ msgid "Replaced by the name of your website"
+#~ msgstr "Remplacé par le nom de votre site"
+
+#~ msgid "Replaced by the address of your website"
+#~ msgstr "Remplacé par l'adresse de votre site"
+
+#~ msgid "Replaced by the name of the sender"
+#~ msgstr "Remplacé par le nom de l'expéditeur"
+
+#~ msgid "Replaced by the name of the recipient"
+#~ msgstr "Remplacé par le nom du destinataire"
+
+#~ msgid "Private file download notification"
+#~ msgstr "Téléchargement d'un fichier privé"
+
+#~ msgid "title of the file"
+#~ msgstr "Titre du fichier"
+
+#~ msgid "link to show the post"
+#~ msgstr "Lien pour voir le contenu"
+
+#~ msgid "name of the file"
+#~ msgstr "Nom du fichier"
+
+#~ msgid "name of the user who downloaded the file"
+#~ msgstr "Nom de l'utilisateur ayant téléchargé le fichier"
+
+#~ msgid "All new private posts notification"
+#~ msgstr "Toutes les notifications de nouveau contenu"
+
+#~ msgid "title of the post"
+#~ msgstr "Titre du contenu"
+
+#~ msgid "Name of the author of the post"
+#~ msgstr "Nom de l'auteur du contenu"
+
+#~ msgid "New private post moderated notification"
+#~ msgstr "Notifications de contenu en attente de modération"
+
+#~ msgid "link to review the post"
+#~ msgstr "Lien pour éditer le contenu"
+
+#~ msgid "Name of the owner of the post"
+#~ msgstr "Nom du propriétaire du contenu"
+
+#~ msgid "New conversation started notification"
+#~ msgstr "Notifications de nouvelle conversation"
+
+#~ msgid "title of the conversation"
+#~ msgstr "Titre de la conversation"
+
+#~ msgid "link to show the conversation"
+#~ msgstr "Lien pour voir la conversation"
+
+#~ msgid "Name of the author of the conversation"
+#~ msgstr "Nom de l'auteur de la conversation"
+
+#~ msgid "New reply to a conversation notification"
+#~ msgstr "Notifications de réponse à une conversation"
+
+#~ msgid "Name of the author of the new reply"
+#~ msgstr "Nom de l'auteur de la réponse"
+
+#~ msgid ""
+#~ "You can replace some variables in your notifications in order to "
+#~ "personnalize the email sent to the users. Here are the place holders you "
+#~ "can use:"
+#~ msgstr ""
+#~ "Vous pouvez remplacer des variables dans vos notifications de manière à "
+#~ "personnaliser les courriels envoyés aux utilisateurs. Voici les variables "
+#~ "que vous pouvez utiliser :"
+
+#~ msgid "Place holders"
+#~ msgstr "Variables"
+
+#~ msgid "Mode"
+#~ msgstr "Mode"
+
+#~ msgid "Subject"
+#~ msgstr "Sujet"
+
+#~ msgid "Body"
+#~ msgstr "Contenu"
+
+#~ msgid ""
+#~ "You can choose whether you want to enable this notification. If you do, "
+#~ "you can opt to receive the notifications only the first time the user "
+#~ "downloads the file or every time he does it."
+#~ msgstr ""
+#~ "Vous pouvez choisir d'activer cette notification ou non. Si oui, vous "
+#~ "pouvez choisir de la recevoir seulement la première fois que le fichier "
+#~ "est téléchargé ou à chaque fois."
+
+#~ msgid "New Private Post"
+#~ msgstr "Nouveau Contenu Privé"
+
+#~ msgid "New Private Post Held for Moderation"
+#~ msgstr "Nouveau Contenu Privé en Attente de Modération"
+
+#~ msgid "The notification can not be sent if the file is not published"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le fichier n'est pas publié"
+
+#~ msgid "The notification can not be sent if the file does not have an owner"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si le fichier n'a pas de "
+#~ "propriétaire"
+
+#~ msgid "The notification can not be sent if the file has not been uploaded"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si aucun fichier n'a été "
+#~ "téléversé"
+
+#~ msgid "The notification can not be sent if the page does not have an owner"
+#~ msgstr ""
+#~ "La notification ne peut pas être envoyée si la page n'a pas de "
+#~ "propriétaire"
+
+#~ msgid "Let the owner know he can access this file"
+#~ msgstr "Informer le propriétaire qu'il peut accéder à ce fichier"
+
+#~ msgid ""
+#~ "The notification will only be sent if you publish the file, if you have "
+#~ "actually uploaded a file and if you have set an owner. Else nothing will "
+#~ "be sent."
+#~ msgstr ""
+#~ "La notification ne sera envoyée que si vous publiez le fichier, si vous "
+#~ "avez téléversé un fichier et si vous lui avez assigné un propriétaire. "
+#~ "Sinon rien ne sera envoyé."
+
+#~ msgid "New Private File"
+#~ msgstr "Nouveau Fichier Privé"
+
+#~ msgid "A new file for you is available on %site_name%"
+#~ msgstr "Un fichier est disponible sur votre espace client de %site_name%"
+
+#~ msgid ""
+#~ "<p>Hello %page_owner%,</p><p>A new page (%page_title%) has been published "
+#~ "for you in our customer area. You can view it by following the link: "
+#~ "%page_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url%</p>"
+#~ msgstr ""
+#~ "<p>Bonjour %page_owner%,</p><p>Une nouvelle page (%page_title%) a été "
+#~ "déposée dans votre espace client. Vous pouvez la visualiser en suivant le "
+#~ "lien : %page_url%</p><p>Cordialement,</p><p>%from_name%<br/>%site_url%</p>"
+
+#~ msgid ""
+#~ "Define here the email that will get sent to a user when a new private "
+#~ "file is uploaded for him."
+#~ msgstr ""
+#~ "Définissez ici le courriel envoyé à un utilisateur quand un nouveau "
+#~ "fichier est déposé pour lui."
+
+#~ msgid "2. New private file notification"
+#~ msgstr "2. Notification de nouveau fichier"
+
+#~ msgid "link to download the file"
+#~ msgstr "Lien pour télécharger le fichier"
+
+#~ msgid "name of the file owner"
+#~ msgstr "Nom du propriétaire du fichier"
+
+#~ msgid "Show after post"
+#~ msgstr "Après l'article"
+
+#~ msgid ""
+#~ "Show the view and download links below the post content for a customer "
+#~ "file."
+#~ msgstr ""
+#~ "Afficher les liens pour voir ou télécharger un fichier sous le contenu "
+#~ "d'un article représentant un fichier client."
+
+#~ msgid "Customer Area"
+#~ msgstr "Espace Client"
+
+#~ msgid "Include CSS"
+#~ msgstr "Inclure le CSS"
+
+#~ msgid "Include the default stylesheet."
+#~ msgstr "Inclure la feuille de style par défaut"
+
+#~ msgid "If not, you should style the plugin yourself in your theme."
+#~ msgstr ""
+#~ "Si non, vous devrez mettre en forme le plugin par vous-même dans votre "
+#~ "thème."
+
+#~ msgid "must be an integer"
+#~ msgstr "doit être un entier"
+
+#~ msgid "must be greater than %s"
+#~ msgstr "doit être plus grand que %s"
+
+#~ msgid "must be lower than %s"
+#~ msgstr "doit être plus petit que %s"
+
+#~ msgid "Hello"
+#~ msgstr "Bonjour"
+
+#~ msgid "You must login to access your own customer area."
+#~ msgstr "Vous devez être connecté pour accéder à votre espace client"
+
+#~ msgid ""
+#~ "If you do not have an account yet, please register or contact us so that "
+#~ "we can create it."
+#~ msgstr ""
+#~ "Si vous n'avez pas encore de compte utilisateur, merci de vous "
+#~ "enregistrer ou de nous contacter pour que nous puissions le créer."
+
+#~ msgid "Login"
+#~ msgstr "Connexion"
+
+#~ msgid "Register"
+#~ msgstr "S'enregistrer"
+
+#~ msgid "view-file"
+#~ msgstr "voir-fichier"
+
+#~ msgid "You are not authorized to view this file"
+#~ msgstr "Vous n'êtes pas autorisé à voir ce fichier"
+
+#~ msgid "Customer Files"
+#~ msgstr "Fichiers clients"
+
+#~ msgid "Customer File"
+#~ msgstr "Fichier client"
+
+#~ msgid "Add New Customer File"
+#~ msgstr "Ajouter un fichier client"
+
+#~ msgid "Edit Customer File"
+#~ msgstr "Editer un fichier client"
+
+#~ msgid "New Customer File"
+#~ msgstr "Nouveau fichier client"
+
+#~ msgid "Search Customer Files"
+#~ msgstr "Chercher des fichiers privés : %s"
+
+#~ msgid "Parent Customer File:"
+#~ msgstr "Fichier client parent :"
+
+#~ msgid "File Categories"
+#~ msgstr "Catégories de fichier"
+
+#~ msgid "File Category"
+#~ msgstr "Catégorie de fichier"
+
+#~ msgid "Search File Categories"
+#~ msgstr "Chercher des catégories de fichier"
+
+#~ msgid "Popular File Categories"
+#~ msgstr "Catégories de fichier populaires"
+
+#~ msgid "All File Categories"
+#~ msgstr "Toutes les catégories de fichier"
+
+#~ msgid "Parent File Category"
+#~ msgstr "Catégorie de fichier parente"
+
+#~ msgid "Parent File Category:"
+#~ msgstr "Catégorie de fichier parente :"
+
+#~ msgid "Edit File Category"
+#~ msgstr "Modifier la catégorie de fichier"
+
+#~ msgid "Update File Category"
+#~ msgstr "Mettre à jour la catégorie de fichier"
+
+#~ msgid "Add New File Category"
+#~ msgstr "Ajouter une catégorie de fichier"
+
+#~ msgid "New File Category"
+#~ msgstr "Nouvelle catégorie de fichier"
+
+#~ msgid "Separate file categories with commas"
+#~ msgstr "Séparez les catégories de fichier avec des virgules"
+
+#~ msgid "Add or remove file categories"
+#~ msgstr "Ajouter ou enlever des catégories de fichier"
+
+#~ msgid "Choose from the most used file categories"
+#~ msgstr "Choisir parmi les catégories de fichier les plus courantes"
+
+#~ msgid "private-file-category"
+#~ msgstr "catégorie-fichier-privé"
+
+#~ msgid "private-file"
+#~ msgstr "fichier-privé"
+
+#~ msgid "unknown"
+#~ msgstr "inconnu"
+
+#~ msgid "Nobody"
+#~ msgstr "Personne"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "Current file:"
+#~ msgstr "Fichier actuel :"
+
+#~ msgid "Upload a file"
+#~ msgstr "Téléverser un fichier"
+
+#~ msgid "This file type is not allowed. You can only upload: %s"
+#~ msgstr ""
+#~ "Ce type de fichier n'est pas autorisé. Vous pouvez seulement téléverser : "
+#~ "%s"
+
+#~ msgid "An unknown error happened while uploading your file."
+#~ msgstr ""
+#~ "Une erreur inconnue est survenue lors du téléversement de votre fichier."
+
+#~ msgid "An error happened while uploading your file: %s"
+#~ msgstr "Une erreur est survenue lors du téléversement de votre fichier : %s"
+
+#~ msgid "Associated file"
+#~ msgstr "Fichier associé"
+
+#~ msgid "Download"
+#~ msgstr "Télécharger"
+
+#~ msgid "Your files"
+#~ msgstr "Vos fichiers"
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "Category"
+#~ msgstr "Catégorie"
+
+#~ msgid "Houston&hellip; we have a problem!"
+#~ msgstr "Houston&hellip; on a un problème !"
+
+#~ msgid ""
+#~ "We have not found what you are looking for. You could simply close this "
+#~ "window out of rage, but you might also want to have a look at the rest of "
+#~ "the website. I am sure you won' be disappointed again. Promise."
+#~ msgstr ""
+#~ "Nous n'avons pas trouvé ce que vous cherchiez. Pour sûr, vous devez être "
+#~ "en pétard, mais vous devriez parcourir le reste du site, vous ne serez "
+#~ "pas déçu de nouveau, promis."
+
+#~ msgid "See our work"
+#~ msgstr "Voir nos projets"
+
+#~ msgid "Browse our blog"
+#~ msgstr "Parcourir le blog"
+
+#~ msgid "By Tag"
+#~ msgstr "Par étiquette"
+
+#~ msgid "Filter our work"
+#~ msgstr "Filtrer les projets"
+
+#~ msgid "All projects"
+#~ msgstr "Tous les projets"
+
+#~ msgid "By type"
+#~ msgstr "Par type"
+
+#~ msgid "Browse our archives"
+#~ msgstr "Parcourez nos archives"
+
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Archives du jour : %s"
+
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Archives du mois : %s"
+
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Archives de l'année : %s"
+
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgid "Archives"
+#~ msgstr "Archives"
+
+#~ msgid "Category Archives: %s"
+#~ msgstr "Archives de la catégorie : %s"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "&laquo; Older Comments"
+#~ msgstr "Commentaires plus anciens &laquo;"
+
+#~ msgid "Newer Comments &raquo;"
+#~ msgstr "Commentaires plus récents &raquo;"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Les commentaires ne sont plus possibles."
+
+#~ msgid "Leave a comment"
+#~ msgstr "Laisser un commentaire"
+
+#~ msgid "Learn more about &laquo; %s &raquo;"
+#~ msgstr "En savoir plus sur &laquo; %s &raquo;"
+
+#~ msgid "Filed under: "
+#~ msgstr "Classé dans : "
+
+#~ msgid "<li>&raquo; Tagged: "
+#~ msgstr "<li>&raquo; Etiqueté : "
+
+#~ msgid "Permalink to %s"
+#~ msgstr "Lien permanent vers %s"
+
+#~ msgid "Read more"
+#~ msgstr "En savoir plus"
+
+#~ msgid "Get in touch"
+#~ msgstr "Contactez-nous"
+
+#~ msgid "+33 6 50 21 23 94"
+#~ msgstr "06 50 21 23 94"
+
+#~ msgid "hello@marvinlabs.com"
+#~ msgstr "bonjour@marvinlabs.com"
+
+#~ msgid "+1 us on Google+"
+#~ msgstr "+1 sur Google+"
+
+#~ msgid "Like us on Facebook"
+#~ msgstr "Aimez-nous sur Facebook"
+
+#~ msgid "Follow us on Twitter"
+#~ msgstr "Suivez-nous sur Twitter"
+
+#~ msgid "Use our code from GitHub"
+#~ msgstr "Utilisez notre code publié sur GitHub"
+
+#~ msgid "We help fellow developers on StackOverflow"
+#~ msgstr "Nous aidons nos collègues développeurs sur StackOverflow"
+
+#~ msgid "Get our free WordPress plugins & themes"
+#~ msgstr "Téléchargez nos plugins et thèmes gratuits pour WordPress"
+
+#~ msgid "Main navigation menu"
+#~ msgstr "Menu de navigation principal"
+
+#~ msgid "Work"
+#~ msgstr "Projet"
+
+#~ msgid "work"
+#~ msgstr "projet"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Types"
+#~ msgstr "Types"
+
+#~ msgid "work-type"
+#~ msgstr "type-de-projet"
+
+#~ msgid "Skill"
+#~ msgstr "Compétence"
+
+#~ msgid "Skills"
+#~ msgstr "Compétences"
+
+#~ msgid "work-skill"
+#~ msgstr "competence"
+
+#~ msgid "Technology"
+#~ msgstr "Technologie"
+
+#~ msgid "Technologies"
+#~ msgstr "Technologies"
+
+#~ msgid "work-technology"
+#~ msgstr "technologie"
+
+#~ msgid "work-category"
+#~ msgstr "catégorie-projet"
+
+#~ msgid "Single blog post"
+#~ msgstr "Post de blog unique"
+
+#~ msgid "Blog archive page"
+#~ msgstr "Archive du blog"
+
+#~ msgid "Footer, #getintouch"
+#~ msgstr "Footer, #getintouch"
+
+#~ msgid "Footer, #bottom"
+#~ msgstr "Footer, #bottom"
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"
+
+#~ msgid "About this project"
+#~ msgstr "A propos de ce projet"
+
+#~ msgid "Project launched in %s"
+#~ msgstr "Projet lancé en %s"
+
+#~ msgid "Get the app on Google Play"
+#~ msgstr "Télécharger l'application sur GooglePlay"
+
+#~ msgid "Get the app on Apple's AppStore"
+#~ msgstr "Télécharger l'application sur l'AppStore d'Apple"
+
+#~ msgid "Get the WordPress plugin"
+#~ msgstr "Téléchargez le plugin WordPress"
+
+#~ msgid "Project type: "
+#~ msgstr "Type de projet : "
+
+#~ msgid "Skills: "
+#~ msgstr "Compétences : "
+
+#~ msgid "Technologies: "
+#~ msgstr "Technologies : "
+
+#~ msgid "You like this project and think we can do a good job with yours?"
+#~ msgstr ""
+#~ "Vous aimez ce projet et pensez que nous pourrions faire du bon travail "
+#~ "pour le votre ?"
+
+#~ msgid "Request a quote"
+#~ msgstr "Demandez un devis"
+
+#~ msgid "About this post"
+#~ msgstr "A propos de cet article"
+
+#~ msgid "Posted on: "
+#~ msgstr "Posté le :"
+
+#~ msgid "Tag Archives: %s"
+#~ msgstr "Archives d'étiquette : %s"
+
+#~ msgid "Our projects of type: %s"
+#~ msgstr "Nos projets de type : %s"
+
+#~ msgid "%1$s on %2$s"
+#~ msgstr "%1$s sur %2$s"
+
+#~ msgid "Posts navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+#~ msgstr "<span class=\"meta-nav\">&laquo;</span> Articles plus anciens"
+
+#~ msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+#~ msgstr "Articles plus récents <span class=\"meta-nav\">&raquo;</span>"
+
+#~ msgid "show details"
+#~ msgstr "afficher les détails"
+
+#~ msgid "See all of our work"
+#~ msgstr "Voir tous nos projets"
+
+#~ msgid ""
+#~ "All content on this website is the property of &laquo;Constant le "
+#~ "jardinier&raquo; and may not be used without permission"
+#~ msgstr ""
+#~ "Tout le contenu sur ce site est la propriété exclusive de &laquo;Constant "
+#~ "le jardinier&raquo; et ne peut être utilisé sans permission"
+
+#~ msgid "&copy; Constant le jardinier"
+#~ msgstr "&copy; Constant le jardinier"
+
+#~ msgid ""
+#~ "Designed and carried out by MarvinLabs, digital creation studio in Basque "
+#~ "country, France (Biarritz, Anglet, Bayonne)"
+#~ msgstr ""
+#~ "Imaginé et réalisé par MarvinLabs, studio de création numérique au pays "
+#~ "basque (Biarritz, Anglet, Bayonne)"
+
+#~ msgid "A website planted with care by MarvinLabs"
+#~ msgstr "Un site délicatement planté par MarvinLabs"
+
+#~ msgid "and"
+#~ msgstr "et"
+
+#~ msgid "Paintings by Marilou Laure"
+#~ msgstr "Peintures par Marilou Laure"
+
+#~ msgid "illustrated with taste by Marilou Laure"
+#~ msgstr "illustré avec goût par Marilou Laure"
+
+#~ msgid "Left footer navigation"
+#~ msgstr "Navigation bas gauche"
+
+#~ msgid "Right footer navigation"
+#~ msgstr "Navigation bas droite"
+
+#~ msgid "Services"
+#~ msgstr "Services"
+
+#~ msgid "Service"
+#~ msgstr "Service"
+
+#~ msgid "Footer Widgets 1 (Left)"
+#~ msgstr "Footer Widgets 1 (Left)"
+
+#~ msgid "Footer Widgets 2 (Middle)"
+#~ msgstr "Footer Widgets 2 (Middle)"
+
+#~ msgid "Footer Widgets 3 (Right)"
+#~ msgstr "Footer Widgets 3 (Right)"
+
+#~ msgid "Nothing here"
+#~ msgstr "Rien ici"
+
+#~ msgid "You should not even be on this page!"
+#~ msgstr "Vous ne devriez même pas vous retrouver sur cette page !"
