@@ -1,0 +1,1402 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Customer Area Projects\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2015-03-10 14:51:19+00:00\n"
+"PO-Revision-Date: 2017-04-23 00:34+0200\n"
+"Language-Team: Lennart\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"Last-Translator: \n"
+"Language: pl_PL\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:34
+msgid "Projects - Owned"
+msgstr "Projekty - Własne"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:38
+msgid "My projects"
+msgstr "Moje projekty"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:42
+msgid "Page to list the projects a customer owns."
+msgstr "Strona do wypisania projektów których klient jest właścicielem."
+
+#: src/php/customer-projects/customer-projects-addon.class.php:68
+#: src/php/customer-projects/widget-project-statuses.class.php:34
+msgid "Statuses"
+msgstr "Statusy"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:79
+msgid "Projects with status: %1$s"
+msgstr "Projekty ze statusem: %1$s"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:82
+msgid "Projects: %1$s"
+msgstr "Projekty: %1$s"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:87
+msgid "Current Projects"
+msgstr "Bieżące Projekty"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:91
+msgid "Recent Projects"
+msgstr "Bieżące Projekty"
+
+#: src/php/customer-projects/templates/customer-projects-content-empty-taxonomy_archive.template.php:11
+msgid "There are no projects with that status."
+msgstr "Nie ma projektu z tym statusem."
+
+#: src/php/customer-projects/templates/customer-projects-content-empty-taxonomy_archive.template.php:15
+msgid "There are no projects corresponding to this term."
+msgstr "Nie ma projektu powiązanego z tym wyrażeniem."
+
+#: src/php/customer-projects/templates/customer-projects-content-empty.template.php:8
+msgid "You currently have no projects."
+msgstr "Obecnie nie masz żadnych projektów"
+
+#: src/php/customer-projects/templates/customer-projects-content-item-dashboard.template.php:18
+#: src/php/customer-projects/templates/customer-projects-content-item.template.php:19
+#: src/php/customer-projects/templates/customer-projects-content-item.template.php:32
+msgid "Added on %s"
+msgstr "Dodane na %s"
+
+#: src/php/customer-projects/templates/customer-projects-content-item-dashboard.template.php:23
+#: src/php/customer-projects/templates/customer-projects-content-item.template.php:25
+msgid "%1$s %% complete"
+msgstr "%1$s %% ukończono"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:35
+msgid "Manager"
+msgid_plural "Managers"
+msgstr[0] "Manager"
+msgstr[1] "Managers"
+msgstr[2] ""
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:48
+msgid "Participant"
+msgid_plural "Participants"
+msgstr[0] "Deelnemer"
+msgstr[1] "Deelnemers"
+msgstr[2] ""
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:66
+msgid "Kick-off"
+msgstr "Rozpoczęcie"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:71
+msgid "Deadline"
+msgstr "Deadline"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:76
+msgid "Launch"
+msgstr "Uruchomienie"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-footer.template.php:86
+msgid "%1$s % complete"
+msgstr "%1$s % ukończono"
+
+#: src/php/customer-projects/widget-project-statuses.class.php:22
+msgid "WPCA - Project Statuses"
+msgstr "WPCA - Statusy Projektu"
+
+#: src/php/customer-projects/widget-project-statuses.class.php:24
+msgid "Shows the project statuses of the Customer Area"
+msgstr "Pokazuje statusy projektu w Strefie Klienta"
+
+#: src/php/customer-projects-home/customer-projects-home-addon.class.php:30
+msgid "Projects - Home"
+msgstr "Projekty - Strona Domowa"
+
+#: src/php/customer-projects-home/customer-projects-home-addon.class.php:34
+#: src/php/projects/projects-addon.class.php:22
+#: src/php/projects/projects-addon.class.php:72
+#: src/php/projects/projects-addon.class.php:671
+#: src/php/projects/projects-admin-interface.class.php:64
+#: src/php/projects/projects-admin-interface.class.php:65
+#: src/php/projects/projects-admin-interface.class.php:621
+msgid "Projects"
+msgstr "Projekty"
+
+#: src/php/customer-projects-home/customer-projects-home-addon.class.php:38
+msgid "Root page for the customer projects."
+msgstr "Strona główna dla projektów klienta."
+
+#: src/php/projects/projects-addon.class.php:79
+msgid "All projects"
+msgstr "Wszystkie projekty"
+
+#: src/php/projects/projects-addon.class.php:88
+#: src/php/projects/projects-admin-interface.class.php:71
+#: src/php/projects/projects-admin-interface.class.php:72
+msgid "New project"
+msgstr "Nowy projekt"
+
+#: src/php/projects/projects-addon.class.php:97
+#: src/php/projects/projects-addon.class.php:679
+msgid "Manage statuses"
+msgstr "Zarządzaj statusami"
+
+#: src/php/projects/projects-addon.class.php:286
+msgid "Project"
+msgstr "Projekt"
+
+#: src/php/projects/projects-addon.class.php:674
+msgid "Back-office"
+msgstr "Kokpit"
+
+#: src/php/projects/projects-addon.class.php:676
+msgid "Create/Edit projects"
+msgstr "Utwórz/Edytuj projekty"
+
+#: src/php/projects/projects-addon.class.php:677
+msgid "Delete projects"
+msgstr "Usuń projekty"
+
+#: src/php/projects/projects-addon.class.php:678
+msgid "Access projects"
+msgstr "Dostępne projekty"
+
+#: src/php/projects/projects-addon.class.php:680
+msgid "Edit statuses"
+msgstr "Edytuj statusy"
+
+#: src/php/projects/projects-addon.class.php:681
+msgid "Delete statuses"
+msgstr "Usuń statusy"
+
+#: src/php/projects/projects-addon.class.php:682
+msgid "Assign statuses"
+msgstr "Przypisz statusy"
+
+#: src/php/projects/projects-addon.class.php:686
+msgid "Front-office"
+msgstr "Front office"
+
+#: src/php/projects/projects-addon.class.php:688
+msgid "View Projects"
+msgstr "Zobacz Projekty"
+
+#: src/php/projects/projects-addon.class.php:789
+msgid "Draft"
+msgstr "Szkic"
+
+#: src/php/projects/projects-addon.class.php:790
+msgid "Open"
+msgstr "Otwórz"
+
+#: src/php/projects/projects-addon.class.php:791
+msgid "Suspended"
+msgstr "Zawieszony"
+
+#: src/php/projects/projects-addon.class.php:792
+msgid "Closed"
+msgstr "Zamknięty"
+
+#: src/php/projects/projects-admin-interface.class.php:78
+#: src/php/projects/projects-admin-interface.class.php:79
+msgid "Project Statuses"
+msgstr "Statusy Projektu"
+
+#: src/php/projects/projects-admin-interface.class.php:158
+#: src/php/projects/projects-admin-interface.class.php:344
+msgid "Status"
+msgstr "Status"
+
+#: src/php/projects/projects-admin-interface.class.php:159
+#: src/php/projects/projects-admin-interface.class.php:481
+msgid "Started"
+msgstr "Rozpoczęty"
+
+#: src/php/projects/projects-admin-interface.class.php:160
+#: src/php/projects/projects-admin-interface.class.php:487
+msgid "Due"
+msgstr "do"
+
+#: src/php/projects/projects-admin-interface.class.php:161
+#: src/php/projects/projects-admin-interface.class.php:493
+msgid "Completed"
+msgstr "Zakończony"
+
+#: src/php/projects/projects-admin-interface.class.php:162
+#: src/php/projects/projects-admin-interface.class.php:288
+#: src/php/projects/projects-admin-interface.class.php:309
+#: src/php/projects/projects-admin-interface.class.php:351
+msgid "Progress"
+msgstr "Postęp"
+
+#: src/php/projects/projects-admin-interface.class.php:163
+msgid "People"
+msgstr "Ludzie"
+
+#: src/php/projects/projects-admin-interface.class.php:186
+#: src/php/projects/projects-admin-interface.class.php:198
+msgid "Managers"
+msgstr "Menadżerowie"
+
+#: src/php/projects/projects-admin-interface.class.php:217
+#: src/php/projects/projects-admin-interface.class.php:220
+#: src/php/projects/projects-admin-interface.class.php:223
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: src/php/projects/projects-admin-interface.class.php:238
+msgid "All statuses"
+msgstr "Wszystkie statusy"
+
+#: src/php/projects/projects-admin-interface.class.php:358
+msgid "Schedule"
+msgstr "Harmonogram"
+
+#: src/php/projects/projects-admin-interface.class.php:366
+msgid "Team"
+msgstr "Zespół"
+
+#: src/php/projects/projects-admin-interface.class.php:388
+msgid "Select the project managers"
+msgstr "Wybierz menadżerów grupy"
+
+#: src/php/projects/projects-admin-interface.class.php:392
+msgid "Select project managers (hint: you can also type to search a user)"
+msgstr ""
+"Wybierz menadżerów projektu (podpowiedź: możesz także wpisywać aby wyszukać "
+"użytkownika)"
+
+#: src/php/projects/projects-admin-interface.class.php:403
+msgid "Select the project participants"
+msgstr "Wybierz uczestników projektu"
+
+#: src/php/projects/projects-admin-interface.class.php:407
+msgid "Select project participants (hint: you can also type to search a user)"
+msgstr ""
+"Wybierz uczestników projektu (podpowiedź: możesz także wpisywać aby wyszukać "
+"użytkownika)"
+
+#: src/php/projects/projects-admin-interface.class.php:633
+msgid "Project statuses"
+msgstr "Statusy Projektu"
+
+#: src/php/projects/projects-admin-interface.class.php:640
+msgid "Default status"
+msgstr "Domyślny status"
+
+#: src/php/projects/projects-admin-interface.class.php:653
+msgid "Hide statuses"
+msgstr "Ukryj statusy"
+
+#: src/php/projects/projects-admin-interface.class.php:669
+msgid "Administration"
+msgstr "Administracja"
+
+#: src/php/projects/projects-admin-interface.class.php:676
+msgid "Managers' Role"
+msgstr "Role Menadżerów"
+
+#: src/php/projects/projects-admin-interface.class.php:691
+msgid "Participants' Role"
+msgstr "Role Uczestników"
+
+#. Description of the plugin/theme
+msgid "Adds the concept of project to group private content"
+msgstr "Dodaje koncept projektu do zawartości grup prywatnych"
+
+#: src/php/projects/projects-addon.class.php:331
+#: src/php/projects/projects-addon.class.php:703
+msgctxt "cuar_project"
+msgid "Project"
+msgstr "Projekt"
+
+#: src/php/projects/projects-addon.class.php:332
+#: src/php/projects/projects-addon.class.php:702
+#: src/php/projects/projects-addon.class.php:713
+msgctxt "cuar_project"
+msgid "Projects"
+msgstr "Projekty"
+
+#: src/php/projects/projects-addon.class.php:704
+msgctxt "cuar_project"
+msgid "Add New"
+msgstr "Dodaj nowy"
+
+#: src/php/projects/projects-addon.class.php:705
+msgctxt "cuar_project"
+msgid "Add New Project"
+msgstr "Dodaj nowy Projekt"
+
+#: src/php/projects/projects-addon.class.php:706
+msgctxt "cuar_project"
+msgid "Edit Project"
+msgstr "Edytuj Projekt"
+
+#: src/php/projects/projects-addon.class.php:707
+msgctxt "cuar_project"
+msgid "New Project"
+msgstr "Nowy Projekt"
+
+#: src/php/projects/projects-addon.class.php:708
+msgctxt "cuar_project"
+msgid "View Project"
+msgstr "Zobacz Projekt"
+
+#: src/php/projects/projects-addon.class.php:709
+msgctxt "cuar_project"
+msgid "Search Projects"
+msgstr "Szukaj Projektów"
+
+#: src/php/projects/projects-addon.class.php:710
+msgctxt "cuar_project"
+msgid "No projects found"
+msgstr "Nie znaleziono projektów"
+
+#: src/php/projects/projects-addon.class.php:711
+msgctxt "cuar_project"
+msgid "No projects found in Trash"
+msgstr "Nie znaleziono projektów w Koszu"
+
+#: src/php/projects/projects-addon.class.php:712
+msgctxt "cuar_project"
+msgid "Parent project:"
+msgstr "Nadrzędny projekt:"
+
+#: src/php/projects/projects-addon.class.php:746
+#: src/php/projects/projects-addon.class.php:760
+msgctxt "cuar_project_status"
+msgid "Project Statuses"
+msgstr "Statusy Projektu"
+
+#: src/php/projects/projects-addon.class.php:747
+msgctxt "cuar_project_status"
+msgid "Project Status"
+msgstr "Status Projektu"
+
+#: src/php/projects/projects-addon.class.php:748
+msgctxt "cuar_project_status"
+msgid "Search Project Statuses"
+msgstr "Szukaj Statusów Projektu"
+
+#: src/php/projects/projects-addon.class.php:749
+msgctxt "cuar_project_status"
+msgid "Popular Project Statuses"
+msgstr "Popularne Statusy Projektu"
+
+#: src/php/projects/projects-addon.class.php:750
+msgctxt "cuar_project_status"
+msgid "All Project Statuses"
+msgstr "Statusy wszystkich Projektów"
+
+#: src/php/projects/projects-addon.class.php:751
+msgctxt "cuar_project_status"
+msgid "Parent Project Status"
+msgstr "Nadrzędny Status Projektu"
+
+#: src/php/projects/projects-addon.class.php:752
+msgctxt "cuar_project_status"
+msgid "Parent Project Status:"
+msgstr "Nadrzędny Status Projektu:"
+
+#: src/php/projects/projects-addon.class.php:753
+msgctxt "cuar_project_status"
+msgid "Edit Project Status"
+msgstr "Edytuj status Projektu"
+
+#: src/php/projects/projects-addon.class.php:754
+msgctxt "cuar_project_status"
+msgid "Update Project Status"
+msgstr "Zaktualizuj Status Projektu"
+
+#: src/php/projects/projects-addon.class.php:755
+msgctxt "cuar_project_status"
+msgid "Add New Project Status"
+msgstr "Dodaj nowy status projektu"
+
+#: src/php/projects/projects-addon.class.php:756
+msgctxt "cuar_project_status"
+msgid "New Project Status"
+msgstr "Nowy Status Projektu"
+
+#: src/php/projects/projects-addon.class.php:757
+msgctxt "cuar_project_status"
+msgid "Separate project statuses with commas"
+msgstr "Oddziel statusy projektu przecinkami"
+
+#: src/php/projects/projects-addon.class.php:758
+msgctxt "cuar_project_status"
+msgid "Add or remove project statuses"
+msgstr "Dodaj lub usuń statusy projektu"
+
+#: src/php/projects/projects-addon.class.php:759
+msgctxt "cuar_project_status"
+msgid "Choose from the most used project statuses"
+msgstr "Wybierz z najczęściej używanych statusów projektu"
+
+msgid "Customer Area - Project Statuses"
+msgstr "Strefa Klienta - Statusy Projektu"
+
+msgid ""
+"You can hide projects with the given status from the select fields by "
+"default. For example, when you want to assign private content to a project, "
+"it can be handy to hide all closed projects to shorten the list."
+msgstr ""
+"Możesz domyślnie ukryć projekty z podanym statusem z pól wyboru. Na "
+"przykład, jeśli chcesz przypisać prywatną treść do projektu, może to być "
+"pomocne, aby ukryć wszystkie zamknięte projekty w celu skrócenia listy."
+
+msgid ""
+"The list of managers when creating or editing a project will be restricted "
+"to this role (or will not be restricted if you select \"any role\"). If your "
+"managers all belong to the same role, this makes selecting them easier."
+msgstr ""
+"Lista menadżerów podczas tworzenia lub edycji projektu będzie ograniczona do "
+"tej roli (lub nie będzie ograniczona jeśli wybierzesz \"Dowolna rola\"). "
+"Jeżeli twoi menadżerowie należą do tej samej roku, będzie łatwiej ich "
+"wybierać."
+
+msgid ""
+"The list of participants when creating or editing a project will be "
+"restricted to this role (or will not be restricted if you select \"any role"
+"\"). If your participants all belong to the same role, this makes selecting "
+"them easier."
+msgstr ""
+"Lista uczestników podczas tworzenia lub edycji projektu będzie ograniczona "
+"do tej roli (lub nie będzie ograniczona jeśli wybierzesz \"Dowolna rola\"). "
+"Jeżeli twoi uczestnicy należą do tej samej roku, będzie łatwiej ich wybierać."
+
+msgid "Participants"
+msgstr "Uczestnicy"
+
+msgid "This project now has %d participant(s) and %d manager(s)"
+msgstr "Ten projekt aktualnie ma %d uczestników i %d menadżerów"
+
+msgid "Managed Group"
+msgstr "Zarządzane Grupa"
+
+msgid "Delete managed groups"
+msgstr "Usuń zarządzane grupy"
+
+msgid "Access managed groups"
+msgstr "Wejdź do zarządzanych grup"
+
+msgid "View the groups from a user profile"
+msgstr "Zobacz grupy z profilu użytkownika"
+
+msgid "Edit the groups from a user profile"
+msgstr "Edytuj grupy z profilu użytkownika"
+
+msgctxt "cuar_managed_group"
+msgid "Managed Groups"
+msgstr "Zarządzane Grupy"
+
+msgctxt "cuar_managed_group"
+msgid "Managed Group"
+msgstr "Zarządzane Grupa"
+
+msgctxt "cuar_managed_group"
+msgid "Add New Managed Group"
+msgstr "Dodaj Nową Zarządzaną Grupę"
+
+msgctxt "cuar_managed_group"
+msgid "Edit Managed Group"
+msgstr "Edytuj Zarządzaną Grupę"
+
+msgctxt "cuar_managed_group"
+msgid "New Managed Group"
+msgstr "Nowa Zarządzana Grupa"
+
+msgctxt "cuar_managed_group"
+msgid "View Managed Group"
+msgstr "Zobacz Zarządzaną Grupę"
+
+msgctxt "cuar_managed_group"
+msgid "Search Managed Groups"
+msgstr "Szukaj Zarządzanych Grup"
+
+msgctxt "cuar_managed_group"
+msgid "No user groups found"
+msgstr "Nie znaleziono grup użytkowników"
+
+msgctxt "cuar_managed_group"
+msgid "No user groups found in Trash"
+msgstr "Nie znaleziono grup użytkowników w Koszu"
+
+msgctxt "cuar_managed_group"
+msgid "Parent Managed Group:"
+msgstr "Nadrzędna Grupa Zarządzana:"
+
+msgid "New Managed Group"
+msgstr "Nowa Zarządzana Grupa"
+
+msgid "Members"
+msgstr "Członkowie"
+
+msgid "Select the group members"
+msgstr "Wybierz członków grupy"
+
+msgid "Select group members (hint: you can also type to search a user)"
+msgstr ""
+"Wybierz członków grupy (podpowiedź: możesz także wpisywać aby wyszukać "
+"użytkownika)"
+
+msgid "Members' Role"
+msgstr "Role Członków"
+
+msgid ""
+"The list of members when creating or editing a managed group will be "
+"restricted to this role (or will not be restricted if you select \"any role"
+"\"). If your members all belong to the same role, this makes selecting them "
+"easier."
+msgstr ""
+"Lista członków podczas tworzenia lub edycji projektu będzie ograniczona do "
+"tej roli (lub nie będzie ograniczona jeśli wybierzesz \"Dowolna rola\"). "
+"Jeżeli twoi członkowie należą do tej samej roku, będzie łatwiej ich wybierać."
+
+msgid "Edit groups managed"
+msgstr "Edytuj grupy zarządzane"
+
+msgid "You have not yet created any managed groups."
+msgstr "Nie utworzyłeś jeszcze żadnej zarządzanej grupy."
+
+msgid "Choose groups"
+msgstr "Wybierz grupy"
+
+msgid "Edit groups subscribed"
+msgstr "Edytuj grupy subskrybowane"
+
+msgid "You manage: "
+msgstr "Ty zarządzasz: "
+
+msgid "This user manages: "
+msgstr "Ten użytkownik zarządza: "
+
+msgid "You do not manage any group"
+msgstr "Nie zarządzasz żadną grupą"
+
+msgid "This user does not manage any group"
+msgstr "Ten użytkownik nie zarządza żadną grupą"
+
+msgid "You are a member of: "
+msgstr "Jesteś członkiem: "
+
+msgid "This user is a member of: "
+msgstr "Ten użytkownik jest członkiem: "
+
+msgid "You do not belong to any group"
+msgstr "Nie należysz do żadnych grup"
+
+msgid "This user does not belong to any group"
+msgstr "Ten użytkownik nie należy do żadnej frupy"
+
+msgid "Currently, the group is managed by the following users: "
+msgstr "Obecnie grupa zarządzana jest przez poniższych użytkowników: "
+
+msgid "Currently, the group includes the following users: "
+msgstr "Obecnie grupa zawiera poniższych użytkowników: "
+
+msgid "Automatic Updates"
+msgstr "Automatyczne Aktualizacje"
+
+msgid "License key"
+msgstr "Klucz licencji"
+
+msgid ""
+"Do not activate your license on your development site. Only on the final "
+"site where you are running the plugin."
+msgstr ""
+"Nie aktywuj swojej licencji na stronie deweloperskiej. Tylko na końcowej "
+"wersji strony, na której będą działały wtyczki."
+
+msgid "Extended Permissions"
+msgstr "Rozszerzone Uprawnienia"
+
+msgid "Role"
+msgstr "Role"
+
+msgid "User Selection"
+msgstr "Wybór Użytkowników"
+
+msgctxt "cuar_user_group"
+msgid "User Group"
+msgstr "Grupa Użytkowników"
+
+msgctxt "cuar_user_group"
+msgid "New User Group"
+msgstr "Nowa Grupa Użytkowników"
+
+msgid "User Selections"
+msgstr "Wybory Użytkowników"
+
+msgid "Login & Register Forms"
+msgstr "Formularze Logowania i Rejestracji"
+
+msgid "You can now login with your new password"
+msgstr "Możesz się teraz zalogować korzystając z nowego hasła"
+
+msgid ""
+"<strong>ERROR</strong>: You must write the code displayed in the image above."
+msgstr ""
+"<strong>BŁĄD</strong>: Musisz wpisać kod wyświetlony na obrazku powyżej."
+
+msgid "<strong>ERROR</strong>: The code you entered is not correct."
+msgstr "<strong>BŁĄD</strong>: Kod wpisany przez Ciebie jest niepoprawny."
+
+msgid "An email has been sent with the instructions to reset your password."
+msgstr "Instrukcje dotyczące resetowania hasła zostały wysłane emailem."
+
+msgid ""
+"<strong>ERROR</strong>: You must enter a valid username and a valid email "
+"address."
+msgstr ""
+"<strong>BŁĄD</strong>: Musisz wpisać prawidłową nazwę użytkownika i "
+"prawidłowy adres email."
+
+msgid "An email has been sent with the instructions to activate your account."
+msgstr "Informacje dotyczące aktywacji konta zostały wysłane emailem."
+
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked or not supported by your browser."
+"You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to "
+"login here."
+msgstr ""
+"<strong>BŁĄD</strong>: Ciasteczka są zablokowane albo nie wspierane przez "
+"Twoją przeglądarkę. Musisz  <a href='http://www.google.com/cookies."
+"html'>włączyć ciasteczka</a> aby się tutaj zalogować."
+
+msgid "<strong>ERROR</strong>: User registration is disabled on this site."
+msgstr ""
+"<strong>BŁĄD</strong>: Rejestrowanie użytkowników jest na tej stronie "
+"wyłączone."
+
+msgid "Register"
+msgstr "Zarejestruj się"
+
+msgid "Please fill the form below to create your account."
+msgstr "Proszę wypełni poniższy formularz aby utworzyć swoje konto."
+
+msgid "Reset your password"
+msgstr "Resetuj swoje hasło"
+
+msgid "Forgot your password"
+msgstr "Zapomniałeś swojego hasła"
+
+msgid ""
+"Write down below the email address corresponding to your account and we will "
+"send instructions to recover your password."
+msgstr ""
+"Napisz poniżej adres mailowy przypisany do twojego konta, a my wyślemy "
+"informacje jak odzyskać hasło."
+
+msgid "Login"
+msgstr "Logowanie"
+
+msgid ""
+"You must login to access your own customer area. If you do not have an "
+"account yet, please register or contact us so that we can create it."
+msgstr ""
+"Musisz się zalogować aby mieć dostęp do twojej strefy klienta. Jeżeli nie "
+"masz jeszcze konta, proszę zarejestruj się lub skontaktuj z nami, abyśmy "
+"mogli je utworzyć."
+
+msgid "Customer Area"
+msgstr "Strefa Klienta"
+
+msgid "Login Form"
+msgstr "Formularz Logowania"
+
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>BŁĄD</strong>: Wprowadź nazwę użytkownika albo adres e-mail."
+
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+"<strong>BŁĄD</strong>: Nie ma użytkownika zarejestrowanego pod tym adresem "
+"email."
+
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>BŁĄD</strong>: Niepoprawna nazwa użytkownika albo e-mail."
+
+msgid "Password reset is not allowed for this user"
+msgstr "Resetowanie hasła jest niedozwolone bez tego użytkownika"
+
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Ktoś poprosił o reset hasła dla poniższego konta:"
+
+msgid "Username: %s"
+msgstr "Nazwa użytkownika: %s"
+
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Jeżeli to pomyłka, po prostu zignoruj tego maila i nic się nie stanie."
+
+msgid "To reset your password, visit the following address:"
+msgstr "Aby zresetować hasło, odwiedź poniższy adres:"
+
+msgid "[%s] Password Reset"
+msgstr "[%s] Resetuj Hasło"
+
+msgid "The e-mail could not be sent."
+msgstr "Email nie mógł być wysłany."
+
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+"Prawdopodobna przyczyna: twój hosting może mieć wyłączony mail() function..."
+
+msgid "Invalid key"
+msgstr "Niepoprawny klucz"
+
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>BŁĄD</strong>: Proszę wpisz nazwę użytkownika."
+
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>BŁĄD</strong>: Ta nazwa użytkownika jest niepoprawna ponieważ używa "
+"niedozwolonych znaków. Proszę wpisz poprawną nazwę użytkownika."
+
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>BŁĄD</strong>: Ta nazwa użytkownika jest już zajęta. Proszę wybierz "
+"inną."
+
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>BŁĄD</strong>: Proszę wpisz swój adres e-mail."
+
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>BŁĄD</strong>: Adres email nie jest poprawny."
+
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>BŁĄD</strong>: Ten adres email jest już zarejestrowany, proszę "
+"wybierz inny."
+
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+"<strong>BŁĄD</strong>: Nie mogliśmy CIę zarejestrować... proszę skontaktuj "
+"się z <a href=\"mailto:%s\">administratorem</a> !"
+
+msgid "New user registration on your site %s:"
+msgstr "Nowa rejestracja użytkownika na Twojej stronie %s:"
+
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+msgid "[%s] New User Registration"
+msgstr "[%s] Rejestracja nowego użytkownika"
+
+msgid "Password: %s"
+msgstr "Hasło: %s"
+
+msgid "[%s] Your username and password"
+msgstr "[%s] Twoja nazwa użytkownika i hasło"
+
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+msgid "Password"
+msgstr "Hasło"
+
+msgid "Remember me"
+msgstr "Zapamiętaj mnie"
+
+msgid "Forgot your password?"
+msgstr "Zapomniałeś swojego hasła"
+
+msgid "Create your account"
+msgstr "Utwórz swoje konto"
+
+msgid "Username or Email"
+msgstr "Nazwa użytkownika lub Email"
+
+msgid "Spam Check"
+msgstr "Sprawdzanie Spamu"
+
+msgid "Copy the code shown above in the input field."
+msgstr "Skopiuj kod pokazanych powyżej w polu wprowadzania treści."
+
+msgid "Get New Password"
+msgstr "Zdobądź Nowe Hasło"
+
+msgid "Email Address"
+msgstr "Adres Email"
+
+msgid "A password will be e-mailed to you."
+msgstr "Hasło zostanie przesłane do Ciebie mailem."
+
+msgid "New Password"
+msgstr "Nowe Hasło"
+
+msgid "Type your new password again."
+msgstr "Wpisz swoje nowe hasło ponownie."
+
+msgid "Change Password"
+msgstr "Zmień Hasło"
+
+msgid "General"
+msgstr "Ogólne"
+
+msgid "Email format"
+msgstr "format Email"
+
+msgid "Plain text"
+msgstr "Czysty tekst"
+
+msgid "HTML"
+msgstr "HTML"
+
+msgid ""
+"The format in which login_form get sent. HTML might not always be properly "
+"formatted."
+msgstr ""
+"Format w którym login_form będzie wysłany. HTML może nie zawsze być "
+"poprawnie sformatowany."
+
+msgid "The notification can not be sent if the file is not published"
+msgstr "Powiadomienie nie może być wysłane jeśli plik nie został opublikowany"
+
+msgid "The notification can not be sent if the file does not have an owner"
+msgstr "Powiadomienie nie może być wysłane jeśli plik nie ma właściciela"
+
+msgid "The notification can not be sent if the file has not been uploaded"
+msgstr "Powiadomienie nie może  być wysłane jeśli plik nie został wgrany"
+
+msgid "A notification has been sent to %s"
+msgstr "Powiadomienie zostało wysłane do %s"
+
+msgid "Notifications"
+msgstr "Powiadomienia"
+
+msgid "Let the owner know he can access this file"
+msgstr "Powiadom właściciela że ma dostęp do tego pliku"
+
+msgid ""
+"The notification will only be sent if you publish the file, if you have "
+"actually uploaded a file and if you have set an owner. Else nothing will be "
+"sent."
+msgstr ""
+"Powiadomienie będzie wysłane tylko jeśli opublikujesz plik, który jest "
+"poprawnie wgrany i ma ustawionego właściciela. Inaczej nic nie zostanie "
+"wysłane."
+
+msgid "From"
+msgstr "Od"
+
+msgid "The emails will be shown as sent by this name."
+msgstr "Emaile będą wyświetlane jako wysłane przez to imię."
+
+msgid "The emails will be shown as sent from this address."
+msgstr "Emaile będą wyświetlane jako wysłane z tego adresu."
+
+msgid "New Private File"
+msgstr "Nowy Prywatny Plik"
+
+msgid "Mode"
+msgstr "Tryb"
+
+msgid "Disabled"
+msgstr "Wyłączone"
+
+msgid "Enabled"
+msgstr "Włączony"
+
+msgid "Subjet"
+msgstr "Temat"
+
+msgid "Body"
+msgstr "Zawartość"
+
+msgid "Private File Download"
+msgstr "Pobierz Prywatne Pliki"
+
+msgid "Only the first time"
+msgstr "Tylko za pierwszym razem"
+
+msgid "Always"
+msgstr "Zawsze"
+
+msgid ""
+"You can choose whether you want to enable this notification. If you do, you "
+"can opt to receive the notifications only the first time the user downloads "
+"the file or every time he does it."
+msgstr ""
+"Możesz wybrać czy chcesz włączyć to powiadomienie. Jeśli tak, możesz "
+"zaznaczyć że chcesz otrzymać powiadomienie tylko za pierwszym razem gdy "
+"użytkownik pobierze plik lub za każdym razem gdy to zrobi."
+
+msgid "A new file for you is available on %site_name%"
+msgstr "Nowy plik dla Ciebie dostępny jest na %site_name%"
+
+msgid ""
+"<p>Hello %file_owner%,</p><p>A new file (%file_title%) has been made "
+"available for you in our customer area. You can download it by following the "
+"link: %file_url%</p><p>Best regards,</p><p>%from_name%<br/>%site_url%</p>"
+msgstr ""
+"<p>Witaj %file_owner%,</p><p>Nowy plik (%file_title%) jest dla Ciebie "
+"dostępny w strefie klienta. Możesz go ściągnąć poprzez link: %file_url%</"
+"p><p>Pozdrowienia,</p><p>%from_name%<br/>%site_url%</p>"
+
+msgid "New file download on %site_name%"
+msgstr "Nowe pobranie pliku na %site_name%"
+
+msgid ""
+"<p>Hello,</p><p>A file (%file_title%) has been downloaded by %download_user%."
+"</p><p>Best regards,</p><p>The customer area plugin<br/>%site_url%</p>"
+msgstr ""
+"<p>Witaj,</p><p>Plik (%file_title%) został pobrany przez %download_user%.</"
+"p><p>Pozdrowienia,</p><p>Wtyczka Strefa Klienta<br/>%site_url%</p>"
+
+msgid ""
+"Define here the email that will get sent to a user when a new private file "
+"is uploaded for him."
+msgstr ""
+"Zdefiniuj tutaj email, który będzie wysyłany do użytkownika, w momencie "
+"otrzymania nowego prywatnego pliku."
+
+msgid "Show after post"
+msgstr "Pokaż po wpisie"
+
+msgid ""
+"Show the view and download links below the post content for a customer file."
+msgstr ""
+"Pokaż widok i linki do pobierania poniżej zawartości wpisu dla pliku klienta."
+
+msgid "Include CSS"
+msgstr "Dołącz CSS"
+
+msgid "Include the default stylesheet."
+msgstr "Dołącz domyślny arkusz stylów."
+
+msgid "If not, you should style the plugin yourself in your theme."
+msgstr ""
+"Jeśli nie, powinieneś dostosować styl wtyczki własnoręcznie w swoim motywie."
+
+msgid " is not a valid value"
+msgstr " nie jest poprawną wartością"
+
+msgid "must be an integer"
+msgstr "musi być  liczba całkowita"
+
+msgid "must be greater than %s"
+msgstr "musi być większe niż %s"
+
+msgid "must be lower than %s"
+msgstr "musi być mniejsze niż %s"
+
+msgid "Hello"
+msgstr "Witaj"
+
+msgid "You must login to access your own customer area."
+msgstr "Musisz się zalogować aby mieć dostęp do twojej strefy klienta."
+
+msgid "Hello %s,"
+msgstr "Witaj %s,"
+
+msgid "download-file"
+msgstr "pobierz-plik"
+
+msgid "view-file"
+msgstr "view-file"
+
+msgid "You are not authorized to view this file"
+msgstr "Nie jesteś autoryzowany aby oglądać ten plik"
+
+msgid "You are not authorized to access this file"
+msgstr "Nie jesteś autoryzowany aby mieć dostęp do tego pliku"
+
+msgid "Customer Files"
+msgstr "Pliki Klienta"
+
+msgid "Customer File"
+msgstr "Plik Klienta"
+
+msgid "Edit Customer File"
+msgstr "Edytuj Plik Klienta"
+
+msgid "New Customer File"
+msgstr "Nowy Plik Klienta"
+
+msgid "View Customer File"
+msgstr "Zobacz Pliki Klienta"
+
+msgid "File Categories"
+msgstr "Kategorie Pliku"
+
+msgid "File Category"
+msgstr "Kategoria Pliku"
+
+msgid "Search File Categories"
+msgstr "Szukaj Kategorii Plików"
+
+msgid "Popular File Categories"
+msgstr "Popularne Kategorie Plików"
+
+msgid "All File Categories"
+msgstr "Wszystkie Kategorie Plików"
+
+msgid "Parent File Category"
+msgstr "Kategoria Pliku Nadrzędnego"
+
+msgid "Parent File Category:"
+msgstr "Kategoria Pliku Nadrzędnego:"
+
+msgid "Edit File Category"
+msgstr "Edytuj Kategorię Pliku"
+
+msgid "Update File Category"
+msgstr "Zaktualizuj Kategorię Pliku"
+
+msgid "Add New File Category"
+msgstr "Dodaj Nową Kategorię Pliku"
+
+msgid "New File Category"
+msgstr "Nowa Kategoria Pliku"
+
+msgid "private-file-category"
+msgstr "private-file-category"
+
+msgid "private-file"
+msgstr "private-file"
+
+msgid "unknown"
+msgstr "nieznany"
+
+msgid "Owner"
+msgstr "Właściciel"
+
+msgid "Nobody"
+msgstr "Nikt"
+
+msgid "File"
+msgstr "Plik"
+
+msgid "Current file:"
+msgstr "Bieżący plik:"
+
+msgid "Upload a file"
+msgstr "Wgraj plik"
+
+msgid "This file type is not allowed. You can only upload: %s"
+msgstr "Ten typ pliku nie jest dozwolony. Możesz wgrywać tylko: %s"
+
+msgid "An unknown error happened while uploading your file."
+msgstr "Nieznany błąd wystąpił podczas wgrywania twojego pliku."
+
+msgid "An error happened while uploading your file: %s"
+msgstr "Wystąpił błąd podczas wgrywania twojego pliku: %s"
+
+msgid "Associated file"
+msgstr "Powiązany plik"
+
+msgid "View"
+msgstr "Zobacz"
+
+msgid "Download"
+msgstr "Pobierz"
+
+msgid "Your files"
+msgstr "Twoje pliki"
+
+msgid "Categories"
+msgstr "Kategorie"
+
+msgid "Category"
+msgstr "Kategoria"
+
+msgid "Houston&hellip; we have a problem!"
+msgstr "Houston&hellip; mamy problem!"
+
+msgid ""
+"We have not found what you are looking for. You could simply close this "
+"window out of rage, but you might also want to have a look at the rest of "
+"the website. I am sure you won' be disappointed again. Promise."
+msgstr ""
+"Nie znaleźliśmy tego, czego szukasz. Możesz po prostu zamknąć to okno, albo "
+"możesz także przejrzeć pozostałą część witryny. Jestem pewien, że nie "
+"zawiedziesz się ponownie. Obiecuję."
+
+msgid "Browse our blog"
+msgstr "Przejrzyj nasz blog"
+
+msgid "By Date"
+msgstr "Po Dacie"
+
+msgid "By Tag"
+msgstr "Po Tagu"
+
+msgid "Filter our work"
+msgstr "Przefiltruj naszą pracę"
+
+msgid "By date"
+msgstr "Po dacie"
+
+msgid "By type"
+msgstr "Po typie"
+
+msgid "Browse our archives"
+msgstr "Przeglądaj nasze archiwum"
+
+msgid "Daily Archives: %s"
+msgstr "Dzienne Archiwum: %s"
+
+msgid "Monthly Archives: %s"
+msgstr "Miesięczne Archiwum: %s"
+
+msgid "F Y"
+msgstr "F Y"
+
+msgid "Yearly Archives: %s"
+msgstr "Roczne Archiwum: %s"
+
+msgid "Y"
+msgstr "Y"
+
+msgid "Archives"
+msgstr "Archiwum"
+
+msgid "Category Archives: %s"
+msgstr "Archiwum Kategorii: %s"
+
+msgid "Comment navigation"
+msgstr "Nawigacja komentarzy"
+
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Starsze Komentarze"
+
+msgid "Newer Comments &raquo;"
+msgstr "Nowsze Komentarze &raquo;"
+
+msgid "Comments are closed."
+msgstr "Komentarze są wyłączone."
+
+msgid "Leave a comment"
+msgstr "Zostaw komentarz"
+
+msgid "Learn more about &laquo; %s &raquo;"
+msgstr "Dowiedz się więcej o &laquo; %s &raquo;"
+
+msgid "Filed under: "
+msgstr "Uzupełnione pod:"
+
+msgid "<li>&raquo; Tagged: "
+msgstr "<li>&raquo; Otagowano: "
+
+msgid "Permalink to %s"
+msgstr "Link do %s"
+
+msgid "Read more"
+msgstr "Czytaj dalej"
+
+msgid "Edit this post"
+msgstr "Edytuj ten wpis"
+
+msgid "Get in touch"
+msgstr "Pozostań w kontakcie"
+
+msgid "+33 6 50 21 23 94"
+msgstr "+33 6 50 21 23 94"
+
+msgid "hello@marvinlabs.com"
+msgstr "hello@marvinlabs.com"
+
+msgid "+1 us on Google+"
+msgstr "+1 nas na Google+"
+
+msgid "Like us on Facebook"
+msgstr "Polub nas na Facebooku"
+
+msgid "Follow us on Twitter"
+msgstr "Śledź nas na Twitterze"
+
+msgid "Use our code from GitHub"
+msgstr "Użyj naszego kodu z GitHub"
+
+msgid "We help fellow developers on StackOverflow"
+msgstr "Pomagamy innym programistom w StackOverflow"
+
+msgid "Get our free WordPress plugins & themes"
+msgstr "Pobierz nasze darmowe wtyczki i szablony"
+
+msgid "Main navigation menu"
+msgstr "Główne menu nawigacji"
+
+msgid "Work"
+msgstr "Praca"
+
+msgid "work"
+msgstr "praca"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Types"
+msgstr "Typy"
+
+msgid "work-type"
+msgstr "work-type"
+
+msgid "Skill"
+msgstr "Umiejętność"
+
+msgid "Skills"
+msgstr "Umiejętności"
+
+msgid "work-skill"
+msgstr "work-skill"
+
+msgid "Technology"
+msgstr "Technologia"
+
+msgid "Technologies"
+msgstr "Technologie"
+
+msgid "work-technology"
+msgstr "work-technology"
+
+msgid "work-category"
+msgstr "work-category"
+
+msgid "Single blog post"
+msgstr "Pojedynczy wpis"
+
+msgid "Blog archive page"
+msgstr "Strona archiwum bloga"
+
+msgid "Footer, #getintouch"
+msgstr "Stopka, #getintouch"
+
+msgid "Footer, #bottom"
+msgstr "Stopka, #bottom"
+
+msgid "Page %s"
+msgstr "Strona %s"
+
+msgid "About this project"
+msgstr "O tym projekcie"
+
+msgid "Project launched in %s"
+msgstr "Projekt uruchomiony w %s"
+
+msgid "View the live website"
+msgstr "Zobacz stronę \"Live\""
+
+msgid "Get the app on Google Play"
+msgstr "Pobierz aplikacje na Google Play"
+
+msgid "Get the app on Apple's AppStore"
+msgstr "Pobierz aplikacje na Apple's AppStore"
+
+msgid "Get the WordPress plugin"
+msgstr "Pobierz wtyczkę WordPress"
+
+msgid "Skills: "
+msgstr "Umiejętności: "
+
+msgid "Technologies: "
+msgstr "Technologie: "
+
+msgid "You like this project and think we can do a good job with yours?"
+msgstr ""
+"Podoba Ci się ten projekt i myślisz że może nam się także udać i z Twoim?"
+
+msgid "Request a quote"
+msgstr "Poproś o wycenę"
+
+msgid "About this post"
+msgstr "O tym wpisie"
+
+msgid "Posted on: "
+msgstr "Opublikowane w: "
+
+msgid "Tag Archives: %s"
+msgstr "Archiwum Tagów: %s"
+
+msgid "Our projects of type: %s"
+msgstr "Nasze projekty typu: %s"
+
+msgid "%1$s on %2$s"
+msgstr "%1$s na %2$s"
+
+msgid "Posts navigation"
+msgstr "Nawigacja wpisów"
+
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Starsze posty"
+
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Nowsze wpisy <span class=\"meta-nav\">&raquo;</span>"
+
+msgid "show details"
+msgstr "pokaż szczegóły"
+
+msgid "See all of our work"
+msgstr "Zobacz całą naszą pracę"
+
+msgid ""
+"All content on this website is the property of &laquo;Constant le "
+"jardinier&raquo; and may not be used without permission"
+msgstr ""
+"Cała treść strony należy do  &laquo;Constant le jardinier&raquo; i nie może "
+"być użyta bez pozwolenia"
+
+msgid "&copy; Constant le jardinier"
+msgstr "&copy; Constant le jardinier"
+
+msgid ""
+"Designed and carried out by MarvinLabs, digital creation studio in Basque "
+"country, France (Biarritz, Anglet, Bayonne)"
+msgstr ""
+"Zaprojektowane i rozwijane przez MarvinLabs, cyfrowe studio w kraju Basków, "
+"Francja (Biarritz, Anglet, Bayonne)"
+
+msgid "A website planted with care by MarvinLabs"
+msgstr "Strona rozwijana przez MarvinLabs"
+
+msgid "and"
+msgstr "i"
+
+msgid "Paintings by Marilou Laure"
+msgstr "Malowane przez Marilou Laure"
+
+msgid "illustrated with taste by Marilou Laure"
+msgstr "gustownie zilustrowane przez Marilou Laure"
+
+msgid "Left footer navigation"
+msgstr "Lewa nawigacja stopki"
+
+msgid "Right footer navigation"
+msgstr "Prawa nawigacja stopki"
+
+msgid "Services"
+msgstr "Serwisy"
+
+msgid "Service"
+msgstr "Serwis"
+
+msgid "Footer Widgets 1 (Left)"
+msgstr "Widżety Stopki 1 (Lewe)"
+
+msgid "Footer Widgets 2 (Middle)"
+msgstr "Widżety Stopki 2 (Środkowe)"
+
+msgid "Footer Widgets 3 (Right)"
+msgstr "Widżety Stopki 3 (Prawe)"
+
+msgid "Nothing here"
+msgstr "Nic tu nie ma"
+
+msgid "You should not even be on this page!"
+msgstr "Nie powinno być Cię na tej stronie!"
