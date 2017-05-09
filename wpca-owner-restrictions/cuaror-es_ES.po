@@ -1,0 +1,146 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2016}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Owner Restriction 4.0.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2017-04-13 16:55+0200\n"
+"PO-Revision-Date: 2017-05-09 15:27+0200\n"
+"Last-Translator: Juanjo Navarro <cmsweb@juanjoresa.es>\n"
+"Language-Team: Juanjo Navarro <cmsweb@juanjoresa.es> para Marvinlabs\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: D:/SERVIDOR/www/izurdiaga.dev/wp-content/plugins/customer-"
+"area-owner-restriction\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/owner-restriction-addon.class.php:25
+msgid "Owner Restrictions"
+msgstr "Restricciones de Propietario"
+
+#: src/php/owner-restriction-addon.class.php:88
+msgid "Any user"
+msgstr "Cualquier usuario"
+
+#: src/php/owner-restriction-addon.class.php:89
+msgid "No user at all"
+msgstr "Ningún usuario"
+
+#: src/php/owner-restriction-addon.class.php:90
+msgid "Only himself"
+msgstr "Solo a si mismo"
+
+#: src/php/owner-restriction-addon.class.php:97
+msgid "Any member of the groups where the author is a manager"
+msgstr "Cualquier miembro de los grupos donde el autor es administrador"
+
+#: src/php/owner-restriction-addon.class.php:98
+msgid "Any manager of the groups where the author is a member"
+msgstr "Cualquier administrador de los grupos en los que el autor es miembro"
+
+#: src/php/owner-restriction-addon.class.php:107
+#, php-format
+msgid "Any users with the role: %s"
+msgstr "Cualquier usuario con el perfil: %s"
+
+#: src/php/owner-restriction-addon.class.php:118
+msgid "Any global rule"
+msgstr "Cualquier norma general"
+
+#: src/php/owner-restriction-addon.class.php:119
+msgid "No global rule"
+msgstr "Ninguna norma general"
+
+#: src/php/owner-restriction-addon.class.php:131
+msgid "Any role"
+msgstr "Cualquier rol"
+
+#: src/php/owner-restriction-addon.class.php:132
+msgid "No role"
+msgstr "Ningún rol"
+
+#: src/php/owner-restriction-addon.class.php:142
+#, php-format
+msgid "Only the %s role"
+msgstr "Sólo el rol %s"
+
+#: src/php/owner-restriction-addon.class.php:153
+msgid "Any user group"
+msgstr "Cualquier grupo de usuarios"
+
+#: src/php/owner-restriction-addon.class.php:154
+msgid "No user group"
+msgstr "Ningún grupo de usuarios"
+
+#: src/php/owner-restriction-addon.class.php:155
+#: src/php/owner-restriction-addon.class.php:171
+#: src/php/owner-restriction-addon.class.php:185
+msgid "Groups where the author is a member"
+msgstr "Grupos en los que el autor es miembro"
+
+#: src/php/owner-restriction-addon.class.php:167
+#: src/php/owner-restriction-addon.class.php:183
+msgid "Any group"
+msgstr "Cualquier grupo"
+
+#: src/php/owner-restriction-addon.class.php:168
+#: src/php/owner-restriction-addon.class.php:184
+msgid "No group"
+msgstr "Ningún grupo"
+
+#: src/php/owner-restriction-addon.class.php:169
+msgid "Groups where the author is a member or a manager"
+msgstr "Grupos en los que el autor es miembro o administrador"
+
+#: src/php/owner-restriction-addon.class.php:170
+msgid "Groups where the author is a manager"
+msgstr "Grupos en los que el autor es administrador"
+
+#: src/php/owner-restriction-addon.class.php:197
+msgid "Any project"
+msgstr "Cualquier proyecto"
+
+#: src/php/owner-restriction-addon.class.php:198
+msgid "No project"
+msgstr "Ningún proyecto"
+
+#: src/php/owner-restriction-addon.class.php:199
+msgid "Projects where the author is involved"
+msgstr "Proyectos en los que participa el autor"
+
+#: src/php/owner-restriction-addon.class.php:209
+#, php-format
+msgid "Projects where the author is &laquo; %1$s &raquo;"
+msgstr "Proyectos en los que el autor es %1$s"
+
+#: src/php/owner-restriction-admin-interface.class.php:36
+msgid "Owner Restriction"
+msgstr "Restriccion de Propietario"
+
+#: src/php/owner-restriction-admin-interface.class.php:48
+msgid ""
+"The table below sets the owners that can be chosen by an author when "
+"creating or editing this private content type."
+msgstr ""
+"La siguiente tabla muestra los destinatarios que un autor puede seleccionar "
+"al crear o editar este tipo de contenido privado."
+
+#: src/php/templates/restrictions-table.template.php:27
+msgid "can create private content for:"
+msgstr "puede crear contenido privado para:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Restrict which owners can be chosen by users when they publish content"
+#~ msgstr ""
+#~ "Restringir que los Propietarios pueden ser elegidos por los Usuarios "
+#~ "cuando publican contenido"

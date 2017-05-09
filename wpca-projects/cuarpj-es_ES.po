@@ -1,0 +1,609 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2016}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Projects 4.0.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2017-04-22 22:18+0200\n"
+"PO-Revision-Date: 2017-05-09 15:27+0200\n"
+"Last-Translator: Juanjo Navarro <cmsweb@juanjoresa.es>\n"
+"Language-Team: Juanjo Navarro <cmsweb@juanjoresa.es> para Marvinlabs\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: D:/SERVIDOR/www/izurdiaga.dev/wp-content/plugins/customer-"
+"area-projects\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/customer-new-project/customer-new-project-addon.class.php:32
+msgid "Projects - New"
+msgstr "Proyectos - Nuevo"
+
+#: src/php/customer-new-project/customer-new-project-addon.class.php:37
+msgid "Create project"
+msgstr "Crear proyecto"
+
+#: src/php/customer-new-project/customer-new-project-addon.class.php:42
+msgid "Page to create new projects."
+msgstr "Página para crear nuevos proyectos."
+
+#: src/php/customer-new-project/customer-new-project-addon.class.php:69
+#: src/php/customer-update-project/customer-update-project-addon.class.php:75
+msgid "The title cannot be empty"
+msgstr "El título no puede estar vacío"
+
+#: src/php/customer-new-project/customer-new-project-addon.class.php:70
+#: src/php/customer-update-project/customer-update-project-addon.class.php:76
+msgid "The description cannot be empty"
+msgstr "La descripción no puede estar vacía"
+
+#: src/php/customer-new-project/customer-new-project-addon.class.php:98
+#: src/php/customer-update-project/customer-update-project-addon.class.php:101
+msgid "Done"
+msgstr "Hecho"
+
+#: src/php/customer-new-project/customer-new-project-addon.class.php:99
+msgid "The project has been created."
+msgstr "El proyecto se ha creado."
+
+#: src/php/customer-new-project/customer-new-project-addon.class.php:102
+#: src/php/customer-update-project/customer-update-project-addon.class.php:105
+msgid "Back to projects"
+msgstr "Volver a proyectos"
+
+#: src/php/customer-new-project/customer-new-project-addon.class.php:107
+msgid "Create more"
+msgstr "Crear más"
+
+#: src/php/customer-new-project/customer-new-project-addon.class.php:112
+#: src/php/customer-update-project/customer-update-project-addon.class.php:110
+msgid "View it"
+msgstr "Mirarlo"
+
+#: src/php/customer-new-project/templates/customer-new-project-content.template.php:21
+#: src/php/customer-update-project/templates/customer-update-project-content.template.php:18
+msgid "Details"
+msgstr "Detalles"
+
+#: src/php/customer-new-project/templates/customer-new-project-content.template.php:24
+#: src/php/customer-update-project/templates/customer-update-project-content.template.php:21
+msgid "Title"
+msgstr "Título"
+
+#: src/php/customer-new-project/templates/customer-new-project-content.template.php:25
+msgid "Content"
+msgstr "Contenido"
+
+#: src/php/customer-new-project/templates/customer-new-project-content.template.php:26
+#: src/php/customer-new-project/templates/customer-new-project-content.template.php:34
+#: src/php/customer-update-project/templates/customer-update-project-content.template.php:23
+#: src/php/customer-update-project/templates/customer-update-project-content.template.php:31
+msgid "Next step"
+msgstr "Siguiente paso"
+
+#: src/php/customer-new-project/templates/customer-new-project-content.template.php:30
+#: src/php/customer-update-project/templates/customer-update-project-content.template.php:27
+msgid "Members"
+msgstr "Miembros"
+
+#: src/php/customer-new-project/templates/customer-new-project-content.template.php:38
+#: src/php/customer-update-project/templates/customer-update-project-content.template.php:35
+msgid "Settings"
+msgstr "Ajustes"
+
+#: src/php/customer-new-project/templates/customer-new-project-content.template.php:43
+msgid "Create"
+msgstr "Crear"
+
+#: src/php/customer-projects-home/customer-projects-home-addon.class.php:30
+msgid "Projects - Home"
+msgstr "Proyectos - Inicio"
+
+#: src/php/customer-projects-home/customer-projects-home-addon.class.php:34
+#: src/php/projects/helpers/projects-settings-helper.class.php:165
+#: src/php/projects/projects-addon.class.php:48
+#: src/php/projects/projects-addon.class.php:288
+msgid "Projects"
+msgstr "Proyectos"
+
+#: src/php/customer-projects-home/customer-projects-home-addon.class.php:38
+msgid "Root page for the customer projects."
+msgstr "Página inicial para los proyectos de los usuarios."
+
+#: src/php/customer-projects/customer-projects-addon.class.php:37
+msgid "Projects - Owned"
+msgstr "Proyectos - Propios"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:42
+msgid "My projects"
+msgstr "Mis proyectos"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:47
+msgid "Page to list the projects a customer owns."
+msgstr "Página para listar los proyectos que un usuario posee."
+
+#: src/php/customer-projects/customer-projects-addon.class.php:77
+#: src/php/customer-projects/widget-project-statuses.class.php:34
+msgid "Statuses"
+msgstr "Estados"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:91
+#, php-format
+msgid "Projects with status: %1$s"
+msgstr "Proyectos con el estado: %1$s"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:94
+#, php-format
+msgid "Projects: %1$s"
+msgstr "Proyectos: %1$s"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:100
+msgid "Current Projects"
+msgstr "Proyectos Actuales"
+
+#: src/php/customer-projects/customer-projects-addon.class.php:105
+msgid "Recent Projects"
+msgstr "Proyectos Recientes"
+
+#: src/php/customer-projects/templates/customer-projects-content-dashboard.template.php:36
+msgid "View all"
+msgstr "Ver todos"
+
+#: src/php/customer-projects/templates/customer-projects-content-empty-dashboard.template.php:28
+#: src/php/customer-projects/templates/customer-projects-content-empty.template.php:21
+msgid "You currently have no projects."
+msgstr "Actualmente no tiene proyectos."
+
+#: src/php/customer-projects/templates/customer-projects-content-empty-date_archive.template.php:18
+msgid "There are no projects for that period."
+msgstr "No existen proyectos para ese periodo."
+
+#: src/php/customer-projects/templates/customer-projects-content-empty-taxonomy_archive.template.php:25
+msgid "There are no projects with that status."
+msgstr "No hay ningún proyecto con ese estado."
+
+#: src/php/customer-projects/templates/customer-projects-content-empty-taxonomy_archive.template.php:29
+msgid "There are no projects corresponding to this term."
+msgstr "No existen proyectos que correspondan con ese término."
+
+#: src/php/customer-projects/templates/customer-projects-content-item-container.template.php:22
+#: src/php/customer-projects/templates/customer-projects-content-item-dashboard.template.php:22
+#, php-format
+msgid "Added on %s"
+msgstr "Añadido en %s"
+
+#: src/php/customer-projects/templates/customer-projects-content-item.template.php:58
+#: src/php/customer-projects/templates/customer-projects-single-post-header.template.php:78
+msgid "Kick-off"
+msgstr "Inicio"
+
+#: src/php/customer-projects/templates/customer-projects-content-item.template.php:64
+#: src/php/customer-projects/templates/customer-projects-single-post-header.template.php:90
+msgid "Deadline"
+msgstr "Fecha límite"
+
+#: src/php/customer-projects/templates/customer-projects-content-item.template.php:70
+#: src/php/customer-projects/templates/customer-projects-single-post-header.template.php:102
+msgid "Launch"
+msgstr "Presentación"
+
+#: src/php/customer-projects/templates/customer-projects-content-item.template.php:89
+msgid "Created by"
+msgstr "Creado por"
+
+#: src/php/customer-projects/templates/customer-projects-content.template.php:25
+msgid "No items were found matching the selected filters"
+msgstr "No hay elementos que coincidan con los filtros seleccionados"
+
+#: src/php/customer-projects/templates/customer-projects-single-post-header.template.php:38
+#: src/php/projects/helpers/projects-admin-interface.class.php:72
+#: src/php/projects/helpers/projects-admin-interface.class.php:156
+#: src/php/projects/templates/project-editor-progress-admin.template.php:47
+msgid "Progress"
+msgstr "Progreso"
+
+#: src/php/customer-projects/widget-project-statuses.class.php:22
+msgid "WPCA - Project Statuses"
+msgstr "WPCA - Estados del proyecto"
+
+#: src/php/customer-projects/widget-project-statuses.class.php:24
+msgid "Shows the project statuses of the Customer Area"
+msgstr "Muestra los estados de un proyecto del Área de Usuarios"
+
+#: src/php/customer-update-project/customer-update-project-addon.class.php:32
+msgid "Projects - Update"
+msgstr "Proyectos - Actualizar"
+
+#: src/php/customer-update-project/customer-update-project-addon.class.php:37
+msgid "Update project"
+msgstr "Actualizar proyecto"
+
+#: src/php/customer-update-project/customer-update-project-addon.class.php:42
+msgid "Page to update projects."
+msgstr "Página para actualizar proyectos."
+
+#: src/php/customer-update-project/customer-update-project-addon.class.php:102
+msgid "The project has been updated."
+msgstr "El proyecto ha sido actualizado."
+
+#: src/php/customer-update-project/templates/customer-update-project-content.template.php:22
+msgid "Description"
+msgstr "Descripción"
+
+#: src/php/customer-update-project/templates/customer-update-project-content.template.php:40
+msgid "Update"
+msgstr "Actualizar"
+
+#: src/php/project-status.class.php:24 src/php/project-status.class.php:40
+msgctxt "cuar_project_status"
+msgid "Project Statuses"
+msgstr "Estados de Proyecto"
+
+#: src/php/project-status.class.php:25
+msgctxt "cuar_project_status"
+msgid "Project Status"
+msgstr "Estado del Proyecto"
+
+#: src/php/project-status.class.php:26
+msgctxt "cuar_project_status"
+msgid "Search Project Statuses"
+msgstr "Buscar Estados de Proyecto"
+
+#: src/php/project-status.class.php:27
+msgctxt "cuar_project_status"
+msgid "Popular Project Statuses"
+msgstr "Estados de Proyectos Populares"
+
+#: src/php/project-status.class.php:28
+msgctxt "cuar_project_status"
+msgid "All Project Statuses"
+msgstr "Todos los Estados de Proyecto"
+
+#: src/php/project-status.class.php:29
+msgctxt "cuar_project_status"
+msgid "Parent Project Status"
+msgstr "Estado del Proyecto Principal"
+
+#: src/php/project-status.class.php:30
+msgctxt "cuar_project_status"
+msgid "Parent Project Status:"
+msgstr "Estado del Proyecto Principal:"
+
+#: src/php/project-status.class.php:31
+msgctxt "cuar_project_status"
+msgid "Edit Project Status"
+msgstr "Editar Estado del Proyecto"
+
+#: src/php/project-status.class.php:32
+msgctxt "cuar_project_status"
+msgid "Update Project Status"
+msgstr "Actualizar Estado del Proyecto"
+
+#: src/php/project-status.class.php:33
+msgctxt "cuar_project_status"
+msgid "Add New Project Status"
+msgstr "Añadir Nuevo Estado de Proyecto"
+
+#: src/php/project-status.class.php:34
+msgctxt "cuar_project_status"
+msgid "New Project Status"
+msgstr "Nuevo Estado de Proyecto"
+
+#: src/php/project-status.class.php:35
+msgctxt "cuar_project_status"
+msgid "Separate project statuses with commas"
+msgstr "Separar los estados de proyecto con comas"
+
+#: src/php/project-status.class.php:37
+msgctxt "cuar_project_status"
+msgid "Add or remove project statuses"
+msgstr "Añadir o quitar estados de proyecto"
+
+#: src/php/project-status.class.php:38
+msgctxt "cuar_project_status"
+msgid "Choose from the most used project statuses"
+msgstr "Seleccionar de los estados de proyecto más utilizados"
+
+#: src/php/project.class.php:294 src/php/project.class.php:305
+#: src/php/projects/helpers/projects-helper.class.php:282
+msgctxt "cuar_project"
+msgid "Projects"
+msgstr "Proyectos"
+
+#: src/php/project.class.php:295
+#: src/php/projects/helpers/projects-helper.class.php:281
+msgctxt "cuar_project"
+msgid "Project"
+msgstr "Proyecto"
+
+#: src/php/project.class.php:296
+msgctxt "cuar_project"
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: src/php/project.class.php:297
+msgctxt "cuar_project"
+msgid "Add New Project"
+msgstr "Añadir Nuevo Proyecto"
+
+#: src/php/project.class.php:298
+msgctxt "cuar_project"
+msgid "Edit Project"
+msgstr "Editar Proyecto"
+
+#: src/php/project.class.php:299
+msgctxt "cuar_project"
+msgid "New Project"
+msgstr "Nuevo Proyecto"
+
+#: src/php/project.class.php:300
+msgctxt "cuar_project"
+msgid "View Project"
+msgstr "Ver Proyecto"
+
+#: src/php/project.class.php:301
+msgctxt "cuar_project"
+msgid "Search Projects"
+msgstr "Buscar Proyectos"
+
+#: src/php/project.class.php:302
+msgctxt "cuar_project"
+msgid "No projects found"
+msgstr "Proyecto no encontrado"
+
+#: src/php/project.class.php:303
+msgctxt "cuar_project"
+msgid "No projects found in Trash"
+msgstr "No hay proyectos en la Papelera"
+
+#: src/php/project.class.php:304
+msgctxt "cuar_project"
+msgid "Parent project:"
+msgstr "Proyecto principal:"
+
+#: src/php/projects/helpers/projects-admin-interface.class.php:68
+msgid "People"
+msgstr "Gente"
+
+#: src/php/projects/helpers/projects-admin-interface.class.php:69
+msgid "Started"
+msgstr "Comienza"
+
+#: src/php/projects/helpers/projects-admin-interface.class.php:70
+msgid "Due"
+msgstr "Vencimiento"
+
+#: src/php/projects/helpers/projects-admin-interface.class.php:71
+msgid "Completed"
+msgstr "Completado"
+
+#: src/php/projects/helpers/projects-admin-interface.class.php:73
+#: src/php/projects/templates/project-editor-progress-admin.template.php:16
+#: src/php/projects/templates/project-editor-progress-frontend.template.php:17
+msgid "Status"
+msgstr "Estado"
+
+#: src/php/projects/helpers/projects-admin-interface.class.php:128
+#: src/php/projects/helpers/projects-admin-interface.class.php:133
+#: src/php/projects/helpers/projects-admin-interface.class.php:138
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: src/php/projects/helpers/projects-admin-interface.class.php:163
+msgid "Schedule"
+msgstr "Calendario"
+
+#: src/php/projects/helpers/projects-admin-interface.class.php:171
+msgid "Team"
+msgstr "Equipo"
+
+#: src/php/projects/helpers/projects-helper.class.php:235
+msgid "Project"
+msgstr "Proyecto"
+
+#: src/php/projects/helpers/projects-logger.class.php:66
+#: src/php/projects/templates/project-editor-progress-frontend.template.php:35
+msgid "Project progress"
+msgstr "Progreso del proyecto"
+
+#: src/php/projects/helpers/projects-logger.class.php:67
+msgid "Project due date"
+msgstr "Fecha de vencimiento del proyecto"
+
+#: src/php/projects/helpers/projects-logger.class.php:68
+msgid "Project start date"
+msgstr "Fecha de inicio del proyecto"
+
+#: src/php/projects/helpers/projects-logger.class.php:69
+msgid "Project completion date"
+msgstr "Fecha de finalización del proyecto"
+
+#: src/php/projects/helpers/projects-logger.class.php:70
+msgid "Project status"
+msgstr "Estado del proyecto"
+
+#: src/php/projects/helpers/projects-logger.class.php:90
+msgid "Previous value: "
+msgstr "Valor previo:"
+
+#: src/php/projects/helpers/projects-logger.class.php:91
+msgid "From: "
+msgstr "De:"
+
+#: src/php/projects/helpers/projects-logger.class.php:96
+msgid "Current value: "
+msgstr "Valor actual:"
+
+#: src/php/projects/helpers/projects-logger.class.php:97
+msgid "To: "
+msgstr "Para:"
+
+#: src/php/projects/helpers/projects-logger.class.php:176
+#: src/php/projects/helpers/projects-logger.class.php:177
+msgid "None"
+msgstr "Ninguno"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:134
+msgid "Manager"
+msgstr "Administrador"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:135
+msgid "Managers"
+msgstr "Administradores"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:140
+msgid "Contributor"
+msgstr "Colaborador"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:141
+msgid "Contributors"
+msgstr "Colaboradores"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:146
+msgid "Guest"
+msgstr "Invitado"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:147
+msgid "Guests"
+msgstr "Invitados"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:179
+msgid "Project statuses"
+msgstr "Estados del proyecto"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:186
+msgid "Default status"
+msgstr "Estado predeterminado"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:200
+msgid "Hide statuses"
+msgstr "Ocultar estados"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:209
+msgid ""
+"You can hide projects with the given status from the select fields by "
+"default. For example, when you want to assign private content to a project, "
+"it can be handy to hide all closed projects to shorten the list."
+msgstr ""
+"Puede ocultar los proyectos con el estado dado desde los campos "
+"seleccionados por defecto. Por ejemplo, cuando desea asignar contenido "
+"privado a un proyecto, puede ser útil ocultar todos los proyectos cerrados "
+"para acortar la lista."
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:217
+msgid "Administration"
+msgstr "Administración"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:230
+#, php-format
+msgid "Role for %1$s"
+msgstr "Rol para %1$s"
+
+#: src/php/projects/helpers/projects-settings-helper.class.php:238
+msgid ""
+"The list of users when creating or editing a project will be restricted to "
+"this role (or will not be restricted if you select \"any role\"). If your "
+"users all belong to the same role, this makes selecting them easier."
+msgstr ""
+"Al crear o editar un proyecto la lista de usuarios estará restringida a este "
+"perfil (o sin restricciones si selecciona \"Cualquier Perfil\"). Si todos "
+"los usuarios pertenecen al mismo perfil, esto facilita la selección."
+
+#: src/php/projects/helpers/projects-status-helper.class.php:37
+msgid "Draft"
+msgstr "Borrador"
+
+#: src/php/projects/helpers/projects-status-helper.class.php:38
+msgid "Open"
+msgstr "Abierto"
+
+#: src/php/projects/helpers/projects-status-helper.class.php:39
+msgid "Suspended"
+msgstr "Suspendido"
+
+#: src/php/projects/helpers/projects-status-helper.class.php:40
+msgid "Closed"
+msgstr "Cerrado"
+
+#: src/php/projects/projects-addon.class.php:291
+msgid "Back-office"
+msgstr "Zona Administrativa"
+
+#: src/php/projects/projects-addon.class.php:293
+msgid "Create/Edit projects"
+msgstr "Crear/Editar proyectos"
+
+#: src/php/projects/projects-addon.class.php:294
+msgid "Delete projects"
+msgstr "Borrar proyectos"
+
+#: src/php/projects/projects-addon.class.php:295
+msgid "Access projects"
+msgstr "Acceso a proyectos"
+
+#: src/php/projects/projects-addon.class.php:296
+msgid "Manage statuses"
+msgstr "Gestionar estados"
+
+#: src/php/projects/projects-addon.class.php:297
+msgid "Edit statuses"
+msgstr "Editar estados"
+
+#: src/php/projects/projects-addon.class.php:298
+msgid "Delete statuses"
+msgstr "Borrar estados"
+
+#: src/php/projects/projects-addon.class.php:299
+msgid "Assign statuses"
+msgstr "Asignar estados"
+
+#: src/php/projects/projects-addon.class.php:303
+msgid "Front-office"
+msgstr "Zona Pública"
+
+#: src/php/projects/projects-addon.class.php:305
+msgid "View Projects"
+msgstr "Ver Proyectos"
+
+#: src/php/projects/templates/project-editor-progress-admin.template.php:34
+msgid "Progress from tasks"
+msgstr "Progreso de las tareas"
+
+#: src/php/projects/templates/project-editor-progress-admin.template.php:38
+msgid "Automatically compute progress from completed tasks"
+msgstr "Calcular automáticamente el progreso de las tareas completadas"
+
+#: src/php/projects/templates/project-editor-progress-frontend.template.php:41
+msgid "Automatically compute project progress from its task lists completion"
+msgstr ""
+"Calcular automáticamente el progreso del proyecto desde la finalización de "
+"las listas de tareas"
+
+#: src/php/projects/templates/project-editor-schedule-admin.template.php:13
+#: src/php/projects/templates/project-editor-schedule-frontend.template.php:14
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: src/php/projects/templates/project-editor-schedule-admin.template.php:23
+#: src/php/projects/templates/project-editor-schedule-frontend.template.php:24
+msgid "Due date"
+msgstr "Fecha límite"
+
+#: src/php/projects/templates/project-editor-schedule-admin.template.php:33
+#: src/php/projects/templates/project-editor-schedule-frontend.template.php:34
+msgid "Completion date"
+msgstr "Fecha de finalización"
+
+#: src/php/projects/templates/project-editor-team.template.php:24
+msgid "Select users (hint: you can also type to search a user)"
+msgstr ""
+"Seleccionar usuarios (sugerencia: también puede escribir para buscar un "
+"usuario)"

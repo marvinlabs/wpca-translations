@@ -1,0 +1,1172 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2016}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Notifications 6.0.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2017-04-13 19:58+0200\n"
+"PO-Revision-Date: 2017-05-09 15:27+0200\n"
+"Last-Translator: Juanjo Navarro <cmsweb@juanjoresa.es>\n"
+"Language-Team: Juanjo Navarro <cmsweb@juanjoresa.es> para Marvinlabs\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: D:/SERVIDOR/www/izurdiaga.dev/wp-content/plugins/customer-"
+"area-notifications\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/helpers/notifications-admin-interface.class.php:47
+#: src/php/helpers/notifications-admin-interface.class.php:57
+#: src/php/helpers/notifications-admin-interface.class.php:111
+#: src/php/notifications-addon.class.php:37
+msgid "Notifications"
+msgstr "Notificaciones"
+
+#: src/php/helpers/notifications-admin-interface.class.php:76
+msgid "Let the team know they can access this project"
+msgstr "Informar al equipo que puede acceder a este proyecto"
+
+#: src/php/helpers/notifications-admin-interface.class.php:79
+msgid ""
+"The notification will only be sent if you publish the post, and if you have "
+"assigned team members. Else nothing will be sent."
+msgstr ""
+"La notificación sólo se enviará si publica la entrada, y si ha establecido "
+"miembros al equipo. De otra manera no se enviará."
+
+#: src/php/helpers/notifications-admin-interface.class.php:97
+msgid "Let the owner know he can access this private content"
+msgstr ""
+"Informar al propietario de que él tiene acceso a este contenido privado"
+
+#: src/php/helpers/notifications-admin-interface.class.php:100
+msgid ""
+"The notification will only be sent if you publish the post, and if you have "
+"set an owner. Else nothing will be sent."
+msgstr ""
+"La notificación sólo se enviará si publica la entrada, y si ha establecido "
+"un propietario. De otra manera no se enviará."
+
+#: src/php/helpers/notifications-admin-interface.class.php:125
+msgid "General"
+msgstr "General"
+
+#: src/php/helpers/notifications-admin-interface.class.php:132
+msgid "Format"
+msgstr "Formato"
+
+#: src/php/helpers/notifications-admin-interface.class.php:139
+#: src/php/notifications-addon.class.php:342
+msgid "Plain text"
+msgstr "Texto plano"
+
+#: src/php/helpers/notifications-admin-interface.class.php:140
+msgid "HTML"
+msgstr "HTML"
+
+#: src/php/helpers/notifications-admin-interface.class.php:143
+msgid ""
+"The format in which notifications get sent. HTML might not always be "
+"properly formatted."
+msgstr ""
+"El formato en el que se envían las notificaciones. HTML no siempre puede "
+"mostrarse adecuadamente."
+
+#: src/php/helpers/notifications-admin-interface.class.php:150
+msgid "Clean HTML"
+msgstr "Limpiar HTML"
+
+#: src/php/helpers/notifications-admin-interface.class.php:157
+msgid "Automatically add paragraphs to HTML notifications"
+msgstr "Añadir automáticamente los párrafos a las notificaciones HTML"
+
+#: src/php/helpers/notifications-admin-interface.class.php:159
+msgid ""
+"You can uncheck this box if you already have valid HTML notification "
+"content. This is only effective if the format set above is HTML."
+msgstr ""
+"Puede desmarcar esta casilla si ya tiene contenido válido en la notificación "
+"HTML. Solo es efectivo si el formato establecido anteriormente es HTML."
+
+#: src/php/helpers/notifications-admin-interface.class.php:167
+msgid "Layout"
+msgstr "Diseño"
+
+#: src/php/helpers/notifications-admin-interface.class.php:175
+msgid "The template used to format the emails sent by WP Customer Area."
+msgstr ""
+"La plantilla que se utiliza para dar formato a los mensajes de correo "
+"electrónico enviados por WP Customer Area."
+
+#: src/php/helpers/notifications-admin-interface.class.php:182
+msgid "From"
+msgstr "De"
+
+#: src/php/helpers/notifications-admin-interface.class.php:202
+msgid "The emails will be shown as sent from this name and address."
+msgstr ""
+"Los correos electrónicos se mostrarán como enviados desde este nombre y "
+"dirección."
+
+#: src/php/helpers/notifications-admin-interface.class.php:209
+msgid "Header image"
+msgstr "Imagen de cabecera"
+
+#: src/php/helpers/notifications-admin-interface.class.php:217
+msgid "Optional. The email template may use this image as a header."
+msgstr ""
+"Opcional. La plantilla de correo electrónico puede utilizar esta imagen como "
+"cabecera."
+
+#: src/php/helpers/notifications-admin-interface.class.php:224
+msgid "Test"
+msgstr "Prueba"
+
+#: src/php/helpers/notifications-admin-interface.class.php:230
+msgid "Save and send a sample email"
+msgstr "Guardar y enviar un correo electrónico de prueba"
+
+#: src/php/helpers/notifications-admin-interface.class.php:233
+msgid "Send a test message to the email linked to your account."
+msgstr ""
+"Enviar un mensaje de prueba al correo electrónico asociada a su cuenta."
+
+#: src/php/helpers/notifications-admin-interface.class.php:239
+msgid "Individual notification settings"
+msgstr "Configuración de las notificaciones individuales"
+
+#: src/php/helpers/notifications-admin-interface.class.php:246
+msgid "Reset messages"
+msgstr "Restablecer mensajes"
+
+#: src/php/helpers/notifications-admin-interface.class.php:252
+msgid "Reset Messages"
+msgstr "Restablecer Mensajes"
+
+#: src/php/helpers/notifications-admin-interface.class.php:256
+msgid ""
+"All the notification subjects, headings and contents will be reset to the "
+"default values."
+msgstr ""
+"Todos los asuntos, cabeceras y contenidos de las notificaciones se "
+"restablecerán a los valores por defecto."
+
+#: src/php/helpers/notifications-admin-interface.class.php:258
+msgid "Are you sure that you want to reset all the notification messages?"
+msgstr "¿Seguro que desea restablecer todos los mensajes de notificación?"
+
+#: src/php/helpers/notifications-admin-interface.class.php:297
+msgid " is not a valid value for "
+msgstr " no es un valor válido para"
+
+#: src/php/helpers/notifications-admin-interface.class.php:308
+#, php-format
+msgid "You must set a subject for %s"
+msgstr "Debes establecer un asunto para %s"
+
+#: src/php/helpers/notifications-admin-interface.class.php:319
+#, php-format
+msgid "You must set a body for %s"
+msgstr "Debes establecer un mensaje para %s"
+
+#: src/php/helpers/notifications-admin-interface.class.php:361
+#, php-format
+msgid "%s created"
+msgstr "%s creado"
+
+#: src/php/helpers/notifications-admin-interface.class.php:362
+#, php-format
+msgid ""
+"Email that gets sent to a user when new private content of type &laquo; %s "
+"&raquo; is published for him."
+msgstr ""
+"Correo electrónico que se envía a un usuario cuando un nuevo contenido "
+"privado de tipo &laquo; %s &raquo; se publica para él."
+
+#: src/php/helpers/notifications-admin-interface.class.php:365
+#: src/php/helpers/notifications-admin-interface.class.php:376
+#: src/php/helpers/notifications-admin-interface.class.php:386
+#: src/php/helpers/notifications-admin-interface.class.php:396
+#: src/php/helpers/notifications-admin-interface.class.php:409
+#: src/php/helpers/notifications-admin-interface.class.php:433
+#: src/php/helpers/notifications-admin-interface.class.php:447
+#: src/php/helpers/notifications-admin-interface.class.php:456
+#: src/php/helpers/notifications-admin-interface.class.php:465
+#: src/php/helpers/notifications-admin-interface.class.php:474
+#: src/php/helpers/notifications-admin-interface.class.php:489
+#: src/php/helpers/notifications-admin-interface.class.php:498
+#: src/php/helpers/notifications-admin-interface.class.php:507
+#: src/php/helpers/notifications-admin-interface.class.php:516
+#: src/php/helpers/notifications-admin-interface.class.php:525
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: src/php/helpers/notifications-admin-interface.class.php:366
+#: src/php/helpers/notifications-admin-interface.class.php:377
+#: src/php/helpers/notifications-admin-interface.class.php:387
+#: src/php/helpers/notifications-admin-interface.class.php:397
+#: src/php/helpers/notifications-admin-interface.class.php:410
+#: src/php/helpers/notifications-admin-interface.class.php:421
+#: src/php/helpers/notifications-admin-interface.class.php:434
+#: src/php/helpers/notifications-admin-interface.class.php:448
+#: src/php/helpers/notifications-admin-interface.class.php:457
+#: src/php/helpers/notifications-admin-interface.class.php:466
+#: src/php/helpers/notifications-admin-interface.class.php:475
+#: src/php/helpers/notifications-admin-interface.class.php:490
+#: src/php/helpers/notifications-admin-interface.class.php:499
+#: src/php/helpers/notifications-admin-interface.class.php:508
+#: src/php/helpers/notifications-admin-interface.class.php:517
+#: src/php/helpers/notifications-admin-interface.class.php:526
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: src/php/helpers/notifications-admin-interface.class.php:372
+msgid "Content created"
+msgstr "Contenido creado"
+
+#: src/php/helpers/notifications-admin-interface.class.php:373
+msgid ""
+"Email that gets sent to the administrators when new private content is "
+"published by someone."
+msgstr ""
+"Correo electrónico que se envía a los administradores cuando un nuevo "
+"contenido privado es publicado por alguien."
+
+#: src/php/helpers/notifications-admin-interface.class.php:382
+msgid "Comment posted"
+msgstr "Comentario publicado"
+
+#: src/php/helpers/notifications-admin-interface.class.php:383
+msgid ""
+"Email that gets sent to the private content author and owners when a comment "
+"is added."
+msgstr ""
+"Correo electrónico que se envía al creador del contenido privado y "
+"propietarios cuando se añade un comentario."
+
+#: src/php/helpers/notifications-admin-interface.class.php:392
+msgid "Comment held for moderation"
+msgstr "Comentario para moderación"
+
+#: src/php/helpers/notifications-admin-interface.class.php:393
+msgid ""
+"Email that gets sent to the administrators when a comment is held for "
+"moderation."
+msgstr ""
+"Correo electrónico que se envía a los administradores cuando un comentario "
+"se retiene para moderación."
+
+#: src/php/helpers/notifications-admin-interface.class.php:405
+msgid "Content held for moderation"
+msgstr "Contenido para moderación"
+
+#: src/php/helpers/notifications-admin-interface.class.php:406
+msgid ""
+"Email that gets sent to you when a new private post is created from the "
+"frontend but is not yet published (waiting for review before being "
+"published)."
+msgstr ""
+"Correo electrónico que se le envía cuando una nueva entrada privada es "
+"creada desde la zona pública, pero que aún no se ha publicado (a la espera "
+"de revisión antes de ser publicada)."
+
+#: src/php/helpers/notifications-admin-interface.class.php:416
+msgid "File downloaded"
+msgstr "Archivo descargado"
+
+#: src/php/helpers/notifications-admin-interface.class.php:417
+msgid "Email that gets sent to the file author when a file is downloaded."
+msgstr ""
+"Correo electrónico que se envía al autor del archivo cuando se descarga el "
+"archivo."
+
+#: src/php/helpers/notifications-admin-interface.class.php:419
+msgid "Always"
+msgstr "Siempre"
+
+#: src/php/helpers/notifications-admin-interface.class.php:420
+msgid "Only the first time"
+msgstr "Solo la primera vez"
+
+#: src/php/helpers/notifications-admin-interface.class.php:429
+msgid "New Reply"
+msgstr "Nueva Respuesta"
+
+#: src/php/helpers/notifications-admin-interface.class.php:430
+msgid ""
+"Email that gets sent to the participants of a conversation when a new reply "
+"is posted."
+msgstr ""
+"Correo electrónico que se envía a los participantes de una conversación "
+"cuando se publica una nueva respuesta."
+
+#: src/php/helpers/notifications-admin-interface.class.php:443
+#: src/php/helpers/notifications-admin-interface.class.php:452
+#: src/php/notifications-addon.class.php:256
+msgid "Password reset"
+msgstr "Restablecer Contraseña"
+
+#: src/php/helpers/notifications-admin-interface.class.php:444
+msgid ""
+"Email that gets sent to the user requesting a password reset. This must "
+"contain a link to the page where the user can effectively reset the password."
+msgstr ""
+"Correo electrónico que se envía al usuario que solicita restablecer la "
+"contraseña. Esta debe incluir un enlace a la página donde el usuario puede "
+"restablecer la contraseña."
+
+#: src/php/helpers/notifications-admin-interface.class.php:453
+msgid ""
+"Email that gets sent to the administrators after a user resets his password."
+msgstr ""
+"Correo electrónico que se envía a los administradores después de que un "
+"usuario restablezca su contraseña."
+
+#: src/php/helpers/notifications-admin-interface.class.php:461
+#: src/php/helpers/notifications-admin-interface.class.php:470
+msgid "Registration"
+msgstr "Registro"
+
+#: src/php/helpers/notifications-admin-interface.class.php:462
+msgid ""
+"Email that gets sent to the user who registered on the website. This must "
+"contain a link to the page where the user can set his password."
+msgstr ""
+"Correo electrónico que se envía al usuario que se registró en el sitio web. "
+"Debe contener un enlace a la página donde el usuario puede establecer su "
+"contraseña."
+
+#: src/php/helpers/notifications-admin-interface.class.php:471
+msgid ""
+"Email that gets sent to the administrators after a user registers on the "
+"website."
+msgstr ""
+"Correo electrónico que se envía a los administradores después de que un "
+"usuario se registre en el sitio web."
+
+#: src/php/helpers/notifications-admin-interface.class.php:485
+#: src/php/helpers/notifications-admin-interface.class.php:503
+#: src/php/notifications-addon.class.php:276
+msgid "Payment accepted"
+msgstr "Pago aceptado"
+
+#: src/php/helpers/notifications-admin-interface.class.php:486
+msgid ""
+"Email that gets sent to someone after his payment has been marked as "
+"\"complete\"."
+msgstr ""
+"Correo electrónico que se envía a alguien después de que su pago se haya "
+"marcado como \"completado\"."
+
+#: src/php/helpers/notifications-admin-interface.class.php:494
+#: src/php/helpers/notifications-admin-interface.class.php:512
+#: src/php/notifications-addon.class.php:286
+msgid "Payment rejected"
+msgstr "Pago rechazado"
+
+#: src/php/helpers/notifications-admin-interface.class.php:495
+msgid ""
+"Email that gets sent to someone after his payment has been marked as "
+"\"rejected\"."
+msgstr ""
+"Correo electrónico que se envía a alguien después de que su pago se haya "
+"marcado como “rechazado”."
+
+#: src/php/helpers/notifications-admin-interface.class.php:504
+msgid ""
+"Email that gets sent to the administrators after a user payment is marked as "
+"completed."
+msgstr ""
+"Correo electrónico que se envía a los administradores después de que el pago "
+"de un cliente se haya marcado como completado."
+
+#: src/php/helpers/notifications-admin-interface.class.php:513
+msgid ""
+"Email that gets sent to the administrators after a user payment is marked as "
+"rejected."
+msgstr ""
+"Correo electrónico que se envía a los administradores después de que el pago "
+"de un usuario se haya marcado como rechazado."
+
+#: src/php/helpers/notifications-admin-interface.class.php:521
+msgid "Payment pending"
+msgstr "Pago Pendiente"
+
+#: src/php/helpers/notifications-admin-interface.class.php:522
+msgid ""
+"Email that gets sent to the administrators after a user payment is marked as "
+"pending."
+msgstr ""
+"Correo electrónico que se envía a los administradores después de que el pago "
+"de un usuario se haya marcado como pendiente."
+
+#: src/php/helpers/notifications-admin-interface.class.php:552
+msgid ""
+"You can customize every notification that will be sent to users by the "
+"Customer Area."
+msgstr ""
+"Puede personalizar cada notificación que se envía a los usuarios a través "
+"del Área de Usuarios."
+
+#: src/php/helpers/notifications-hooks-helper.class.php:106
+#, php-format
+msgid "Notification \"%1$s\" sent to payer (user ID: %2$s)"
+msgstr "Notificación \"%1$s\" enviada al pagador (ID usuario: %2$s)"
+
+#: src/php/helpers/notifications-hooks-helper.class.php:118
+#, php-format
+msgid "Notification \"%1$s\" sent to %2$d administrator(s)"
+msgstr "Notificación \"%1$s\" enviada a %2$d administrador(es)"
+
+#: src/php/helpers/notifications-hooks-helper.class.php:312
+#: src/php/helpers/notifications-hooks-helper.class.php:364
+#: src/php/helpers/notifications-hooks-helper.class.php:454
+msgid "The notification can not be sent if the post is not published"
+msgstr "La notificación no podrá ser enviada si la entrada no se ha publicado"
+
+#: src/php/helpers/notifications-hooks-helper.class.php:406
+#, php-format
+msgid "A notification has been sent to %d recipient(s)"
+msgstr "Una notificación ha sido enviada al destinatario o destinatarios %d"
+
+#: src/php/helpers/notifications-hooks-helper.class.php:410
+#: src/php/helpers/notifications-hooks-helper.class.php:438
+msgid "This post does not yet have any owners. Nothing has been sent."
+msgstr ""
+"Esta entrada no tiene todavía ningún propietario. No se ha enviado nada."
+
+#: src/php/helpers/notifications-hooks-helper.class.php:434
+msgid "A notification has been sent to the private content owner(s)"
+msgstr ""
+"Se ha enviado una notificación al propietario o propetariois del contenido "
+"privado"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:439
+msgid "Approve it"
+msgstr "Aprobar"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:440
+msgid "Spam it"
+msgstr "Spam"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:444
+msgid "Trash it"
+msgstr "Papelera"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:446
+msgid "Delete it"
+msgstr "Borrarlo"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:514
+msgid "Your website name"
+msgstr "Nombre de su página web"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:515
+msgid "Your website home URL"
+msgstr "URL de inicio de su página web"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:517
+msgid "The from name set in the notifications settings"
+msgstr ""
+"El nombre del remitente establecido en la configuración de las notificaciones"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:518
+msgid "The from address set in the notifications settings"
+msgstr ""
+"La dirección del remitente establecida en la configuración de las "
+"notificaciones"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:520
+msgid "The notification recipient's display name"
+msgstr "Nombre para mostrar al destinatario de la notificación"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:521
+msgid "The notification recipient's email address"
+msgstr "Dirección de correo electrónico del destinatario de la notificación"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:523
+msgid ""
+"The name of the user logged in at the time of the notification (the one who "
+"triggered the notification)"
+msgstr ""
+"El nombre del usuario que ha iniciado sesión en el momento de la "
+"notificación (el que desencadena la notificación)"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:525
+msgid "The email address of the user logged in at the time of the notification"
+msgstr ""
+"El correo electrónico del usuario que ha iniciado sesión en el momento de la "
+"notificación"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:527
+msgid "The title of the private content"
+msgstr "El título del contenido privado"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:528
+msgid "The direct link to the private content"
+msgstr "El enlace directo al contenido privado"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:529
+msgid "The actual content (body) of the private content"
+msgstr "E l contenido actual (cuerpo) del contenido privado"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:530
+msgid "The type of private content (private file, private page, project, etc.)"
+msgstr ""
+"El tipo de contenido privado (archivo privado, página privada, proyecto, "
+"etc.)"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:531
+msgid "The name of the author of the private content"
+msgstr "El nombre del autor del contenido privado"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:532
+msgid "The email address of the author of the private content"
+msgstr "La dirección de correo electrónico del autor del contenido privado"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:533
+msgid ""
+"The name of the owner of the private content (user(s), role(s), group(s), "
+"etc.)"
+msgstr ""
+"El nombre del propietario del contenido privado (usuario(s), perfil(es), "
+"grupo(s), etc.)"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:534
+msgid ""
+"The direct link to review a private content submission held for moderation"
+msgstr ""
+"El enlace directo para revisar un contenido privado sometido a moderación"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:536
+msgid "The list of attachments to a private file"
+msgstr "La lista de los archivos adjuntos a un archivo privado"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:537
+msgid ""
+"The file name of the attachment related to the action which triggered the "
+"notification (for instance, the attachment which was downloaded)"
+msgstr ""
+"El nombre del archivo adjunto relacionado con la acción que desencadena la "
+"notificación (por ejemplo, el archivo adjunto que se descargó)"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:540
+msgid "The name of the user who created the reply to the conversation"
+msgstr "El nombre del usuario que creó la respuesta a la conversación"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:541
+msgid "The email address of the user who created the reply to the conversation"
+msgstr ""
+"La dirección de correo electrónico del usuario que creó la respuesta a la "
+"conversación"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:542
+msgid "The content of the reply to the conversation"
+msgstr "El contenido de la respuesta a la conversación"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:544
+msgid "The number of the invoice"
+msgstr "El número de factura"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:545
+msgid "The total amount for the invoice, including the currency"
+msgstr "El Importe total de la factura, incluyendo la moneda"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:546
+msgid "The invoice due date"
+msgstr "La fecha de vencimiento de la factura"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:548
+msgid ""
+"The login of the person who submitted the authentication form (registration, "
+"password recovery, reset password)"
+msgstr ""
+"El inicio de sesión de la persona que envió el formulario de autenticación "
+"(registro, recuperación de la contraseña, restablecer la contraseña)"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:550
+msgid ""
+"The address of the person who submitted the authentication form "
+"(registration, password recovery, reset password)"
+msgstr ""
+"La dirección de la persona que envió el formulario de autenticación "
+"(registro, recuperación de la contraseña, restablecer la contraseña)"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:552
+msgid "A link to the page where the user can set or reset his password"
+msgstr ""
+"Un enlace a la página donde el usuario puede establecer o restablecer su "
+"contraseña"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:554
+msgid "The comment content for notifications about comments on posts"
+msgstr ""
+"El contenido del comentario para las notificaciones sobre los comentarios en "
+"los mensajes"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:555
+msgid "The name of the person who left a comment"
+msgstr "El nombre de la persona que dejó un comentario"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:556
+msgid "The address of the person who left a comment"
+msgstr "La dirección de la persona que dejó un comentario"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:557
+msgid "The URL of the person who left a comment"
+msgstr "La URL de la persona que dejó un comentario"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:558
+msgid "The IP address of the person who left a comment"
+msgstr "La dirección IP de la persona que dejó un comentario"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:559
+msgid ""
+"The links for the comment moderators to approve a comment, delete it or flag "
+"it as spam"
+msgstr ""
+"Los enlaces para los moderadores de comentarios para aprobar un comentario, "
+"eliminarlo o marcarlo como spam"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:561
+msgid "The amount that has been paid (including currency)"
+msgstr "El Importe que se ha pagado (incluida la moneda)"
+
+#: src/php/helpers/notifications-placeholder-helper.class.php:562
+msgid "The URL to the payment edit page"
+msgstr "La URL de la página de edición de pagos"
+
+#: src/php/notifications-addon.class.php:113
+msgid "[{{site_name}}] Test message"
+msgstr "[{{site_name}}] Mensaje de prueba"
+
+#: src/php/notifications-addon.class.php:114
+msgid "Congratulations!"
+msgstr "¡Felicidades!"
+
+#: src/php/notifications-addon.class.php:115
+msgid ""
+"Hello {{logged_user_name}},\n"
+"\n"
+"This is the sample email you are supposed to receive. If you are reading "
+"this, the server seems to be properly configured.\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Your WP Customer Area plugin"
+msgstr ""
+"Hola {{logged_user_name}},\n"
+"\n"
+"Este es el correo electrónico de ejemplo que se supone que debe recibir. Si "
+"está leyendo esto, el servidor parece estar configurado correctamente.\n"
+"\n"
+"Saludos,\n"
+"\n"
+"Tu plugin WP Customer Area"
+
+#: src/php/notifications-addon.class.php:139
+msgid "[{{site_name}}] New file download"
+msgstr "[{{site_name}}] Nueva descarga de archivos"
+
+#: src/php/notifications-addon.class.php:140
+msgid "New download"
+msgstr "Nueva descarga"
+
+#: src/php/notifications-addon.class.php:141
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"The attachment <strong>{{attachment_name}}</strong> has been downloaded by "
+"<strong>{{logged_user_name}}</strong> on <a href="
+"\"{{post_url}}\">{{post_title}}</a>\n"
+"\n"
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"El archivo adjunto <strong>{{attachment_name}}</strong> ha sido descargado "
+"por <strong>{{logged_user_name}}</strong> en <a href="
+"\"{{post_url}}\">{{post_title}}</a>\n"
+"\n"
+
+#: src/php/notifications-addon.class.php:148
+msgid "[{{site_name}}] New reply to a conversation"
+msgstr "[{{site_name}}] Nueva respuesta a una conversación"
+
+#: src/php/notifications-addon.class.php:149
+msgid "Conversation updated"
+msgstr "Conversación actualizada"
+
+#: src/php/notifications-addon.class.php:150
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"A new reply has been posted in the conversation <a href="
+"\"{{post_url}}\">{{post_title}}</a> by {{author_name}}."
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"Una nueva respuesta ha sido publicada en la conversación <a href="
+"\"{{post_url}}\">{{post_title}}</a> por {{author_name}}."
+
+#: src/php/notifications-addon.class.php:157
+msgid "[{{site_name}}] Private content published"
+msgstr "[{{site_name}}] Contenido privado publicado"
+
+#: src/php/notifications-addon.class.php:158
+msgid "New content"
+msgstr "Nuevo contenido"
+
+#: src/php/notifications-addon.class.php:159
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"A new post has been published in the customer area:\n"
+"\n"
+"<a href=\"{{post_url}}\">{{post_title}}</a> by <strong>{{author_name}}</"
+"strong> for <strong>{{owner_name}}</strong>"
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"Una nueva entrada ha sido publicada en el Área de Usuarios:\n"
+"\n"
+"<a href=\"{{post_url}}\">{{post_title}}</a> por <strong>{{author_name}}</"
+"strong> para <strong>{{owner_name}}</strong>"
+
+#: src/php/notifications-addon.class.php:166
+msgid "[{{site_name}}] Private content held for moderation"
+msgstr "[{{site_name}}] Contenido privado retenido para moderación"
+
+#: src/php/notifications-addon.class.php:167
+#: src/php/notifications-addon.class.php:186
+msgid "Review required"
+msgstr "Se requiere revisión"
+
+#: src/php/notifications-addon.class.php:168
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"New <em>{{post_type}}</em> created by <strong>{{author_name}}</strong> for "
+"<strong>{{owner_name}}</strong> is held for moderation. You can review it on "
+"that page: <a href=\"{{review_url}}\">{{post_title}}</a>"
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"Un nuevo <em>{{post_type}}</em> creado por <strong>{{author_name}}</strong> "
+"para <strong>{{owner_name}}</strong> está retenido para moderación. Puede "
+"revisarlo en esta página: <a href=\"{{review_url}}\">{{post_title}}</a>"
+
+#: src/php/notifications-addon.class.php:175
+msgid "[{{site_name}}] New comment on \"{{post_title}}\""
+msgstr "[{{site_name}}] Nuevo comentario en \"{{post_title}}\""
+
+#: src/php/notifications-addon.class.php:176
+msgid "New comment"
+msgstr "Nuevo comentario"
+
+#: src/php/notifications-addon.class.php:177
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"<a href=\"{{commenter_url}}\">{{commenter_name}}</a> ({{commenter_email}}) "
+"has left a comment on <a href=\"{{post_url}}#comments\">{{post_title}}</a>:\n"
+"\n"
+"{{comment_content}}"
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"<a href=\"{{commenter_url}}\">{{commenter_name}}</a> ({{commenter_email}}) "
+"ha dejado un comentario en <a href=\"{{post_url}}#comments\">{{post_title}}</"
+"a>:\n"
+"\n"
+"{{comment_content}}"
+
+#: src/php/notifications-addon.class.php:185
+msgid "[{{site_name}}] Comment held for moderation on \"{{post_title}}\""
+msgstr ""
+"[{{site_name}}] Comentario retenido para moderación en \"{{post_title}}\""
+
+#: src/php/notifications-addon.class.php:187
+msgid ""
+"Hello {{to_name}},A new comment on the post <a href="
+"\"{{post_url}}\">{{post_title}}</a> is waiting for your approval.\n"
+"\n"
+"<ul>\n"
+"  <li><strong>Author name</strong>: #{{commenter_name}}</li>\n"
+"  <li><strong>Author email</strong>: {{commenter_email}}</li>\n"
+"  <li><strong>Author URL</strong>: {{commenter_url}}</li>\n"
+"</ul>\n"
+"\n"
+"{{comment_content}}\n"
+"\n"
+"{{comment_moderation_links}}"
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"Un nuevo comentario al post <a href=\"{{post_url}}\">{{post_title}}</a> está "
+"a la espera de su aprobación.\n"
+"\n"
+"<ul>\n"
+"  <li><strong>Autor</strong>: #{{commenter_name}}</li>\n"
+"  <li><strong>Correo electrónico</strong>: {{commenter_email}}</li>\n"
+"  <li><strong>URL</strong>: {{commenter_url}}</li>\n"
+"</ul>\n"
+"\n"
+"{{comment_content}}\n"
+"\n"
+"{{comment_moderation_links}}"
+
+#: src/php/notifications-addon.class.php:195
+msgid "[{{site_name}}] New file available"
+msgstr "[{{site_name}}] Nuevo archivo disponible"
+
+#: src/php/notifications-addon.class.php:196
+msgid "New file"
+msgstr "Nuevo archivo"
+
+#: src/php/notifications-addon.class.php:197
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"{{author_name}} has published new content for you. Just follow this link to "
+"read it: <a href=\"{{post_url}}\">{{post_title}}</a>\n"
+"\n"
+"This file has some attachments which can be downloaded: \n"
+"\n"
+"{{attachment_list}}"
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"{{author_name}} ha publicado nuevo contenido para ti. Sigue el enlace para "
+"leerlo: <a href=\"{{post_url}}\">{{post_title}}</a>\n"
+"\n"
+"Este archivo tiene varios archivos adjuntos que pueden descargarse: \n"
+"\n"
+"{{attachment_list}}"
+
+#: src/php/notifications-addon.class.php:205
+msgid "[{{site_name}}] Your invoice"
+msgstr "[{{site_name}}] Su factura"
+
+#: src/php/notifications-addon.class.php:206
+msgid "Invoice #{{invoice_number}}"
+msgstr "Factura Nº {{invoice_number}}"
+
+#: src/php/notifications-addon.class.php:207
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"{{author_name}} has issued an invoice for you:\n"
+"\n"
+"<ul>\n"
+"  <li><strong>Invoice</strong>: #{{post_title}}</li>\n"
+"  <li><strong>Amount</strong>: {{invoice_total}}</li>\n"
+"  <li><strong>Due date</strong>: {{invoice_due_date}}</li>\n"
+"</ul>\n"
+"\n"
+"You can view it online it by following <a href=\"{{post_url}}\">this link</"
+"a>\n"
+"\n"
+"Thank you."
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"{{author_name}} ha emitido una factura para usted:\n"
+"\n"
+"<ul>\n"
+"  <li><strong>Factura</strong>: Nº {{post_title}}</li>\n"
+"  <li><strong>Cantidad</strong>: {{invoice_total}}</li>\n"
+"  <li><strong>Vencimiento</strong>: {{invoice_due_date}}</li>\n"
+"</ul>\n"
+"\n"
+"Puede verla siguiendo <a href=\"{{post_url}}\">este enlace</a>\n"
+"\n"
+"Gracias."
+
+#: src/php/notifications-addon.class.php:215
+msgid "[{{site_name}}] New conversation"
+msgstr "[{{site_name}}] Nueva conversación"
+
+#: src/php/notifications-addon.class.php:216
+msgid "New conversation"
+msgstr "Nueva conversación"
+
+#: src/php/notifications-addon.class.php:217
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"{{author_name}} has started a conversation with you. Just follow this link "
+"to read it: <a href=\"{{post_url}}\">{{post_title}}</a>"
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"{{author_name}} ha iniciado una nueva conversación contigo. Para leerla, "
+"sigue el siguiente enlace: <a href=\"{{post_url}}\">{{post_title}}</a>"
+
+#: src/php/notifications-addon.class.php:225
+msgid "[{{site_name}}] New content available"
+msgstr "[{{site_name}}] Nuevo contenido disponible"
+
+#: src/php/notifications-addon.class.php:226
+msgid "New document"
+msgstr "Nuevo documento"
+
+#: src/php/notifications-addon.class.php:227
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"{{author_name}} has published new content for you. Just follow this link to "
+"read it: <a href=\"{{post_url}}\">{{post_title}}</a>"
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"{{author_name}} ha publicado nuevo contenido para ti. Sigue el siguiente "
+"enlace para leerlo: <a href=\"{{post_url}}\">{{post_title}}</a>"
+
+#: src/php/notifications-addon.class.php:235
+msgid "[{{site_name}}] Password Reset"
+msgstr "[{{site_name}}] Restablecer Contraseña"
+
+#: src/php/notifications-addon.class.php:236
+msgid "Reset your password"
+msgstr "Restablece tu contraseña"
+
+#: src/php/notifications-addon.class.php:237
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"Someone requested that the password be reset on <a href="
+"\"{{site_url}}\">{{site_name}}</a>. Your username there is: {{user_login}}\n"
+"\n"
+"If this was a mistake, just ignore this email and nothing will happen.\n"
+"\n"
+"To reset your password, visit the following address: <a href="
+"\"{{reset_password_url}}\">Reset password</a>"
+msgstr ""
+"Hello {{to_name}},\n"
+"\n"
+"Alguien solicitó que se restablezca la contraseña en <a href="
+"\"{{site_url}}\">{{site_name}}</a>. Su nombre de usuario es: {{user_login}}\n"
+"\n"
+"Si esto fue un error, simplemente ignorar este mensaje y no pasará nada. "
+"Para restablecer su contraseña, visite la siguiente dirección: <a href="
+"\"{{reset_password_url}}\">Restablecer la contraseña</a>"
+
+#: src/php/notifications-addon.class.php:245
+msgid "[{{site_name}}] Welcome"
+msgstr "Bienvenido/a [{{site_name}}] "
+
+#: src/php/notifications-addon.class.php:246
+msgid "Congratulations"
+msgstr "Felicidades"
+
+#: src/php/notifications-addon.class.php:247
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"Thank you for registering on <a href=\"{{site_url}}\">{{site_name}}</a>. "
+"Your username is: {{user_login}}\n"
+"\n"
+"To set your password, visit the following address: <a href="
+"\"{{reset_password_url}}\">Set password</a>"
+msgstr ""
+"Hello {{to_name}},\n"
+"\n"
+"Gracias por registrarse en <a href=\"{{site_url}}\">{{site_name}}</a>. Su "
+"Nombre de Usuario es: {{user_login}}\n"
+"\n"
+"Para establecer la contraseña, visite la siguiente dirección: <a href="
+"\"{{reset_password_url}}\">Establecer una contraseña</a>"
+
+#: src/php/notifications-addon.class.php:255
+msgid "[{{site_name}}] Password lost and changed"
+msgstr "[{{site_name}}] Contraseña perdida y cambiada"
+
+#: src/php/notifications-addon.class.php:257
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"A user changed his password on <a href=\"{{site_url}}\">{{site_name}}</a>. "
+"Here are some details about that user:\n"
+"\n"
+"Username: {{user_login}}\n"
+"Email: {{user_email}}"
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"Un usuario ha cambiado su contraseña en <a href="
+"\"{{site_url}}\">{{site_name}}</a>. A continuación algunos detalles sobre "
+"ese usuario:\n"
+"Nombre de usuario: {{user_login}}\n"
+"Email: {{user_email}}"
+
+#: src/php/notifications-addon.class.php:265
+msgid "[{{site_name}}] New user registration"
+msgstr "[{{site_name}}] Nuevo usuario registrado"
+
+#: src/php/notifications-addon.class.php:266
+msgid "New user"
+msgstr "Nuevo usuario"
+
+#: src/php/notifications-addon.class.php:267
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"A new user has registered on <a href=\"{{site_url}}\">{{site_name}}</a>. "
+"Here is some more information:\n"
+"\n"
+"Username: {{user_login}}\n"
+"Email: {{user_email}}"
+msgstr ""
+"Hola{{to_name}},\n"
+"\n"
+"Un nuevo usuario se ha registrado en <a href=\"{{site_url}}\">{{site_name}}</"
+"a>. Aquí hay más información:\n"
+"\n"
+"Nombre de usuario: {{user_login}}\n"
+"Email: {{user_email}}"
+
+#: src/php/notifications-addon.class.php:275
+msgid "[{{site_name}}] Thank you for your payment"
+msgstr "[{{site_name}}] Gracias por su pago"
+
+#: src/php/notifications-addon.class.php:277
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"Thank you for your payment of {{payment_amount}} on <a href="
+"\"{{site_url}}\">{{site_name}}</a>."
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"Gracias por su pago de {{payment_amount}} en <a href="
+"\"{{site_url}}\">{{site_name}}</a>."
+
+#: src/php/notifications-addon.class.php:285
+msgid "[{{site_name}}] Your payment has been rejected"
+msgstr "[{{site_name}}] Su pago ha sido rechazado"
+
+#: src/php/notifications-addon.class.php:287
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"Unfortunately your payment of {{payment_amount}} has been rejected on <a "
+"href=\"{{site_url}}\">{{site_name}}</a>. If you feel this is an error, "
+"please contact us. Else please try again."
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"Desafortunadamente su pago de {{payment_amount}} ha sido rechazado en <a "
+"href=\"{{site_url}}\">{{site_name}}</a>. Si piensa que pueda ser un error, "
+"por favor, contacte con nosotros. En caso contrario, pruebe de nuevo."
+
+#: src/php/notifications-addon.class.php:295
+msgid "[{{site_name}}] Payment accepted"
+msgstr "[{{site_name}}] Pago aceptado"
+
+#: src/php/notifications-addon.class.php:296
+msgid "Payment accepted &ndash; {{payment_amount}}"
+msgstr "Pago aceptado &ndash; {{payment_amount}}"
+
+#: src/php/notifications-addon.class.php:297
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"A payment has been validated on <a href=\"{{site_url}}\">{{site_name}}</a>.\n"
+"\n"
+"<a href=\"{{payment_edit_url}}\">Show payment</a>."
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"Un pago ha sido validado en <a href=\"{{site_url}}\">{{site_name}}</a>.\n"
+"\n"
+"<a href=\"{{payment_edit_url}}\">Mostrar pago</a>."
+
+#: src/php/notifications-addon.class.php:305
+msgid "[{{site_name}}] Payment rejected"
+msgstr "[{{site_name}}] Pago rechazado"
+
+#: src/php/notifications-addon.class.php:306
+msgid "Payment rejected &ndash; {{payment_amount}}"
+msgstr "Pago rechazado &ndash; {{payment_amount}}"
+
+#: src/php/notifications-addon.class.php:307
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"A payment has been rejected on <a href=\"{{site_url}}\">{{site_name}}</a>.\n"
+"\n"
+"<a href=\"{{payment_edit_url}}\">Show payment</a>."
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"Un pago ha sido rechazado en <a href=\"{{site_url}}\">{{site_name}}</a>.\n"
+"\n"
+"<a href=\"{{payment_edit_url}}\">Mostrar pago</a>."
+
+#: src/php/notifications-addon.class.php:315
+msgid "[{{site_name}}] Payment pending"
+msgstr "[{{site_name}}] Pago pendiente"
+
+#: src/php/notifications-addon.class.php:316
+msgid "Payment pending &ndash; {{payment_amount}}"
+msgstr "Pago pendiente &ndash; {{payment_amount}}"
+
+#: src/php/notifications-addon.class.php:317
+msgid ""
+"Hello {{to_name}},\n"
+"\n"
+"A payment has been received but is still pending.\n"
+"\n"
+"<a href=\"{{payment_edit_url}}\">Show payment</a>."
+msgstr ""
+"Hola {{to_name}},\n"
+"\n"
+"Un pago se ha recibido pero se encuentra todavía pendiente.\n"
+"\n"
+"<a href=\"{{payment_edit_url}}\">Mostrar pago</a>."
+
+#: src/php/notifications-addon.class.php:340
+msgid "Default"
+msgstr "Predeterminado"
+
+#: src/php/notifications-addon.class.php:341
+msgid "Plain HTML"
+msgstr "HTML sin formato"
+
+#: src/php/templates/notifications-tabs.template.php:14
+msgid "Available placeholders"
+msgstr "Campos disponibles"
+
+#: src/php/templates/notifications-tabs.template.php:31
+msgid "Mode"
+msgstr "Modo"
+
+#: src/php/templates/notifications-tabs.template.php:50
+msgid "Email subject"
+msgstr "Asunto del correo electrónico"
+
+#: src/php/templates/notifications-tabs.template.php:61
+msgid "Content heading"
+msgstr "Encabezado del contenido"
+
+#: src/php/templates/notifications-tabs.template.php:72
+msgid "Content text"
+msgstr "Texto del contenido"
+
+#: src/php/templates/notifications-tabs.template.php:92
+msgid ""
+"You will find here a list of all the placeholders that may be used in the "
+"notification subject, heading or content. Please note that depending on the "
+"context, some placeholders may not be available."
+msgstr ""
+"Aquí encontrará una lista de todos los campos que se pueden utilizar en el "
+"asunto, título o contenido de la notificación. Tenga en cuenta que, "
+"dependiendo del contexto, algunos campos pueden no estar disponibles."

@@ -1,0 +1,231 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2016}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Front-office publishing 4.0.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2017-04-12 20:38+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-05-09 15:26+0200\n"
+"Language-Team: Juanjo Navarro <cmsweb@juanjoresa.es> para Marvinlabs\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;"
+"esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Last-Translator: Juanjo Navarro <cmsweb@juanjoresa.es>\n"
+"Language: es_ES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/collaboration/collaboration-addon.class.php:23
+msgid "Front-office publishing"
+msgstr "Publicación desde Zona Publica"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:33
+msgid "Private Files - New"
+msgstr "Archivos Privados - Nuevo"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:38
+msgid "Create file"
+msgstr "Crear archivo"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:43
+msgid "Page to create new private files."
+msgstr "Página para crear nuevos archivos privados"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:71
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:71
+msgid "File details"
+msgstr "Detalles del archivo"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:72
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:44
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:72
+#: src/php/customer-update-private-file/templates/customer-update-private-file-content.template.php:35
+msgid "Attachments"
+msgstr "Adjuntos"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:87
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:70
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:86
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:72
+msgid "The title cannot be empty"
+msgstr "El título no puede estar vacío"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:88
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:71
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:87
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:73
+msgid "The content cannot be empty"
+msgstr "El contenido no puede estar vacío"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:89
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:72
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:88
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:74
+msgid "You must select at least one owner"
+msgstr "Seleccione al menos un propietario"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:90
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:73
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:89
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:75
+msgid "You must select a category"
+msgstr "Debe seleccionar una categoría."
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:117
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:29
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:39
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:58
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:98
+#: src/php/customer-new-private-page/templates/customer-new-private-page-content.template.php:36
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:109
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:94
+msgid "Done"
+msgstr "Hecho"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:118
+msgid "The file has been created."
+msgstr "El archivo se ha creado."
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:121
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:113
+msgid "Back to files"
+msgstr "Volver a Archivos"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:126
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:107
+msgid "Create more"
+msgstr "Crear más"
+
+#: src/php/customer-new-private-file/customer-new-private-file-addon.class.php:131
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:112
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:118
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:103
+msgid "View it"
+msgstr "Mirarlo"
+
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:22
+#: src/php/customer-new-private-page/templates/customer-new-private-page-content.template.php:22
+#: src/php/customer-update-private-file/templates/customer-update-private-file-content.template.php:17
+#: src/php/customer-update-private-page/templates/customer-update-private-page-content.template.php:14
+msgid "Details"
+msgstr "Detalles"
+
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:25
+#: src/php/customer-new-private-page/templates/customer-new-private-page-content.template.php:25
+#: src/php/customer-update-private-file/templates/customer-update-private-file-content.template.php:20
+#: src/php/customer-update-private-page/templates/customer-update-private-page-content.template.php:17
+msgid "Title"
+msgstr "Título"
+
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:26
+#: src/php/customer-new-private-page/templates/customer-new-private-page-content.template.php:26
+#: src/php/customer-update-private-file/templates/customer-update-private-file-content.template.php:21
+#: src/php/customer-update-private-page/templates/customer-update-private-page-content.template.php:18
+msgid "Content"
+msgstr "Contenido"
+
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:27
+#: src/php/customer-new-private-page/templates/customer-new-private-page-content.template.php:27
+#: src/php/customer-update-private-file/templates/customer-update-private-file-content.template.php:22
+#: src/php/customer-update-private-page/templates/customer-update-private-page-content.template.php:19
+msgid "Category"
+msgstr "Categoría"
+
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:29
+#: src/php/customer-new-private-page/templates/customer-new-private-page-content.template.php:28
+#: src/php/customer-update-private-file/templates/customer-update-private-file-content.template.php:23
+#: src/php/customer-update-private-file/templates/customer-update-private-file-content.template.php:31
+#: src/php/customer-update-private-page/templates/customer-update-private-page-content.template.php:20
+msgid "Next step"
+msgstr "Paso siguiente"
+
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:34
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:37
+#: src/php/customer-new-private-page/templates/customer-new-private-page-content.template.php:32
+#: src/php/customer-new-private-page/templates/customer-new-private-page-content.template.php:35
+#: src/php/customer-update-private-file/templates/customer-update-private-file-content.template.php:27
+#: src/php/customer-update-private-file/templates/customer-update-private-file-content.template.php:30
+#: src/php/customer-update-private-page/templates/customer-update-private-page-content.template.php:24
+#: src/php/customer-update-private-page/templates/customer-update-private-page-content.template.php:27
+msgid "Owner"
+msgstr "Destinatario"
+
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:39
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:66
+msgid "Save and add attachments"
+msgstr "Guardar y añadir Adjuntos"
+
+#: src/php/customer-new-private-file/templates/customer-new-private-file-content.template.php:63
+msgid "You must save the post before you can upload attachments"
+msgstr "Debes guardar la Entrada antes de subir Adjuntos"
+
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:33
+msgid "Private Pages - New"
+msgstr "Páginas privadas - Nueva"
+
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:38
+msgid "Create page"
+msgstr "Crear página"
+
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:43
+msgid "Page to create new private pages."
+msgstr "Página para crear nuevas páginas privadas."
+
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:99
+msgid "The page has been created."
+msgstr "La página ha sido creada."
+
+#: src/php/customer-new-private-page/customer-new-private-page-addon.class.php:102
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:98
+msgid "Back to pages"
+msgstr "Volver a Páginas"
+
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:33
+msgid "Private Files - Update"
+msgstr "Archivos Privados - Actualizar"
+
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:38
+msgid "Update file"
+msgstr "Actualizar archivo"
+
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:43
+msgid "Page to update existing private files."
+msgstr "Página para actualizar los archivos privados existentes."
+
+#: src/php/customer-update-private-file/customer-update-private-file-addon.class.php:110
+msgid "The file has been updated."
+msgstr "El archivo se ha actualizado."
+
+#: src/php/customer-update-private-file/templates/customer-update-private-file-content.template.php:51
+#: src/php/customer-update-private-page/templates/customer-update-private-page-content.template.php:28
+msgid "Update"
+msgstr "Actualizar"
+
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:33
+msgid "Private Pages - Update"
+msgstr "Páginas privadas - Actualizar"
+
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:38
+msgid "Update page"
+msgstr "Actualizar Página"
+
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:43
+msgid "Page to update update private pages."
+msgstr "Página para actualizar las páginas privadas existentes."
+
+#: src/php/customer-update-private-page/customer-update-private-page-addon.class.php:95
+msgid "The page has been updated."
+msgstr "La página ha sido actualizada."
+
+#. Description of the plugin/theme
+msgid "Publish and edit private content from your website frontend"
+msgstr ""
+"Publica y edita contenido privado desde la zona pública (Frontend) de "
+"tu sitio"

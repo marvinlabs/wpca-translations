@@ -1,0 +1,185 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2016}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Additional Owner Types 5.0.1\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2017-04-10 23:49+0200\n"
+"PO-Revision-Date: 2017-05-09 15:26+0200\n"
+"Last-Translator: Juanjo Navarro <cmsweb@juanjoresa.es>\n"
+"Language-Team: Juanjo Navarro <cmsweb@juanjoresa.es> para Marvinlabs\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: D:/SERVIDOR/www/izurdiaga.dev/wp-content/plugins/customer-"
+"area-extended-permissions\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/extended-permissions/extended-permissions-addon.class.php:23
+msgid "Additional owner types"
+msgstr "Tipos de Propietarios Adicionales"
+
+#: src/php/extended-permissions/extended-permissions-addon.class.php:115
+#: src/php/extended-permissions/extended-permissions-addon.class.php:189
+msgid "Any registered user"
+msgstr "Cualquier usuario registrado"
+
+#: src/php/extended-permissions/extended-permissions-addon.class.php:321
+msgid "Global"
+msgstr "Global"
+
+#: src/php/extended-permissions/extended-permissions-addon.class.php:322
+msgid "Role"
+msgstr "Rol"
+
+#: src/php/extended-permissions/extended-permissions-addon.class.php:323
+msgid "User Group"
+msgstr "Grupo de Usuarios"
+
+#: src/php/user-group/templates/user-groups_profile_edit.template.php:8
+#: src/php/user-group/templates/user-groups_profile_list.template.php:3
+#: src/php/user-group/user-group-addon.class.php:25
+#: src/php/user-group/user-group-addon.class.php:249
+msgid "User Groups"
+msgstr "Grupos de Usuarios"
+
+#: src/php/user-group/templates/user-groups_profile_edit.template.php:12
+msgid "Edit user groups"
+msgstr "Editar Grupos de Usuarios"
+
+#: src/php/user-group/templates/user-groups_profile_edit.template.php:15
+msgid "You have not yet created any groups."
+msgstr "Todavía no ha creado ningún grupo."
+
+#: src/php/user-group/templates/user-groups_profile_edit.template.php:18
+msgid "Choose groups"
+msgstr "﻿Elegir grupos"
+
+#: src/php/user-group/templates/user-groups_profile_list.template.php:8
+msgid "You do not belong to any group"
+msgstr "Usted no pertenece a ningún grupo"
+
+#: src/php/user-group/templates/user-groups_profile_list.template.php:9
+msgid "This user does not belong to any group"
+msgstr "Este usuario no pertenece a ningún grupo"
+
+#: src/php/user-group/user-group-addon.class.php:70
+#, php-format
+msgid "All %s"
+msgstr "Todos los %s"
+
+#: src/php/user-group/user-group-addon.class.php:75
+#, php-format
+msgid "New %s"
+msgstr "Nuevo %s"
+
+#: src/php/user-group/user-group-addon.class.php:252
+msgid "Back-office"
+msgstr "Zona Administrativa"
+
+#: src/php/user-group/user-group-addon.class.php:254
+msgid "Create/Edit user groups"
+msgstr "Crear/Editar grupos de usuarios"
+
+#: src/php/user-group/user-group-addon.class.php:255
+msgid "Delete user groups"
+msgstr "Borrar usuario de los grupos"
+
+#: src/php/user-group/user-group-addon.class.php:256
+msgid "Access user groups"
+msgstr "Acceso a grupos del usuario"
+
+#: src/php/user-group/user-group-addon.class.php:257
+msgid "View the groups from a user profile"
+msgstr "Ver los grupos de un perfil de usuario"
+
+#: src/php/user-group/user-group-addon.class.php:258
+msgid "Edit the groups from a user profile"
+msgstr "Editar los grupos de un perfil de usuario"
+
+#: src/php/user-group/user-group-addon.class.php:273
+#: src/php/user-group/user-group-addon.class.php:284
+msgctxt "cuar_user_group"
+msgid "User Groups"
+msgstr "Grupos de Usuarios"
+
+#: src/php/user-group/user-group-addon.class.php:274
+msgctxt "cuar_user_group"
+msgid "User Group"
+msgstr "Grupo de Usuarios"
+
+#: src/php/user-group/user-group-addon.class.php:275
+msgctxt "cuar_user_group"
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: src/php/user-group/user-group-addon.class.php:276
+msgctxt "cuar_user_group"
+msgid "Add New User Group"
+msgstr "Añadir Nuevo Usuario al Grupo"
+
+#: src/php/user-group/user-group-addon.class.php:277
+msgctxt "cuar_user_group"
+msgid "Edit User Group"
+msgstr "Editar Grupo de Usuarios"
+
+#: src/php/user-group/user-group-addon.class.php:278
+msgctxt "cuar_user_group"
+msgid "New User Group"
+msgstr "Nuevo Grupo Usuario"
+
+#: src/php/user-group/user-group-addon.class.php:279
+msgctxt "cuar_user_group"
+msgid "View User Group"
+msgstr "Ver Grupo de Usuarios"
+
+#: src/php/user-group/user-group-addon.class.php:280
+msgctxt "cuar_user_group"
+msgid "Search User Groups"
+msgstr "Buscar Grupos de Usuarios"
+
+#: src/php/user-group/user-group-addon.class.php:281
+msgctxt "cuar_user_group"
+msgid "No user groups found"
+msgstr "No se encontraron grupos de usuarios"
+
+#: src/php/user-group/user-group-addon.class.php:282
+msgctxt "cuar_user_group"
+msgid "No user groups found in Trash"
+msgstr "No hay grupos de usuarios en la Papelera"
+
+#: src/php/user-group/user-group-addon.class.php:283
+msgctxt "cuar_user_group"
+msgid "Parent User Group:"
+msgstr "Grupo de Usuarios Principal:"
+
+#: src/php/user-group/user-group-admin-interface.class.php:153
+#: src/php/user-group/user-group-admin-interface.class.php:185
+msgid "Members"
+msgstr "Miembros"
+
+#: src/php/user-group/user-group-admin-interface.class.php:204
+msgid "Select the group members"
+msgstr "Seleccionar miembros del grupo"
+
+#: src/php/user-group/user-group-admin-interface.class.php:207
+msgid "Select group members (hint: you can also type to search a user)"
+msgstr ""
+"Seleccione los miembros del grupo (sugerencia: también puede escribir para "
+"buscar un miembro)"
+
+#: src/php/user-group/user-group-admin-interface.class.php:251
+#, php-format
+msgid "This group now has %d member(s)"
+msgstr "Este grupo tiene ahora %d miembro(s)"
+
+#~ msgid "Make your private content visible to user groups and roles"
+#~ msgstr "Visibilizar Contenido Privado por Roles y Grupos de Usuarios"
