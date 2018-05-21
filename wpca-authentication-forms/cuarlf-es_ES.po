@@ -1,17 +1,17 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Customer Area Login Form\n"
+"Project-Id-Version: WP Customer Area - Authentication Forms\n"
 "Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
 "environment/issues\n"
-"POT-Creation-Date: 2015-11-20 10:22+0100\n"
-"PO-Revision-Date: 2015-12-02 13:03+0100\n"
-"Last-Translator: Miguel Pena Roma <info@miguelpena.com>\n"
+"POT-Creation-Date: 2018-04-26 11:50:12+00:00\n"
+"PO-Revision-Date: 2018-05-21 09:35+0200\n"
+"Last-Translator: Thomas Lartaud <contact@thomaslartaud.com>\n"
 "Language-Team: MarvinLabs\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.0.7\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
 "esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -19,162 +19,154 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../src/php/customer-forgot-password/customer-forgot-password-addon.class.php:20
+#: src/php/customer-forgot-password/customer-forgot-password-addon.class.php:20
 msgid "Forgot Password"
-msgstr "No recuerdo la contraseña"
+msgstr "He olvidado la contraseña"
 
-#: ../src/php/customer-forgot-password/customer-forgot-password-addon.class.php:24
+#: src/php/customer-forgot-password/customer-forgot-password-addon.class.php:24
 msgid "This page allows the users to request a password reset."
-msgstr "Esta página permite a los usuarios solicitar el cambio de contraseña."
+msgstr "Esta página permite al usuario solicitar una contraseña nueva."
 
-#: ../src/php/customer-forgot-password/customer-forgot-password-addon.class.php:48
-#: ../src/php/customer-register/customer-register-addon.class.php:81
+#: src/php/customer-forgot-password/customer-forgot-password-addon.class.php:48
+#: src/php/customer-register/customer-register-addon.class.php:81
 msgid "You must write the code displayed in the image above."
-msgstr "Debes escribir el código de la imagen que ves arriba."
+msgstr "Tienes que escribir el código que se muestra en la imagen de arriba."
 
-#: ../src/php/customer-forgot-password/customer-forgot-password-addon.class.php:59
-#: ../src/php/customer-register/customer-register-addon.class.php:96
+#: src/php/customer-forgot-password/customer-forgot-password-addon.class.php:59
+#: src/php/customer-register/customer-register-addon.class.php:96
 msgid "The code you entered is not correct."
-msgstr "El código es incorrecto."
+msgstr "El código introducido es incorrecto."
 
-#: ../src/php/customer-forgot-password/customer-forgot-password-addon.class.php:71
-#, php-format
-msgid ""
-"An email has been sent with the instructions to reset your password. You can "
-"then go to the <a href=\"%1$s\" class=\"alert-link\">login page</a>"
-msgstr ""
-"Se ha enviado un correo electrónico con las instrucciones para cambiar tu "
-"contraseña. Luego puedes conectarte en <a href=\"%1$s\" class=\"alert-link"
-"\">página de entrada</a>"
+#: src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:23
+#: src/php/login-forms-page-addon.class.php:165
+msgid "Lost password?"
+msgstr "¿Has olvidado tu contraseña?"
 
-#: ../src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:8
+#: src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:28
+#: src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:33
 msgid "Username or Email"
-msgstr "Usuario o correo electrónico"
+msgstr "Nombre de usuario o e-mail"
 
-#: ../src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:23
-#: ../src/php/customer-register/templates/customer-register-content.template.php:31
+#: src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:53
+#: src/php/customer-register/templates/customer-register-content.template.php:63
 msgid "Spam Check"
-msgstr "Control de Spam"
+msgstr "Verificación contra spam"
 
-#: ../src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:28
-#: ../src/php/customer-register/templates/customer-register-content.template.php:36
-msgid "Copy the code shown above in the input field."
-msgstr "Copia el código mostrado en el campo."
+#: src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:60
+#: src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:62
+#: src/php/customer-register/templates/customer-register-content.template.php:70
+#: src/php/customer-register/templates/customer-register-content.template.php:72
+msgid "Copy the code shown above in this field."
+msgstr "Copia el código mostrado arriba en este campo."
 
-#: ../src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:39
+#: src/php/customer-forgot-password/templates/customer-forgot-password-content.template.php:72
 msgid "Get New Password"
 msgstr "Obtener una nueva contraseña"
 
-#: ../src/php/customer-login/customer-login-addon.class.php:23
-#: ../src/php/customer-login/templates/customer-login-content.template.php:50
-#: ../src/php/login-forms-page-addon.class.php:158
+#: src/php/customer-login/customer-login-addon.class.php:23
+#: src/php/customer-login/templates/customer-login-content.template.php:32
+#: src/php/customer-login/templates/customer-login-content.template.php:66
+#: src/php/login-forms-page-addon.class.php:157
 msgid "Login"
 msgstr "Entrar"
 
-#: ../src/php/customer-login/customer-login-addon.class.php:28
+#: src/php/customer-login/customer-login-addon.class.php:28
 msgid "This page allows users to log in"
-msgstr "Esta página permite a los usuarios acceder a la área privada."
+msgstr "Esta página permite a los usuarios acceder"
 
-#: ../src/php/customer-login/customer-login-addon.class.php:56
+#: src/php/customer-login/customer-login-addon.class.php:56
 msgid ""
 "Cookies are blocked or not supported by your browser. You must <a "
 "href='http://www.google.com/cookies.html'>enable cookies</a> to login here."
 msgstr ""
-"Los cookies están bloqueados o no están soportados por tu navegador. Visita "
-"<a href='http://www.google.com/cookies.html'>activer les cookies</a> para "
-"poder entrar."
+"Tu buscador bloquea o no permite el uso de cookies. Debes <a href='http://"
+"www.google.com/cookies.html'>activar las cookies</a> para poder conectarte."
 
-#: ../src/php/customer-login/customer-login-addon.class.php:70
-#: ../src/php/customer-login/customer-login-addon.class.php:82
-#, php-format
+#: src/php/customer-login/customer-login-addon.class.php:69
+#: src/php/customer-login/customer-login-addon.class.php:81
 msgid ""
 "The username or password you entered is incorrect. <a href=\"%s\" title="
 "\"Password Lost and Found\" class=\"alert-link\">Lost your password</a>?"
 msgstr ""
-"EL usuario o la contraseña no son válidos. <a href=\"%s\" title=\"Recuperar "
-"contraseña\" class=\"alert-link\">Has perdido la contraseña</a>?"
+"Nombre de usuario o contraseña incorrecto. ¿<a href=\"%s\" title="
+"\"Contraseña olvidada\">Has olvidado tu contraseña</a> ?"
 
-#: ../src/php/customer-login/templates/customer-login-content.template.php:21
+#: src/php/customer-login/templates/customer-login-content.template.php:19
 msgid "Email or username"
-msgstr "Correo electrónico o nombre de usuario"
+msgstr "E-mail o nombre de usuario"
 
-#: ../src/php/customer-login/templates/customer-login-content.template.php:21
-#: ../src/php/customer-register/templates/customer-register-content.template.php:8
+#: src/php/customer-login/templates/customer-login-content.template.php:19
+#: src/php/customer-register/templates/customer-register-content.template.php:29
 msgid "Username"
-msgstr "Usuario"
+msgstr "Nombre de usuario"
 
-#: ../src/php/customer-login/templates/customer-login-content.template.php:29
+#: src/php/customer-login/templates/customer-login-content.template.php:45
+#: src/php/customer-login/templates/customer-login-content.template.php:48
 msgid "Password"
 msgstr "Contraseña"
 
-#: ../src/php/customer-login/templates/customer-login-content.template.php:40
+#: src/php/customer-login/templates/customer-login-content.template.php:56
 msgid "Remember me"
 msgstr "Recuérdame"
 
-#: ../src/php/customer-register/customer-register-addon.class.php:23
-#: ../src/php/customer-register/templates/customer-register-content.template.php:47
+#: src/php/customer-register/customer-register-addon.class.php:23
+#: src/php/customer-register/templates/customer-register-content.template.php:82
+#: src/php/login-forms-page-addon.class.php:173
 msgid "Register"
-msgstr "Registrarse"
+msgstr "Regístrate"
 
-#: ../src/php/customer-register/customer-register-addon.class.php:28
+#: src/php/customer-register/customer-register-addon.class.php:28
 msgid "This page allows the users to create an account"
-msgstr "Esta página permite a los usuarios crear una cuenta."
+msgstr "Esta página permite al usuario crear una cuenta"
 
-#: ../src/php/customer-register/customer-register-addon.class.php:49
-#: ../src/php/customer-register/customer-register-addon.class.php:61
+#: src/php/customer-register/customer-register-addon.class.php:49
+#: src/php/customer-register/customer-register-addon.class.php:61
 msgid "Registration is disabled"
-msgstr "La registraión está deshabilitada."
+msgstr "El registro está desactivado"
 
-#: ../src/php/customer-register/customer-register-addon.class.php:113
+#: src/php/customer-register/customer-register-addon.class.php:113
 msgid "You must enter a valid username and a valid email address."
 msgstr ""
 "Es necesario escribir un nombre de usuario válido y una dirección de correo "
 "electrónico válida."
 
-#: ../src/php/customer-register/customer-register-addon.class.php:119
-#, php-format
-msgid ""
-"An email has been sent with the instructions to activate your account. You "
-"can then go to the <a href=\"%1$s\" class=\"alert-link\">login page</a>"
-msgstr ""
-"Se ha enviado un correo electrónico con las instrucciones para activar tu "
-"cuenta. Luego puedes conectarte en <a href=\"%1$s\" class=\"alert-link"
-"\">página de conexión</a>"
+#: src/php/customer-register/templates/customer-register-content.template.php:24
+msgid "Create an account"
+msgstr "Crea tu cuenta"
 
-#: ../src/php/customer-register/templates/customer-register-content.template.php:15
+#: src/php/customer-register/templates/customer-register-content.template.php:39
 msgid "Email Address"
 msgstr "Correo Electrónico"
 
-#: ../src/php/customer-register/templates/customer-register-content.template.php:18
-msgid "A password will be e-mailed to you."
+#: src/php/customer-register/templates/customer-register-content.template.php:45
+msgid "A password will be e-mailed to you at this address."
 msgstr "Se te enviará un correo electrónico con tu contraseña."
 
-#: ../src/php/customer-reset-password/customer-reset-password-addon.class.php:23
+#: src/php/customer-reset-password/customer-reset-password-addon.class.php:23
 msgid "Reset Password"
 msgstr "Reemplazar contraseña"
 
-#: ../src/php/customer-reset-password/customer-reset-password-addon.class.php:28
+#: src/php/customer-reset-password/customer-reset-password-addon.class.php:28
 msgid "This page allows the users to actually reset his password."
 msgstr "Esta página permite a los usuarios cambiar su contraseña."
 
-#: ../src/php/customer-reset-password/customer-reset-password-addon.class.php:82
+#: src/php/customer-reset-password/customer-reset-password-addon.class.php:82
 msgid ""
 "It seems you have not followed the link properly. Please make sure that the "
 "address includes a \"key\" and a \"login\" parameter."
 msgstr ""
 "Parece que no has seguido el enlace correcto. Por favor asegúrate de que la "
-"dirección incluye \"key\" et \"login\"."
+"dirección incluye \"key\" y \"login\"."
 
-#: ../src/php/customer-reset-password/customer-reset-password-addon.class.php:104
+#: src/php/customer-reset-password/customer-reset-password-addon.class.php:104
 msgid "Password is empty!"
-msgstr "La contraseña está vacía!"
+msgstr "¡La contraseña está vacía!"
 
-#: ../src/php/customer-reset-password/customer-reset-password-addon.class.php:111
+#: src/php/customer-reset-password/customer-reset-password-addon.class.php:111
 msgid "Passwords do not match! Please try again."
-msgstr "Las contraaseñas no son iguales! Por favor prueba otra vez."
+msgstr "¡Las contraseñas no son iguales! Por favor prueba otra vez."
 
-#: ../src/php/customer-reset-password/customer-reset-password-addon.class.php:132
-#, php-format
+#: src/php/customer-reset-password/customer-reset-password-addon.class.php:132
 msgid ""
 "You can now <a href=\"%1$s\" class=\"alert-link\">login with your new "
 "password</a>."
@@ -182,221 +174,265 @@ msgstr ""
 "Ahora puedes <a href=\"%1$s\" class=\"alert-link\">conectarte con la nueva "
 "contraseña</a>."
 
-#: ../src/php/customer-reset-password/templates/customer-reset-password-content.template.php:8
+#: src/php/customer-reset-password/templates/customer-reset-password-content.template.php:19
+msgid "Reset your password"
+msgstr "Reestablece tu contraseña"
+
+#: src/php/customer-reset-password/templates/customer-reset-password-content.template.php:24
 msgid "New Password"
 msgstr "Nueva contraseña"
 
-#: ../src/php/customer-reset-password/templates/customer-reset-password-content.template.php:17
-msgid "Type your new password again."
-msgstr "Escribe tu contraseña otra vez."
+#: src/php/customer-reset-password/templates/customer-reset-password-content.template.php:29
+msgid "New password"
+msgstr "Nueva contraseña"
 
-#: ../src/php/customer-reset-password/templates/customer-reset-password-content.template.php:23
+#: src/php/customer-reset-password/templates/customer-reset-password-content.template.php:42
+msgid "Type your new password again"
+msgstr "Escribe tu contraseña otra vez"
+
+#: src/php/customer-reset-password/templates/customer-reset-password-content.template.php:53
 msgid "Change Password"
 msgstr "Cambiar la contraseña"
 
-#: ../src/php/login-form-addon.class.php:25
-#: ../src/php/login-form-addon.class.php:125
+#: src/php/login-form-addon.class.php:25 src/php/login-form-addon.class.php:124
 msgid "Authentication Forms"
 msgstr "Formularios de autenticación"
 
-#: ../src/php/login-form-addon.class.php:132
+#: src/php/login-form-addon.class.php:131
 msgid "Override WordPress forms"
 msgstr "Reemplazar los formularios de WordPress"
 
-#: ../src/php/login-form-addon.class.php:139
+#: src/php/login-form-addon.class.php:138
 msgid "Change all default WordPress URLs for the Customer Area forms."
 msgstr ""
 "Cambiar todos los URLs por defecto de WordPress con los formularios de "
 "Customer Area."
 
-#: ../src/php/login-form-addon.class.php:141
+#: src/php/login-form-addon.class.php:140
 msgid ""
 "If you check this box, all the links output by WordPress (for example in the "
 "<em>Meta</em> widget) will take the user to the corresponding form in the "
 "Customer Area. Use this if you would like WP Customer Area to be your main "
 "login page."
 msgstr ""
-"Si palomeas esta casilla, todos los enlaces de WordPress (por ejemplo en el "
-"widget <em>Meta</em>) llevará al usuario al formulario correspondiente en "
+"Si seleccionas esta casilla, todos los enlaces de WordPress (por ejemplo en "
+"el widget <em>Meta</em>) llevará al usuario al formulario correspondiente en "
 "Customer Area. Usa esto si quieres que  WP Customer Area sea tu principal "
 "página de login."
 
-#: ../src/php/login-form-addon.class.php:149
+#: src/php/login-form-addon.class.php:148
 msgid "Login using email"
 msgstr "Entrar con dirección de correo electrónico"
 
-#: ../src/php/login-form-addon.class.php:156
+#: src/php/login-form-addon.class.php:155
 msgid ""
 "Allow users to login by using either their username or their email address."
 msgstr ""
-"Permite a los usuaios entrar usando sea el correo electrónico o el nombre de "
-"usuario"
+"Permite a los usuarios entrar usando sea el correo electrónico o el nombre "
+"de usuario."
 
-#: ../src/php/login-form-addon.class.php:377
+#: src/php/login-form-addon.class.php:376
 msgid "You can now login with your new password"
-msgstr "Ahora puedes conectarte con la nueva contraseña."
+msgstr "Ahora ya puedes entrar con tu nueva contraseña"
 
-#: ../src/php/login-form-addon.class.php:399
+#: src/php/login-form-addon.class.php:398
 msgid "User registration is disabled on this site."
-msgstr "La registración de usuarios está deshabilitada en este sitio."
+msgstr "El registro de usuarios está deshabilitado en este sitio."
 
-#: ../src/php/login-forms-page-addon.class.php:166
-msgid "Forgot your password?"
-msgstr "¿Has olvidado tu contraseña?"
-
-#: ../src/php/login-forms-page-addon.class.php:174
-msgid "Create your account"
-msgstr "Crea tu cuenta"
-
-#: ../src/php/widget-login.class.php:37
+#: src/php/widget-login.class.php:37
 msgid "WPCA - Login form"
 msgstr "WPCA - Formulario de conexión"
 
-#: ../src/php/widget-login.class.php:39
+#: src/php/widget-login.class.php:39
 msgid "Shows a login form to guest users (else, nothing)"
 msgstr ""
 "Muestra un formulario de login a los usuarios huéspedes (o no muestra nada)"
 
-#: ../src/php/widget-login.class.php:118
+#: src/php/widget-login.class.php:118
 msgid "Title:"
 msgstr "Título :"
 
-#: ../src/php/widget-login.class.php:127
+#: src/php/widget-login.class.php:127
 msgid "When logged-in:"
 msgstr "Cuando conectado:"
 
-#: ../src/php/widget-login.class.php:129
+#: src/php/widget-login.class.php:129
 msgid "Hide widget"
 msgstr "Esconder el widget"
 
-#: ../src/php/widget-login.class.php:130
+#: src/php/widget-login.class.php:130
 msgid "Show logout link"
 msgstr "Mostrar el enlace SALIR"
 
-#: ../src/php/widget-login.class.php:143
+#: src/php/widget-login.class.php:143
 msgid "Logout"
 msgstr "Salir"
 
-#: ../src/php/wp-login-helper.class.php:28
+#: src/php/wp-login-helper.class.php:29
 msgid "Enter a username or e-mail address."
 msgstr "Escribe nombre de usuario o una dirección de correo electrónico."
 
-#: ../src/php/wp-login-helper.class.php:35
+#: src/php/wp-login-helper.class.php:36
 msgid "There is no user registered with that email address."
-msgstr "No existe ningún usuario con esta dirección de correo electrónico."
+msgstr "No existe ningún usuario con esa dirección de correo electrónico."
 
-#: ../src/php/wp-login-helper.class.php:53
+#: src/php/wp-login-helper.class.php:54
 msgid "Invalid username or e-mail."
 msgstr "El usuario o  el correo electrónico no son válidos."
 
-#: ../src/php/wp-login-helper.class.php:69
+#: src/php/wp-login-helper.class.php:69
 msgid "Password reset is not allowed for this user"
 msgstr "No es posible reemplazar la contraseña para este usuario"
 
-#: ../src/php/wp-login-helper.class.php:85
-msgid "Someone requested that the password be reset for the following account:"
-msgstr ""
-"Alguien a solicitado el cambio de contraseña para la siguiente cuenta :"
-
-#: ../src/php/wp-login-helper.class.php:87
-#: ../src/php/wp-login-helper.class.php:256
-#: ../src/php/wp-login-helper.class.php:266
-#, php-format
-msgid "Username: %s"
-msgstr "Usuario : %s"
-
-#: ../src/php/wp-login-helper.class.php:88
-msgid "If this was a mistake, just ignore this email and nothing will happen."
-msgstr "Si este es un error, ignora este correo electrónico y no pasará nada."
-
-#: ../src/php/wp-login-helper.class.php:89
-msgid "To reset your password, visit the following address:"
-msgstr "Para reestablecer tu contraseña, visita la siguiente página :"
-
-#: ../src/php/wp-login-helper.class.php:103
-#, php-format
-msgid "[%s] Password Reset"
-msgstr "[%s] Reestablecer contraseña"
-
-#: ../src/php/wp-login-helper.class.php:110
-msgid "The e-mail could not be sent."
-msgstr "El correo electrónico no se pudo enviar."
-
-#: ../src/php/wp-login-helper.class.php:110
-msgid "Possible reason: your host may have disabled the mail() function..."
-msgstr "Probablemente tu servidor ha deshablitado la función mail()..."
-
-#: ../src/php/wp-login-helper.class.php:135
-#: ../src/php/wp-login-helper.class.php:140
-#: ../src/php/wp-login-helper.class.php:147
+#: src/php/wp-login-helper.class.php:111 src/php/wp-login-helper.class.php:116
+#: src/php/wp-login-helper.class.php:123
 msgid "Invalid key"
 msgstr "La clave no es válida"
 
-#: ../src/php/wp-login-helper.class.php:186
+#: src/php/wp-login-helper.class.php:165
 msgid "Please enter a username."
-msgstr "Por favor escribe unu nombre de usuario."
+msgstr "Por favor escribe un nombre de usuario."
 
-#: ../src/php/wp-login-helper.class.php:190
+#: src/php/wp-login-helper.class.php:169
 msgid ""
-"This username is invalid because it uses illegal characters. Please enter a "
-"valid username."
+"Sorry. Please enter a username using only lowercase letters and numbers."
 msgstr ""
-"El nombre de usuario no es válido porque usa carácteres no aceptados. Por "
-"favor ingrese un nombre de usuario válido."
+"Lo sentimos. Por favor, introduce un nombre de usuario utilizando solamente "
+"minúsculas y números."
 
-#: ../src/php/wp-login-helper.class.php:195
+#: src/php/wp-login-helper.class.php:174
 msgid "This username is already registered. Please choose another one."
-msgstr "Este nombre de usuario ya está registrado. Por favor elegir otro."
+msgstr "Este nombre de usuario ya está registrado. Por favor elige otro."
 
-#: ../src/php/wp-login-helper.class.php:201
+#: src/php/wp-login-helper.class.php:180
 msgid "Please type your e-mail address."
 msgstr "La dirección de correo electrónico es obligatoria."
 
-#: ../src/php/wp-login-helper.class.php:205
+#: src/php/wp-login-helper.class.php:184
 msgid "The email address isn&#8217;t correct."
-msgstr "La dirección de correo electrónico es incorrecta"
+msgstr "La dirección de correo electrónico es incorrecta."
 
-#: ../src/php/wp-login-helper.class.php:210
+#: src/php/wp-login-helper.class.php:189
 msgid "This email is already registered, please choose another one."
 msgstr "Este correo electrónico ya ha sido registrado, por favor use otro."
 
-#: ../src/php/wp-login-helper.class.php:227
-#, php-format
+#: src/php/wp-login-helper.class.php:206
 msgid ""
 "Couldn&#8217;t register you... please contact the <a href=\"mailto:%s"
 "\">webmaster</a> !"
 msgstr ""
 "Imposible crear tu cuenta, contacta al <a href=\"mailto:%s\">webmaster</a> !"
 
-#: ../src/php/wp-login-helper.class.php:255
-#, php-format
+#: src/php/wp-login-helper.class.php:244
 msgid "New user registration on your site %s:"
 msgstr "Nuevo usuario registrado en el sitio %s :"
 
-#: ../src/php/wp-login-helper.class.php:257
-#, php-format
+#: src/php/wp-login-helper.class.php:245 src/php/wp-login-helper.class.php:320
+msgid "Username: %s"
+msgstr "Usuario : %s"
+
+#: src/php/wp-login-helper.class.php:246
 msgid "E-mail: %s"
 msgstr "Email : %s"
 
-#: ../src/php/wp-login-helper.class.php:259
-#, php-format
+#: src/php/wp-login-helper.class.php:248
 msgid "[%s] New User Registration"
-msgstr "[%s] Registración de nuevo usuario"
+msgstr "[%s] Nuevo usuario registrado en la web"
 
-#: ../src/php/wp-login-helper.class.php:267
-#, php-format
-msgid "Password: %s"
-msgstr "Contraseña : %s"
+#: src/php/wp-login-helper.class.php:283
+msgid "Hello,"
+msgstr "Hola,"
 
-#: ../src/php/wp-login-helper.class.php:272
-#, php-format
-msgid "[%s] Your username and password"
-msgstr "[%s] Nombre de usuario y contraseña"
+#: src/php/wp-login-helper.class.php:284
+msgid "Thank you for registering on our site. Your username is: %1$s"
+msgstr ""
+"Gracias por registrarte en nuestra página web. Tu nombre de usuario es: %1$s"
 
-#~ msgid "Integrate the login and registration forms to your website"
+#: src/php/wp-login-helper.class.php:285
+msgid "To set your password, visit the following address:"
+msgstr "Para reestablecer tu contraseña, visita la siguiente página :"
+
+#: src/php/wp-login-helper.class.php:288
+msgid "[%1$s] Welcome"
+msgstr "[%1$s] Bienvenido/a"
+
+#: src/php/wp-login-helper.class.php:297 src/php/wp-login-helper.class.php:334
+#: src/php/wp-login-helper.class.php:367
+msgid "The e-mail could not be sent."
+msgstr "El correo electrónico no se pudo enviar."
+
+#: src/php/wp-login-helper.class.php:298 src/php/wp-login-helper.class.php:335
+#: src/php/wp-login-helper.class.php:368
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Probablemente tu servidor ha deshablitado la función mail()..."
+
+#: src/php/wp-login-helper.class.php:318
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+"Alguien ha solicitado el cambio de contraseña para la siguiente cuenta:"
+
+#: src/php/wp-login-helper.class.php:321
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Si este es un error, ignora este correo electrónico y no pasará nada."
+
+#: src/php/wp-login-helper.class.php:322
+msgid "To reset your password, visit the following address:"
+msgstr "Para reestablecer tu contraseña, visita la siguiente página :"
+
+#: src/php/wp-login-helper.class.php:325
+msgid "[%1$s] Password Reset"
+msgstr "[%s] Reestablecer contraseña"
+
+#: src/php/wp-login-helper.class.php:354
+msgid "A user changed his password on your site %s: %s"
+msgstr "Un usuario ha cambiado su contraseña en tu web %s : %s"
+
+#: src/php/wp-login-helper.class.php:355
+msgid "Password lost and changed for user: %s"
+msgstr "Contraseña perdida y cambiada para el usuario : %s"
+
+#: src/php/wp-login-helper.class.php:357
+msgid "[%1$s] Password lost and changed"
+msgstr "[%1$s] Contraseña perdida y cambiada"
+
+#. Description of the plugin/theme
+msgid "Integrate the login and registration forms to your website"
+msgstr ""
+"Integrar los formularios de conexión y formularios de registro en tu página "
+"web"
+
+#~ msgid ""
+#~ "An email has been sent with the instructions to reset your password. You "
+#~ "can then go to the <a href=\"%1$s\" class=\"alert-link\">login page</a>"
 #~ msgstr ""
-#~ "Intégrez les fomulaires de connexion et de création de compte directement "
-#~ "à votre site"
+#~ "Un courriel a été envoyé avec les instructions pour réinitialiser votre "
+#~ "mot de passe. Vous pourrez ensuite vous rendre sur la <a href=\"%1$s\" "
+#~ "class=\"alert-link\">page de connexion</a>"
+
+#~ msgid ""
+#~ "An email has been sent with the instructions to activate your account. "
+#~ "You can then go to the <a href=\"%1$s\" class=\"alert-link\">login page</"
+#~ "a>"
+#~ msgstr ""
+#~ "Un courriel a été envoyé avec des instructions pour activer votre compte. "
+#~ "Vous pourrez ensuite vous rendre sur la <a href=\"%1$s\" class=\"alert-"
+#~ "link\">page de connexion</a>"
+
+#~ msgid "Forgot your password?"
+#~ msgstr "Oubli du mot de passe ?"
+
+#~ msgid ""
+#~ "This username is invalid because it uses illegal characters. Please enter "
+#~ "a valid username."
+#~ msgstr ""
+#~ "Cet identifiant n'est pas valide, car il utiliser des caractères non "
+#~ "autorisés. Merci d'utiliser un identifiant valide."
+
+#~ msgid "Password: %s"
+#~ msgstr "Mot de passe : %s"
+
+#~ msgid "[%s] Your username and password"
+#~ msgstr "[%s] Vos identifiant et mot de passe"
 
 #~ msgid ""
 #~ "Invalid username. <a href=\"%s\" title=\"Password Lost and Found\" class="
@@ -607,9 +643,6 @@ msgstr "[%s] Nombre de usuario y contraseña"
 
 #~ msgid "must be lower than %s"
 #~ msgstr "doit être plus petit que %s"
-
-#~ msgid "Hello"
-#~ msgstr "Bonjour"
 
 #~ msgid "You must login to access your own customer area."
 #~ msgstr "Vous devez être connecté pour accéder à votre espace client"
