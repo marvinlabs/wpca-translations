@@ -1,0 +1,306 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2018}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Smart Groups 2.1.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2018-04-26 14:24:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-07-24 00:07+0200\n"
+"Language-Team: http://marvinlabs.com/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.9\n"
+"Last-Translator: \n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/smart-groups-addon.class.php:22
+#: src/php/smart-groups-addon.class.php:608
+#: src/php/templates/smart-groups_profile_list.template.php:3
+msgid "Smart Groups"
+msgstr "Gruppi Smart"
+
+#: src/php/smart-groups-addon.class.php:87
+msgid "All %s"
+msgstr "Tutti %s"
+
+#: src/php/smart-groups-addon.class.php:92
+msgid "New %s"
+msgstr "Nuovi %s"
+
+#: src/php/smart-groups-addon.class.php:273
+msgid "Smart Group"
+msgstr "Gruppo smart"
+
+#: src/php/smart-groups-addon.class.php:455
+msgid "The search query must not be empty"
+msgstr "La query di ricerca non deve essere vuota"
+
+#: src/php/smart-groups-addon.class.php:459
+msgid "You must pick at least 1 search field"
+msgstr "Devi selezionare almeno 1 campo di ricerca"
+
+#: src/php/smart-groups-addon.class.php:506
+msgid "The relation must be either OR or AND"
+msgstr "La relazione deve essere entrambi OR o AND"
+
+#: src/php/smart-groups-addon.class.php:510
+msgid "You must enter at least 1 meta field"
+msgstr "Devi inserire almeno 1 meta campo"
+
+#: src/php/smart-groups-addon.class.php:519
+msgid "Invalid operator for item %s"
+msgstr "Operatore non valido per la voce %s"
+
+#: src/php/smart-groups-addon.class.php:524
+msgid "The item %s cannot have an empty key"
+msgstr "L'elemento%s non può avere una chiave vuota"
+
+#: src/php/smart-groups-addon.class.php:529
+msgid "The item %s cannot have an empty value"
+msgstr "L'articolo%s non può avere un valore vuoto"
+
+#: src/php/smart-groups-addon.class.php:611
+msgid "Back-office"
+msgstr "Back-office"
+
+#: src/php/smart-groups-addon.class.php:613
+msgid "Create/Edit smart groups"
+msgstr "Creare e modificare gruppi smart"
+
+#: src/php/smart-groups-addon.class.php:614
+msgid "Delete smart groups"
+msgstr "Eliminare gruppi smart"
+
+#: src/php/smart-groups-addon.class.php:615
+msgid "Access smart groups"
+msgstr "Gruppi di accesso smart"
+
+#: src/php/smart-groups-addon.class.php:616
+msgid "View the groups from a user profile"
+msgstr "Mostra i gruppi da un profilo utente"
+
+#: src/php/smart-groups-admin-interface.class.php:117
+msgid "Members"
+msgstr "Membri"
+
+#: src/php/smart-groups-admin-interface.class.php:150
+#: src/php/templates/smart-groups_preview-metabox.template.php:33
+msgid "... and %1$s more"
+msgstr "... e %1$s più"
+
+#: src/php/smart-groups-admin-interface.class.php:155
+msgid "This group is empty"
+msgstr "Questo gruppo è vuoto"
+
+#: src/php/smart-groups-admin-interface.class.php:189
+msgid "Search criteria"
+msgstr "Criteri di ricerca"
+
+#: src/php/smart-groups-admin-interface.class.php:197
+msgid "Custom fields criteria"
+msgstr "Criteri di campi personalizzati"
+
+#: src/php/smart-groups-admin-interface.class.php:205
+msgid "Group preview"
+msgstr "Anteprima di gruppo"
+
+#: src/php/smart-groups-admin-interface.class.php:224
+msgid "Username (login)"
+msgstr "Nome utente (login)"
+
+#: src/php/smart-groups-admin-interface.class.php:225
+msgid "Nice name"
+msgstr "Nickname"
+
+#: src/php/smart-groups-admin-interface.class.php:226
+msgid "Email"
+msgstr "email"
+
+#: src/php/smart-groups-admin-interface.class.php:227
+msgid "URL"
+msgstr "URL"
+
+#: src/php/smart-groups-admin-interface.class.php:250
+msgid "OR"
+msgstr "O"
+
+#: src/php/smart-groups-admin-interface.class.php:251
+msgid "AND"
+msgstr "E"
+
+#: src/php/smart-groups-admin-interface.class.php:254
+msgid "is equal to"
+msgstr "è uguale a"
+
+#: src/php/smart-groups-admin-interface.class.php:255
+msgid "is not equals to"
+msgstr "non è uguale a"
+
+#: src/php/smart-groups-admin-interface.class.php:256
+msgid "is greater than"
+msgstr "deve essere maggiore di %s"
+
+#: src/php/smart-groups-admin-interface.class.php:257
+msgid "is greater than or equal to"
+msgstr "è maggiore o uguale a"
+
+#: src/php/smart-groups-admin-interface.class.php:258
+msgid "is lower than"
+msgstr "deve essere minore di %s"
+
+#: src/php/smart-groups-admin-interface.class.php:259
+msgid "is lower than or equal to"
+msgstr "è inferiore o uguale a"
+
+#: src/php/smart-groups-admin-interface.class.php:260
+msgid "contains"
+msgstr "contiene"
+
+#: src/php/smart-groups-admin-interface.class.php:261
+msgid "does not contain"
+msgstr "non contiene"
+
+#: src/php/smart-groups-admin-interface.class.php:371
+msgid "The group has been updated"
+msgstr "Il gruppo è stato aggiornato."
+
+#: src/php/templates/smart-groups_meta-criteria-metabox-query-item.template.php:25
+msgid "Meta key"
+msgstr "Meta key"
+
+#: src/php/templates/smart-groups_meta-criteria-metabox-query-item.template.php:40
+msgid "Operator"
+msgstr "Operatore"
+
+#: src/php/templates/smart-groups_meta-criteria-metabox-query-item.template.php:52
+msgid "Value"
+msgstr "Valore"
+
+#: src/php/templates/smart-groups_meta-criteria-metabox.template.php:10
+msgid "Enable the custom fields criteria"
+msgstr "Abilita i criteri dei campi personalizzati"
+
+#: src/php/templates/smart-groups_meta-criteria-metabox.template.php:23
+msgid "Relation between query items"
+msgstr "Relazione tra gli elementi della query"
+
+#: src/php/templates/smart-groups_meta-criteria-metabox.template.php:38
+msgid "Meta fields query items"
+msgstr "Elementi meta campi query"
+
+#: src/php/templates/smart-groups_meta-criteria-metabox.template.php:41
+msgid "Add an item"
+msgstr "Aggiungere un elementoxxxx"
+
+#: src/php/templates/smart-groups_preview-metabox.template.php:22
+msgid "No users match the criterias for this group"
+msgstr "Nessun utente corrisponde ai criteri per questo gruppo"
+
+#: src/php/templates/smart-groups_preview-metabox.template.php:25
+msgid "%d user(s) match the criterias for this group. "
+msgstr "% d utente (i) corrispondono ai criteri per questo gruppo."
+
+#: src/php/templates/smart-groups_profile_list.template.php:8
+msgid "Member of "
+msgstr "Gruppi in cui l'autore è un membro"
+
+#: src/php/templates/smart-groups_profile_list.template.php:12
+msgid "You do not belong to any group"
+msgstr "Non si appartiene ad alcun gruppo"
+
+#: src/php/templates/smart-groups_profile_list.template.php:13
+msgid "This user does not belong to any group"
+msgstr "Questo utente non appartiene ad alcun gruppo"
+
+#: src/php/templates/smart-groups_search-criteria-metabox.template.php:10
+msgid "Enable the search criteria"
+msgstr "Attivare i criteri di ricerca"
+
+#: src/php/templates/smart-groups_search-criteria-metabox.template.php:17
+msgid "Fields"
+msgstr "Lista campi personalizzati"
+
+#: src/php/templates/smart-groups_search-criteria-metabox.template.php:34
+msgid "Query"
+msgstr "Query"
+
+#: src/php/templates/smart-groups_search-criteria-metabox.template.php:44
+msgid ""
+"Use of the * wildcard before and/or after the string will match on columns "
+"starting with*, *ending with, or *containing* the string you enter."
+msgstr ""
+"L'uso del carattere jolly * prima e / o dopo che la stringa corrisponderà "
+"su colonne che iniziano con *, * che termina con o * contenente * la "
+"stringa inserita."
+
+#. Description of the plugin/theme
+msgid "Create dynamic groups of customers based on their profile information."
+msgstr ""
+"Crea gruppi dinamici di clienti in base alle informazioni del loro profilo."
+
+#: src/php/smart-groups-addon.class.php:105
+#: src/php/smart-groups-addon.class.php:632
+msgctxt "cuar_smart_group"
+msgid "Smart Group"
+msgstr "Gruppo smart"
+
+#: src/php/smart-groups-addon.class.php:106
+#: src/php/smart-groups-addon.class.php:631
+#: src/php/smart-groups-addon.class.php:642
+msgctxt "cuar_smart_group"
+msgid "Smart Groups"
+msgstr "Gruppi Smart"
+
+#: src/php/smart-groups-addon.class.php:633
+msgctxt "cuar_smart_group"
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: src/php/smart-groups-addon.class.php:634
+msgctxt "cuar_smart_group"
+msgid "Add New Smart Group"
+msgstr "Aggiungi un nuovo gruppo smart"
+
+#: src/php/smart-groups-addon.class.php:635
+msgctxt "cuar_smart_group"
+msgid "Edit Smart Group"
+msgstr "Modifica gruppo Smart"
+
+#: src/php/smart-groups-addon.class.php:636
+msgctxt "cuar_smart_group"
+msgid "New Smart Group"
+msgstr "Nuovo Smart Group"
+
+#: src/php/smart-groups-addon.class.php:637
+msgctxt "cuar_smart_group"
+msgid "View Smart Group"
+msgstr "Visualizza gruppo Smart"
+
+#: src/php/smart-groups-addon.class.php:638
+msgctxt "cuar_smart_group"
+msgid "Search Smart Groups"
+msgstr "Cerca gruppi intelligenti"
+
+#: src/php/smart-groups-addon.class.php:639
+msgctxt "cuar_smart_group"
+msgid "No smart groups found"
+msgstr "Nessun gruppo intelligente trovato"
+
+#: src/php/smart-groups-addon.class.php:640
+msgctxt "cuar_smart_group"
+msgid "No smart groups found in Trash"
+msgstr "Nessun gruppo intelligente trovato nel Cestino"
+
+#: src/php/smart-groups-addon.class.php:641
+msgctxt "cuar_smart_group"
+msgid "Parent Smart Group:"
+msgstr "Parent Smart Group:"

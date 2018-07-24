@@ -1,0 +1,336 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2018}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Stripe Gateway 1.0.1\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2018-04-26 14:24:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-07-24 00:08+0200\n"
+"Language-Team: http://marvinlabs.com/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.9\n"
+"Last-Translator: \n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/helpers/stripe-logger.class.php:52
+msgid "Stripe webhook"
+msgstr "Webhook Stripe"
+
+#: src/php/helpers/stripe-logger.class.php:83
+msgid "Event ID: "
+msgstr "Codice Evento:"
+
+#: src/php/helpers/stripe-logger.class.php:84
+msgid "id: "
+msgstr "ID:"
+
+#: src/php/helpers/stripe-logger.class.php:88
+msgid "Webhook type: "
+msgstr "Webhook tipo:"
+
+#: src/php/helpers/stripe-logger.class.php:89
+msgid "type: "
+msgstr "Tipo"
+
+#: src/php/stripe-gateway-addon.class.php:29
+msgid "Stripe Gateway"
+msgstr "Gateway di striscia"
+
+#: src/php/stripe-payment-gateway.class.php:52
+msgid ""
+"The Stripe gateway allows you to accept payments from credit cards via "
+"Stripe."
+msgstr ""
+"Il gateway Stripe ti consente di accettare pagamenti con carte di credito "
+"tramite Stripe."
+
+#: src/php/stripe-payment-gateway.class.php:77
+msgid "Stripe gateway error, missing Stripe secret key"
+msgstr "Errore di gateway di striscia, manca la chiave segreta di striscia"
+
+#: src/php/stripe-payment-gateway.class.php:91
+msgid "Stripe token is missing"
+msgstr "Token di striscia è mancante"
+
+#: src/php/stripe-payment-gateway.class.php:103
+msgid "Stripe gateway error, user information is missing"
+msgstr "Errore di gateway di striscia, mancano informazioni utente"
+
+#: src/php/stripe-payment-gateway.class.php:158
+msgid "Stripe gateway error retrieving / creating the stripe customer"
+msgstr ""
+"Errore di gateway striscia recupero / creazione del cliente di striscia"
+
+#: src/php/stripe-payment-gateway.class.php:170
+msgid "Stripe gateway error, missing payment information"
+msgstr "Errore di gateway di striscia, pagamento informazioni mancanti"
+
+#: src/php/stripe-payment-gateway.class.php:214
+msgid "Stripe charge ID: %s"
+msgstr "Striscia carica ID: %s"
+
+#: src/php/stripe-payment-gateway.class.php:225
+msgid ""
+"PAYMENT %s - There was an error processing the payment, please ensure you "
+"have entered your card number correctly"
+msgstr ""
+"PAGAMENTO%s - Si è verificato un errore durante l'elaborazione del "
+"pagamento, assicurarsi di aver inserito correttamente il numero della carta"
+
+#: src/php/stripe-payment-gateway.class.php:228
+msgid ""
+"There was an error processing the payment, please ensure you have entered "
+"your card number correctly"
+msgstr ""
+"Si è verificato un errore durante l'elaborazione del pagamento, assicurarsi "
+"di aver inserito correttamente il numero della carta"
+
+#: src/php/stripe-payment-gateway.class.php:241
+msgid ""
+"PAYMENT %s - There was an error processing the payment, please try again "
+"later"
+msgstr ""
+"PAGAMENTO %s - c'è stato un errore nell'elaborazione del pagamento, si prega "
+"di riprovare più tardi"
+
+#: src/php/stripe-payment-gateway.class.php:244
+msgid "There was an error processing the payment, please try again later"
+msgstr ""
+"C'era un errore nell'elaborazione del pagamento, si prega di riprovare più "
+"tardi"
+
+#: src/php/stripe-payment-gateway.class.php:257
+msgid "PAYMENT %s - The Stripe API request was invalid, please try again"
+msgstr "PAGAMENTO%s - La richiesta API Stripe non è valida, riprova"
+
+#: src/php/stripe-payment-gateway.class.php:260
+msgid "The Stripe API request was invalid, please try again"
+msgstr "La richiesta di banda API non era valida, si prega di riprovare"
+
+#: src/php/stripe-payment-gateway.class.php:274
+msgid "PAYMENT %s - The API keys entered in settings are incorrect"
+msgstr ""
+"PAGAMENTO %s - tasti l'API immessi nelle impostazioni non sono corrette"
+
+#: src/php/stripe-payment-gateway.class.php:277
+msgid "The API keys entered in settings are incorrect"
+msgstr "Le chiavi API immessa nelle impostazioni non sono corrette"
+
+#: src/php/stripe-payment-gateway.class.php:290
+msgid ""
+"PAYMENT %s - There was an error processing the payment (network "
+"communication with Stripe failed)"
+msgstr ""
+"PAGAMENTO%s - Si è verificato un errore durante l'elaborazione del pagamento "
+"(comunicazione di rete con Stripe non riuscita)"
+
+#: src/php/stripe-payment-gateway.class.php:293
+msgid ""
+"There was an error processing the payment (network communication with Stripe "
+"failed)"
+msgstr ""
+"C'era un errore nell'elaborazione del pagamento (comunicazione di rete con "
+"striscia non riuscita)"
+
+#: src/php/stripe-payment-gateway.class.php:307
+#: src/php/stripe-payment-gateway.class.php:323
+msgid "PAYMENT %s - There was an error processing the payment"
+msgstr "PAGAMENTO %s - c'è stato un errore nell'elaborazione del pagamento"
+
+#: src/php/stripe-payment-gateway.class.php:310
+#: src/php/stripe-payment-gateway.class.php:326
+msgid "There was an error processing the payment"
+msgstr "Errore nel pagamento"
+
+#: src/php/stripe-payment-gateway.class.php:429
+#: src/php/stripe-payment-gateway.class.php:440
+msgid "Handling event %s, could not retrieve the charge"
+msgstr "Gestione evento %s, Impossibile recuperare la carica"
+
+#: src/php/stripe-payment-gateway.class.php:513
+msgid "Stripe funds reinstated for charge %s"
+msgstr "Fondi di striscia reintegrati per carica %s"
+
+#: src/php/stripe-payment-gateway.class.php:518
+#: src/php/stripe-payment-gateway.class.php:549
+#: src/php/stripe-payment-gateway.class.php:566
+msgid "Stripe refund event id: %s"
+msgstr "Id di evento rimborso striscia: %s"
+
+#: src/php/stripe-payment-gateway.class.php:541
+msgid ""
+"Stripe charge %s partially refunded (total refunded yet: %s%s) for reason: %s"
+msgstr ""
+"Addebito di strip%s parzialmente rimborsato (rimborso totale ancora:%s%s) "
+"per motivo:%s"
+
+#: src/php/stripe-payment-gateway.class.php:560
+msgid "Stripe charge %s refunded for reason: %s"
+msgstr "Carica %s rimborsato per motivo a righe: %s"
+
+#: src/php/stripe-payment-gateway.class.php:631
+msgid "Pay"
+msgstr "Paga con %s"
+
+#: src/php/stripe-payment-gateway.class.php:639
+msgid "Secure credit card payments provided by Stripe."
+msgstr "Pagamenti in carta di credito fornito dalla striscia."
+
+#: src/php/templates/settings-gateway-stripe.template.php:11
+msgid "Enable test mode. No payments will be processed."
+msgstr "Abilita modalità test. Nessun pagamento sarà elaborato."
+
+#: src/php/templates/settings-gateway-stripe.template.php:18
+msgid "Account"
+msgstr "Dettagli account"
+
+#: src/php/templates/settings-gateway-stripe.template.php:25
+msgid "Test publishable key"
+msgstr "Chiave pubblica"
+
+#: src/php/templates/settings-gateway-stripe.template.php:26
+msgid "Enter your test publishable key, found in your Stripe account settings."
+msgstr "Inserisci il tuo chiave pubblicabile, trovata nell’account di Stripe."
+
+#: src/php/templates/settings-gateway-stripe.template.php:36
+msgid "Test secret key"
+msgstr "chiave segreta"
+
+#: src/php/templates/settings-gateway-stripe.template.php:37
+msgid "Enter your test secret key, found in your Stripe account settings."
+msgstr ""
+"Inserisci il tuo chiave segreta di prova, trovata nell’account di Stripe."
+
+#: src/php/templates/settings-gateway-stripe.template.php:47
+msgid "Test webhook signing secret"
+msgstr "Webhook Signing Secret Key"
+
+#: src/php/templates/settings-gateway-stripe.template.php:48
+msgid ""
+"Enter your test webhook signing secret, found in your Stripe account "
+"settings."
+msgstr ""
+"Inserisci il tuo chiave segreta di prova, trovata nell’account di Stripe."
+
+#: src/php/templates/settings-gateway-stripe.template.php:58
+msgid "Live publishable key"
+msgstr "Live Publishable Key"
+
+#: src/php/templates/settings-gateway-stripe.template.php:59
+msgid "Enter your live publishable key, found in your Stripe account settings."
+msgstr ""
+"Inserisci il tuo chiave di produzione pubblicabile, trovata nell’account di "
+"Stripe."
+
+#: src/php/templates/settings-gateway-stripe.template.php:69
+msgid "Live secret key"
+msgstr "Chiave segreta (Live)"
+
+#: src/php/templates/settings-gateway-stripe.template.php:70
+msgid "Enter your live secret key, found in your Stripe account settings."
+msgstr ""
+"Inserisci il tuo chiave di produzione segreta, trovata nell’account di "
+"Stripe."
+
+#: src/php/templates/settings-gateway-stripe.template.php:80
+msgid "Live webhook signing secret"
+msgstr "Webhook Signing Secret Key"
+
+#: src/php/templates/settings-gateway-stripe.template.php:81
+msgid ""
+"Enter your live webhook signing secret, found in your Stripe account "
+"settings."
+msgstr ""
+"Inserisci il tuo chiave di produzione segreta, trovata nell’account di "
+"Stripe."
+
+#: src/php/templates/settings-gateway-stripe.template.php:91
+msgid "Webhooks"
+msgstr "Ganci web"
+
+#: src/php/templates/settings-gateway-stripe.template.php:93
+msgid ""
+"In order for Stripe to function completely, you must configure your Stripe "
+"webhooks."
+msgstr ""
+"Affinché Stripe funzioni completamente, devi configurare i tuoi webhook "
+"Stripe."
+
+#: src/php/templates/settings-gateway-stripe.template.php:94
+msgid ""
+"Visit your <a href=\"https://dashboard.stripe.com/account/webhooks\">account "
+"dashboard</a> to configure them."
+msgstr ""
+"Visita la <a href=\"https://dashboard.stripe.com/account/webhooks"
+"\">dashboard del</a> tuo <a href=\"https://dashboard.stripe.com/account/"
+"webhooks\">account</a> per configurarli."
+
+#: src/php/templates/settings-gateway-stripe.template.php:95
+msgid "Please add a webhook endpoint for the URL below."
+msgstr "Si prega di aggiungere un endpoint webhook per l'URL qui sotto."
+
+#: src/php/templates/settings-gateway-stripe.template.php:97
+msgid "Webhook URL:"
+msgstr "URL Webhook"
+
+#: src/php/templates/settings-gateway-stripe.template.php:106
+msgid "Checkout form settings"
+msgstr "Impostazioni del modulo di checkout"
+
+#: src/php/templates/settings-gateway-stripe.template.php:113
+msgid "Store name"
+msgstr "Nome del negozio"
+
+#: src/php/templates/settings-gateway-stripe.template.php:114
+msgid ""
+"Enter the store name that will be displayed in the Stripe checkout form."
+msgstr ""
+"Inserisci il nome del negozio che verrà visualizzato nel modulo di verifica "
+"Stripe."
+
+#: src/php/templates/settings-gateway-stripe.template.php:124
+msgid "Image URL"
+msgstr "immagine url"
+
+#: src/php/templates/settings-gateway-stripe.template.php:125
+msgid "Enter the url to the image to be displayed in the Stripe checkout form."
+msgstr ""
+"Immettere l'url dell'immagine da visualizzare nel modulo di check-out di "
+"striscia."
+
+#: src/php/templates/settings-gateway-stripe.template.php:135
+msgid "Button label"
+msgstr "Etichetta pulsante"
+
+#: src/php/templates/settings-gateway-stripe.template.php:136
+msgid ""
+"Enter the text to be displayed as label for the Stripe checkout form button."
+msgstr ""
+"Immettere il testo da visualizzare come etichetta per il pulsante del modulo "
+"di verifica Stripe."
+
+#: src/php/templates/settings-gateway-stripe.template.php:146
+msgid "Messages"
+msgstr "Messaggi"
+
+#: src/php/templates/settings-gateway-stripe.template.php:152
+msgid "Checkout message"
+msgstr "Messaggio di controllo"
+
+#: src/php/templates/settings-gateway-stripe.template.php:153
+msgid "Message to show on the checkout page."
+msgstr "Messaggio da visualizzare nella pagina di checkout."
+
+#. Description of the plugin/theme
+msgid "Online payments within your private area via Stripe"
+msgstr "Pagamenti online nella tua area privata tramite Stripe"

@@ -1,0 +1,63 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2018}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Protect post types 2.1.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2018-04-26 14:24:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-07-24 00:04+0200\n"
+"Language-Team: http://marvinlabs.com/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.9\n"
+"Last-Translator: \n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/helpers/protect-post-types-admin-interface.class.php:86
+msgid "Enable content access restriction with WP Customer Area"
+msgstr "Abilitare la restrizione di accesso al contenuto con WP Area clienti"
+
+#: src/php/helpers/protect-post-types-admin-interface.class.php:143
+#: src/php/helpers/protect-post-types-admin-interface.class.php:148
+msgid "Assigned to"
+msgstr "Assegnato a "
+
+#: src/php/helpers/protect-post-types-admin-interface.class.php:174
+msgid "Public - Anyone can see this"
+msgstr "Pubblico - chiunque può vedere questo"
+
+#: src/php/helpers/protect-post-types-admin-interface.class.php:190
+msgid "Protected post types"
+msgstr "Tipi di post protetto"
+
+#: src/php/helpers/protect-post-types-admin-interface.class.php:212
+msgid "Types to protect"
+msgstr "Tipi per proteggere"
+
+#: src/php/helpers/protect-post-types-admin-interface.class.php:221
+msgid ""
+"Select all the custom post types you would like to protect from public "
+"access. Then for each of these items you will be able to decide if you want "
+"to assign an owner to it or leave it public"
+msgstr ""
+"Selezionare tutti i tipi di post personalizzati che si desidera proteggere "
+"da accessi esterni. Quindi, per ognuno di questi elementi sarà in grado di "
+"decidere se si desidera assegnare un proprietario ad esso o lasciarlo "
+"pubblico"
+
+#: src/php/protect-post-types-addon.class.php:25
+msgid "Protect post types"
+msgstr "Tipologia di articoli protetti"
+
+#. Description of the plugin/theme
+msgid "Make 3rd-party post types private"
+msgstr "Fare 3rd-party post tipi privati"

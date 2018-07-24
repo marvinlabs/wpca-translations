@@ -1,0 +1,600 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2018}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Tasks 4.2.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2018-04-26 14:24:13+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-07-24 00:11+0200\n"
+"Language-Team: http://marvinlabs.com/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;"
+"esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.9\n"
+"Last-Translator: \n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:32
+msgid "Task lists - New"
+msgstr "Elenchi di attività - nuovo"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:37
+msgid "Create task list"
+msgstr "Crea un elenco compiti"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:42
+msgid "Page to create new task lists."
+msgstr "Pagina per creare nuovi elenchi di attività."
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:70
+msgid "List details"
+msgstr "Lista + Dettaglio"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:71
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:75
+#: src/php/customer-tasks-home/customer-tasks-home-addon.class.php:34
+#: src/php/tasks/helpers/tasks-admin-interface.class.php:128
+#: src/php/tasks/helpers/tasks-settings-helper.class.php:56
+#: src/php/tasks/tasks-addon.class.php:28
+#: src/php/tasks/tasks-addon.class.php:697
+#: src/php/tasks/templates/tasks-list-frontend.template.php:22
+msgid "Tasks"
+msgstr "Compiti"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:86
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:73
+msgid "The title cannot be empty"
+msgstr "Il titolo della pagina non può essere vuoto"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:87
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:74
+msgid "The description cannot be empty"
+msgstr "La descrizione non può essere vuota."
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:88
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:75
+msgid "You must select at least one owner"
+msgstr "È necessario selezionare almeno un elemento."
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:114
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:51
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:57
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:69
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:81
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:95
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:49
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:52
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:55
+msgid "Done"
+msgstr "Fatto"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:115
+msgid "The task list has been created."
+msgstr "L'elenco delle attività è stato creato."
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:118
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:99
+msgid "Back to task lists"
+msgstr "Torna a elenchi di attività"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:123
+msgid "Create more"
+msgstr "Invia altri"
+
+#: src/php/customer-new-tasklist/customer-new-tasklist-addon.class.php:128
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:104
+msgid "View it"
+msgstr "Visualizza"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:38
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:36
+msgid "Details"
+msgstr "Dettagli"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:42
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:40
+msgid ""
+"You are not allowed to pick an owner and there are no default owners for "
+"this type of content. Please contact your website administrator!"
+msgstr ""
+"Non è consentito di scegliere un proprietario e non ci sono nessun "
+"proprietario predefinito per questo tipo di contenuto. Si prega di "
+"contattare l'amministratore del sito Web!"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:47
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:45
+msgid "Title"
+msgstr "Titolo"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:48
+msgid "Content"
+msgstr "Contenuto"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:53
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:64
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:67
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:51
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:62
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:65
+msgid "Owner"
+msgstr "Proprietario"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:54
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:69
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:90
+msgid "Save and add tasks"
+msgstr "Salvare e aggiungere attività"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:57
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:55
+msgid "Next step"
+msgstr "Passaggio successivo"
+
+#: src/php/customer-new-tasklist/templates/customer-new-tasklist-content.template.php:87
+msgid "You must save the post before you can add tasks"
+msgstr ""
+"Prima è possibile aggiungere attività, è necessario salvare il post"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:38
+msgid "Task lists - Owned"
+msgstr "Elenchi di attività - Proprietà"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:43
+msgid "My task lists"
+msgstr "Elenchi delle attività"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:48
+msgid "Page to list the task lists a customer owns."
+msgstr ""
+"Pagina per elencare gli elenchi di attività che un cliente possiede."
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:86
+msgid "Task lists you published"
+msgstr "Elenchi di attività che è stato pubblicato"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:91
+msgid "Task lists published by %1$s"
+msgstr "Elenchi di attività pubblicati da %1$s"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:96
+msgid "Task lists under %1$s"
+msgstr "Elenchi di attività sotto %1$s"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:104
+msgid "Task lists published in %2$s %1$s"
+msgstr "Elenchi di attività pubblicati nella %2$s %1$s"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:108
+msgid "Task lists published in %1$s"
+msgstr "Elenchi di attività pubblicati nella %1$s"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:116
+msgid "Task Lists"
+msgstr "Elenchi delle attività"
+
+#: src/php/customer-tasklists/customer-tasklists-addon.class.php:121
+#: src/php/customer-tasklists/widget-tasklists.class.php:53
+msgid "Recent Task Lists"
+msgstr "Elenchi di attività recenti"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-dashboard.template.php:36
+msgid "View all"
+msgstr "Visualizza tutte"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-empty-category_archive.template.php:31
+msgid "There are no task lists in that category."
+msgstr "Esistono elenchi di attività in quella categoria."
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-empty-dashboard.template.php:28
+msgid "You currently have no tasklists."
+msgstr "Attualmente non hai nessun tasklists."
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-empty-date_archive.template.php:18
+msgid "There are no task lists for that period."
+msgstr "Esistono elenchi di attività per quel periodo."
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-empty.template.php:21
+msgid "You currently have no task lists."
+msgstr "Attualmente non hai nessun elenchi di attività."
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item-container.template.php:26
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item-dashboard.template.php:26
+msgid "Added on %s"
+msgstr "Aggiunto il %s"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item.template.php:38
+msgid "NO TASKS"
+msgstr "Nessun compito"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item.template.php:40
+msgid "%1$d OUT OF %2$d"
+msgstr "%1$d di %2$d"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item.template.php:41
+msgid "%1$d TASK"
+msgid_plural "%1$d TASKS"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item.template.php:71
+msgid "Created on"
+msgstr "Creato il"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item.template.php:93
+msgid "Created by"
+msgstr "Creato da"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content-item.template.php:96
+#: src/php/customer-tasklists/templates/customer-tasklists-single-post-header.template.php:41
+msgid "Assigned to"
+msgstr "Assegnato a "
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content.template.php:32
+msgid "Page %1$s/%2$s"
+msgstr "Pagina %1$s/%2$s"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-content.template.php:41
+msgid "No items were found matching the selected filters"
+msgstr "Nessun elemento trovato corrispondente ai filtri selezionati"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-single-post-header.template.php:31
+msgid "Author"
+msgstr "Autore"
+
+#: src/php/customer-tasklists/templates/customer-tasklists-single-post-header.template.php:51
+msgid "Date"
+msgstr "Data"
+
+#: src/php/customer-tasklists/widget-tasklist-authors.class.php:39
+msgid "WPCA - Task List Authors"
+msgstr "WPCA - attività elenco Autori"
+
+#: src/php/customer-tasklists/widget-tasklist-authors.class.php:41
+msgid "Shows the task list author archives of the Customer Area"
+msgstr ""
+"Mostra gli archivi degli autori delle liste attività dell'area clienti"
+
+#: src/php/customer-tasklists/widget-tasklist-authors.class.php:53
+msgid "Created By"
+msgstr "Creato da"
+
+#: src/php/customer-tasklists/widget-tasklist-dates.class.php:39
+msgid "WPCA - Task List Archives"
+msgstr "WPCA - gli archivi della lista attività"
+
+#: src/php/customer-tasklists/widget-tasklist-dates.class.php:41
+msgid "Shows the task list yearly archives of the Customer Area"
+msgstr "Mostra gli archivi annuali dell'elenco attività dell'Area clienti"
+
+#: src/php/customer-tasklists/widget-tasklist-dates.class.php:53
+msgid "Archives"
+msgstr "Archivi"
+
+#: src/php/customer-tasklists/widget-tasklists.class.php:39
+msgid "WPCA - Recent Task Lists"
+msgstr "WPCA - elenchi di attività recenti"
+
+#: src/php/customer-tasklists/widget-tasklists.class.php:41
+msgid "Shows a list of task lists for the logged-in user"
+msgstr "Mostra un elenco di elenchi di attività per l'utente loggato"
+
+#: src/php/customer-tasklists/widget-tasklists.class.php:58
+msgid "No task lists"
+msgstr "Elenchi delle attività"
+
+#: src/php/customer-tasks-home/customer-tasks-home-addon.class.php:30
+msgid "Tasks - Home"
+msgstr "Attività - Home"
+
+#: src/php/customer-tasks-home/customer-tasks-home-addon.class.php:38
+msgid "Root page for the customer tasks."
+msgstr "Pagina principale per le attività del cliente."
+
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:32
+msgid "Task lists - Update"
+msgstr "Elenchi di attività - aggiornamento"
+
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:37
+msgid "Update task list"
+msgstr "Aggiorna elenco attività"
+
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:42
+msgid "Page to update task lists."
+msgstr "Pagina per aggiornare gli elenchi di attività."
+
+#: src/php/customer-update-tasklist/customer-update-tasklist-addon.class.php:96
+msgid "The task list has been updated."
+msgstr "È stato aggiornato l'elenco delle attività."
+
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:46
+msgid "Description"
+msgstr "Descrizione"
+
+#: src/php/customer-update-tasklist/templates/customer-update-tasklist-content.template.php:66
+msgid "Update"
+msgstr "Aggiorna"
+
+#: src/php/tasks/helpers/tasks-admin-interface.class.php:78
+msgid "Progress"
+msgstr "Progresso"
+
+#: src/php/tasks/helpers/tasks-admin-interface.class.php:104
+msgid "%3$s%% - %1$s task(s) completed out of %2$s"
+msgstr "%3$s %% -%1$s compito (i) completato da%2$s"
+
+#: src/php/tasks/tasks-addon.class.php:167
+#: src/php/tasks/tasks-addon.class.php:206
+#: src/php/tasks/tasks-addon.class.php:255
+msgid "The list does not exist"
+msgstr "L'elenco non esiste"
+
+#: src/php/tasks/tasks-addon.class.php:261
+msgid "You must specify a task to update"
+msgstr "È necessario specificare un'attività per l'aggiornamento"
+
+#: src/php/tasks/tasks-addon.class.php:700
+msgid "Global"
+msgstr "Globale"
+
+#: src/php/tasks/tasks-addon.class.php:702
+msgid "Manage tasks of any lists"
+msgstr "Gestire le attività di tutti gli elenchi"
+
+#: src/php/tasks/tasks-addon.class.php:703
+msgid "Manage tasks of own lists"
+msgstr "Gestire le attività delle proprie liste"
+
+#: src/php/tasks/tasks-addon.class.php:704
+msgid "Manage tasks of assigned lists"
+msgstr "Gestire le attività delle liste assegnate"
+
+#: src/php/tasks/tasks-addon.class.php:705
+msgid "Check any task"
+msgstr "Controllare tutte le attività"
+
+#: src/php/tasks/tasks-addon.class.php:706
+msgid "Check tasks in own lists"
+msgstr "Attività di controllo nelle proprie liste"
+
+#: src/php/tasks/tasks-addon.class.php:707
+msgid "Check tasks in assigned lists"
+msgstr "Controlla le attività negli elenchi assegnati"
+
+#: src/php/tasks/tasks-addon.class.php:711
+msgid "Back-office"
+msgstr "Back-office"
+
+#: src/php/tasks/tasks-addon.class.php:713
+msgid "List all lists"
+msgstr "Tutte le Liste"
+
+#: src/php/tasks/tasks-addon.class.php:714
+msgid "Access lists"
+msgstr "Elenchi di accesso"
+
+#: src/php/tasks/tasks-addon.class.php:715
+msgid "Create/Edit lists"
+msgstr "Creare e modificare elenchi"
+
+#: src/php/tasks/tasks-addon.class.php:716
+msgid "Delete lists"
+msgstr "Eliminare le liste"
+
+#: src/php/tasks/tasks-addon.class.php:720
+msgid "Front-office"
+msgstr "Front-office"
+
+#: src/php/tasks/tasks-addon.class.php:722
+msgid "View task lists"
+msgstr "Elenchi delle attività"
+
+#: src/php/tasks/tasks-addon.class.php:723
+msgid "View any task list"
+msgstr "Mostra lista dei compiti"
+
+#: src/php/tasks/tasks-addon.class.php:835
+msgid "Are you sure that you want to delete this task? "
+msgstr "Sei sicuro di voler eliminare questa attività?"
+
+#: src/php/tasks/tasks-addon.class.php:847
+#: src/php/tasks/tasks-addon.class.php:885
+#: src/php/tasks/tasks-addon.class.php:920
+#: src/php/tasks/tasks-addon.class.php:953
+#: src/php/tasks/tasks-addon.class.php:994
+msgid "Task list id is not specified"
+msgstr "L'ID dell'elenco attività non è specificato"
+
+#: src/php/tasks/tasks-addon.class.php:854
+#: src/php/tasks/tasks-addon.class.php:892
+#: src/php/tasks/tasks-addon.class.php:927
+#: src/php/tasks/tasks-addon.class.php:960
+#: src/php/tasks/tasks-addon.class.php:1001
+msgid "Trying to cheat?"
+msgstr "Cercando di ingannare ?"
+
+#: src/php/tasks/tasks-addon.class.php:859
+msgid "You are not allowed to update task completion"
+msgstr "Non è consentito aggiornare il completamento dell'attività"
+
+#: src/php/tasks/tasks-addon.class.php:865
+#: src/php/tasks/tasks-addon.class.php:937
+#: src/php/tasks/tasks-addon.class.php:1011
+msgid "Task id is not specified"
+msgstr "Non viene specificato l'id attività"
+
+#: src/php/tasks/tasks-addon.class.php:897
+#: src/php/tasks/tasks-addon.class.php:932
+#: src/php/tasks/tasks-addon.class.php:965
+#: src/php/tasks/tasks-addon.class.php:1006
+msgid "You are not allowed to manage tasks of this list"
+msgstr "Non è consentito per gestire le attività di questo elenco"
+
+#: src/php/tasks/tasks-addon.class.php:971
+msgid "You must provide a description"
+msgstr "Devi fornire una descrizione"
+
+#: src/php/tasks/templates/tasks-list-admin.template.php:46
+#: src/php/tasks/templates/tasks-list-frontend.template.php:46
+msgid "There are no tasks in this list"
+msgstr "Non vi sono attività in questa visualizzazione."
+
+#: src/php/tasks/templates/tasks-list-admin.template.php:61
+#: src/php/tasks/templates/tasks-list-frontend.template.php:76
+msgid "Add task"
+msgstr "Aggiungi attività"
+
+#: src/php/tasks/templates/tasks-list-frontend.template.php:73
+msgid "Enter the new task description here..."
+msgstr "Inserisci qui la nuova descrizione dell'attività ..."
+
+#: src/php/tasks/templates/tasks-list-item-admin.template.php:51
+#: src/php/tasks/templates/tasks-list-item-frontend.template.php:64
+msgid "Move"
+msgstr "Sposta"
+
+#: src/php/tasks/templates/tasks-list-item-admin.template.php:54
+#: src/php/tasks/templates/tasks-list-item-frontend.template.php:58
+msgid "Add due date"
+msgstr "Aggiungi nuova data"
+
+#: src/php/tasks/templates/tasks-list-item-admin.template.php:57
+#: src/php/tasks/templates/tasks-list-item-frontend.template.php:60
+msgid "Delete"
+msgstr "elimina"
+
+#: src/php/tasks/templates/tasks-list-item-admin.template.php:64
+#: src/php/tasks/templates/tasks-list-item-frontend.template.php:48
+msgid "Due date"
+msgstr "Data: {date}"
+
+#. Description of the plugin/theme
+msgid "Add private task lists to your Customer Area"
+msgstr "Aggiungi elenchi di attività privati ​​alla tua area clienti"
+
+#: src/php/tasks/tasks-addon.class.php:575
+#: src/php/tasks/tasks-addon.class.php:605
+msgctxt "cuar_tasklist"
+msgid "Task List"
+msgstr "Lista Compiti"
+
+#: src/php/tasks/tasks-addon.class.php:576
+#: src/php/tasks/tasks-addon.class.php:604
+#: src/php/tasks/tasks-addon.class.php:615
+msgctxt "cuar_tasklist"
+msgid "Task Lists"
+msgstr "Elenchi delle attività"
+
+#: src/php/tasks/tasks-addon.class.php:606
+msgctxt "cuar_tasklist"
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: src/php/tasks/tasks-addon.class.php:607
+msgctxt "cuar_tasklist"
+msgid "Add New Task List"
+msgstr "Aggiungi Nuova Lista Compiti"
+
+#: src/php/tasks/tasks-addon.class.php:608
+msgctxt "cuar_tasklist"
+msgid "Edit Task List"
+msgstr "Modifica lista dei compiti"
+
+#: src/php/tasks/tasks-addon.class.php:609
+msgctxt "cuar_tasklist"
+msgid "New Task List"
+msgstr "Nuova lista compiti"
+
+#: src/php/tasks/tasks-addon.class.php:610
+msgctxt "cuar_tasklist"
+msgid "View Task List"
+msgstr "Mostra lista dei compiti"
+
+#: src/php/tasks/tasks-addon.class.php:611
+msgctxt "cuar_tasklist"
+msgid "Search Task Lists"
+msgstr "Cerca elenchi di attività"
+
+#: src/php/tasks/tasks-addon.class.php:612
+msgctxt "cuar_tasklist"
+msgid "No task lists found"
+msgstr "Nessuna Lista trovata!!"
+
+#: src/php/tasks/tasks-addon.class.php:613
+msgctxt "cuar_tasklist"
+msgid "No task lists found in Trash"
+msgstr "Nessun compito trovato nel cestino"
+
+#: src/php/tasks/tasks-addon.class.php:614
+msgctxt "cuar_tasklist"
+msgid "Parent Task List:"
+msgstr "Lista dei compiti genitore"
+
+#: src/php/tasks/tasks-addon.class.php:648
+#: src/php/tasks/tasks-addon.class.php:659
+msgctxt "cuar_task"
+msgid "Tasks"
+msgstr "Compiti"
+
+#: src/php/tasks/tasks-addon.class.php:649
+msgctxt "cuar_task"
+msgid "Task"
+msgstr "Un'attività è stata effettuata: {{task_due_date}}"
+
+#: src/php/tasks/tasks-addon.class.php:650
+msgctxt "cuar_task"
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: src/php/tasks/tasks-addon.class.php:651
+msgctxt "cuar_task"
+msgid "Add New Task"
+msgstr "Aggiungi nuovo compito"
+
+#: src/php/tasks/tasks-addon.class.php:652
+msgctxt "cuar_task"
+msgid "Edit Task"
+msgstr "Modifica Attività"
+
+#: src/php/tasks/tasks-addon.class.php:653
+msgctxt "cuar_task"
+msgid "New Task"
+msgstr "Nuovo Compito"
+
+#: src/php/tasks/tasks-addon.class.php:654
+msgctxt "cuar_task"
+msgid "View Task"
+msgstr "Mostra compito"
+
+#: src/php/tasks/tasks-addon.class.php:655
+msgctxt "cuar_task"
+msgid "Search Tasks"
+msgstr "Cerca attività"
+
+#: src/php/tasks/tasks-addon.class.php:656
+msgctxt "cuar_task"
+msgid "No tasks found"
+msgstr "Nessuna attività trovata"
+
+#: src/php/tasks/tasks-addon.class.php:657
+msgctxt "cuar_task"
+msgid "No tasks found in Trash"
+msgstr "Nessuna attività trovata nel Cestino"
+
+#: src/php/tasks/tasks-addon.class.php:658
+msgctxt "cuar_task"
+msgid "Parent Task:"
+msgstr "Attività genitore"
+
+#: src/php/tasks/templates/tasks-list-item-admin.template.php:14
+#: src/php/tasks/templates/tasks-list-item-frontend.template.php:14
+msgctxt "Due date PHP format"
+msgid "F j, Y"
+msgstr "F j, Y"

@@ -1,0 +1,212 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2018}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Managed Groups 4.1.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2018-04-26 14:24:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-07-23 23:21+0200\n"
+"Language-Team: http://marvinlabs.com/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;"
+"esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.9\n"
+"Last-Translator: \n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/managed-groups-addon.class.php:25
+#: src/php/managed-groups-addon.class.php:689
+#: src/php/managed-groups-admin-interface.class.php:372
+#: src/php/managed-groups-admin-interface.class.php:386
+#: src/php/templates/managed-groups_profile_edit.template.php:8
+#: src/php/templates/managed-groups_profile_list.template.php:3
+msgid "Managed Groups"
+msgstr "Gruppo Gestito di"
+
+#: src/php/managed-groups-addon.class.php:110
+msgid "All %s"
+msgstr "Tutti %s"
+
+#: src/php/managed-groups-addon.class.php:115
+msgid "New %s"
+msgstr "Nuovi %s"
+
+#: src/php/managed-groups-addon.class.php:308
+msgid "Managed Group"
+msgstr "Gruppo gestito"
+
+#: src/php/managed-groups-addon.class.php:692
+msgid "Back-office"
+msgstr "Back-office"
+
+#: src/php/managed-groups-addon.class.php:694
+msgid "Create/Edit managed groups"
+msgstr "Creare e modificare gruppi gestiti"
+
+#: src/php/managed-groups-addon.class.php:695
+msgid "Delete managed groups"
+msgstr "Eliminare gruppi gestiti"
+
+#: src/php/managed-groups-addon.class.php:696
+msgid "Access managed groups"
+msgstr "Gruppi di accesso gestito"
+
+#: src/php/managed-groups-addon.class.php:697
+msgid "View the groups from a user profile"
+msgstr "Mostra i gruppi da un profilo utente"
+
+#: src/php/managed-groups-addon.class.php:698
+msgid "Edit the groups from a user profile"
+msgstr "Modificare i gruppi da un profilo utente"
+
+#: src/php/managed-groups-admin-interface.class.php:212
+#: src/php/managed-groups-admin-interface.class.php:280
+msgid "Managers"
+msgstr "Manager"
+
+#: src/php/managed-groups-admin-interface.class.php:213
+#: src/php/managed-groups-admin-interface.class.php:284
+msgid "Members"
+msgstr "Membri"
+
+#: src/php/managed-groups-admin-interface.class.php:263
+msgid "Users who belong to this group"
+msgstr "Utenti che appartengono a questo gruppo"
+
+#: src/php/managed-groups-admin-interface.class.php:363
+msgid "This group now has %d member(s) and %d manager(s)"
+msgstr "Questo gruppo ha ora %d membri e %d Manager"
+
+#: src/php/managed-groups-admin-interface.class.php:393
+msgid "Managers' Role"
+msgstr "Ruolo dei dirigenti"
+
+#: src/php/managed-groups-admin-interface.class.php:409
+msgid "Members' Role"
+msgstr "Ruolo dei membri"
+
+#: src/php/templates/managed-groups_profile_edit.template.php:13
+msgid "Edit groups managed"
+msgstr "Modificare i gruppi gestiti"
+
+#: src/php/templates/managed-groups_profile_edit.template.php:16
+#: src/php/templates/managed-groups_profile_edit.template.php:49
+msgid "You have not yet created any managed groups."
+msgstr "Non è stato ancora creato alcun gruppi gestiti."
+
+#: src/php/templates/managed-groups_profile_edit.template.php:19
+#: src/php/templates/managed-groups_profile_edit.template.php:52
+msgid "Choose groups"
+msgstr "Scegliere i gruppi"
+
+#: src/php/templates/managed-groups_profile_edit.template.php:46
+msgid "Edit groups subscribed"
+msgstr "Modificare i gruppi sottoscritti"
+
+#: src/php/templates/managed-groups_profile_list.template.php:9
+msgid "You manage: "
+msgstr "È possibile gestire:"
+
+#: src/php/templates/managed-groups_profile_list.template.php:10
+msgid "This user manages: "
+msgstr "Questo utente gestisce:"
+
+#: src/php/templates/managed-groups_profile_list.template.php:16
+msgid "You do not manage any group"
+msgstr "Non si riesce qualsiasi gruppo"
+
+#: src/php/templates/managed-groups_profile_list.template.php:17
+msgid "This user does not manage any group"
+msgstr "Questo utente non gestisce alcun gruppo"
+
+#: src/php/templates/managed-groups_profile_list.template.php:33
+msgid "You are a member of: "
+msgstr "Sei iscritto alla community"
+
+#: src/php/templates/managed-groups_profile_list.template.php:34
+msgid "This user is a member of: "
+msgstr "Questo utente è un abbonato di %s."
+
+#: src/php/templates/managed-groups_profile_list.template.php:41
+msgid "You do not belong to any group"
+msgstr "Non si appartiene ad alcun gruppo"
+
+#: src/php/templates/managed-groups_profile_list.template.php:42
+msgid "This user does not belong to any group"
+msgstr "Questo utente non appartiene ad alcun gruppo"
+
+#: src/php/templates/managed-groups_team.template.php:29
+msgid "Select users (hint: you can also type to search a user)"
+msgstr ""
+"Selezionare gli utenti (Suggerimento: è inoltre possibile digitare per "
+"cercare un utente)"
+
+#. Description of the plugin/theme
+msgid "Create groups of customers who are managed by another user."
+msgstr "Creare gruppi di clienti che sono gestiti da un altro utente."
+
+#: src/php/managed-groups-addon.class.php:128
+#: src/php/managed-groups-addon.class.php:714
+msgctxt "cuar_managed_group"
+msgid "Managed Group"
+msgstr "Gruppo gestito"
+
+#: src/php/managed-groups-addon.class.php:129
+#: src/php/managed-groups-addon.class.php:713
+#: src/php/managed-groups-addon.class.php:724
+msgctxt "cuar_managed_group"
+msgid "Managed Groups"
+msgstr "Gruppo Gestito di"
+
+#: src/php/managed-groups-addon.class.php:715
+msgctxt "cuar_managed_group"
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: src/php/managed-groups-addon.class.php:716
+msgctxt "cuar_managed_group"
+msgid "Add New Managed Group"
+msgstr "Aggiungi nuovo gruppo gestito"
+
+#: src/php/managed-groups-addon.class.php:717
+msgctxt "cuar_managed_group"
+msgid "Edit Managed Group"
+msgstr "Modificare il gruppo gestito"
+
+#: src/php/managed-groups-addon.class.php:718
+msgctxt "cuar_managed_group"
+msgid "New Managed Group"
+msgstr "Nuovo gruppo gestito"
+
+#: src/php/managed-groups-addon.class.php:719
+msgctxt "cuar_managed_group"
+msgid "View Managed Group"
+msgstr "Mostra gruppo gestito"
+
+#: src/php/managed-groups-addon.class.php:720
+msgctxt "cuar_managed_group"
+msgid "Search Managed Groups"
+msgstr "Cerca gruppi gestiti"
+
+#: src/php/managed-groups-addon.class.php:721
+msgctxt "cuar_managed_group"
+msgid "No user groups found"
+msgstr "Nessun gruppo di utente trovato"
+
+#: src/php/managed-groups-addon.class.php:722
+msgctxt "cuar_managed_group"
+msgid "No user groups found in Trash"
+msgstr "Nessun gruppo di utente trovato nel cestino"
+
+#: src/php/managed-groups-addon.class.php:723
+msgctxt "cuar_managed_group"
+msgid "Parent Managed Group:"
+msgstr "Gruppo gestito di padre:"

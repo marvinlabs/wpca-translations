@@ -1,0 +1,967 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2018}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Invoicing 2.5.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2018-04-26 14:24:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-07-24 00:14+0200\n"
+"Language-Team: http://marvinlabs.com/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.9\n"
+"Last-Translator: \n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:36
+msgid "Invoices - Owned"
+msgstr "Fatture - proprietà"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:41
+msgid "My invoices"
+msgstr "Gestione Fatture"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:46
+msgid "Page to list the invoices a customer owns."
+msgstr "Pagina per elencare le fatture di proprietà di un cliente."
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:74
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:76
+#: src/php/customer-invoices/widget-invoice-statuses.class.php:38
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:231
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:150
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:64
+#: src/php/invoicing/templates/invoice-editor-settings.template.php:20
+msgid "Status"
+msgstr "Stato"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:86
+msgid "Invoices you published"
+msgstr "Fatture che hai pubblicato"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:91
+msgid "Invoices published by %1$s"
+msgstr "Fatture pubblicate da%1$s"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:96
+msgid "Invoices with status: %1$s"
+msgstr "Fatture con stato:%1$s"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:103
+msgid "Invoices published in %2$s %1$s"
+msgstr "Fatture pubblicate in%2$s %1$s"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:105
+msgid "Invoices published in %1$s"
+msgstr "Fatture pubblicate in%1$s"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:113
+#: src/php/customer-invoices-home/customer-invoices-home-addon.class.php:34
+#: src/php/invoicing/invoicing-addon.class.php:186
+msgid "Invoices"
+msgstr "Fatture"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:118
+msgid "Recent Invoices"
+msgstr "Fatture recenti"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:133
+msgid "Download"
+msgstr "Scarica"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:134
+msgid "Download the invoice as a PDF file"
+msgstr "Scarica la fattura come file PDF"
+
+#: src/php/customer-invoices/customer-invoices-addon.class.php:192
+msgid "You are not authorized to access this invoice"
+msgstr "Non sei autorizzato ad accedere a questo menu"
+
+#: src/php/customer-invoices/templates/customer-invoices-content-dashboard.template.php:36
+msgid "View all"
+msgstr "Visualizza tutte"
+
+#: src/php/customer-invoices/templates/customer-invoices-content-empty-category_archive.template.php:23
+msgid "There are no invoices in that category."
+msgstr "Non ci sono nessuna fattura in quella categoria."
+
+#: src/php/customer-invoices/templates/customer-invoices-content-empty-dashboard.template.php:28
+#: src/php/customer-invoices/templates/customer-invoices-content-empty.template.php:21
+msgid "You currently have no invoices."
+msgstr "Al momento non hai fatture."
+
+#: src/php/customer-invoices/templates/customer-invoices-content-empty-date_archive.template.php:18
+msgid "There are no invoices for that period."
+msgstr "Non ci sono fatture per quel periodo."
+
+#: src/php/customer-invoices/templates/customer-invoices-content-item-container.template.php:29
+#: src/php/customer-invoices/templates/customer-invoices-content-item-dashboard.template.php:29
+msgid "Added on %s"
+msgstr "Aggiunto il %s"
+
+#: src/php/customer-invoices/templates/customer-invoices-content-item-container.template.php:36
+#: src/php/customer-invoices/templates/customer-invoices-content-item-dashboard.template.php:36
+#: src/php/customer-invoices/templates/customer-invoices-content-item.template.php:82
+msgid "Due on %1$s"
+msgstr "il %1$s"
+
+#: src/php/customer-invoices/templates/customer-invoices-content-item.template.php:77
+msgid "Created on"
+msgstr "Creato il"
+
+#: src/php/customer-invoices/templates/customer-invoices-content-item.template.php:105
+msgid "Created by"
+msgstr "Creato da"
+
+#: src/php/customer-invoices/templates/customer-invoices-content-item.template.php:108
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:235
+msgid "Assigned to"
+msgstr "Assegnato a "
+
+#: src/php/customer-invoices/templates/customer-invoices-content.template.php:30
+msgid "Page %1$s/%2$s"
+msgstr "Pagina %1$s/%2$s"
+
+#: src/php/customer-invoices/templates/customer-invoices-content.template.php:39
+msgid "No items were found matching the selected filters"
+msgstr "Nessun elemento trovato corrispondente ai filtri selezionati"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:33
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:56
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:49
+#: src/php/invoicing/templates/invoice-summary-for-payment.template.php:10
+msgid "Invoice"
+msgstr "Fattura"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:36
+msgid "Invoice number"
+msgstr "Numero di fattura"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:65
+msgid "Information"
+msgstr "Informazioni"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:72
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:146
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:60
+msgid "Created"
+msgstr "creato-da"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:88
+msgid "Payment"
+msgstr "Pagamento"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:95
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:234
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:154
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:68
+#: src/php/invoicing/templates/invoice-editor-settings.template.php:39
+#: src/php/invoicing/templates/invoice-summary-for-payment.template.php:21
+msgid "Due date"
+msgstr "Data di scadenza"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:103
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:159
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:73
+#: src/php/invoicing/templates/invoice-summary-for-payment.template.php:29
+msgid "None"
+msgstr "Nessuno"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:108
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:164
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:78
+msgid "Amount due"
+msgstr "Importo dovuto"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:114
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:170
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:84
+#: src/php/invoicing/templates/invoice-editor-settings.template.php:69
+#: src/php/invoicing/templates/invoice-summary-for-payment.template.php:36
+msgid "Payment mode"
+msgstr "Modalità di pagamento"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:132
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:42
+msgid "From"
+msgstr "Da"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:146
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:84
+msgid "To"
+msgstr "A"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:179
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:103
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:95
+#: src/php/invoicing/templates/invoice-editor-item-list.template.php:16
+msgid "Item"
+msgstr "Modifica Elemento Menu"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:180
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:105
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:96
+msgid "Quantity"
+msgstr "Quantità"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:180
+#: src/php/invoicing/templates/invoice-editor-item-list.template.php:17
+msgid "Qty"
+msgstr "Quantità"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:181
+msgid "Unit price (excl. taxes)"
+msgstr "Prezzo unitario (IVA esclusa)"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:182
+msgid "Total price (excl. taxes)"
+msgstr "Prezzo totale (tasse escluse)"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:219
+msgid "Totals"
+msgstr "Totali"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:227
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:179
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:119
+#: src/php/invoicing/templates/invoice-summary-for-payment.template.php:47
+msgid "Subtotal (excl. taxes)"
+msgstr "Subtotale (tasse escluse)"
+
+#: src/php/customer-invoices/templates/customer-invoices-single-post-footer.template.php:270
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:203
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:142
+#: src/php/invoicing/templates/invoice-summary-for-payment.template.php:90
+msgid "Total"
+msgstr "Totale"
+
+#: src/php/customer-invoices/widget-invoice-statuses.class.php:24
+msgid "WPCA - Invoice Statuses"
+msgstr "WPCA - Stato delle fatture"
+
+#: src/php/customer-invoices/widget-invoice-statuses.class.php:26
+msgid "Shows the invoice statuses of the Customer Area"
+msgstr "Mostra gli Stati di fattura di Area clienti"
+
+#: src/php/customer-invoices-home/customer-invoices-home-addon.class.php:30
+msgid "Invoices - Home"
+msgstr "Fatture - Casa"
+
+#: src/php/customer-invoices-home/customer-invoices-home-addon.class.php:38
+msgid "Root page for the customer invoices."
+msgstr "Pagina principale per le fatture cliente."
+
+#: src/php/functions/invoicing.php:287
+msgid "Discount - %1$.2f %%"
+msgstr "Sconto -% 1 $ .2f %%"
+
+#: src/php/functions/invoicing.php:289
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:107
+#: src/php/invoicing/templates/invoice-editor-totals.template.php:20
+#: src/php/invoicing/templates/invoice-editor-totals.template.php:36
+msgid "Discount"
+msgstr "Sconto"
+
+#: src/php/functions/invoicing.php:299
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:524
+msgid "No taxes"
+msgstr "Tasse"
+
+#: src/php/functions/invoicing.php:301
+msgid "Taxes - %1$.2f %%"
+msgstr "Tasse -% 1 $ .2f %%"
+
+#: src/php/functions/invoicing.php:303
+msgid "%2$s - %1$.2f %%"
+msgstr "%2$s - %1$.2f % %"
+
+#: src/php/invoicing/helpers/invoice-editor-helper.class.php:138
+msgid "Load"
+msgstr "Carica"
+
+#: src/php/invoicing/helpers/invoice-editor-helper.class.php:139
+msgid "Load default address from current owner"
+msgstr "Carica l'indirizzo predefinito dall'attuale proprietario"
+
+#: src/php/invoicing/helpers/invoice-editor-helper.class.php:142
+msgid "Save"
+msgstr "Salva"
+
+#: src/php/invoicing/helpers/invoice-editor-helper.class.php:143
+msgid "Save as default address for the current owner"
+msgstr "Salvare come indirizzo predefinito per il proprietario attuale"
+
+#: src/php/invoicing/helpers/invoice-editor-helper.class.php:146
+msgid "Clear"
+msgstr "Pulisci"
+
+#: src/php/invoicing/helpers/invoice-editor-helper.class.php:147
+msgid "Clear the address"
+msgstr "Cancella l'indirizzo"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:71
+msgid "Invoice status"
+msgstr "Stato fattura/ricevuta"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:72
+msgid "Invoice notice"
+msgstr "Avviso di fatturazione"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:73
+msgid "Invoice currency"
+msgstr "Valuta della fattura"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:74
+msgid "Invoice taxes"
+msgstr "Imposte sulla fattura"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:75
+msgid "Invoice discount"
+msgstr "Sconto fattura"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:76
+msgid "Invoice due date"
+msgstr "Elenco fatture"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:77
+msgid "Invoice payment mode"
+msgstr "Pagamento Fattura"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:78
+msgid "Invoice billing address"
+msgstr "Fattura, indirizzo di fatturazione"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:79
+msgid "Invoice items total"
+msgstr "Totale elementi della fattura"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:127
+msgid "Previous value: "
+msgstr "Valore precedente"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:128
+msgid "From: "
+msgstr "Da:"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:132
+msgid "Current value: "
+msgstr "Valore attuale"
+
+#: src/php/invoicing/helpers/invoice-logger.class.php:133
+msgid "To: "
+msgstr "A: "
+
+#: src/php/invoicing/helpers/invoice-pdf-helper.class.php:28
+msgid "Modern"
+msgstr "Moderno"
+
+#: src/php/invoicing/helpers/invoice-pdf-helper.class.php:29
+msgid "Blocs"
+msgstr "Blocchi"
+
+#: src/php/invoicing/helpers/invoice-pdf-helper.class.php:65
+msgid "Invoice:"
+msgstr "Fattura"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:481
+msgid "No tax"
+msgstr "Senza imposte"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:559
+#: src/php/invoicing/invoicing-addon.class.php:42
+msgid "Invoicing"
+msgstr "Fatturazione"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:573
+msgid "General settings"
+msgstr "Impostazioni Generali"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:580
+msgid "Default status"
+msgstr "Status di default"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:594
+msgid "Closed statuses"
+msgstr "Stati chiusi"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:603
+msgid ""
+"Consider that the invoice is not due by the client anymore when it has any "
+"of these statuses."
+msgstr ""
+"Considera che la fattura non è dovuta dal cliente in piu ' quando ha uno "
+"qualsiasi di questi Stati."
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:611
+msgid ""
+"Automatically set invoice to this status when payments total amount "
+"corresponds to invoice amount"
+msgstr ""
+"Imposta automaticamente fattura per questo stato quando l'importo "
+"totalizzano dei pagamenti corrisponde all'importo della fattura"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:617
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:631
+msgid "Do not update invoice status"
+msgstr "Non si aggiorna stato fattura"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:625
+msgid ""
+"Automatically set invoice to this status when payments total amount does not "
+"correspond to invoice amount anymore"
+msgstr ""
+"Imposta automaticamente la fattura su questo stato quando l'importo totale "
+"dei pagamenti non corrisponde più all'importo della fattura"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:639
+msgid "Default currency"
+msgstr "Valuta predefinita"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:653
+msgid "PDF template settings"
+msgstr "Impostazione Template"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:660
+msgid "PDF template"
+msgstr "Modello PDF"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:669
+msgid ""
+"Each template may provide (or not) additional settings for colors, images, "
+"etc."
+msgstr ""
+"Ogni modello può fornire (o meno) le impostazioni aggiuntive per colori, "
+"immagini, ecc."
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:679
+msgid "Invoice numbering"
+msgstr "Numerazione fattura"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:686
+msgid "Format"
+msgstr "Formato"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:694
+msgid ""
+"{{number}} will be replaced by the invoice number. This allows you to prefix/"
+"suffix the displayed invoice number."
+msgstr ""
+"{{number}} sarà sostituito dal numero di fattura. Ciò consente di prefisso / "
+"suffisso il numero di fattura visualizzato."
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:701
+msgid "Padding"
+msgstr "Padding"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:709
+msgid ""
+"Minimal amount of characters for the number: will add leading zeros if less. "
+"E.g. a setting of 5 will transform 234 into 00234. A setting of 0 will keep "
+"the original number."
+msgstr ""
+"Quantità minima di caratteri per il numero: aggiungerà zeri iniziali se "
+"inferiore. Ad esempio, un'impostazione di 5 trasformerà 234 in 00234. "
+"Un'impostazione di 0 manterrà il numero originale."
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:716
+msgid "Sequential numbering"
+msgstr "Numerazione sequenziale"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:724
+msgid ""
+"If checked, invoice numbers will be sequential. If not, the invoice numbers "
+"will be given by the post ID."
+msgstr ""
+"Se selezionata, i numeri di fattura sarà sequenziali. Se non, i numeri di "
+"fattura saranno dato dall'ID post."
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:730
+msgid "Start at"
+msgstr "Inizia Ora"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:738
+msgid "Sequential numbering will start from this value."
+msgstr "Numerazione sequenziale inizierà da questo valore."
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:745
+msgid "Your business"
+msgstr "Il tuo business."
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:752
+msgid "General info."
+msgstr "Informazioni generali"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:764
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:80
+msgid "Texts"
+msgstr "Testi"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:771
+msgid "Header"
+msgstr "Testata"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:779
+msgid "Text shown on top of the invoice."
+msgstr "Testo mostrato nella parte superiore della fattura."
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:786
+msgid "Footer"
+msgstr "Footer"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:794
+msgid "Text shown at the bottom of the invoice."
+msgstr "Testo visualizzato nella parte inferiore della fattura."
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:885
+msgid "[Default: %s]"
+msgstr "Predefinito: %s"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:899
+msgid "Top background"
+msgstr "Sfondo principale"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:902
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:909
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:916
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:923
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:930
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:937
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:944
+msgid "Hexadecimal format, example: #123456"
+msgstr "Formato esadecimale, esempio: #123456"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:906
+msgid "Top text"
+msgstr "Testo in alto"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:913
+msgid "Table header background"
+msgstr "Colore di Sfondo dell'Intestazione della Tabella"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:920
+msgid "Table header text"
+msgstr "Testo intestazione tabella"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:927
+msgid "Table background"
+msgstr "Sfondo della tabella"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:934
+msgid "Table text"
+msgstr "Testo tabella"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:941
+msgid "Default text"
+msgstr "Testo standard"
+
+#: src/php/invoicing/helpers/invoice-status-helper.class.php:34
+msgid "Open"
+msgstr "Altezza della mappa quando aperto"
+
+#: src/php/invoicing/helpers/invoice-status-helper.class.php:35
+msgid "Paid"
+msgstr "Pagato"
+
+#: src/php/invoicing/helpers/invoice-status-helper.class.php:36
+msgid "Cancelled"
+msgstr "Abbonamento cancellato su %website_url"
+
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:62
+msgid "Billing address"
+msgstr "Indirizzo di fatturazione"
+
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:71
+msgid "Items"
+msgstr "Elementi"
+
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:89
+msgid "Invoice totals"
+msgstr "Totali fattura"
+
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:98
+msgid "Invoice properties"
+msgstr "Proprietà di fattura"
+
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:116
+#: src/php/invoicing/templates/invoice-editor-totals.template.php:25
+#: src/php/invoicing/templates/invoice-editor-totals.template.php:31
+msgid "Taxes"
+msgstr "Tasse"
+
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:232
+#: src/php/invoicing/templates/invoice-editor-discount.template.php:24
+msgid "Amount"
+msgstr "Importo"
+
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:233
+msgid "Client"
+msgstr "Nome del cliente qui"
+
+#: src/php/invoicing/helpers/invoicing-admin-interface.class.php:268
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: src/php/invoicing/invoicing-addon.class.php:189
+msgid "Back-office"
+msgstr "Back-office"
+
+#: src/php/invoicing/invoicing-addon.class.php:191
+msgid "List all invoices"
+msgstr "Tutte le fatture"
+
+#: src/php/invoicing/invoicing-addon.class.php:192
+msgid "Create/Edit invoices"
+msgstr "Creare/modificare fatture"
+
+#: src/php/invoicing/invoicing-addon.class.php:193
+msgid "Delete invoices"
+msgstr "Elimina le fatture"
+
+#: src/php/invoicing/invoicing-addon.class.php:194
+msgid "Access invoices"
+msgstr "Accesso delle fatture"
+
+#: src/php/invoicing/invoicing-addon.class.php:195
+msgid "Manage statuses"
+msgstr "Gestisci stati"
+
+#: src/php/invoicing/invoicing-addon.class.php:196
+msgid "Edit statuses"
+msgstr "Modifica stati..."
+
+#: src/php/invoicing/invoicing-addon.class.php:197
+msgid "Delete statuses"
+msgstr "Cancellare gli Stati"
+
+#: src/php/invoicing/invoicing-addon.class.php:198
+msgid "Assign statuses"
+msgstr "Assegnare gli Stati"
+
+#: src/php/invoicing/invoicing-addon.class.php:202
+msgid "Front-office"
+msgstr "Front-office"
+
+#: src/php/invoicing/invoicing-addon.class.php:204
+msgid "View any invoice"
+msgstr "Mostra tutte le fatture"
+
+#: src/php/invoicing/invoicing-addon.class.php:205
+msgid "View invoices"
+msgstr "Visualizza Fattura"
+
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:107
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:97
+msgid "Unit price"
+msgstr "Prezzo unitario"
+
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:108
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:113
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:97
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:98
+msgid "(excl. taxes)"
+msgstr "(IVA esclusa)"
+
+#: src/php/invoicing/pdf-templates/pdf-invoice-blocs.template.php:112
+#: src/php/invoicing/pdf-templates/pdf-invoice-default.template.php:98
+msgid "Total price"
+msgstr "Prezzo totale"
+
+#: src/php/invoicing/templates/invoice-editor-discount.template.php:11
+msgid "Type"
+msgstr "Tipo"
+
+#: src/php/invoicing/templates/invoice-editor-discount.template.php:15
+msgid "No discount"
+msgstr "Sconto"
+
+#: src/php/invoicing/templates/invoice-editor-discount.template.php:16
+msgid "Fixed amount"
+msgstr "Importo fisso"
+
+#: src/php/invoicing/templates/invoice-editor-discount.template.php:17
+msgid "Percentage"
+msgstr "Percentuale"
+
+#: src/php/invoicing/templates/invoice-editor-discount.template.php:28
+msgid "Percentage or amount to deduce from the invoice"
+msgstr "Percentuale o l'importo da dedurre dalla fattura"
+
+#: src/php/invoicing/templates/invoice-editor-discount.template.php:32
+msgid "When to apply discount?"
+msgstr "Quando si applica sconto?"
+
+#: src/php/invoicing/templates/invoice-editor-discount.template.php:36
+msgid "Before taxes"
+msgstr "Prima delle imposte"
+
+#: src/php/invoicing/templates/invoice-editor-discount.template.php:37
+msgid "After taxes"
+msgstr "Dopo le imposte"
+
+#: src/php/invoicing/templates/invoice-editor-item-list-item.template.php:21
+msgid "Item title"
+msgstr "Titolo dell'immobile"
+
+#: src/php/invoicing/templates/invoice-editor-item-list-item.template.php:37
+msgid "Item description"
+msgstr "Descrizione dell’articolo"
+
+#: src/php/invoicing/templates/invoice-editor-item-list-item.template.php:45
+msgid "Move"
+msgstr "Sposta"
+
+#: src/php/invoicing/templates/invoice-editor-item-list-item.template.php:47
+msgid "Add a description"
+msgstr "Aggiungi una descrizione"
+
+#: src/php/invoicing/templates/invoice-editor-item-list-item.template.php:49
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: src/php/invoicing/templates/invoice-editor-item-list.template.php:11
+msgid "Add"
+msgstr "aggiungi"
+
+#: src/php/invoicing/templates/invoice-editor-item-list.template.php:18
+msgid "Unit"
+msgstr "Tempo di Fatturazione:"
+
+#: src/php/invoicing/templates/invoice-editor-item-list.template.php:19
+msgid "Price"
+msgstr "Prezzo"
+
+#: src/php/invoicing/templates/invoice-editor-item-list.template.php:40
+msgid "This invoice currently does not have any items"
+msgstr "Al momento questa fattura non ha articoli"
+
+#: src/php/invoicing/templates/invoice-editor-settings.template.php:14
+msgid "Invoice: %1$s"
+msgstr "Fattura - %1$s"
+
+#: src/php/invoicing/templates/invoice-editor-settings.template.php:52
+msgid "Currency"
+msgstr "Valuta (moneta)"
+
+#: src/php/invoicing/templates/invoice-editor-tax-rate.template.php:12
+msgid "Apply predefined rate"
+msgstr "Applicare il tasso predefinito"
+
+#: src/php/invoicing/templates/invoice-editor-tax-rate.template.php:27
+msgid "Label"
+msgstr "Etichetta Indirizzo Proprietà"
+
+#: src/php/invoicing/templates/invoice-editor-tax-rate.template.php:30
+msgid "Name of the tax"
+msgstr "Nome dell'imposta:"
+
+#: src/php/invoicing/templates/invoice-editor-tax-rate.template.php:36
+msgid "Rate"
+msgstr "Tasso"
+
+#: src/php/invoicing/templates/invoice-editor-tax-rate.template.php:39
+msgid "Percentage of tax to apply to the items"
+msgstr "Percentuale dell'imposta da applicare agli elementi"
+
+#: src/php/invoicing/templates/invoice-editor-texts.template.php:11
+msgid "Notice or thank-you note"
+msgstr "Avviso o nota di ringraziamento"
+
+#: src/php/invoicing/templates/invoice-editor-totals.template.php:13
+msgid "Items total"
+msgstr "Totale elementi"
+
+#: src/php/invoicing/templates/invoice-editor-totals.template.php:43
+msgid "Invoice total"
+msgstr "Totale fattura"
+
+#. Description of the plugin/theme
+msgid "Publish invoices for your clients"
+msgstr "Pubblicare le fatture per i vostri clienti"
+
+#: src/php/invoice-status.class.php:24 src/php/invoice-status.class.php:38
+msgctxt "cuar_invoice_status"
+msgid "Invoice Statuses"
+msgstr "Fattura status"
+
+#: src/php/invoice-status.class.php:25
+msgctxt "cuar_invoice_status"
+msgid "Invoice Status"
+msgstr "Stato fattura"
+
+#: src/php/invoice-status.class.php:26
+msgctxt "cuar_invoice_status"
+msgid "Search Invoice Statuses"
+msgstr "Ricerca fattura status"
+
+#: src/php/invoice-status.class.php:27
+msgctxt "cuar_invoice_status"
+msgid "Popular Invoice Statuses"
+msgstr "Stati di fattura popolare"
+
+#: src/php/invoice-status.class.php:28
+msgctxt "cuar_invoice_status"
+msgid "All Invoice Statuses"
+msgstr "Tutti gli Stati della fattura"
+
+#: src/php/invoice-status.class.php:29
+msgctxt "cuar_invoice_status"
+msgid "Parent Invoice Status"
+msgstr "Stato della fattura di padre"
+
+#: src/php/invoice-status.class.php:30
+msgctxt "cuar_invoice_status"
+msgid "Parent Invoice Status:"
+msgstr "Padre dello stato fattura:"
+
+#: src/php/invoice-status.class.php:31
+msgctxt "cuar_invoice_status"
+msgid "Edit Invoice Status"
+msgstr "Stato fattura/ricevuta"
+
+#: src/php/invoice-status.class.php:32
+msgctxt "cuar_invoice_status"
+msgid "Update Invoice Status"
+msgstr "Aggiorna stato fattura"
+
+#: src/php/invoice-status.class.php:33
+msgctxt "cuar_invoice_status"
+msgid "Add New Invoice Status"
+msgstr "Aggiungi lo stato della nuova fattura"
+
+#: src/php/invoice-status.class.php:34
+msgctxt "cuar_invoice_status"
+msgid "New Invoice Status"
+msgstr "Stato fattura/ricevuta"
+
+#: src/php/invoice-status.class.php:35
+msgctxt "cuar_invoice_status"
+msgid "Separate invoice statuses with commas"
+msgstr "Separare le voci di stato con virgole"
+
+#: src/php/invoice-status.class.php:36
+msgctxt "cuar_invoice_status"
+msgid "Add or remove invoice statuses"
+msgstr "Aggiungi o rimuovi gli stati delle fatture"
+
+#: src/php/invoice-status.class.php:37
+msgctxt "cuar_invoice_status"
+msgid "Choose from the most used invoice statuses"
+msgstr "Scegliere tra le voci di stato più utilizzate"
+
+#: src/php/invoice.class.php:626 src/php/invoice.class.php:637
+#: src/php/invoicing/helpers/invoice-helper.class.php:107
+msgctxt "cuar_invoice"
+msgid "Invoices"
+msgstr "Fatture"
+
+#: src/php/invoice.class.php:627
+#: src/php/invoicing/helpers/invoice-helper.class.php:106
+msgctxt "cuar_invoice"
+msgid "Invoice"
+msgstr "Fattura"
+
+#: src/php/invoice.class.php:628
+msgctxt "cuar_invoice"
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: src/php/invoice.class.php:629
+msgctxt "cuar_invoice"
+msgid "Add New Invoice"
+msgstr "Aggiungi Nuova Fattura"
+
+#: src/php/invoice.class.php:630
+msgctxt "cuar_invoice"
+msgid "Edit Invoice"
+msgstr "Modifica fattura"
+
+#: src/php/invoice.class.php:631
+msgctxt "cuar_invoice"
+msgid "New Invoice"
+msgstr "Nuova fattura"
+
+#: src/php/invoice.class.php:632
+msgctxt "cuar_invoice"
+msgid "View Invoice"
+msgstr "Visualizza ricevuta/fattura"
+
+#: src/php/invoice.class.php:633
+msgctxt "cuar_invoice"
+msgid "Search Invoices"
+msgstr "Ricerca fatture"
+
+#: src/php/invoice.class.php:634
+msgctxt "cuar_invoice"
+msgid "No invoice found"
+msgstr "Nessuna fattura trovata"
+
+#: src/php/invoice.class.php:635
+msgctxt "cuar_invoice"
+msgid "No invoice found in Trash"
+msgstr "Nessuna fattura trovata nel cestino"
+
+#: src/php/invoice.class.php:636
+msgctxt "cuar_invoice"
+msgid "Parent Invoice:"
+msgstr "Fattura Principale"
+
+#: src/php/invoicing/helpers/invoice-pdf-helper.class.php:87
+msgctxt "Invoice PDF filename prefix"
+msgid "invoice"
+msgstr "Fattura"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:499
+msgctxt "Invoice item unit singular"
+msgid "unit"
+msgstr "Tempo di Fatturazione:"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:503
+msgctxt "Invoice item unit singular"
+msgid "time"
+msgstr "Tempo di Fatturazione:"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:507
+msgctxt "Invoice item unit singular"
+msgid "day"
+msgstr ""
+"Gli utenti possono impostare una differenza di prezzo al giorno per i giorni "
+"del weekend"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:511
+msgctxt "Invoice item unit singular"
+msgid "hour"
+msgstr "ora"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:500
+msgctxt "Invoice item unit plural"
+msgid "units"
+msgstr "unità"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:504
+msgctxt "Invoice item unit plural"
+msgid "times"
+msgstr "volte"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:508
+msgctxt "Invoice item unit plural"
+msgid "days"
+msgstr "giorni"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:512
+msgctxt "Invoice item unit plural"
+msgid "hours"
+msgstr "ore"
+
+#: src/php/invoicing/helpers/invoice-settings-helper.class.php:535
+msgctxt "Slug for URL to download an invoice"
+msgid "download"
+msgstr "Scarica"

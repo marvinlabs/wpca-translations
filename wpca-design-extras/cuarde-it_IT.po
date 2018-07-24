@@ -1,0 +1,690 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2018}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Design Extras 1.1.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2018-04-26 14:24:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-07-23 23:08+0200\n"
+"Language-Team: http://marvinlabs.com/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.9\n"
+"Last-Translator: \n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/design-extras-addon.class.php:38
+msgid "Design Extras"
+msgstr "Design Extra"
+
+#: src/php/design-extras-addon.class.php:149
+msgid "Design Extras add-on"
+msgstr "Componente aggiuntivo Design Extra"
+
+#: src/php/helpers/abstract-template-helper.class.php:109
+#: src/php/helpers/abstract-template-helper.class.php:127
+msgid "[Default: %s]"
+msgstr "Predefinito: %s"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:19
+#: src/php/helpers/airmail-pdf-template-helper.class.php:21
+msgid "Airmail"
+msgstr "Posta aerea"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:27
+#: src/php/helpers/cleany-email-template-helper.class.php:27
+#: src/php/helpers/muscard-email-template-helper.class.php:27
+#: src/php/helpers/textura-email-template-helper.class.php:27
+#: src/php/helpers/textura-email-template-helper.class.php:34
+msgid "Link color"
+msgstr "Colore Link"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:30
+#: src/php/helpers/airmail-email-template-helper.class.php:44
+#: src/php/helpers/airmail-email-template-helper.class.php:51
+#: src/php/helpers/airmail-email-template-helper.class.php:58
+#: src/php/helpers/airmail-email-template-helper.class.php:65
+#: src/php/helpers/airmail-email-template-helper.class.php:72
+#: src/php/helpers/airmail-email-template-helper.class.php:79
+#: src/php/helpers/airmail-email-template-helper.class.php:86
+#: src/php/helpers/airmail-pdf-template-helper.class.php:47
+#: src/php/helpers/airmail-pdf-template-helper.class.php:54
+#: src/php/helpers/airmail-pdf-template-helper.class.php:61
+#: src/php/helpers/airmail-pdf-template-helper.class.php:68
+#: src/php/helpers/airmail-pdf-template-helper.class.php:75
+#: src/php/helpers/airmail-pdf-template-helper.class.php:82
+#: src/php/helpers/airmail-pdf-template-helper.class.php:96
+#: src/php/helpers/cleany-email-template-helper.class.php:30
+#: src/php/helpers/cleany-email-template-helper.class.php:37
+#: src/php/helpers/cleany-email-template-helper.class.php:44
+#: src/php/helpers/cleany-email-template-helper.class.php:51
+#: src/php/helpers/cleany-email-template-helper.class.php:58
+#: src/php/helpers/cleany-email-template-helper.class.php:65
+#: src/php/helpers/minimal-pdf-template-helper.class.php:48
+#: src/php/helpers/minimal-pdf-template-helper.class.php:55
+#: src/php/helpers/minimal-pdf-template-helper.class.php:62
+#: src/php/helpers/minimal-pdf-template-helper.class.php:69
+#: src/php/helpers/minimal-pdf-template-helper.class.php:76
+#: src/php/helpers/minimal-pdf-template-helper.class.php:83
+#: src/php/helpers/minimal-pdf-template-helper.class.php:97
+#: src/php/helpers/minimal-pdf-template-helper.class.php:157
+#: src/php/helpers/minimal-pdf-template-helper.class.php:164
+#: src/php/helpers/muscard-email-template-helper.class.php:30
+#: src/php/helpers/muscard-email-template-helper.class.php:37
+#: src/php/helpers/muscard-email-template-helper.class.php:44
+#: src/php/helpers/muscard-email-template-helper.class.php:51
+#: src/php/helpers/newgen-pdf-template-helper.class.php:30
+#: src/php/helpers/newgen-pdf-template-helper.class.php:37
+#: src/php/helpers/newgen-pdf-template-helper.class.php:44
+#: src/php/helpers/newgen-pdf-template-helper.class.php:51
+#: src/php/helpers/newgen-pdf-template-helper.class.php:58
+#: src/php/helpers/newgen-pdf-template-helper.class.php:65
+#: src/php/helpers/newgen-pdf-template-helper.class.php:72
+#: src/php/helpers/newgen-pdf-template-helper.class.php:86
+#: src/php/helpers/square-pdf-template-helper.class.php:47
+#: src/php/helpers/square-pdf-template-helper.class.php:54
+#: src/php/helpers/square-pdf-template-helper.class.php:61
+#: src/php/helpers/square-pdf-template-helper.class.php:68
+#: src/php/helpers/square-pdf-template-helper.class.php:75
+#: src/php/helpers/square-pdf-template-helper.class.php:82
+#: src/php/helpers/square-pdf-template-helper.class.php:89
+#: src/php/helpers/square-pdf-template-helper.class.php:125
+#: src/php/helpers/square-pdf-template-helper.class.php:132
+#: src/php/helpers/textura-email-template-helper.class.php:30
+#: src/php/helpers/textura-email-template-helper.class.php:37
+#: src/php/helpers/textura-email-template-helper.class.php:44
+#: src/php/helpers/textura-email-template-helper.class.php:51
+#: src/php/helpers/textura-email-template-helper.class.php:58
+#: src/php/helpers/textura-email-template-helper.class.php:65
+msgid "Hexadecimal format, example: #123456"
+msgstr "Formato esadecimale, esempio: #123456"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:34
+msgid "Header background image"
+msgstr "Immagine di sfondo dell’intestazione"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:37
+msgid "Stripped bar background used on the top of the email"
+msgstr "Spogliato bar sfondo utilizzato sulla parte superiore l'e-mail"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:41
+msgid "Header background color"
+msgstr "Colore Sfondo Testata"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:48
+msgid "Main background"
+msgstr "Sfondo Principale"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:55
+#: src/php/helpers/cleany-email-template-helper.class.php:34
+#: src/php/helpers/muscard-email-template-helper.class.php:34
+#: src/php/helpers/textura-email-template-helper.class.php:55
+msgid "Main text color"
+msgstr "Colore testo principale"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:62
+#: src/php/helpers/cleany-email-template-helper.class.php:41
+#: src/php/helpers/muscard-email-template-helper.class.php:41
+msgid "Main title color"
+msgstr "Colore del titolo principale [backend]"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:69
+msgid "Footer background"
+msgstr "Colore di sfondo del piè di pagina"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:76
+msgid "Footer border color"
+msgstr "Colore bordo del Footer"
+
+#: src/php/helpers/airmail-email-template-helper.class.php:83
+#: src/php/helpers/minimal-pdf-template-helper.class.php:161
+#: src/php/helpers/textura-email-template-helper.class.php:62
+msgid "Footer text color"
+msgstr "Colore testo footer"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:44
+#: src/php/helpers/minimal-pdf-template-helper.class.php:45
+#: src/php/helpers/newgen-pdf-template-helper.class.php:27
+#: src/php/helpers/square-pdf-template-helper.class.php:51
+msgid "Text color"
+msgstr "Colore del testo"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:51
+#: src/php/helpers/newgen-pdf-template-helper.class.php:34
+msgid "Neutral color"
+msgstr "Colore neutro"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:58
+#: src/php/helpers/newgen-pdf-template-helper.class.php:41
+msgid "Neutral text color"
+msgstr "Colore del testo neutro"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:65
+#: src/php/helpers/newgen-pdf-template-helper.class.php:48
+msgid "Primary color"
+msgstr "Colore primario"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:72
+#: src/php/helpers/newgen-pdf-template-helper.class.php:62
+msgid "Secondary color"
+msgstr "Colore secondario"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:79
+#: src/php/helpers/newgen-pdf-template-helper.class.php:69
+msgid "Secondary text color"
+msgstr "Colore testo secondario"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:86
+#: src/php/helpers/minimal-pdf-template-helper.class.php:87
+#: src/php/helpers/newgen-pdf-template-helper.class.php:76
+msgid "Background image"
+msgstr "Carica immagine di sfondo | "
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:89
+msgid "Stripped bar background used on the top of the pages"
+msgstr "Spogliato bar sfondo utilizzato sulla parte superiore delle pagine"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:93
+#: src/php/helpers/minimal-pdf-template-helper.class.php:94
+#: src/php/helpers/newgen-pdf-template-helper.class.php:83
+msgid "Background color"
+msgstr "Colore di sfondo"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:100
+#: src/php/helpers/minimal-pdf-template-helper.class.php:168
+#: src/php/helpers/newgen-pdf-template-helper.class.php:114
+msgid "Page orientation"
+msgstr "Orientamento foglio"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:104
+#: src/php/helpers/minimal-pdf-template-helper.class.php:172
+#: src/php/helpers/newgen-pdf-template-helper.class.php:118
+msgid "Portrait"
+msgstr "Ritratto"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:105
+#: src/php/helpers/minimal-pdf-template-helper.class.php:173
+#: src/php/helpers/newgen-pdf-template-helper.class.php:119
+msgid "Landscape"
+msgstr "Paesaggio"
+
+#: src/php/helpers/airmail-pdf-template-helper.class.php:108
+#: src/php/helpers/minimal-pdf-template-helper.class.php:176
+#: src/php/helpers/newgen-pdf-template-helper.class.php:122
+msgid "Choose weither to render the page in potrait or landscape mode"
+msgstr ""
+"Scegliere weither per eseguire il rendering della pagina in modalità "
+"ritratto o paesaggio"
+
+#: src/php/helpers/cleany-email-template-helper.class.php:19
+msgid "Cleany"
+msgstr "Cleany"
+
+#: src/php/helpers/cleany-email-template-helper.class.php:48
+#: src/php/helpers/muscard-email-template-helper.class.php:48
+msgid "Main content background"
+msgstr "Colore dello sfondo principale"
+
+#: src/php/helpers/cleany-email-template-helper.class.php:55
+msgid "Main content color"
+msgstr "Colore testo del contenuto principale"
+
+#: src/php/helpers/cleany-email-template-helper.class.php:62
+msgid "Main content border"
+msgstr "Bordo del contenuto"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:37
+msgid "Minimal"
+msgstr "Minimale"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:52
+msgid "Accent color"
+msgstr "Colore accentato"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:59
+#: src/php/helpers/square-pdf-template-helper.class.php:65
+msgid "Items color"
+msgstr "Colore degli elementi di menu"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:66
+#: src/php/helpers/square-pdf-template-helper.class.php:72
+msgid "Secondary contents color"
+msgstr "Colore secondario contenuto"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:73
+msgid "Border color"
+msgstr "Colore Bordo"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:80
+msgid "Secondary border color"
+msgstr "Colore bordo secondario"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:90
+#: src/php/helpers/newgen-pdf-template-helper.class.php:79
+msgid "Upload an image to customize the PDF pages background"
+msgstr "Caricare un'immagine per personalizzare lo sfondo di pagine PDF"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:101
+#: src/php/helpers/newgen-pdf-template-helper.class.php:90
+msgid "Background horizontal position"
+msgstr "Posizione orizzontale sfondo"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:104
+#: src/php/helpers/newgen-pdf-template-helper.class.php:93
+msgid "Can be: left / center / right / value(mm, px, pt, %)"
+msgstr "Può essere: sinistra / centro / destra / valore (mm, px, pt, %)"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:109
+#: src/php/helpers/newgen-pdf-template-helper.class.php:98
+msgid "Background vertical position"
+msgstr "Posizione della background"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:112
+#: src/php/helpers/newgen-pdf-template-helper.class.php:101
+msgid "Can be: top / middle / bottom / value(mm, px, pt, %)"
+msgstr "Può essere: superiore, medio / basso e valore (mm, px, pt, %)"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:117
+#: src/php/helpers/newgen-pdf-template-helper.class.php:106
+msgid "Background width"
+msgstr "Larghezza Sfondo"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:120
+#: src/php/helpers/newgen-pdf-template-helper.class.php:109
+msgid "Can be: value(mm, px, pt, %)"
+msgstr "Può essere: valore (mm, px, pt, %)"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:125
+#: src/php/helpers/square-pdf-template-helper.class.php:93
+msgid "Footer thanks message"
+msgstr "Messaggio di grazie di piè di pagina"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:127
+msgid "THANK YOU"
+msgstr "Grazie"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:128
+#: src/php/helpers/square-pdf-template-helper.class.php:96
+msgid "Leave empty if you don't want a footer to be displayed."
+msgstr "Lasciare vuoto se non volete un piè di pagina da visualizzare."
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:133
+#: src/php/helpers/square-pdf-template-helper.class.php:101
+msgid "Footer thanks message typo size"
+msgstr "Dimensione del piè di pagina grazie messaggio errore di battitura"
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:150
+#: src/php/helpers/square-pdf-template-helper.class.php:118
+msgid "Choose the typo size for your Thanks message."
+msgstr ""
+"Scegliere il formato di errore di battitura per il tuo messaggio grazie."
+
+#: src/php/helpers/minimal-pdf-template-helper.class.php:154
+msgid "Footer background color"
+msgstr "Colore di sfondo del piè di pagina"
+
+#: src/php/helpers/muscard-email-template-helper.class.php:19
+msgid "Muscard"
+msgstr "Muscard"
+
+#: src/php/helpers/newgen-pdf-template-helper.class.php:19
+msgid "Newgen"
+msgstr "Newgen"
+
+#: src/php/helpers/newgen-pdf-template-helper.class.php:55
+msgid "Primary text color"
+msgstr "Colore del testo primario"
+
+#: src/php/helpers/payment-icons-helper.class.php:52
+msgid "Colorful Dark"
+msgstr "colorato"
+
+#: src/php/helpers/payment-icons-helper.class.php:58
+msgid "Monochrome Light"
+msgstr "Monocromatico chiaro"
+
+#: src/php/helpers/payment-icons-helper.class.php:64
+msgid "Monochrome Dark"
+msgstr "Monocromatico scuro"
+
+#: src/php/helpers/payment-icons-helper.class.php:83
+msgid "2 Checkout"
+msgstr "Cassa"
+
+#: src/php/helpers/payment-icons-helper.class.php:87
+#: src/php/helpers/payment-icons-helper.class.php:91
+msgid "Amazon"
+msgstr "Amazon"
+
+#: src/php/helpers/payment-icons-helper.class.php:95
+msgid "Amazon Payments"
+msgstr "Pagamenti Amazon"
+
+#: src/php/helpers/payment-icons-helper.class.php:99
+msgid "American Express"
+msgstr "American Express"
+
+#: src/php/helpers/payment-icons-helper.class.php:103
+msgid "Amex"
+msgstr "Amex"
+
+#: src/php/helpers/payment-icons-helper.class.php:107
+#: src/php/helpers/payment-icons-helper.class.php:111
+msgid "Chase"
+msgstr "Inseguire"
+
+#: src/php/helpers/payment-icons-helper.class.php:115
+msgid "Cirrus"
+msgstr "Cirri"
+
+#: src/php/helpers/payment-icons-helper.class.php:119
+msgid "Delta"
+msgstr "Delta"
+
+#: src/php/helpers/payment-icons-helper.class.php:123
+msgid "Diner's Club"
+msgstr "Diner's Club"
+
+#: src/php/helpers/payment-icons-helper.class.php:127
+msgid "Direct Debit"
+msgstr "Addebito diretto"
+
+#: src/php/helpers/payment-icons-helper.class.php:131
+msgid "Discover"
+msgstr "Scopri"
+
+#: src/php/helpers/payment-icons-helper.class.php:135
+msgid "Ebay"
+msgstr "EBay"
+
+#: src/php/helpers/payment-icons-helper.class.php:139
+msgid "Etsy"
+msgstr "Etsy"
+
+#: src/php/helpers/payment-icons-helper.class.php:143
+msgid "Eway"
+msgstr "EWay"
+
+#: src/php/helpers/payment-icons-helper.class.php:147
+msgid "Google Wallet"
+msgstr "Google Wallet"
+
+#: src/php/helpers/payment-icons-helper.class.php:151
+msgid "JCB"
+msgstr "JCB"
+
+#: src/php/helpers/payment-icons-helper.class.php:155
+msgid "Maestro"
+msgstr "Maestro"
+
+#: src/php/helpers/payment-icons-helper.class.php:159
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: src/php/helpers/payment-icons-helper.class.php:163
+msgid "Moneybookers"
+msgstr "Moneybookers"
+
+#: src/php/helpers/payment-icons-helper.class.php:167
+#: src/php/helpers/payment-icons-helper.class.php:171
+msgid "PayPal"
+msgstr "PayPal"
+
+#: src/php/helpers/payment-icons-helper.class.php:175
+msgid "Sage"
+msgstr "Salvia"
+
+#: src/php/helpers/payment-icons-helper.class.php:179
+msgid "Shopify"
+msgstr "Shopify"
+
+#: src/php/helpers/payment-icons-helper.class.php:183
+msgid "Skrill"
+msgstr "Skrill"
+
+#: src/php/helpers/payment-icons-helper.class.php:187
+msgid "Skrill Moneybookers"
+msgstr "Skrill Moneybookers"
+
+#: src/php/helpers/payment-icons-helper.class.php:191
+msgid "Solo"
+msgstr "Single"
+
+#: src/php/helpers/payment-icons-helper.class.php:195
+msgid "Switch"
+msgstr "Cambia"
+
+#: src/php/helpers/payment-icons-helper.class.php:199
+msgid "Visa"
+msgstr "Visa"
+
+#: src/php/helpers/payment-icons-helper.class.php:203
+msgid "Visa Electron"
+msgstr "Electron"
+
+#: src/php/helpers/payment-icons-helper.class.php:207
+msgid "Western Union"
+msgstr "Western Union"
+
+#: src/php/helpers/payment-icons-helper.class.php:211
+msgid "World Pay"
+msgstr "Mondo Pay"
+
+#: src/php/helpers/square-pdf-template-helper.class.php:36
+msgid "Square"
+msgstr "quadrati"
+
+#: src/php/helpers/square-pdf-template-helper.class.php:44
+msgid "Columns background color"
+msgstr "Colore di sfondo delle colonne"
+
+#: src/php/helpers/square-pdf-template-helper.class.php:58
+msgid "Column text color"
+msgstr "Colore del testo della colonna"
+
+#: src/php/helpers/square-pdf-template-helper.class.php:79
+msgid "Square color"
+msgstr "Colore pezzi quadrati:"
+
+#: src/php/helpers/square-pdf-template-helper.class.php:86
+msgid "Square text color"
+msgstr "Colore del testo quadrato"
+
+#: src/php/helpers/square-pdf-template-helper.class.php:95
+msgid "THANK YOU&nbsp;!"
+msgstr "GRAZIE A VOI!"
+
+#: src/php/helpers/square-pdf-template-helper.class.php:122
+msgid "Footer thanks message background color"
+msgstr "Piè di pagina colore di sfondo del messaggio grazie"
+
+#: src/php/helpers/square-pdf-template-helper.class.php:129
+msgid "Footer thanks message color"
+msgstr "Colore di messaggio grazie piè di pagina"
+
+#: src/php/helpers/textura-email-template-helper.class.php:19
+msgid "Textura"
+msgstr "Scrittura gotica"
+
+#: src/php/helpers/textura-email-template-helper.class.php:41
+msgid "Title color"
+msgstr "Colore titolo"
+
+#: src/php/helpers/textura-email-template-helper.class.php:48
+msgid "Header text color"
+msgstr "Colore del testo dell'header backend"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:92
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:236
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:188
+#: src/php/pdf-templates/pdf-invoice-square.template.php:251
+msgid "From"
+msgstr "Da"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:106
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:206
+msgid "Invoice"
+msgstr "Fattura"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:134
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:232
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:199
+#: src/php/pdf-templates/pdf-invoice-square.template.php:246
+msgid "To"
+msgstr "A"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:156
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:261
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:252
+#: src/php/pdf-templates/pdf-invoice-square.template.php:293
+msgid "Item"
+msgstr "Modifica Elemento Menu"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:158
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:263
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:254
+#: src/php/pdf-templates/pdf-invoice-square.template.php:295
+msgid "Quantity"
+msgstr "Quantità"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:160
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:265
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:256
+#: src/php/pdf-templates/pdf-invoice-square.template.php:297
+msgid "Unit price"
+msgstr "Prezzo unitario"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:161
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:166
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:266
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:270
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:257
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:262
+#: src/php/pdf-templates/pdf-invoice-square.template.php:298
+#: src/php/pdf-templates/pdf-invoice-square.template.php:302
+msgid "(excl. taxes)"
+msgstr "(IVA esclusa)"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:165
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:269
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:261
+#: src/php/pdf-templates/pdf-invoice-square.template.php:301
+msgid "Total price"
+msgstr "Prezzo totale"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:217
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:355
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:212
+#: src/php/pdf-templates/pdf-invoice-square.template.php:424
+msgid "Created"
+msgstr "creato-da"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:221
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:363
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:216
+#: src/php/pdf-templates/pdf-invoice-square.template.php:432
+msgid "Status"
+msgstr "Stato"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:225
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:368
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:220
+#: src/php/pdf-templates/pdf-invoice-square.template.php:438
+msgid "Due date"
+msgstr "Data: {date}"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:230
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:373
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:225
+#: src/php/pdf-templates/pdf-invoice-square.template.php:444
+msgid "None"
+msgstr "Nessuno"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:235
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:378
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:230
+#: src/php/pdf-templates/pdf-invoice-square.template.php:450
+msgid "Amount due"
+msgstr "Importo dovuto"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:241
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:384
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:236
+#: src/php/pdf-templates/pdf-invoice-square.template.php:458
+msgid "Payment mode"
+msgstr "Modalità di pagamento"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:250
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:317
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:298
+#: src/php/pdf-templates/pdf-invoice-square.template.php:365
+msgid "Subtotal (excl. taxes)"
+msgstr "Subtotale (tasse escluse)"
+
+#: src/php/pdf-templates/pdf-invoice-airmail.template.php:274
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:341
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:322
+#: src/php/pdf-templates/pdf-invoice-square.template.php:389
+msgid "Total"
+msgstr "Totale"
+
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:220
+#: src/php/pdf-templates/pdf-invoice-square.template.php:265
+msgid "Invoice %s"
+msgstr "Fattura %s"
+
+#: src/php/pdf-templates/pdf-invoice-minimal.template.php:306
+msgid "Notice"
+msgstr "Avviso o nota di ringraziamento"
+
+#: src/php/pdf-templates/pdf-invoice-newgen.template.php:334
+msgid "NOTICE:"
+msgstr "Avviso o nota di ringraziamento"
+
+#: src/php/templates/notification-mail-layout-airmail.template.php:225
+#: src/php/templates/notification-mail-layout-cleany.template.php:369
+#: src/php/templates/notification-mail-layout-muscard.template.php:222
+msgid "Visit our site: %s"
+msgstr "Visita il nostro sito: %s"
+
+#: src/php/templates/notification-mail-layout-airmail.template.php:292
+#: src/php/templates/notification-mail-layout-cleany.template.php:430
+#: src/php/templates/notification-mail-layout-muscard.template.php:439
+msgid "This is an automatic notification message sent by <a href=\"%s\">%s</a>"
+msgstr ""
+"Si tratta di un messaggio di notifica automatica inviato da <a href=\"%s\">"
+"%s</a>"
+
+#: src/php/templates/notification-mail-layout-muscard.template.php:178
+msgid "From %s"
+msgstr "Da %s"
+
+#: src/php/templates/notification-mail-layout-muscard.template.php:185
+msgid "On %s"
+msgstr "%s: %d hook(s)"
+
+#: src/php/templates/notification-mail-layout-textura.template.php:82
+msgid "From:"
+msgstr "Da:"
+
+#: src/php/templates/notification-mail-layout-textura.template.php:83
+msgid "Date:"
+msgstr "Data"
+
+#: src/php/templates/notification-mail-layout-textura.template.php:136
+msgid "This is an automatic notification message sent by"
+msgstr "Si tratta di un messaggio di notifica automatica inviato dal"
+
+#. Description of the plugin/theme
+msgid "Additional skin color schemes, PDF invoices and notification templates."
+msgstr ""
+"Ulteriori pelle color schemes, fatture in formato PDF e modelli di notifica."

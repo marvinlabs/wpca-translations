@@ -1,0 +1,569 @@
+# (c) Vincent Mimoun-Prat, MarvinLabs {2018}
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Customer Area - Conversations 4.3.0\n"
+"Report-Msgid-Bugs-To: http://github.com/marvinlabs/customer-area-build-"
+"environment/issues\n"
+"POT-Creation-Date: 2018-04-26 14:24:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-07-23 23:01+0200\n"
+"Language-Team: http://marvinlabs.com/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.9\n"
+"Last-Translator: \n"
+"Language: it\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/php/conversations/conversations-addon.class.php:36
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:32
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:42
+#: src/php/customer-conversations/customer-conversations-addon.class.php:120
+#: src/php/customer-conversations-home/customer-conversations-home-addon.class.php:34
+msgid "Conversations"
+msgstr "Conversazioni"
+
+#: src/php/conversations/conversations-addon.class.php:117
+msgid "Are you sure that you want to delete this reply? "
+msgstr "Eliminare questo elemento?"
+
+#: src/php/conversations/conversations-addon.class.php:137
+#: src/php/conversations/conversations-addon.class.php:169
+msgid "Conversation id is not specified"
+msgstr "L'ID conversazione non è specificato"
+
+#: src/php/conversations/conversations-addon.class.php:144
+#: src/php/conversations/conversations-addon.class.php:181
+msgid "Trying to cheat?"
+msgstr "Cercando di ingannare ?"
+
+#: src/php/conversations/conversations-addon.class.php:149
+msgid "Reply id is not specified"
+msgstr "L'id di risposta non è specificato"
+
+#: src/php/conversations/conversations-addon.class.php:154
+msgid "You are not allowed to delete this reply"
+msgstr "Non sei autorizzato a cancellare questa risposta"
+
+#: src/php/conversations/conversations-addon.class.php:174
+msgid "You are not allowed to post replies."
+msgstr "Non sei autorizzato a inviare risposte."
+
+#: src/php/conversations/conversations-addon.class.php:187
+msgid "You cannot send an empty reply"
+msgstr "Non è possibile inviare una risposta vuota"
+
+#: src/php/conversations/conversations-addon.class.php:196
+msgid "Failed to add reply"
+msgstr "Impossibile aggiungere risposta"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:45
+msgid "Back-office"
+msgstr "Back-office"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:47
+msgid "List all conversations"
+msgstr "Elenca tutte le conversazioni"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:48
+msgid "Create/Edit conversations"
+msgstr "Crea / Modifica conversazioni"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:49
+msgid "Delete conversations"
+msgstr "Elimina tutte le conversazioni:"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:50
+msgid "Access conversations"
+msgstr "Accedi alle conversazioni"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:54
+msgid "Front-office"
+msgstr "Front-office"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:56
+msgid "View any conversation"
+msgstr "Visualizza qualsiasi conversazione"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:57
+msgid "View conversations"
+msgstr "Visualizza conversazioni precedenti"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:58
+msgid "Reply to a conversation"
+msgstr "Rispondi a una conversazione"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:59
+msgid "Delete any reply"
+msgstr "Elimina qualsiasi risposta"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:60
+msgid "Delete any reply in own conversations"
+msgstr "Eliminare qualsiasi risposta nelle proprie conversazioni"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:61
+msgid "Delete own replies"
+msgstr "Elimina le proprie risposte"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:81
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:129
+#: src/php/conversations/templates/conversation-editor-replies-list.template.php:28
+msgid "Replies"
+msgstr "Risposte"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:108
+msgid "%1$s replied on %2$s"
+msgstr "%1$s ha risposto il %2$s"
+
+#: src/php/conversations/helpers/conversations-admin-interface.class.php:116
+#: src/php/conversations/templates/conversation-editor-replies-list.template.php:46
+msgid "No replies yet"
+msgstr "Nessun commento ancora pubblicato"
+
+#: src/php/conversations/helpers/conversations-logger.class.php:56
+msgid "Reply added"
+msgstr "Risposta aggiunto"
+
+#: src/php/conversations/helpers/conversations-logger.class.php:57
+msgid "Reply deleted"
+msgstr "Risposta cancellata"
+
+#: src/php/conversations/helpers/conversations-logger.class.php:85
+#: src/php/conversations/helpers/conversations-logger.class.php:86
+msgid "Content: "
+msgstr "Contenuto per"
+
+#: src/php/conversations/templates/conversation-editor-replies-add-form.template.php:43
+msgid "Reply"
+msgstr "Rispondi"
+
+#: src/php/conversations/templates/conversation-editor-replies-closed.template.php:10
+msgid ""
+"This conversation is closed. The author does not accept any additional "
+"replies"
+msgstr ""
+"Questa conversazione è chiusa. L'autore non accetta eventuali ulteriori "
+"risposte"
+
+#: src/php/conversations/templates/conversation-editor-replies-list-item.template.php:59
+msgid "Delete reply"
+msgstr "Elimina  |  Rispondi"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:36
+msgid "Conversations - Owned"
+msgstr "Conversazioni - proprietà"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:41
+msgid "My conversations"
+msgstr "le mie conversazioni"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:46
+msgid "Page to list the conversations a customer owns."
+msgstr "Pagina per elencare le conversazioni che un cliente possiede."
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:76
+#: src/php/customer-conversations/widget-conversation-dates.class.php:36
+msgid "Archives"
+msgstr "Archivi"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:81
+msgid "Started By"
+msgstr "Tutorial per iniziare"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:93
+msgid "Conversations you started"
+msgstr "Conversazioni che hai iniziato"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:98
+msgid "Conversations started by %1$s"
+msgstr "Iniziato da %1$s conversazioni"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:103
+msgid "Conversations under %1$s"
+msgstr "Conversazioni sotto %1$s"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:110
+msgid "Conversations started in %2$s %1$s"
+msgstr "Conversazioni iniziato in %2$s %1$s"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:112
+msgid "Conversations started in %1$s"
+msgstr "Conversazioni iniziato in %1$s"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:125
+msgid "Recent Conversations"
+msgstr "Conversazioni recenti"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:182
+msgid "Rich Editor"
+msgstr "Editor Avanzato"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:189
+msgid "Enable the rich editor for the reply form."
+msgstr "Abilitare l'editor anche ricco per il modulo di risposta."
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:248
+msgid "Re-open"
+msgstr "Riapri"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:249
+msgid "Close"
+msgstr "Chiudi Street View"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:251
+msgid "Allow users to post new replies"
+msgstr "Consentire agli utenti di inviare nuove risposte"
+
+#: src/php/customer-conversations/customer-conversations-addon.class.php:252
+msgid "Close conversation to disallow new replies"
+msgstr "Chiudere la conversazione per impedire nuove risposte"
+
+#: src/php/customer-conversations/templates/customer-conversations-content-dashboard.template.php:39
+msgid "View all"
+msgstr "Visualizza tutte"
+
+#: src/php/customer-conversations/templates/customer-conversations-content-empty-category_archive.template.php:31
+msgid "There are no conversations in that category."
+msgstr "Non ci sono nessuna conversazione in quella categoria."
+
+#: src/php/customer-conversations/templates/customer-conversations-content-empty-dashboard.template.php:28
+#: src/php/customer-conversations/templates/customer-conversations-content-empty.template.php:21
+msgid "You currently have no conversations."
+msgstr "Attualmente non hai nessuna conversazione."
+
+#: src/php/customer-conversations/templates/customer-conversations-content-empty-date_archive.template.php:21
+msgid "There are no conversations for that period."
+msgstr "Non ci sono nessun conversazioni per quel periodo."
+
+#: src/php/customer-conversations/templates/customer-conversations-content-item-container.template.php:30
+#: src/php/customer-conversations/templates/customer-conversations-content-item-dashboard.template.php:30
+#: src/php/customer-conversations/templates/customer-conversations-content-item.template.php:40
+msgid "Latest reply on %s"
+msgstr "Ultima risposta su %s"
+
+#: src/php/customer-conversations/templates/customer-conversations-content-item-container.template.php:32
+#: src/php/customer-conversations/templates/customer-conversations-content-item-dashboard.template.php:32
+#: src/php/customer-conversations/templates/customer-conversations-content-item.template.php:42
+msgid "Started on %s"
+msgstr "Per iniziare"
+
+#: src/php/customer-conversations/templates/customer-conversations-content-item-container.template.php:47
+#: src/php/customer-conversations/templates/customer-conversations-content-item-dashboard.template.php:47
+msgid "%d reply"
+msgid_plural "%d replies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/php/customer-conversations/templates/customer-conversations-content-item.template.php:36
+msgid "REPLY"
+msgid_plural "REPLIES"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/php/customer-conversations/templates/customer-conversations-content-item.template.php:72
+msgid "Started on"
+msgstr "Tutorial per iniziare"
+
+#: src/php/customer-conversations/templates/customer-conversations-content-item.template.php:77
+msgid "Latest reply on %s %s"
+msgstr "Ultima risposta su %s %s"
+
+#: src/php/customer-conversations/templates/customer-conversations-content-item.template.php:79
+msgid "New replies"
+msgstr "Commenti"
+
+#: src/php/customer-conversations/templates/customer-conversations-content-item.template.php:100
+msgid "Started by"
+msgstr "Tutorial per iniziare"
+
+#: src/php/customer-conversations/templates/customer-conversations-content-item.template.php:103
+msgid "With"
+msgstr "con"
+
+#: src/php/customer-conversations/templates/customer-conversations-content.template.php:33
+msgid "Page %1$s/%2$s"
+msgstr "Pagina %1$s/%2$s"
+
+#: src/php/customer-conversations/templates/customer-conversations-content.template.php:42
+msgid "No items were found matching the selected filters"
+msgstr "Nessun elemento trovato corrispondente ai filtri selezionati"
+
+#: src/php/customer-conversations/templates/customer-conversations-single-post-header.template.php:33
+msgid "From"
+msgstr "Da"
+
+#: src/php/customer-conversations/templates/customer-conversations-single-post-header.template.php:43
+msgid "To"
+msgstr "A"
+
+#: src/php/customer-conversations/templates/customer-conversations-single-post-header.template.php:53
+msgid "Date"
+msgstr "Data"
+
+#: src/php/customer-conversations/widget-conversation-authors.class.php:37
+msgid "WPCA - Conversation Authors"
+msgstr "WPCA - autori di conversazione"
+
+#: src/php/customer-conversations/widget-conversation-authors.class.php:39
+msgid "Shows the conversation author archives of the Customer Area"
+msgstr "Indica l'autore di conversazione archivi dell'Area cliente"
+
+#: src/php/customer-conversations/widget-conversation-authors.class.php:49
+msgid "Created By"
+msgstr "Creato il"
+
+#: src/php/customer-conversations/widget-conversation-dates.class.php:22
+msgid "WPCA - Conversation Archives"
+msgstr "WPCA - archivi di conversazione"
+
+#: src/php/customer-conversations/widget-conversation-dates.class.php:24
+msgid "Shows the conversation yearly archives of the Customer Area"
+msgstr "Mostra la conversazione Archvi dell'Area cliente"
+
+#: src/php/customer-conversations-home/customer-conversations-home-addon.class.php:30
+msgid "Conversations - Home"
+msgstr "Conversazioni - Home"
+
+#: src/php/customer-conversations-home/customer-conversations-home-addon.class.php:38
+msgid "Root page for the customer conversations."
+msgstr "Pagina principale per le conversazioni con i clienti."
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:32
+msgid "Conversations - New"
+msgstr "Conversazioni - nuove"
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:37
+msgid "Start conversation"
+msgstr "Inizia conversazione"
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:42
+msgid "Page to create new conversations."
+msgstr "Pagina per creare nuove conversazioni."
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:74
+msgid "The topic cannot be empty"
+msgstr "L'argomento non può essere vuoto"
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:75
+msgid "The message cannot be empty"
+msgstr "Il testo del messaggio non può essere vuoto"
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:76
+msgid "You must select at least one recipient"
+msgstr "Selezionare almeno un tipo di destinatario."
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:108
+#: src/php/customer-update-conversation/customer-update-conversation-addon.class.php:101
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:48
+msgid "Done"
+msgstr "Fatto"
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:109
+msgid "The conversation has been started."
+msgstr "La conversazione è stata avviata."
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:112
+#: src/php/customer-update-conversation/customer-update-conversation-addon.class.php:105
+msgid "Back to conversations"
+msgstr "Torna a conversazioni"
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:117
+msgid "Create more"
+msgstr "Invia altri"
+
+#: src/php/customer-new-conversation/customer-new-conversation-addon.class.php:122
+#: src/php/customer-update-conversation/customer-update-conversation-addon.class.php:110
+msgid "View it"
+msgstr "Visualizza"
+
+#: src/php/customer-new-conversation/templates/customer-new-conversation-content.template.php:35
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:35
+msgid "Details"
+msgstr "Dettagli"
+
+#: src/php/customer-new-conversation/templates/customer-new-conversation-content.template.php:39
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:39
+msgid ""
+"You are not allowed to pick a recipient and there are no default recipients "
+"for this type of content. Please contact your website administrator!"
+msgstr ""
+"Non è consentito di scegliere un destinatario e non esistono destinatari "
+"predefinito per questo tipo di contenuto. Si prega di contattare "
+"l'amministratore del sito Web!"
+
+#: src/php/customer-new-conversation/templates/customer-new-conversation-content.template.php:44
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:44
+msgid "Topic"
+msgstr "Argomento"
+
+#: src/php/customer-new-conversation/templates/customer-new-conversation-content.template.php:45
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:45
+msgid "Message"
+msgstr "Messaggio"
+
+#: src/php/customer-new-conversation/templates/customer-new-conversation-content.template.php:48
+#: src/php/customer-new-conversation/templates/customer-new-conversation-content.template.php:57
+#: src/php/customer-new-conversation/templates/customer-new-conversation-content.template.php:60
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:50
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:59
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:62
+msgid "Recipient"
+msgstr "Destinatario"
+
+#: src/php/customer-new-conversation/templates/customer-new-conversation-content.template.php:49
+#: src/php/customer-new-conversation/templates/customer-new-conversation-content.template.php:61
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:51
+msgid "Send"
+msgstr "Invia tutte le email di contatto a"
+
+#: src/php/customer-new-conversation/templates/customer-new-conversation-content.template.php:51
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:53
+msgid "Next Step"
+msgstr "Passaggio successivo"
+
+#: src/php/customer-update-conversation/customer-update-conversation-addon.class.php:32
+msgid "Private Conversations - Update"
+msgstr "Conversazioni private - aggiornamento"
+
+#: src/php/customer-update-conversation/customer-update-conversation-addon.class.php:37
+msgid "Update conversation"
+msgstr "Aggiornare la conversazione"
+
+#: src/php/customer-update-conversation/customer-update-conversation-addon.class.php:42
+msgid "Page to update conversations."
+msgstr "Pagina per aggiornare le conversazioni."
+
+#: src/php/customer-update-conversation/customer-update-conversation-addon.class.php:75
+msgid "The title cannot be empty"
+msgstr "Il titolo della pagina non può essere vuoto"
+
+#: src/php/customer-update-conversation/customer-update-conversation-addon.class.php:76
+msgid "The content cannot be empty"
+msgstr "il campo del contenuto non può essere vuoto"
+
+#: src/php/customer-update-conversation/customer-update-conversation-addon.class.php:77
+msgid "You must select at least one owner"
+msgstr "È necessario selezionare almeno un elemento."
+
+#: src/php/customer-update-conversation/customer-update-conversation-addon.class.php:102
+msgid "The conversation has been updated."
+msgstr "La conversazione è stata aggiornata."
+
+#: src/php/customer-update-conversation/templates/customer-update-conversation-content.template.php:63
+msgid "Update"
+msgstr "Aggiorna"
+
+#. Description of the plugin/theme
+msgid "Adds private conversations between users of your customer area"
+msgstr ""
+"Aggiunge le conversazioni private tra gli utenti della tua area cliente"
+
+#: src/php/conversation-reply.class.php:27
+msgctxt "cuar_conversation"
+msgid "Conversation Replies"
+msgstr "Risposte di conversazione"
+
+#: src/php/conversation-reply.class.php:28
+msgctxt "cuar_conversation"
+msgid "Conversation Reply"
+msgstr "Risposta di conversazione"
+
+#: src/php/conversation-reply.class.php:29 src/php/conversation.class.php:173
+msgctxt "cuar_conversation"
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: src/php/conversation-reply.class.php:30
+msgctxt "cuar_conversation"
+msgid "Add New Reply"
+msgstr "Nuova risposta"
+
+#: src/php/conversation-reply.class.php:31
+msgctxt "cuar_conversation"
+msgid "Edit Reply"
+msgstr "Modifica la risposta"
+
+#: src/php/conversation-reply.class.php:32
+msgctxt "cuar_conversation"
+msgid "New Reply"
+msgstr "Nuova risposta"
+
+#: src/php/conversation-reply.class.php:33
+msgctxt "cuar_conversation"
+msgid "View Reply"
+msgstr "Rispondi"
+
+#: src/php/conversation-reply.class.php:34
+msgctxt "cuar_conversation"
+msgid "Search Conversation Replies"
+msgstr "Risposte della conversazione di ricerca"
+
+#: src/php/conversation-reply.class.php:35
+msgctxt "cuar_conversation"
+msgid "No reply found"
+msgstr "Nessuna risposta trovata"
+
+#: src/php/conversation-reply.class.php:36
+msgctxt "cuar_conversation"
+msgid "No reply found in Trash"
+msgstr "Nessuna risposta trovata nella spazzatura"
+
+#: src/php/conversation-reply.class.php:37 src/php/conversation.class.php:181
+msgctxt "cuar_conversation"
+msgid "Parent Conversation:"
+msgstr "Conversazione di padre:"
+
+#: src/php/conversation-reply.class.php:38 src/php/conversation.class.php:171
+#: src/php/conversation.class.php:182
+#: src/php/conversations/conversations-addon.class.php:389
+msgctxt "cuar_conversation"
+msgid "Conversations"
+msgstr "Conversazioni"
+
+#: src/php/conversation.class.php:172
+#: src/php/conversations/conversations-addon.class.php:388
+msgctxt "cuar_conversation"
+msgid "Conversation"
+msgstr "Conversazione"
+
+#: src/php/conversation.class.php:174
+msgctxt "cuar_conversation"
+msgid "Add New Conversation"
+msgstr "Nuova conversazione"
+
+#: src/php/conversation.class.php:175
+msgctxt "cuar_conversation"
+msgid "Edit Conversation"
+msgstr "Conversazione"
+
+#: src/php/conversation.class.php:176
+msgctxt "cuar_conversation"
+msgid "New Conversation"
+msgstr "Nuova Conversazione"
+
+#: src/php/conversation.class.php:177
+msgctxt "cuar_conversation"
+msgid "View Conversation"
+msgstr "Vedi Conversazione"
+
+#: src/php/conversation.class.php:178
+msgctxt "cuar_conversation"
+msgid "Search Conversations"
+msgstr "Cerca conversazioni:"
+
+#: src/php/conversation.class.php:179
+msgctxt "cuar_conversation"
+msgid "No conversation found"
+msgstr "Nessuna conversazione presente"
+
+#: src/php/conversation.class.php:180
+msgctxt "cuar_conversation"
+msgid "No conversation found in Trash"
+msgstr "Nessuna conversazione trovata nella spazzatura"
